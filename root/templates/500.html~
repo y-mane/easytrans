@@ -1,0 +1,17 @@
+{% extends "root/root_errors.html" %}
+{% load i18n %}
+
+{% block error_number %}500{% endblock %}
+{% block error_description %} {% trans "Ooooops! Internal Server Error" %} {% endblock %}
+{% block error_advice %}
+    {% trans "It seems that the server is having a little trouble, please excuse us for the inconvenience. We invite you however to go to" %}
+    {% if request.META.HTTP_REFERER is None %}
+        <a href="{% url 'landing_index' %}"> {% trans "Home page" %}.</a>
+    {% else %}
+        <a href="{{ request.META.HTTP_REFERER }}"> {% trans "Previous page" %}.</a>
+    {% endif %}
+{% endblock %}
+
+
+{% block search %}{% endblock %}
+{% block copyrights %}{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'oauth/root_errors.html' %}
+{% load i18n %}
+
+{% block error_number %}909{% endblock %}
+{% block error_description %} {% trans "Ooooops! Verification Code Error" %} {% endblock %}
+{% block error_advice %} {% trans "You do not seem to have entered the correct verification code. Please go to" %}
+<a href="{% url 'auth_login' %}"> {% trans "Login Page" %}.</a>{% endblock %}
+{% block search %}{% endblock %}
+{% block copyrights %}{% endblock %}

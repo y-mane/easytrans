@@ -1,0 +1,133 @@
+{% extends "website/back/user_root.html" %}
+{% load i18n %}
+{% load static %}
+
+
+{# page properties #}
+{% block page-title %}{% trans "ESPACE UTILISATEUR" %}{% endblock %}
+{% block breadcrumb %}
+<li>
+	<a href="{% url 'userspace_index'  %}" class="active">{% trans "Dashboard" %}</a>
+</li>
+{% endblock %}
+
+
+
+
+{# sidebar Menu #}
+{% block menu %}
+	<li>
+		<a href="{% url 'userspace_index'  %}" class="waves-effect"><i class="mdi mdi-book-multiple"></i> <span>{% trans "Dashboard" %}</span></a>
+	</li>
+
+    <li class="has_sub">
+        <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-settings"></i><span> {% trans "Dossiers" %} </span> <span class="menu-arrow"></span></a>
+        <ul class="list-unstyled">
+            <li><a href="{% url 'userspace_manage_users' %}" class="waves-effect"><i class="mdi mdi-account-settings-variant"></i><span>{% trans "Identifications" %}</span></a></li>
+            {% if perms.oauth.can_create_branch %}<li><a href="{% url 'userspace_manage_branches' %}" class="waves-effect"><i class="mdi mdi-account-settings-variant"></i><span>{% trans "Recherche" %}</span></a></li> {% endif %}
+        </ul>
+    </li>
+
+	<li >
+		<a href="" class="waves-effect"><i class="mdi  mdi-comment-question-outline"></i> <span>{% trans "FAQ" %}</span></a>
+	</li>
+
+{%  endblock %}
+
+{% block menu-help %}{% endblock %}
+
+
+{% block profile %}
+<li class="dropdown user-box">
+		<a href="{% url 'userspace_index'  %}" class="dropdown-toggle waves-effect user-link" data-toggle="dropdown" aria-expanded="true">
+				<img src="{% static 'website/back/assets/images/avatar.jpg' %}" alt="user-img" class="img-circle user-img">
+		</a>
+
+		<ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list">
+				<li>
+						<h5>{% blocktrans %}Bonjour M./Mme {% endblocktrans %}{{ user.username }}</h5>
+				</li>
+				<li><a href="{% url 'auth_profile'  %}"><i class="ti-user m-r-5"></i>{% blocktrans %} Profil{% endblocktrans %}</a></li>
+				<li><a href="{% url 'auth_logout'  %}"><i class="ti-power-off m-r-5"></i>{% blocktrans %} Déconnexion{% endblocktrans %}</a></li>
+		</ul>
+</li>
+{%  endblock %}
+
+
+{% block right-mdi-settings %}
+        <a href="javascript:void(0);" class="right-bar-toggle">
+            <i class="mdi mdi-close-circle-outline"></i>
+        </a>
+            <h4 class="">{% trans "Paramètres" %}</h4>
+        <div class="setting-list nicescroll">
+            <div class="row m-t-20">
+				<form action="{% url 'auth_profile_lang' %}" method="POST">
+				{% csrf_token %}
+                <div class="col-xs-12">
+                  {% trans 'Langue' %}&nbsp;&nbsp;&nbsp;&nbsp;
+                  <select name="language" id="language" style="border-radius:10px;border:1px solid #AAAAAA;">
+                  	<option value="en">{% trans 'English' %}</option>
+                    <option value="fr">{% trans 'French' %}</option>
+                  </select>&nbsp;&nbsp;
+				  <button type="submit" class="btn btn-icon btn-rounded btn-xs waves-effect waves-light btn-info m-b-5" title="{% trans 'Changer la Langue' %}" > <i class="fa fa-edit"></i> </button>&nbsp;
+                </div>
+				</form>
+            </div>
+        </div>
+{%  endblock %}
+
+
+{% block i18n %}{% endblock %}
+{% block messages %}{% endblock %}
+{% block notifications %}{% endblock %}
+
+
+{% block content-first-row %}
+<div class="col-lg-3 col-md-6">
+    <div class="card-box widget-box-two widget-two-primary">
+        <i class="mdi mdi-chart-areaspline widget-two-icon"></i>
+        <div class="wigdet-two-content">
+            <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'Dossiers' %}">{% trans 'Dossiers' %}</p>
+            <h2><span data-plugin="counterup">{{ delivery_count }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            {% comment %} <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
+        </div>
+    </div>
+</div><!-- end col -->
+
+<div class="col-lg-3 col-md-6">
+    <div class="card-box widget-box-two widget-two-warning">
+        <i class="mdi mdi-layers widget-two-icon"></i>
+        <div class="wigdet-two-content">
+            <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'En Cours' %}">{% trans 'En Cours' %}</p>
+            <h2><span data-plugin="counterup">{{ branch_count }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            {% comment %} <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
+        </div>
+    </div>
+</div><!-- end col -->
+
+<div class="col-lg-3 col-md-6">
+    <div class="card-box widget-box-two widget-two-danger">
+        <i class="mdi mdi-amplifier widget-two-icon"></i>
+        <div class="wigdet-two-content">
+            <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'Validés' %}">{% trans 'Validés' %}</p>
+            <h2><span data-plugin="counterup">{{ customer_count }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            {% comment %} <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
+        </div>
+    </div>
+</div><!-- end col --> 
+<div class="col-lg-3 col-md-6">
+    <div class="card-box widget-box-two widget-two-success">
+        <i class="mdi mdi-account-convert widget-two-icon"></i>
+        <div class="wigdet-two-content">
+            <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'Rejetés' %}">{% trans 'Rejetés' %}</p>
+            <h2><span data-plugin="counterup"> {{ canceled_deliveries }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            {% comment %} <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
+        </div>
+    </div>
+</div><!-- end col -->
+{%  endblock %}
+
+{% block content-second-row %}{% endblock %}
+{% block content-third-row %}{% endblock %}
+{% comment %} static files {% endcomment %}
+{% block page_js_add %}{% endblock %}

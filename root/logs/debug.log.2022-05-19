@@ -1,0 +1,9 @@
+[ DEBUG ][ 2022-05-21 20:35:23,481 ][ base ][ 8451 ][ 140717159634688 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-05-21 20:35:23,530 ][ base ][ 8451 ][ 140717159634688 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-05-21 20:35:23,531 ][ base ][ 8451 ][ 140717159634688 ] ==> [+] activating user lang: fr
+[ DEBUG ][ 2022-05-21 20:36:06,989 ][ base ][ 8451 ][ 140717159634688 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-05-21 20:36:06,990 ][ base ][ 8451 ][ 140717159634688 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-05-21 20:36:06,990 ][ base ][ 8451 ][ 140717159634688 ] ==> [+] activating user lang: fr
+[ DEBUG ][ 2022-05-21 20:39:15,773 ][ base ][ 8451 ][ 140717151241984 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-05-21 20:39:15,773 ][ base ][ 8451 ][ 140717151241984 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-05-21 20:39:15,774 ][ base ][ 8451 ][ 140717151241984 ] ==> [+] activating user lang: fr

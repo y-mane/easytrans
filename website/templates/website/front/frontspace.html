@@ -1,0 +1,166 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>easytrans</title>
+    <!-- custom-theme -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Book My Trip web template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
+    />
+  
+
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+  
+    <!-- //custom-theme -->
+    <script type="text/javascript" src="{% static 'website/front/js/jquery-1.11.1.min.js'%}"></script>
+    <!-- stylesheet -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="{% static 'website/front/css/style.css' %}" rel="stylesheet" type="text/css" media="all" />
+    <link href="{% static '//fonts.googleapis.com/css?family=Asap:400,400i,500,500i,700,700i' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'website/front/css/input.css' %}">
+    <!-- //stylesheet -->
+    <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css">
+    <link rel="stylesheet" href="">
+    
+
+    <style>
+        
+    </style>
+
+</head>
+
+<body class="bg agileinfo">
+    <h1 class="agile_head text-center">EASYTRANS</h1>
+    <p class="text-center">Commander facilement pour un agréable voyage</p>
+    <div class="container w3">
+        <form action="" method="post" class="agile_form" id="VoyageForm" data-lieu_depart-url="{% url 'ajax_load_lieu_depart' %}" data-destination-url="{% url 'ajax_load_destination' %}">
+            {% csrf_token %}
+            <h2 class="w3layouts text-center" style='text-align:center'>Remplissez le formulaire pour acheter votre ticket depuis chez vous</h2>
+            <ul class="agile_info_select">
+            </ul>
+           
+
+			
+            {{form.fullname}} 
+            {{form.contact}}
+            {{form.lieu_livraison}}
+            {{form.compagnie}}
+            {{form.lieu_depart}}
+            {{form.periode}}
+            {{form.destination}}
+
+			<!-- <div class="list_agileits_w3layouts">
+				<div class="section_class_agileits sec-left">
+				  <select name="compagnie" id="id_compagnie">
+                    {% for item in form.compagnie %}
+					<option value="{{item}}">{{item}}</option>
+                    {% endfor %}
+				  </select>
+				</div>
+				<div class="section_class_agileits sec-right">
+				  <select name="ville_depart" id="id_lieu_depart">
+					<option value="0">Ville depart</option>
+                    {% for item in form.lieu_depart %}
+					<option value="{{item.id}}">{{item}}</option>
+                    {% endfor %}
+				  </select>
+				</div>	
+				<div class="clear"></div>
+			</div>	
+			<div class="list_agileits_w3layouts">
+				<div class="section_class_agileits sec-left">
+				 <select name="periode" id="id_periode">
+                    {% for item in form.periode %}
+					<option value="{{item}}">{{item}}</option>
+					{% endfor %}
+					
+				 </select>
+				</div>	
+				<div class="section_class_agileits sec-right">
+				  <select name="destination" id="id_destination">
+                   {% for element in form.destination %}
+                   <option value="{{element}}">{{element}}</option>
+                   {% endfor %}
+				 </select>
+				</div>
+				<div class="clear"></div> -->
+
+           
+            <div class="submit">
+            <input type="submit" value="Suivant">
+
+
+            </div>
+
+        </form>
+    </div>
+
+   
+   
+    <script src="website/front/js/main.js"></script>
+
+    <!-- toute la grande famille js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $("#id_compagnie").change(function () {
+            const url = $("#VoyageForm").attr("data-lieu_depart-url");  // get the url of the `load_cities` view
+            const compagnieId = $(this).val();  // get the selected country ID from the HTML input
+    
+            $.ajax({                       // initialize an AJAX request
+                url: url,                    // set the url of the request (= /persons/ajax/load-cities/ )
+                data: {
+                    'compagnie_id': compagnieId
+                                },
+                success: function (data) {   // `data` is the return of the `load_cities` view function
+                    console.log(data);
+                    $("#id_lieu_depart").html(data);  // replace the contents of the city input with the data that came from the server
+                }
+            });
+    
+        });
+   
+        $("#id_compagnie").change(function () {
+            const url = $("#VoyageForm").attr("data-destination-url");  
+            const compagnieId = $(this).val(); 
+            $.ajax({                     
+                url: url,                  
+                data: {
+                    'compagnie_id': compagnieId      
+                },
+                success: function (data) {  
+                    console.log(data);
+                    $("#id_destination").html(data);  
+                    
+                }
+            });
+    
+        });
+
+        $(document).ready(() =>{$('#id_compagnie option[value=""]').text(' Compagnie');})
+        $(document).ready(() =>{$('#id_lieu_depart option[value=""]').text(' Ville départ');})
+        $(document).ready(() =>{$('#id_destination option[value=""]').text(' Destination');})
+        $(document).ready(() =>{$('#id_periode option[value=""]').text('Période');})
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <!--start-date-piker
+ <link rel="stylesheet" href="css/jquery-ui.css" />
+ <script src="js/jquery-ui.js"></script>
+ <script>
+     $(function() {
+         $("#datepicker,#datepicker1").datepicker();
+     });
+ </script>
+ -->
+</body>
+
+</html>

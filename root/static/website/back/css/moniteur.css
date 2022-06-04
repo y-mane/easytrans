@@ -1,0 +1,19 @@
+.mom {
+    position: absolute;
+    font-size: 1.2em;
+    margin-top: 200px;
+    padding-left: 10px;
+}
+
+.son {
+    margin-left: 20%;
+    position: relative;
+}
+
+table{
+    width: 100%;
+
+}
+table td{
+   width: 130px;
+}

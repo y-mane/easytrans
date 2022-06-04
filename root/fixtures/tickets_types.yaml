@@ -1,0 +1,55 @@
+- model: core.tickettype
+  pk: 1
+  fields:
+    name: Question
+    internal_reference: ddd91eda-9ea2-11e9-822e-fa163e1f1a58
+    reference: TT-001
+    code: ''
+    status: true
+    description: "indique que le probl\xE8me du demandeur est une question plut\xF4\
+      t qu\u2019un v\xE9ritable probl\xE8me \xE0 r\xE9soudre."
+    created_at: 2019-07-08
+    updated_at: 2019-07-08
+- model: core.tickettype
+  pk: 2
+  fields:
+    name: Incident
+    internal_reference: 6ecfe8ba-a141-11e9-94c3-fa163e1f1a58
+    reference: TT-002
+    code: ''
+    status: true
+    description: "est utilis\xE9 pour les occurrences d\u2019un probl\xE8me concernant\
+      \ plus d\u2019un utilisateur. Par exemple, quand le r\xE9seau sans fil d\u2019\
+      un bureau tombe en panne, il est probable que plusieurs personnes envoient des\
+      \ tickets d\u2019assistance. Au lieu de traiter chaque ticket individuellement,\
+      \ cr\xE9ez un ticket d\xE9crivant le probl\xE8me et configurez le type sur Probl\xE8\
+      me. Associez ensuite les tickets d\u2019incident au ticket de probl\xE8me. Quand\
+      \ vous r\xE9solvez le ticket de probl\xE8me, tous les tickets d\u2019incident\
+      \ associ\xE9s sont \xE9galement r\xE9solus."
+    created_at: 2019-07-08
+    updated_at: 2019-07-08
+- model: core.tickettype
+  pk: 3
+  fields:
+    name: "Probl\xE8me"
+    internal_reference: 825ab626-a141-11e9-852e-fa163e1f1a58
+    reference: TT-003
+    code: ''
+    status: true
+    description: "sert \xE0 indiquer que le demandeur a un probl\xE8me avec votre\
+      \ produit ou service"
+    created_at: 2019-07-08
+    updated_at: 2019-07-08
+- model: core.tickettype
+  pk: 4
+  fields:
+    name: "T\xE2che"
+    internal_reference: 9a4e1fd4-a141-11e9-852e-fa163e1f1a58
+    reference: TT-004
+    code: ''
+    status: true
+    description: "sert \xE0 affecter le ticket \xE0 un agent sp\xE9cifique sous forme\
+      \ de t\xE2che. Quand vous s\xE9lectionnez T\xE2che, vous d\xE9finissez en m\xEA\
+      me temps la date d\u2019\xE9ch\xE9ance de cette t\xE2che."
+    created_at: 2019-07-08
+    updated_at: 2019-07-08

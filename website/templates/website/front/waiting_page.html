@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>waiting page</title>
+    <link rel="stylesheet" href="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      body{
+        background-image:  url('{% static "website/front/images/bleus.jpg" %}');
+      }
+
+    </style>
+</head>
+
+<body>
+          <div class="container text-center" style="margin-top: 50px;color:#ffffff;">
+              <h2 style="" class="">Merci  !! {{voyage.fullname}}</h2>
+              <h3 class="text-center"> Verifiez que vos informations sont bien correctes et passez au paiement  <span style="font-size: 40px;">&#128522;</span></h3><br>
+              <h3 style="" class="font-family: 'Gill Sans', sans-serif;">
+                   <p> Nom complet : {{voyage.fullname}}<br>
+                    contact : {{voyage.contact}} <br>
+                    compagnie : {{voyage.compagnie.name}} <br>
+                    ville de depart : {{voyage.lieu_depart}}<br>
+                    detination : {{voyage.destination}}<br>
+                    periode : {{voyage.periode}}</p>
+              </h3>
+
+              <h2 style="margin-left: 5%;">Montant: {{prix}} FCFA</h2>
+              
+              <form action="https://kaliapay.com/request-payment-channels/" method="post">
+                      {% csrf_token %}
+                      <input type="hidden" name="service" value="190422161956506108">
+                      <input type="hidden" name="apikey" value="086d8b2aded836216754d27bebf503c45a9af9bc">
+                      <input type="hidden" name="amount" value="{{prix}}">
+                      <input type="hidden" name="custom_data" value="txn_status"><br>
+                      <input type="submit" value="Passer au paiement" class="btn btn-success" style="">
+              
+                  </form>
+                  <div style="margin-top:20px;">
+                  <a href="{% url 'frontspace' %}" ><input type="button" value="QUITTER" class="btn btn-danger" style=""></a>
+                  </div>
+            </div>
+    </div>
+       
+
+           
+</body>
+
+</html>

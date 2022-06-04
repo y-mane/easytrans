@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+
+
+<html lang="fr">
+
+
+<head>
+<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ APP_TITLE }}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'oauth/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'oauth/css/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'oauth/css/iofrm-style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'oauth/css/iofrm-theme3.css' %}">
+    {% block css %}{% endblock %}
+</head>
+
+
+<body>
+<div class="form-body">
+		<div class="website-logo">
+			<a href="">
+				<div class="logo">
+				</div>
+			</a>
+		</div>
+		<div class="row">
+			<div class="img-holder">
+				<div class="bg"></div>
+				<div class="info-holder"></div>
+			</div>
+			<div class="form-holder">
+				<div class="form-content">
+					<div class="form-items">
+						<h3>{% block top_detail %}{{ APP_TITLE }}{% endblock %}</h3>
+                        <p>{% block bottom_detail %}{% trans 'Managez aisément les Identifications de vos Clients sans Stress...' %}.{% endblock %}</p>
+                        {% block page_links %}
+                        <div class="page-links">
+                            <a href="{% url 'auth_login' %}" class="active">{% trans "Connexion" %}</a>{# <a href="{% url 'auth_signup' %}">{% trans "Inscription" %} #}</a>
+                        </div>
+                        {% endblock %}
+                        {% block form %}
+                        <form action="{% url 'auth_login' %}" method="POST">
+                            {% csrf_token %}
+                            <input class="form-control" type="text" name="username" placeholder="{% trans 'Nom d\'Utilisateur' %}" required>
+                            <input class="form-control" type="password" name="password" placeholder="{% trans 'Mot de Passe' %}" required>
+                            <div class="form-button">
+                                <button id="submit" type="submit" class="ibtn">{% trans 'Login' %}</button> <a href="{% url 'auth_recover_first' %}">{% trans 'Mot de Passe oublié ?' %}</a>
+                            </div>
+                        </form>
+                        {% endblock %}
+                        <div class="other-links">
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+<script src="{% static 'oauth/js/jquery.min.js' %}"></script>
+<script src="{% static 'oauth/js/popper.min.js' %}"></script>
+<script src="{% static 'oauth/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'oauth/js/main.js' %}"></script>
+{% block js %}{% endblock %}
+</body>
+</html>

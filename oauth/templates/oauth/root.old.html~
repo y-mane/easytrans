@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ APP_TITLE }}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'oauth/v2/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'oauth/v2/css/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'oauth/v2/css/iofrm-style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'oauth/v2/css/iofrm-theme4.css' %}">
+    {% block css %}{% endblock %}
+</head>
+<body>
+    <div class="form-body">
+        <div class="website-logo">
+            <a href="">
+                <div class="logo">
+                    <!-- <img class="logo-size" src="{% static 'oauth/v2/images/logo-light.svg' %}" alt=""> -->
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg">
+                    <img src="{% static 'oauth/v2/images/loginpage.png' %}" alt="">
+				</div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>{% block top_detail %}{% trans 'Task-Solutions, Solution Innovante de Télé-Travail.' %}{% endblock %}</h3>
+                        <p>{% block bottom_detail %}{% trans 'Travaillez en toute simplicité !' %}.{% endblock %}</p>
+                        {% block page_links %}
+                        <div class="page-links">
+                            <a href="{% url 'auth_login' %}" class="active">{% trans "Login" %}</a>{# <a href="{% url 'auth_signup' %}">{% trans "Register" %} #}</a>
+                        </div>
+                        {% endblock %}
+                        {% block form %}
+                        <form action="{% url 'auth_login' %}" method="POST">
+                            {% csrf_token %}
+                            <input class="form-control" type="text" name="username" placeholder="{% trans 'Username' %}" required>
+                            <input class="form-control" type="password" name="password" placeholder="{% trans 'Password' %}" required>
+                            <div class="form-button">
+                                <button id="submit" type="submit" class="ibtn">{% trans 'Login' %}</button> <a href="{% url 'auth_recover_first' %}">{% trans 'Forget password?' %}</a>
+                            </div>
+                        </form>
+                        {% endblock %}
+                        <div class="other-links">
+                            <span>{% trans 'Or login with' %}</span><a href="{% url 'auth_login_facebook' %}">Facebook</a><a href="{% url 'auth_login_google' %}">Google</a><a href="{% url 'auth_login_linkedin' %}">Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="{% static 'oauth/v2/js/jquery.min.js' %}"></script>
+<script src="{% static 'oauth/v2/js/popper.min.js' %}"></script>
+<script src="{% static 'oauth/v2/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'oauth/v2/js/main.js' %}"></script>
+{% block js %}{% endblock %}
+</body>
+</html>

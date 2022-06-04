@@ -1,0 +1,1413 @@
+# Translate Team MKS SOFT TECHNOLOGIES
+# Copyright (C) 2019 MKS SOFT TECHNOLOGIES
+# This file is distributed under the same license as the TrackIt package.
+# mks.dev.team@gmail.com, 2019
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TrackIt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-08 12:01+0000\n"
+"PO-Revision-Date: 2019-07-08 10:28+0\n"
+"Last-Translator: Dev Team mks.dev.team@gmail.com\n"
+"Language-Team: FR mks.dev.team@gmail.com\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: core/forms/branch.py:27
+msgid "Branch Form"
+msgstr "Formulaire Agence"
+
+#: core/forms/branch.py:33
+msgid "City Form"
+msgstr "Formulaire Ville"
+
+#: core/forms/package.py:10 core/models/package.py:99
+msgid "In Progress"
+msgstr "En Cours"
+
+#: core/forms/package.py:10 core/models/package.py:99
+msgid "Sended"
+msgstr "Envoyé"
+
+#: core/forms/package.py:11 core/models/package.py:229
+msgid "Sending"
+msgstr "Envoi"
+
+#: core/forms/package.py:11 core/models/package.py:229
+#: website/templates/website/back/admin_dashboard.html:391
+#: website/templates/website/back/admin_dashboard.html:399
+#: website/templates/website/back/manager_dashboard.html:352
+#: website/templates/website/back/manager_dashboard.html:360
+#: website/templates/website/back/manager_receive_package.html:65
+#: website/templates/website/back/user_dashboard.html:331
+#: website/templates/website/back/user_dashboard.html:339
+#: website/templates/website/back/user_receive_package.html:33
+msgid "Transit"
+msgstr "Transit"
+
+#: core/forms/package.py:12 core/models/package.py:230
+#: website/templates/website/back/manager_dashboard.html:28
+#: website/templates/website/back/user_dashboard.html:26
+msgid "Receive"
+msgstr "Reception(s)"
+
+#: core/models/base.py:14 core/models/package.py:17 core/models/package.py:49
+#: website/templates/website/back/admin_branches.html:39
+#: website/templates/website/back/admin_branches.html:94
+#: website/templates/website/back/admin_dashboard.html:189
+#: website/templates/website/back/admin_tickets.html:40
+#: website/templates/website/back/admin_tickets.html:94
+#: website/templates/website/back/manager_send_package.html:34
+#: website/templates/website/back/manager_send_package.html:147
+#: website/templates/website/back/manager_tickets.html:39
+#: website/templates/website/back/manager_tickets.html:93
+#: website/templates/website/back/user_send_package.html:35
+#: website/templates/website/back/user_send_package.html:148
+#: website/templates/website/back/user_tickets.html:39
+#: website/templates/website/back/user_tickets.html:93
+msgid "Name"
+msgstr "Libellé"
+
+#: core/models/base.py:16
+msgid "Internal Reference"
+msgstr "Référence Interne"
+
+#: core/models/base.py:19 core/models/package.py:19 core/models/package.py:55
+#: core/models/package.py:93 core/models/package.py:161
+#: website/templates/website/back/admin_canceled_deliveries.html:29
+#: website/templates/website/back/admin_dashboard.html:190
+#: website/templates/website/back/admin_package.html:68
+#: website/templates/website/back/admin_tickets.html:95
+#: website/templates/website/back/admin_today_deliveries.html:56
+#: website/templates/website/back/calendar.html:105
+#: website/templates/website/back/manager_delivery.html:29
+#: website/templates/website/back/manager_package_for_branch.html:26
+#: website/templates/website/back/manager_package_for_reception.html:25
+#: website/templates/website/back/manager_receive_package.html:75
+#: website/templates/website/back/manager_tickets.html:94
+#: website/templates/website/back/user_package_for_branch.html:26
+#: website/templates/website/back/user_tickets.html:94
+#: website/templates/website/front/result.html:44
+msgid "Reference"
+msgstr "Référence"
+
+#: core/models/base.py:21 core/models/package.py:51
+msgid "Code"
+msgstr "Code"
+
+#: core/models/base.py:24 core/models/package.py:21 core/models/package.py:128
+#: core/models/user.py:34 website/templates/website/back/admin_branches.html:99
+#: website/templates/website/back/admin_package.html:75
+#: website/templates/website/back/admin_tickets.html:98
+#: website/templates/website/back/admin_users.html:132
+#: website/templates/website/back/manager_receive_package.html:82
+#: website/templates/website/back/manager_tickets.html:97
+#: website/templates/website/back/manager_transit.html:64
+#: website/templates/website/back/user_tickets.html:97
+msgid "Status"
+msgstr "Statut"
+
+#: core/models/base.py:25 core/models/package.py:20 core/models/package.py:56
+#: website/templates/website/back/admin_tickets.html:69
+#: website/templates/website/back/calendar.html:75
+#: website/templates/website/back/manager_send_package.html:59
+#: website/templates/website/back/manager_tickets.html:68
+#: website/templates/website/back/user_send_package.html:60
+#: website/templates/website/back/user_tickets.html:68
+msgid "Description"
+msgstr "description"
+
+#: core/models/base.py:27 core/models/package.py:142 core/models/package.py:199
+msgid "Created At"
+msgstr "Crée"
+
+#: core/models/base.py:29 core/models/package.py:144 core/models/package.py:201
+msgid "Updated at"
+msgstr "Mise à jour"
+
+#: core/models/notification.py:15
+msgid "Notification Type"
+msgstr "Type Notification"
+
+#: core/models/notification.py:16
+msgid "Notification Types"
+msgstr "Types Notification"
+
+#: core/models/notification.py:20 core/models/support.py:54
+msgid "Content"
+msgstr "Contenu"
+
+#: core/models/notification.py:22 core/models/support.py:28
+#: website/templates/website/back/admin_dashboard.html:192
+#: website/templates/website/back/admin_tickets.html:58
+#: website/templates/website/back/admin_tickets.html:97
+#: website/templates/website/back/manager_send_package.html:41
+#: website/templates/website/back/manager_send_package.html:149
+#: website/templates/website/back/manager_tickets.html:57
+#: website/templates/website/back/manager_tickets.html:96
+#: website/templates/website/back/user_send_package.html:42
+#: website/templates/website/back/user_send_package.html:150
+#: website/templates/website/back/user_tickets.html:57
+#: website/templates/website/back/user_tickets.html:96
+msgid "Type"
+msgstr "Type"
+
+#: core/models/notification.py:25 core/models/package.py:119
+#: core/models/package.py:180 core/models/support.py:34
+#: website/templates/website/back/admin_package.html:73
+#: website/templates/website/back/manager_receive_package.html:80
+#: website/templates/website/back/manager_send_package.html:127
+#: website/templates/website/back/manager_send_package.html:173
+#: website/templates/website/back/user_send_package.html:128
+#: website/templates/website/back/user_send_package.html:174
+msgid "Sender"
+msgstr "Emetteur"
+
+#: core/models/notification.py:28 core/models/package.py:123
+#: core/models/package.py:184
+#: website/templates/website/back/admin_package.html:74
+#: website/templates/website/back/manager_receive_package.html:81
+#: website/templates/website/back/manager_send_package.html:113
+#: website/templates/website/back/manager_send_package.html:171
+#: website/templates/website/back/manager_transit.html:63
+#: website/templates/website/back/user_send_package.html:114
+#: website/templates/website/back/user_send_package.html:172
+msgid "Receiver"
+msgstr "Destinataire"
+
+#: core/models/notification.py:30
+msgid "Priority"
+msgstr "Priorité"
+
+#: core/models/package.py:27
+msgid "Cities"
+msgstr "Villes"
+
+#: core/models/package.py:32
+msgid "Contact"
+msgstr "Contact"
+
+#: core/models/package.py:33
+#: website/templates/website/back/admin_branches.html:64
+#: website/templates/website/back/admin_branches.html:96
+#: website/templates/website/back/admin_users.html:60
+#: website/templates/website/back/admin_users.html:128
+msgid "Email"
+msgstr "E-mail"
+
+#: core/models/package.py:34 core/models/user.py:23
+#: website/templates/website/back/admin_branches.html:71
+#: website/templates/website/back/admin_branches.html:98
+#: website/templates/website/back/admin_users.html:103
+msgid "Address"
+msgstr "Adresse"
+
+#: core/models/package.py:36
+#: website/templates/website/back/admin_branches.html:46
+#: website/templates/website/back/admin_branches.html:97
+msgid "City"
+msgstr "Ville"
+
+#: core/models/package.py:44
+#: website/templates/website/back/admin_dashboard.html:36
+#: website/templates/website/back/admin_dashboard.html:115
+msgid "Branches"
+msgstr "Agences"
+
+#: core/models/package.py:77
+#: website/templates/website/back/user_receive_package.html:38
+msgid "Barcode"
+msgstr "Code Barre"
+
+#: core/models/package.py:79
+#: website/templates/website/back/user_receive_package.html:66
+msgid "Package Type"
+msgstr "Type Colis"
+
+#: core/models/package.py:82
+#: website/templates/website/back/manager_send_package.html:52
+#: website/templates/website/back/manager_send_package.html:151
+#: website/templates/website/back/user_send_package.html:53
+msgid "Weight (Kg)"
+msgstr "Poids (Kg)"
+
+#: core/models/package.py:95 core/models/package.py:163
+#: website/templates/website/back/admin_canceled_deliveries.html:30
+#: website/templates/website/back/admin_package.html:69
+#: website/templates/website/back/admin_today_deliveries.html:57
+#: website/templates/website/back/manager_delivery.html:30
+#: website/templates/website/back/manager_package_for_branch.html:27
+#: website/templates/website/back/manager_package_for_reception.html:26
+#: website/templates/website/back/manager_receive_package.html:76
+#: website/templates/website/back/manager_send_package.html:31
+#: website/templates/website/back/manager_send_package.html:146
+#: website/templates/website/back/manager_transit.html:59
+#: website/templates/website/back/user_package_for_branch.html:27
+#: website/templates/website/back/user_send_package.html:32
+#: website/templates/website/back/user_send_package.html:147
+#: website/templates/website/front/result.html:43
+msgid "Package"
+msgstr "Colis"
+
+#: core/models/package.py:98
+#: website/templates/website/back/admin_today_deliveries.html:62
+#: website/templates/website/back/manager_delivery.html:34
+#: website/templates/website/back/manager_package_for_reception.html:30
+msgid "Delivery Status"
+msgstr "Statut Livraison"
+
+#: core/models/package.py:102
+msgid "Is Delivered to Receiver"
+msgstr "Remis au Destinataire"
+
+#: core/models/package.py:105 core/models/package.py:167
+#: website/templates/website/back/admin_canceled_deliveries.html:31
+#: website/templates/website/back/admin_package.html:70
+#: website/templates/website/back/admin_today_deliveries.html:58
+#: website/templates/website/back/manager_delivery.html:31
+#: website/templates/website/back/manager_package_for_branch.html:28
+#: website/templates/website/back/manager_package_for_reception.html:27
+#: website/templates/website/back/manager_receive_package.html:77
+#: website/templates/website/back/manager_send_package.html:70
+#: website/templates/website/back/manager_send_package.html:163
+#: website/templates/website/back/manager_transit.html:60
+#: website/templates/website/back/user_package_for_branch.html:28
+#: website/templates/website/back/user_send_package.html:71
+#: website/templates/website/back/user_send_package.html:164
+#: website/templates/website/front/result.html:46
+msgid "Send Date"
+msgstr "Date Envoi"
+
+#: core/models/package.py:107
+msgid "Delivery Date"
+msgstr "Date Livraison"
+
+#: core/models/package.py:110 core/models/package.py:169
+#: website/templates/website/back/admin_today_deliveries.html:59
+#: website/templates/website/back/manager_package_for_branch.html:29
+#: website/templates/website/back/manager_package_for_reception.html:28
+#: website/templates/website/back/user_package_for_branch.html:29
+msgid "From Branch"
+msgstr "Agence Départ"
+
+#: core/models/package.py:113 core/models/package.py:173
+#: website/templates/website/back/admin_today_deliveries.html:60
+#: website/templates/website/back/manager_delivery.html:32
+msgid "To Branch"
+msgstr "Agence Arrivée"
+
+#: core/models/package.py:116 core/models/package.py:177
+#: website/templates/website/back/manager_send_package.html:101
+#: website/templates/website/back/manager_send_package.html:175
+#: website/templates/website/back/user_send_package.html:102
+#: website/templates/website/back/user_send_package.html:176
+msgid "Document"
+msgstr "Document"
+
+#: core/models/package.py:121 core/models/package.py:182
+#: website/templates/website/back/manager_send_package.html:134
+#: website/templates/website/back/user_send_package.html:135
+msgid "Sender Contact"
+msgstr "Contact Emetteur"
+
+#: core/models/package.py:125 core/models/package.py:186
+#: website/templates/website/back/manager_send_package.html:120
+#: website/templates/website/back/user_send_package.html:121
+msgid "Receiver Contact"
+msgstr "Contact Destinataire"
+
+#: core/models/package.py:130
+msgid "Is Barcode Generated ?"
+msgstr "Code Bare généré ?"
+
+#: core/models/package.py:133 core/models/package.py:189
+msgid "Barcode Image"
+msgstr "Image Code Barre"
+
+#: core/models/package.py:137 core/models/package.py:193
+msgid "Owner Branch"
+msgstr "Employé Agence"
+
+#: core/models/package.py:140
+msgid "Can be Cancelled ?"
+msgstr "Peut être Annulé"
+
+#: core/models/package.py:152 core/models/package.py:218
+msgid "Package Delivery"
+msgstr "Livraison"
+
+#: core/models/package.py:153
+msgid "Package Deliveries"
+msgstr "Livraisons"
+
+#: core/models/package.py:197
+msgid "Cancel Date & Time"
+msgstr "Date & Heure Annulation"
+
+#: core/models/package.py:209
+msgid "Canceled Package Delivery"
+msgstr "Livraison Annulée"
+
+#: core/models/package.py:210
+msgid "Canceled Package Deliveries"
+msgstr "Livraison Annulées"
+
+#: core/models/package.py:222
+msgid "Transit Branch"
+msgstr "Agence Transit"
+
+#: core/models/package.py:226
+msgid "Transit Date & Time"
+msgstr "Date & Heure Transit"
+
+#: core/models/package.py:228
+#: website/templates/website/back/manager_receive_package.html:63
+#: website/templates/website/back/manager_receive_package.html:64
+#: website/templates/website/back/manager_receive_package.html:65
+#: website/templates/website/back/manager_transit.html:58
+msgid "Mode"
+msgstr "Mode"
+
+#: core/models/package.py:237
+msgid "Package Transit History"
+msgstr "Historique Transit Colis"
+
+#: core/models/package.py:238
+msgid "Package Transit Histories"
+msgstr "Historiques Transit Colis"
+
+#: core/models/permission.py:17
+msgid "Can see Dashboard"
+msgstr "Peut voir Tableau de Bord"
+
+#: core/models/permission.py:18
+msgid "Can see Analytics"
+msgstr "Peut voir Analyses"
+
+#: core/models/permission.py:19
+msgid "Can see Charts"
+msgstr "Peut voir Graphiques"
+
+#: core/models/permission.py:20
+msgid "Can send SMS"
+msgstr "Peut envoyer SMS"
+
+#: core/models/permission.py:21
+msgid "Can send eMails"
+msgstr "Peut envoyer Emails"
+
+#: core/models/support.py:15
+msgid "Ticket Type"
+msgstr "Type Ticket"
+
+#: core/models/support.py:16
+msgid "Ticket Types"
+msgstr "Types Ticket"
+
+#: core/models/support.py:22
+msgid "Ticket Category"
+msgstr "Catégorie Ticket"
+
+#: core/models/support.py:23
+msgid "Ticket Categories"
+msgstr "Catégories Ticket"
+
+#: core/models/support.py:31
+#: website/templates/website/back/admin_dashboard.html:191
+#: website/templates/website/back/admin_tickets.html:47
+#: website/templates/website/back/admin_tickets.html:96
+#: website/templates/website/back/manager_tickets.html:46
+#: website/templates/website/back/manager_tickets.html:95
+#: website/templates/website/back/user_tickets.html:46
+#: website/templates/website/back/user_tickets.html:95
+msgid "Category"
+msgstr "Catégorie"
+
+#: core/models/support.py:37
+msgid "State"
+msgstr "Etat"
+
+#: core/models/support.py:38
+msgid "Open"
+msgstr "Ouvert"
+
+#: core/models/support.py:38
+msgid "Closed"
+msgstr "Fermé"
+
+#: core/models/support.py:49
+msgid "Ticket"
+msgstr "Ticket"
+
+#: core/models/support.py:52
+msgid "Reply from: "
+msgstr "Réponse de: "
+
+#: core/models/support.py:53
+msgid "Support Team"
+msgstr "L'équipe Support"
+
+#: core/models/support.py:53 core/models/user.py:40 oauth/models/base.py:12
+#: oauth/models/base.py:29
+msgid "User"
+msgstr "Utilisateur"
+
+#: core/models/user.py:19 website/templates/website/back/admin_users.html:67
+#: website/templates/website/back/admin_users.html:129
+msgid "Work Phone"
+msgstr "Tel. Bureau"
+
+#: core/models/user.py:21 website/templates/website/back/admin_users.html:74
+msgid "Home Phone"
+msgstr "Tel. Perso"
+
+#: core/models/user.py:25
+msgid "ID Proof"
+msgstr "Pièce Identité"
+
+#: core/models/user.py:32
+#: website/templates/website/back/admin_canceled_deliveries.html:36
+#: website/templates/website/back/admin_package.html:47
+#: website/templates/website/back/admin_today_deliveries.html:35
+#: website/templates/website/back/admin_users.html:130
+#: website/templates/website/back/manager_receive_package.html:48
+#: website/templates/website/back/manager_transit.html:36
+msgid "Branch"
+msgstr "Agence"
+
+#: oauth/models/base.py:14
+msgid "User Lang"
+msgstr "Langue Utilisateur"
+
+#: oauth/models/base.py:16 root/settings.py:126
+#: website/templates/website/back/admin_dashboard.html:82
+#: website/templates/website/back/manager_dashboard.html:90
+#: website/templates/website/back/user_dashboard.html:72
+msgid "English"
+msgstr "Anglais"
+
+#: oauth/models/base.py:16 root/settings.py:127
+#: website/templates/website/back/admin_dashboard.html:83
+#: website/templates/website/back/manager_dashboard.html:91
+#: website/templates/website/back/user_dashboard.html:73
+msgid "French"
+msgstr "Français"
+
+#: oauth/models/base.py:23
+msgid "User Language"
+msgstr "Langue Utilisateur"
+
+#: oauth/models/base.py:24
+msgid "Users Language"
+msgstr "Langues Utilisateurs"
+
+#: oauth/models/base.py:31 oauth/templates/oauth/v2/recover-password-2.html:12
+msgid "Recover Code"
+msgstr "Code Récupération"
+
+#: oauth/models/base.py:37
+msgid "User Recover Code"
+msgstr "Code Récupération Utilisateur"
+
+#: oauth/models/base.py:38
+msgid "Users Recover Codes"
+msgstr "Code Récupération Utilisateurs"
+
+#: oauth/templates/oauth/v1/admin_profile.html:7
+#: oauth/templates/oauth/v1/admin_profile.html:13
+#: oauth/templates/oauth/v1/manager_profile.html:8
+#: oauth/templates/oauth/v1/manager_profile.html:14
+#: oauth/templates/oauth/v1/profile.bak.html:7
+#: oauth/templates/oauth/v1/profile.bak.html:13
+#: oauth/templates/oauth/v1/user_profile.html:8
+#: oauth/templates/oauth/v1/user_profile.html:14
+msgid "Profile"
+msgstr "Profil"
+
+#: oauth/templates/oauth/v1/admin_profile.html:10
+#: oauth/templates/oauth/v1/manager_profile.html:11
+#: oauth/templates/oauth/v1/profile.bak.html:10
+#: oauth/templates/oauth/v1/user_profile.html:11
+#: website/templates/website/back/admin_dashboard.html:11
+#: website/templates/website/back/admin_dashboard.html:21
+#: website/templates/website/back/admin_tickets.html:9
+#: website/templates/website/back/manager_dashboard.html:11
+#: website/templates/website/back/manager_dashboard.html:21
+#: website/templates/website/back/manager_tickets.html:8
+#: website/templates/website/back/user_dashboard.html:11
+#: website/templates/website/back/user_dashboard.html:20
+#: website/templates/website/back/user_tickets.html:8
+msgid "Dashboard"
+msgstr "Tableau de Bord"
+
+#: oauth/templates/oauth/v1/admin_profile.html:24
+#: oauth/templates/oauth/v1/manager_profile.html:25
+#: oauth/templates/oauth/v1/user_profile.html:25
+msgid "Update Paswword"
+msgstr "Mise à jour Mot de Passe"
+
+#: oauth/templates/oauth/v1/admin_profile.html:30
+#: oauth/templates/oauth/v1/manager_profile.html:31
+#: oauth/templates/oauth/v1/user_profile.html:31
+#: oauth/templates/oauth/v2/recover-password-2.html:10
+msgid "New Password"
+msgstr "Nouveau Mot de Passe"
+
+#: oauth/templates/oauth/v1/admin_profile.html:37
+#: oauth/templates/oauth/v1/manager_profile.html:38
+#: oauth/templates/oauth/v1/user_profile.html:38
+msgid "Confirm"
+msgstr "Confirmation Mot de Passe"
+
+#: oauth/templates/oauth/v1/admin_profile.html:45
+#: oauth/templates/oauth/v1/manager_profile.html:46
+#: oauth/templates/oauth/v1/profile.bak.html:59
+#: oauth/templates/oauth/v1/user_profile.html:46
+#: website/templates/website/back/admin_tickets.html:76
+#: website/templates/website/back/calendar.html:83
+#: website/templates/website/back/manager_tickets.html:75
+#: website/templates/website/back/user_tickets.html:75
+msgid "Cancel"
+msgstr "Annuler"
+
+#: oauth/templates/oauth/v1/admin_profile.html:46
+#: oauth/templates/oauth/v1/manager_profile.html:47
+#: oauth/templates/oauth/v1/profile.bak.html:60
+#: oauth/templates/oauth/v1/user_profile.html:47
+#: oauth/templates/oauth/v2/recover-password-1.html:11
+#: oauth/templates/oauth/v2/recover-password-2.html:14
+#: website/templates/website/back/admin_branches.html:80
+#: website/templates/website/back/admin_tickets.html:77
+#: website/templates/website/back/admin_users.html:112
+#: website/templates/website/back/calendar.html:84
+#: website/templates/website/back/manager_tickets.html:76
+#: website/templates/website/back/user_tickets.html:76
+msgid "Submit"
+msgstr "Soumettre"
+
+#: oauth/templates/oauth/v1/admin_profile.html:61
+#: oauth/templates/oauth/v1/manager_profile.html:62
+#: oauth/templates/oauth/v1/profile.bak.html:75
+#: oauth/templates/oauth/v1/user_profile.html:62
+msgid "Verified user"
+msgstr "Utilisateur Enrégistré"
+
+#: oauth/templates/oauth/v1/admin_profile.html:69
+#: oauth/templates/oauth/v1/manager_profile.html:70
+#: oauth/templates/oauth/v1/user_profile.html:70
+msgid "Update Password"
+msgstr "Mise à jour Mot de Passe"
+
+#: oauth/templates/oauth/v1/admin_profile.html:70
+#: oauth/templates/oauth/v1/manager_profile.html:71
+#: oauth/templates/oauth/v1/profile.bak.html:84
+#: oauth/templates/oauth/v1/user_profile.html:71
+msgid "Message"
+msgstr "Message"
+
+#: oauth/templates/oauth/v1/admin_profile.html:78
+#: oauth/templates/oauth/v1/manager_profile.html:79
+#: oauth/templates/oauth/v1/profile.bak.html:93
+#: oauth/templates/oauth/v1/user_profile.html:79
+#: oauth/templates/oauth/v2/register.html:12
+msgid "Full Name"
+msgstr "Nom & Prénoms"
+
+#: oauth/templates/oauth/v1/admin_profile.html:80
+#: oauth/templates/oauth/v1/manager_profile.html:81
+#: oauth/templates/oauth/v1/profile.bak.html:95
+#: oauth/templates/oauth/v1/user_profile.html:81
+msgid "Mobile"
+msgstr "Téléphone"
+
+#: oauth/templates/oauth/v1/admin_profile.html:81
+#: oauth/templates/oauth/v1/manager_profile.html:82
+#: oauth/templates/oauth/v1/profile.bak.html:96
+#: oauth/templates/oauth/v1/user_profile.html:82
+msgid "Location"
+msgstr "Adresse"
+
+#: oauth/templates/oauth/v1/admin_profile.html:144
+#: oauth/templates/oauth/v1/manager_profile.html:145
+#: oauth/templates/oauth/v1/user_profile.html:145
+#: oauth/templates/oauth/v2/recover-password-2.html:27
+msgid "Password Confirm and New Password are differents Please Check"
+msgstr ""
+"Le Mot de Passe et la Confirmation sont différents. Veuillez saisir les "
+"mêmes valeurs dans les 2 Champs"
+
+#: oauth/templates/oauth/v1/profile.bak.html:24
+#: oauth/templates/oauth/v1/profile.bak.html:83
+msgid "Update Profile"
+msgstr "Mise à jour Profil"
+
+#: oauth/templates/oauth/v1/profile.bak.html:30
+#: oauth/templates/oauth/v1/profile.bak.html:44
+#: oauth/templates/oauth/v2/recover-password-1.html:9
+#: oauth/templates/oauth/v2/root.html:47
+msgid "Username"
+msgstr "Nom d'Utilisateur"
+
+#: oauth/templates/oauth/v1/profile.bak.html:37
+#: website/templates/website/back/admin_users.html:39
+#: website/templates/website/back/admin_users.html:126
+msgid "First Name"
+msgstr "Nom"
+
+#: oauth/templates/oauth/v1/profile.bak.html:51
+msgid "Bio"
+msgstr "Bio."
+
+#: oauth/templates/oauth/v1/profile.bak.html:118
+msgid "Experience"
+msgstr "Expérience"
+
+#: oauth/templates/oauth/v1/profile.bak.html:163
+msgid "Specialists"
+msgstr "Spécialistes"
+
+#: oauth/templates/oauth/v2/808.html:5
+msgid "Ooooops! User not Found"
+msgstr "Oooops! Utilisateur inconnu"
+
+#: oauth/templates/oauth/v2/808.html:6 root/templates/403.html:6
+msgid "It seems that you do not have access to this section. Please go to"
+msgstr ""
+"Il semble que vous n'ayiez pas accès à cette Section. Veuillez vous rendre à"
+
+#: oauth/templates/oauth/v2/808.html:7 oauth/templates/oauth/v2/909.html:7
+msgid "Login Page"
+msgstr "Page Connexion"
+
+#: oauth/templates/oauth/v2/909.html:5
+msgid "Ooooops! Verification Code Error"
+msgstr "Oooops! Code de vérification erroné"
+
+#: oauth/templates/oauth/v2/909.html:6
+msgid ""
+"You do not seem to have entered the correct verification code. Please go to"
+msgstr "Le Code de vérification est erroné. Veillez vous rendre à"
+
+#: oauth/templates/oauth/v2/recover-password-2.html:11
+msgid "Confirm Password"
+msgstr "Confirmation Mot de Passe"
+
+#: oauth/templates/oauth/v2/register.html:7
+#: oauth/templates/oauth/v2/root.html:41 oauth/templates/oauth/v2/root.html:50
+msgid "Login"
+msgstr "Connexion"
+
+#: oauth/templates/oauth/v2/register.html:7
+#: oauth/templates/oauth/v2/register.html:16
+msgid "Register"
+msgstr "Inscription"
+
+#: oauth/templates/oauth/v2/register.html:13
+msgid "E-mail"
+msgstr "E-mail"
+
+#: oauth/templates/oauth/v2/register.html:14
+#: oauth/templates/oauth/v2/root.html:48
+msgid "Password"
+msgstr "Mot de Passe"
+
+#: oauth/templates/oauth/v2/root.html:37
+msgid "TrackIt, the Innovative Solution that reinvents Packages Management."
+msgstr "TrackIt, l'innovante solution qui réinvente la Gestion de Colis"
+
+#: oauth/templates/oauth/v2/root.html:38
+msgid "Easy manage and inform your users instantly"
+msgstr "Tenez informés vos Utilisateurs instantanément"
+
+#: oauth/templates/oauth/v2/root.html:50
+msgid "Forget password?"
+msgstr "Mot de passe oublié"
+
+#: oauth/templates/oauth/v2/root.html:55
+msgid "Or login with"
+msgstr "Ou connexion"
+
+#: oauth/templates/oauth/v2/root_errors.html:12
+#: root/templates/root/root_errors.html:12
+msgid "Ooooooops! Error"
+msgstr "Oooooops! Erreur"
+
+#: root/templates/403.html:5 root/templates/403_csrf.html:5
+msgid "Ooooops! Forbidden Access"
+msgstr "Oooops! Accès Interdit"
+
+#: root/templates/403.html:8 root/templates/403_csrf.html:8
+#: root/templates/404.html:9 root/templates/500.html:9
+msgid "Home page"
+msgstr "Accueil"
+
+#: root/templates/403.html:10 root/templates/403_csrf.html:10
+#: root/templates/404.html:11 root/templates/500.html:11
+msgid "Previous page"
+msgstr "Page précedente"
+
+#: root/templates/403_csrf.html:6
+msgid ""
+"It appears that SERVER has refused to perform this action for security "
+"reasons. We invite you to return to"
+msgstr ""
+"Il semble que le Serveur ait refusé d'exécuter cette action pour des "
+"raisions de sécurité. Nous vous invitons à retourner à"
+
+#: root/templates/404.html:5
+msgid "Ooooops! Page Not Found"
+msgstr "Ooooops! Page Introuvable"
+
+#: root/templates/404.html:7
+msgid ""
+"It seems that the page you are looking for can not be found, Please excuse "
+"us for the inconvenience caused. We invite you however to go to"
+msgstr ""
+"Il semble que la page que vous recherchiez ne peut être trouvée. Veuillez "
+"nous excuser pour le désagrément causé. Nous vous invitons à retourner à"
+
+#: root/templates/500.html:5
+msgid "Ooooops! Internal Server Error"
+msgstr "Oooops! Erreur Serveur"
+
+#: root/templates/500.html:7
+msgid ""
+"It seems that the server is having a little trouble, please excuse us for "
+"the inconvenience. We invite you however to go to"
+msgstr ""
+"Il semble que le Serveur ait un petit soucis, Veuillez nous excuser pour le "
+"désagrément causé. Nous vous invitons cependant à retourner à"
+
+#: website/templates/website/back/admin_branches.html:12
+#, fuzzy
+#| msgid "Manage Branch"
+msgid "Manage Branches"
+msgstr "Gérer Agence"
+
+#: website/templates/website/back/admin_branches.html:22
+msgid "Add Branch"
+msgstr "Ajouter Agence"
+
+#: website/templates/website/back/admin_branches.html:30
+msgid "Manage Branch"
+msgstr "Gérer Agence"
+
+#: website/templates/website/back/admin_branches.html:57
+#: website/templates/website/back/admin_branches.html:95
+msgid "Phone"
+msgstr "Téléphone"
+
+#: website/templates/website/back/admin_branches.html:79
+#: website/templates/website/back/admin_package.html:56
+#: website/templates/website/back/admin_today_deliveries.html:44
+#: website/templates/website/back/admin_users.html:111
+#: website/templates/website/back/manager_receive_package.html:57
+#: website/templates/website/back/manager_transit.html:45
+msgid "Close"
+msgstr "Fermer"
+
+#: website/templates/website/back/admin_branches.html:93
+#: website/templates/website/back/admin_package.html:46
+#: website/templates/website/back/admin_today_deliveries.html:34
+#: website/templates/website/back/admin_users.html:125
+#: website/templates/website/back/manager_receive_package.html:47
+#: website/templates/website/back/manager_transit.html:35
+msgid "N°"
+msgstr "N°"
+
+#: website/templates/website/back/admin_branches.html:100
+#: website/templates/website/back/admin_package.html:76
+#: website/templates/website/back/admin_tickets.html:99
+#: website/templates/website/back/admin_today_deliveries.html:63
+#: website/templates/website/back/admin_users.html:133
+#: website/templates/website/back/calendar.html:110
+#: website/templates/website/back/manager_delivery.html:35
+#: website/templates/website/back/manager_package_for_branch.html:32
+#: website/templates/website/back/manager_receive_package.html:83
+#: website/templates/website/back/manager_tickets.html:98
+#: website/templates/website/back/manager_transit.html:65
+#: website/templates/website/back/user_package_for_branch.html:32
+#: website/templates/website/back/user_tickets.html:98
+msgid "Actions"
+msgstr "Actions"
+
+#: website/templates/website/back/admin_branches.html:116
+#: website/templates/website/back/admin_users.html:150
+msgid "Active"
+msgstr "Actif"
+
+#: website/templates/website/back/admin_branches.html:118
+#: website/templates/website/back/admin_users.html:152
+msgid "Inactive"
+msgstr "Inactif"
+
+#: website/templates/website/back/admin_branches.html:122
+msgid "Update branch"
+msgstr "Mise à jour Agence"
+
+#: website/templates/website/back/admin_branches.html:123
+msgid "Disable Branch"
+msgstr "Désactiver Agence"
+
+#: website/templates/website/back/admin_branches.html:124
+msgid "Enable Branch"
+msgstr "Activer Agence"
+
+#: website/templates/website/back/admin_canceled_deliveries.html:12
+#: website/templates/website/back/admin_dashboard.html:138
+msgid "Canceled Deliveries"
+msgstr "Livraisons Annulées"
+
+#: website/templates/website/back/admin_canceled_deliveries.html:32
+#: website/templates/website/back/admin_package.html:71
+#: website/templates/website/back/manager_receive_package.html:78
+#: website/templates/website/back/manager_send_package.html:80
+#: website/templates/website/back/manager_send_package.html:159
+#: website/templates/website/back/manager_transit.html:61
+#: website/templates/website/back/user_receive_package.html:45
+#: website/templates/website/back/user_send_package.html:81
+#: website/templates/website/back/user_send_package.html:160
+#: website/templates/website/front/result.html:45
+msgid "From"
+msgstr "De"
+
+#: website/templates/website/back/admin_canceled_deliveries.html:33
+#: website/templates/website/back/admin_package.html:72
+#: website/templates/website/back/manager_receive_package.html:79
+#: website/templates/website/back/manager_send_package.html:90
+#: website/templates/website/back/manager_send_package.html:161
+#: website/templates/website/back/manager_transit.html:62
+#: website/templates/website/back/user_receive_package.html:52
+#: website/templates/website/back/user_send_package.html:91
+#: website/templates/website/back/user_send_package.html:162
+msgid "To"
+msgstr "A"
+
+#: website/templates/website/back/admin_canceled_deliveries.html:34
+msgid "Sender / Contact"
+msgstr "Dest./Contact"
+
+#: website/templates/website/back/admin_canceled_deliveries.html:35
+#: website/templates/website/back/admin_today_deliveries.html:61
+#: website/templates/website/back/manager_delivery.html:33
+#: website/templates/website/back/manager_package_for_branch.html:30
+#: website/templates/website/back/manager_package_for_reception.html:29
+#: website/templates/website/back/user_package_for_branch.html:30
+msgid "Receiver / Contact"
+msgstr "Emetteur/Contact"
+
+#: website/templates/website/back/admin_canceled_deliveries.html:37
+msgid "Cancel Date"
+msgstr "Date Annulation"
+
+#: website/templates/website/back/admin_dashboard.html:8
+msgid "ADMIN SPACE"
+msgstr "Espace Administrateur"
+
+#: website/templates/website/back/admin_dashboard.html:25
+#: website/templates/website/back/admin_dashboard.html:399
+#: website/templates/website/back/manager_dashboard.html:25
+#: website/templates/website/back/manager_dashboard.html:360
+#: website/templates/website/back/user_dashboard.html:23
+#: website/templates/website/back/user_dashboard.html:339
+msgid "Packages"
+msgstr "Colis"
+
+#: website/templates/website/back/admin_dashboard.html:27
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: website/templates/website/back/admin_dashboard.html:28
+#: website/templates/website/back/admin_package.html:9
+#: website/templates/website/back/root.html:71
+#: website/templates/website/front/search.html:49
+msgid "Search"
+msgstr "Rechercher"
+
+#: website/templates/website/back/admin_dashboard.html:29
+#: website/templates/website/back/admin_dashboard.html:391
+#: website/templates/website/back/manager_dashboard.html:352
+#: website/templates/website/back/user_dashboard.html:331
+msgid "Canceled"
+msgstr "Annulé"
+
+#: website/templates/website/back/admin_dashboard.html:34
+#: website/templates/website/back/admin_dashboard.html:74
+#: website/templates/website/back/manager_dashboard.html:82
+#: website/templates/website/back/user_dashboard.html:64
+msgid "Settings"
+msgstr "Paramètres"
+
+#: website/templates/website/back/admin_dashboard.html:37
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: website/templates/website/back/admin_dashboard.html:42
+#: website/templates/website/back/manager_dashboard.html:49
+#: website/templates/website/back/user_dashboard.html:32
+msgid "Support"
+msgstr "Support"
+
+#: website/templates/website/back/admin_dashboard.html:46
+#: website/templates/website/back/manager_dashboard.html:53
+#: website/templates/website/back/user_dashboard.html:35
+msgid "FAQ"
+msgstr "FAQ"
+
+#: website/templates/website/back/admin_dashboard.html:61
+#: website/templates/website/back/manager_dashboard.html:69
+#: website/templates/website/back/user_dashboard.html:53
+msgid "Hi, "
+msgstr "Bonjour, "
+
+#: website/templates/website/back/admin_dashboard.html:63
+#: website/templates/website/back/manager_dashboard.html:71
+#: website/templates/website/back/user_dashboard.html:55
+msgid " Profile"
+msgstr "Profil"
+
+#: website/templates/website/back/admin_dashboard.html:64
+#: website/templates/website/back/manager_dashboard.html:72
+#: website/templates/website/back/user_dashboard.html:56
+msgid " Logout"
+msgstr "Se déconnecter"
+
+#: website/templates/website/back/admin_dashboard.html:80
+#: website/templates/website/back/manager_dashboard.html:88
+#: website/templates/website/back/user_dashboard.html:70
+msgid "Language"
+msgstr "Langue"
+
+#: website/templates/website/back/admin_dashboard.html:85
+#: website/templates/website/back/manager_dashboard.html:93
+#: website/templates/website/back/user_dashboard.html:75
+msgid "Change Language"
+msgstr "Changer Langue"
+
+#: website/templates/website/back/admin_dashboard.html:103
+#: website/templates/website/back/admin_dashboard.html:150
+#: website/templates/website/back/admin_dashboard.html:391
+#: website/templates/website/back/admin_dashboard.html:399
+#: website/templates/website/back/manager_dashboard.html:33
+#: website/templates/website/back/manager_dashboard.html:111
+#: website/templates/website/back/manager_dashboard.html:157
+#: website/templates/website/back/manager_dashboard.html:352
+#: website/templates/website/back/manager_dashboard.html:360
+#: website/templates/website/back/manager_delivery.html:12
+#: website/templates/website/back/user_dashboard.html:92
+#: website/templates/website/back/user_dashboard.html:134
+#: website/templates/website/back/user_dashboard.html:331
+#: website/templates/website/back/user_dashboard.html:339
+msgid "Deliveries"
+msgstr "Livraisons"
+
+#: website/templates/website/back/admin_dashboard.html:115
+msgid "Branch Count"
+msgstr "Nombre Agences"
+
+#: website/templates/website/back/admin_dashboard.html:127
+msgid "Customer Count"
+msgstr "Nombre Clients"
+
+#: website/templates/website/back/admin_dashboard.html:158
+#: website/templates/website/back/manager_dashboard.html:165
+#: website/templates/website/back/user_dashboard.html:142
+msgid "Activities"
+msgstr "Activités"
+
+#: website/templates/website/back/admin_dashboard.html:173
+#: website/templates/website/back/manager_dashboard.html:180
+#: website/templates/website/back/user_dashboard.html:157
+msgid "Total Count Summary"
+msgstr "Résumé Totaux"
+
+#: website/templates/website/back/admin_dashboard.html:182
+msgid "Recents Tickets"
+msgstr "Tickets Récents"
+
+#: website/templates/website/back/admin_dashboard.html:193
+#: website/templates/website/back/manager_package_for_branch.html:25
+#: website/templates/website/back/user_package_for_branch.html:25
+msgid "Date"
+msgstr "Date"
+
+#: website/templates/website/back/admin_dashboard.html:194
+msgid "Owner"
+msgstr "Utilisateur"
+
+#: website/templates/website/back/admin_dashboard.html:399
+#: website/templates/website/back/manager_dashboard.html:135
+#: website/templates/website/back/manager_dashboard.html:360
+#: website/templates/website/back/user_dashboard.html:114
+#: website/templates/website/back/user_dashboard.html:339
+msgid "Receptions"
+msgstr "réceptions"
+
+#: website/templates/website/back/admin_package.html:8
+#: website/templates/website/back/calendar.html:10
+#: website/templates/website/back/manager_receive_package.html:8
+#: website/templates/website/back/manager_send_package.html:8
+#: website/templates/website/back/user_receive_package.html:8
+#: website/templates/website/back/user_send_package.html:8
+msgid "Dashboard "
+msgstr "Tableau de Bord"
+
+#: website/templates/website/back/admin_package.html:25
+#: website/templates/website/front/search.html:43
+msgid "Search ..."
+msgstr "Rechercher ..."
+
+#: website/templates/website/back/admin_package.html:40
+#: website/templates/website/back/admin_package.html:93
+#: website/templates/website/back/admin_today_deliveries.html:28
+#: website/templates/website/back/admin_today_deliveries.html:80
+#: website/templates/website/back/manager_receive_package.html:41
+#: website/templates/website/back/manager_receive_package.html:100
+#: website/templates/website/back/manager_transit.html:29
+#: website/templates/website/back/manager_transit.html:82
+msgid "Display Package Map"
+msgstr "Afficher Cartographie Livraison"
+
+#: website/templates/website/back/admin_package.html:48
+#: website/templates/website/back/admin_today_deliveries.html:36
+#: website/templates/website/back/manager_receive_package.html:49
+#: website/templates/website/back/manager_transit.html:37
+msgid "Registered Date & Time"
+msgstr "Date & Heure Enregistrement"
+
+#: website/templates/website/back/admin_package.html:89
+msgid "Anonymous"
+msgstr "Anonyme"
+
+#: website/templates/website/back/admin_package.html:94
+#: website/templates/website/back/admin_today_deliveries.html:81
+#: website/templates/website/back/manager_delivery.html:53
+#: website/templates/website/back/manager_receive_package.html:101
+#: website/templates/website/back/manager_transit.html:83
+msgid "Package Delivered"
+msgstr "Colis Remis au Destinataire"
+
+#: website/templates/website/back/admin_package.html:104
+#: website/templates/website/back/manager_receive_package.html:111
+#: website/templates/website/back/user_receive_package.html:82
+msgid "No Data found!"
+msgstr "Aucune(s) Donnée(s) Trouvée(s)"
+
+#: website/templates/website/back/admin_tickets.html:12
+#: website/templates/website/back/manager_tickets.html:11
+#: website/templates/website/back/user_tickets.html:11
+msgid "Tickets"
+msgstr "Tickets"
+
+#: website/templates/website/back/admin_tickets.html:22
+#: website/templates/website/back/admin_tickets.html:29
+#: website/templates/website/back/manager_tickets.html:21
+#: website/templates/website/back/manager_tickets.html:28
+#: website/templates/website/back/user_tickets.html:21
+#: website/templates/website/back/user_tickets.html:28
+msgid "Send Ticket"
+msgstr "Envoyer Ticket"
+
+#: website/templates/website/back/admin_users.html:12
+#, fuzzy
+#| msgid "Manage User"
+msgid "Manage Users"
+msgstr "Gérer Utilisateur"
+
+#: website/templates/website/back/admin_users.html:22
+msgid "Add User"
+msgstr "Ajouter Utilisateur"
+
+#: website/templates/website/back/admin_users.html:30
+msgid "Manage User"
+msgstr "Gérer Utilisateur"
+
+#: website/templates/website/back/admin_users.html:46
+#: website/templates/website/back/admin_users.html:127
+msgid "Last Name"
+msgstr "Nom"
+
+#: website/templates/website/back/admin_users.html:53
+msgid "ID Proof Number"
+msgstr "Numéro Pièce Identité"
+
+#: website/templates/website/back/admin_users.html:81
+msgid "branch"
+msgstr "Agence"
+
+#: website/templates/website/back/admin_users.html:92
+#: website/templates/website/back/admin_users.html:131
+msgid "Group"
+msgstr "Groupe"
+
+#: website/templates/website/back/admin_users.html:156
+msgid "Update User"
+msgstr "Mise à jour Utilisateur"
+
+#: website/templates/website/back/admin_users.html:157
+msgid "Disable User"
+msgstr "Désactiver Utilisateur"
+
+#: website/templates/website/back/admin_users.html:158
+msgid "Enable User"
+msgstr "Activer Utilisateur"
+
+#: website/templates/website/back/calendar.html:7
+#: website/templates/website/back/calendar.html:8
+#: website/templates/website/back/calendar.html:11
+msgid "Time Slots"
+msgstr "²"
+
+#: website/templates/website/back/calendar.html:18
+#: website/templates/website/back/calendar.html:26
+msgid "Add Time Slot"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:38
+msgid "Day *"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:41
+msgid "Monday"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:42
+msgid "Tuesday"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:43
+msgid "Wednesday"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:44
+msgid "Thursday"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:45
+msgid "Friday"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:46
+msgid "Saturday"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:47
+msgid "Sunday"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:53
+#: website/templates/website/back/calendar.html:107
+msgid "Start"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:61
+#: website/templates/website/back/calendar.html:108
+msgid "End"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:68
+#: website/templates/website/back/calendar.html:109
+msgid "Number of Patients"
+msgstr ""
+
+#: website/templates/website/back/calendar.html:106
+msgid "Day"
+msgstr ""
+
+#: website/templates/website/back/manager_dashboard.html:8
+msgid "MANAGER SPACE"
+msgstr "Espace Gestionnaire"
+
+#: website/templates/website/back/manager_dashboard.html:27
+#: website/templates/website/back/user_dashboard.html:25
+msgid "Send"
+msgstr "Envoyer"
+
+#: website/templates/website/back/manager_dashboard.html:37
+#: website/templates/website/back/user_dashboard.html:30
+msgid "Branch Receptions"
+msgstr "Réceptions Agence"
+
+#: website/templates/website/back/manager_dashboard.html:39
+msgid "Display"
+msgstr "Liste"
+
+#: website/templates/website/back/manager_dashboard.html:40
+msgid "Expected"
+msgstr "Attendus"
+
+#: website/templates/website/back/manager_dashboard.html:45
+msgid "Transit Histories"
+msgstr "Historiques Transit"
+
+#: website/templates/website/back/manager_dashboard.html:123
+#: website/templates/website/back/user_dashboard.html:103
+msgid "Package Transit Count Count"
+msgstr "Nombre Transit Colis"
+
+#: website/templates/website/back/manager_dashboard.html:123
+#: website/templates/website/back/user_dashboard.html:103
+msgid "Package Transit Count"
+msgstr "Nobre Transit Colis"
+
+#: website/templates/website/back/manager_dashboard.html:146
+#: website/templates/website/back/user_dashboard.html:124
+msgid "Package Send / Receive"
+msgstr "Nombre Envois / Réceptions"
+
+#: website/templates/website/back/manager_delivery.html:51
+msgid "Generate Barcode"
+msgstr "Générer Code Barre"
+
+#: website/templates/website/back/manager_delivery.html:52
+msgid "Download Barcode"
+msgstr "Télécharger Code Barre"
+
+#: website/templates/website/back/manager_delivery.html:54
+msgid "Package Awaiting Delivering to Receiver"
+msgstr "Colis en attente de Remise au Destinataire"
+
+#: website/templates/website/back/manager_delivery.html:55
+#: website/templates/website/back/manager_package_for_branch.html:57
+#: website/templates/website/back/user_package_for_branch.html:57
+msgid "View Attachment"
+msgstr "Voir Pièce Jointe"
+
+#: website/templates/website/back/manager_delivery.html:56
+msgid "Disable Delivery"
+msgstr "Annuler Livraison"
+
+#: website/templates/website/back/manager_package_for_branch.html:12
+#: website/templates/website/back/user_package_for_branch.html:12
+#, fuzzy
+#| msgid "Receptions"
+msgid "Display Receptions"
+msgstr "Réceptions"
+
+#: website/templates/website/back/manager_package_for_branch.html:31
+#: website/templates/website/back/user_package_for_branch.html:31
+msgid "Delivered to Receiver"
+msgstr "Remis au Destinataire"
+
+#: website/templates/website/back/manager_package_for_branch.html:49
+#: website/templates/website/back/user_package_for_branch.html:49
+msgid "Delivered"
+msgstr "Livré"
+
+#: website/templates/website/back/manager_package_for_branch.html:51
+#: website/templates/website/back/user_package_for_branch.html:51
+msgid "Awaiting"
+msgstr "En Attente"
+
+#: website/templates/website/back/manager_package_for_branch.html:55
+#: website/templates/website/back/user_package_for_branch.html:55
+msgid "Package Delivered to Receiver"
+msgstr "Colis Remis au Destinataire"
+
+#: website/templates/website/back/manager_package_for_branch.html:56
+#: website/templates/website/back/user_package_for_branch.html:56
+msgid "Deliver Package to Receiver"
+msgstr "Remettre Colis au Destinataire"
+
+#: website/templates/website/back/manager_package_for_reception.html:12
+#, fuzzy
+#| msgid "Send Package"
+msgid "Expected Packages"
+msgstr "Colis Attendus"
+
+#: website/templates/website/back/manager_receive_package.html:9
+#: website/templates/website/back/user_receive_package.html:9
+msgid "Receive Package"
+msgstr "Enregistrer Colis"
+
+#: website/templates/website/back/manager_receive_package.html:25
+#: website/templates/website/back/user_receive_package.html:25
+msgid "Scan Barcode"
+msgstr "Scanner Code Barre"
+
+#: website/templates/website/back/manager_receive_package.html:63
+#: website/templates/website/back/user_receive_package.html:33
+msgid "Delivery Done for this Package"
+msgstr "Colis Livré"
+
+#: website/templates/website/back/manager_receive_package.html:64
+#: website/templates/website/back/user_receive_package.html:33
+msgid "Reception"
+msgstr "Réception"
+
+#: website/templates/website/back/manager_send_package.html:9
+#: website/templates/website/back/user_send_package.html:9
+msgid "Send Package"
+msgstr "Envoyer Colis"
+
+#: website/templates/website/back/manager_send_package.html:24
+#: website/templates/website/back/user_send_package.html:25
+msgid "Send Package Form"
+msgstr "Formulaire Envoi Colis"
+
+#: website/templates/website/back/manager_send_package.html:66
+#: website/templates/website/back/manager_send_package.html:110
+#: website/templates/website/back/manager_send_package.html:158
+#: website/templates/website/back/manager_send_package.html:170
+#: website/templates/website/back/user_send_package.html:67
+#: website/templates/website/back/user_send_package.html:111
+#: website/templates/website/back/user_send_package.html:159
+#: website/templates/website/back/user_send_package.html:171
+msgid "Delivery"
+msgstr "Livraison"
+
+#: website/templates/website/back/manager_send_package.html:142
+#: website/templates/website/back/user_send_package.html:143
+msgid "Summary"
+msgstr "Résumé"
+
+#: website/templates/website/back/manager_transit.html:12
+#, fuzzy
+#| msgid "Deliveries"
+msgid "Deliveries Transit"
+msgstr "Transits"
+
+#: website/templates/website/back/manager_transit.html:57
+msgid "Transit Date"
+msgstr "Date Transit"
+
+#: website/templates/website/back/root.html:102
+msgid "Notifications"
+msgstr "Notification"
+
+#: website/templates/website/back/user_dashboard.html:8
+msgid "USER SPACE"
+msgstr "Espace Utilisateur"
+
+#: website/templates/website/back/user_dashboard.html:94
+#: website/templates/website/back/user_dashboard.html:105
+#: website/templates/website/back/user_dashboard.html:116
+#: website/templates/website/back/user_dashboard.html:126
+msgid "Last"
+msgstr "Dernier"
+
+#: website/templates/website/back/user_receive_package.html:33
+msgid "Mode: "
+msgstr "Mode: "
+
+#: website/templates/website/back/user_receive_package.html:59
+msgid "For"
+msgstr "Pour"
+
+#: website/templates/website/back/user_receive_package.html:73
+#: website/templates/website/back/user_send_package.html:152
+msgid "Weight"
+msgstr "Poids"
+
+#: website/templates/website/front/result.html:47
+msgid "Checkpoints"
+msgstr "Checkpoints"
+
+#: website/templates/website/front/result.html:54
+msgid "No Data Found!"
+msgstr "Aucune(s) Donnée(s) Trouvée(s)"

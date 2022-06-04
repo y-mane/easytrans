@@ -1,0 +1,16 @@
+{% extends "root/root_errors.html" %}
+{% load i18n %}
+
+{% block error_number %}403{% endblock %}
+{% block error_description %} {% trans "Ooooops! Accès Interdit" %} {% endblock %}
+{% block error_advice %} {% trans "Il semble que vous n'ayez pas accès à cette section. Veuillez vous rendre à" %}
+	{% if request.META.HTTP_REFERER is None %}
+		<a href="{% url 'landing_index' %}"> {% trans "l'Accueil" %}.</a>
+	{% else %}
+		<a href="{{ request.META.HTTP_REFERER }}"> {% trans "La Page précédente" %}.</a>
+	{% endif %}
+{% endblock %}
+
+
+{% block search %}{% endblock %}
+{% block copyrights %}{% endblock %}

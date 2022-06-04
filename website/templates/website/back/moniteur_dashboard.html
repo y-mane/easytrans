@@ -1,0 +1,255 @@
+{% extends "website/back/moniteur_root.html" %} 
+
+{% load i18n %} {% load static %} {# page properties #} {% block page-title %}{% trans "ESPACE UTILISATEUR" %}{% endblock %} {% block breadcrumb %}
+<li>
+    <a href="{% url 'userspace_index'  %}" class="active">{% trans "Dashboard" %}</a>
+</li>
+{% endblock %} {# sidebar Menu #} {% block menu %}
+<li>
+    <a href="{% url 'userspace_index'  %}" class="waves-effect"><i class="mdi mdi-book-multiple"></i> <span>{% trans "Dashboard" %}</span></a>
+</li>
+
+<li class="has_sub">
+    <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-settings"></i><span> {% trans "Dossiers" %} </span> <span class="menu-arrow"></span></a>
+    <ul class="list-unstyled">
+        <li><a href="{% url 'userspace_manage_users' %}" class="waves-effect"><i class="mdi mdi-account-settings-variant"></i><span>{% trans "Identifications" %}</span></a></li>
+        {% if perms.oauth.can_create_branch %}
+        <li><a href="{% url 'userspace_manage_branches' %}" class="waves-effect"><i class="mdi mdi-account-settings-variant"></i><span>{% trans "Recherche" %}</span></a></li> {% endif %}
+    </ul>
+</li>
+
+<li>
+    <a href="" class="waves-effect"><i class="mdi  mdi-comment-question-outline"></i> <span>{% trans "FAQ_moniteur" %}</span></a>
+</li>
+
+{% endblock %} {% block menu-help %}{% endblock %} {% block profile %}
+<li class="dropdown user-box">
+    <a href="{% url 'userspace_index'  %}" class="dropdown-toggle waves-effect user-link" data-toggle="dropdown" aria-expanded="true">
+        <img src="{% static 'website/back/images/avatar.jpg' %}" alt="user-img" class="img-circle user-img">
+    </a>
+
+    <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list">
+        <li>
+            <h5>{% blocktrans %}Bonjour M./Mme {% endblocktrans %}{{ user.username }}</h5>
+        </li>
+        <li><a href="{% url 'auth_profile'  %}"><i class="ti-user m-r-5"></i>{% blocktrans %} Profil{% endblocktrans %}</a></li>
+        <li><a href="{% url 'auth_logout'  %}"><i class="ti-power-off m-r-5"></i>{% blocktrans %} Déconnexion{% endblocktrans %}</a></li>
+    </ul>
+</li>
+{% endblock %} {% block right-mdi-settings %}
+<a href="javascript:void(0);" class="right-bar-toggle">
+    <i class="mdi mdi-close-circle-outline"></i>
+</a>
+<h4 class="">{% trans "Paramètres" %}</h4>
+<div class="setting-list nicescroll">
+    <div class="row m-t-20">
+        <form action="{% url 'auth_profile_lang' %}" method="POST">
+            {% csrf_token %}
+            <div class="col-xs-12">
+                {% trans 'Langue' %}&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="language" id="language" style="border-radius:10px;border:1px solid #AAAAAA;">
+                  	<option value="en">{% trans 'English' %}</option>
+                    <option value="fr">{% trans 'French' %}</option>
+                  </select>&nbsp;&nbsp;
+                <button type="submit" class="btn btn-icon btn-rounded btn-xs waves-effect waves-light btn-info m-b-5" title="{% trans 'Changer la Langue' %}"> <i class="fa fa-edit"></i> </button>&nbsp;
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %} {% block i18n %}{% endblock %} {% block messages %}{% endblock %} {% block notifications %}{% endblock %} {% block content-first-row %}
+<div class="col-lg-3 col-md-6">
+    <div class="card-box widget-box-two widget-two-primary">
+        <i class="mdi mdi-chart-areaspline widget-two-icon"></i>
+        <div class="wigdet-two-content">
+            <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'commandes' %}">{% trans 'Commandes' %}</p>
+            <h2><span data-plugin="counterup">{{ voyage_total }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            {% comment %}
+            <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
+
+        </div>
+    </div>
+</div>
+<!-- end col -->
+
+<div class="col-lg-3 col-md-6">
+    <div class="card-box widget-box-two widget-two-warning">
+        <i class="mdi mdi-layers widget-two-icon"></i>
+        <div class="wigdet-two-content">
+            <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'En Cours' %}">{% trans 'En Cours' %}</p>
+            <h2><span data-plugin="counterup">{{ voyage_en_cours }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            {% comment %}
+            <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
+        </div>
+    </div>
+</div>
+<!-- end col -->
+
+<div class="col-lg-3 col-md-6">
+    <div class="card-box widget-box-two widget-two-danger">
+        <i class="mdi mdi-amplifier widget-two-icon"></i>
+        <div class="wigdet-two-content">
+            <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'Validés' %}">{% trans 'Validés' %}</p>
+            <h2><span data-plugin="counterup">{{ voyage_valide }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            {% comment %}
+            <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
+        </div>
+    </div>
+</div>
+<!-- end col -->
+<div class="col-lg-3 col-md-6">
+    <div class="card-box widget-box-two widget-two-success">
+        <i class="mdi mdi-account-convert widget-two-icon"></i>
+        <div class="wigdet-two-content">
+            <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'Rejetés' %}">{% trans 'Rejetés' %}</p>
+            <h2><span data-plugin="counterup"> {{ voyage_echouee}}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            {% comment %}
+            <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
+        </div>
+    </div>
+</div>
+   <!--le tableau des commandes et assignition de missions-->
+        <div class="col-md-12">
+            <div class="card-box">
+                <h4 class="header-title m-t-0 m-b-30">{% trans 'Liste des commandes' %}</h4>
+                <div class="assignation" style="text-align: right; padding-bottom:10px;" >
+                
+                <div class="table-responsive">
+                    <table id="datatable-responsive" class="table table-striped table-bordered-success table-hover table-colored-bordered table-primary table-list">
+                        <thead>
+                                <tr>
+                                    <th style='font-size: 13px; text-align: center;'>N°</th>
+                                    <th style='font-size: 13px; text-align: center;'>nom et prenom</th>
+                                    <th style='font-size: 13px; text-align: center;'>Contact</th>
+                                    <th style='font-size: 13px; text-align: center;'>compagnie</th>
+                                    <th style='font-size: 13px; text-align: center;'>ville depart</th>
+                                    <th style='font-size: 13px; text-align: center;'>destination</th>
+                                    <th style='font-size: 13px; text-align: center;'>Periode</th>
+                                    <th style='font-size: 13px; text-align: center;'>lieu de livraison</th>
+                                    <th style='font-size: 13px; text-align: center;'>Actions</th>
+                                    <th style='font-size: 13px; text-align: center;'>Validé</th>
+                                    <th style='font-size: 13px; text-align: center;'>Decliné</th>
+
+                                </tr>
+                        </thead>
+
+
+                        <tbody>
+                            {% for element in voyage %}
+
+                                <tr id="a" data-id="{{element.id}}">
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{ element.id }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"class="tooltip-animation"> {{ element.fullname }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{ element.contact }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{ element.compagnie }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{ element.lieu_depart}}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation">{{ element.destination }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;">{{ element.periode }} </td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;">{{ element.lieu_livraison }} </td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold; display:none;" id="statut_commande">{{ element.statut_commande}} </td>
+
+        
+                                    <td style='text-align: center;'><a href="" data-toggle="modal" data-target="#assignerpopup" ><div class="btn btn-primary btn-assign" onclick="myfunction('{{element.id}}')" >Assigner</div></a></td>  
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  ><a href="{% url 'change_voyage_state' element.id %}"><div class="btn btn-success btn-valid" id="" data-catid="{{ element.id }}" onclick="clickedfunction()">Valider</div></a></td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"><a href="{% url 'traitement' element.id %}"><div data-voyage_id class="btn btn-danger">Decliner</div> </td>
+                                </tr>
+                                <tr>
+                                    <!-- debut popup d'assignation-->
+                                    <form action="" method="post">
+                                        {% csrf_token %}
+                                <div class="modal" tabindex="-1" role="dialog" id="assignerpopup">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title" style="color: blue;">Assignation de mission</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="container text-center">
+                                        <!--debut du formulaire d'assignation-->
+                                          <input type="" id="voyage"  name="voyage" value="" style="display: none;">
+                                          <label for="livreur">livreurs</label>
+                                          <select name="livreur" id="livreur" class="" style="width:90%; height:35px;">
+                                              <option value="">Livreurs</option>
+                                              {% for item in livreurs %}
+                                              <option value="{{item.id}}">{{item}}</option>
+                                              {% endfor %}
+                                          </select>
+                                          <div class="form-outline">
+                                                <textarea name="commentaire" id="commentaire" class="form-control" rows="5" placeholder="message"></textarea>
+                                        </div>
+                                          
+                                        </div>
+                                        <div class="modal-footer">
+                                          <input type="submit" class="btn btn-primary btn-pop" value="Assigner">
+                                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                          <!--fin du formulaire d'assignation-->
+                                        </div>
+                                        <!--fin popup d'assignation-->
+                                        
+                                    </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </form>
+                                </tr>
+                            {% endfor %}
+
+                        </tbody>
+
+                </table>
+               
+<!-- end col -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="{% static 'website/back/js/valider.js' %}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<script>
+    $(document).ready(() =>{$('#voyage option[value=""]').text('----voyage----');})
+    $(document).ready(() =>{$('#livreur option[value=""]').text('choisir ici');}) 
+</script>
+<script>
+    function myfunction(elm){
+        $('#voyage').val(elm);
+    };
+    function clickedfunction(){
+        
+    };
+</script>
+
+<script type="text/javascript">
+    $('.btn-success').click(function(){
+    var catid;
+    catid = $(this).attr("data-catid"); //recuperation de l'id depuis la views
+    $.ajax(
+    {
+        type:"POST",
+        url: "/ajax_change_state",
+        data:{
+                 event_id: catid
+        },
+        success: function( data )
+        {
+            $( '#event'+ catid )    ();
+            $( '#message' ).text(data);
+        }
+     })
+   });
+</script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6294acd4b0d10b6f3e74bac5/1g4ac68qi';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+    <!--End of Tawk.to Script-->
+
+{% endblock %} {% block content-second-row %}{% endblock %} {% block content-third-row %}{% endblock %} {% comment %} static files {% endcomment %} {% block page_js_add %}{% endblock %}

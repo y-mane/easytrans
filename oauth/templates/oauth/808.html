@@ -1,0 +1,9 @@
+{% extends 'oauth/root_errors.html' %}
+{% load i18n %}
+
+{% block error_number %}808{% endblock %}
+{% block error_description %} {% trans "Ooooops! User not Found" %} {% endblock %}
+{% block error_advice %} {% trans "It seems that you do not have access to this section. Please go to" %}
+<a href="{% url 'auth_login' %}"> {% trans "Login Page" %}.</a>{% endblock %}
+{% block search %}{% endblock %}
+{% block copyrights %}{% endblock %}

@@ -1,0 +1,12 @@
+[Unit]
+Description=app daemon
+After=network.target
+
+[Service]
+User=nginx
+Group=nginx
+WorkingDirectory=/webapps
+ExecStart=/usr/local/bin/gunicorn --workers 3 --bind unix:/webapps/app.sock root.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

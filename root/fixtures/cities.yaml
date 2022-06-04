@@ -1,0 +1,1772 @@
+- model: core.city
+  pk: 1
+  fields:
+    name: Abidjan
+    reference: CITY-0000001
+    description: Proin torquent inceptos parturient vestibulum auctor erat blandit.
+      Maecenas hac platea tempus metus imperdiet inceptos sagittis porttitor. Nam
+      bibendum orci consectetuer pharetra suspendisse tincidunt hac. Penatibus fusce
+      mi potenti convallis nec facilisis class vel. Justo sem suscipit facilisis non
+      id urna interdum.
+    status: true
+- model: core.city
+  pk: 2
+  fields:
+    name: "Bouak\xE9"
+    reference: CITY-0000002
+    description: Proin torquent inceptos parturient vestibulum auctor erat blandit.
+      Maecenas hac platea tempus metus imperdiet inceptos sagittis porttitor. Nam
+      bibendum orci consectetuer pharetra suspendisse tincidunt hac. Penatibus fusce
+      mi potenti convallis nec facilisis class vel. Justo sem suscipit facilisis non
+      id urna interdum.
+    status: true
+- model: core.city
+  pk: 3
+  fields:
+    name: Yamoussokro
+    reference: CITY-0000003
+    description: Proin torquent inceptos parturient vestibulum auctor erat blandit.
+      Maecenas hac platea tempus metus imperdiet inceptos sagittis porttitor. Nam
+      bibendum orci consectetuer pharetra suspendisse tincidunt hac. Penatibus fusce
+      mi potenti convallis nec facilisis class vel. Justo sem suscipit facilisis non
+      id urna interdum.
+    status: true
+- model: core.city
+  pk: 4
+  fields:
+    name: Korhogo
+    reference: CITY-0000004
+    description: Proin torquent inceptos parturient vestibulum auctor erat blandit.
+      Maecenas hac platea tempus metus imperdiet inceptos sagittis porttitor. Nam
+      bibendum orci consectetuer pharetra suspendisse tincidunt hac. Penatibus fusce
+      mi potenti convallis nec facilisis class vel. Justo sem suscipit facilisis non
+      id urna interdum.
+    status: true
+- model: core.city
+  pk: 5
+  fields:
+    name: Man
+    reference: CITY-0000005
+    description: Proin torquent inceptos parturient vestibulum auctor erat blandit.
+      Maecenas hac platea tempus metus imperdiet inceptos sagittis porttitor. Nam
+      bibendum orci consectetuer pharetra suspendisse tincidunt hac. Penatibus fusce
+      mi potenti convallis nec facilisis class vel. Justo sem suscipit facilisis non
+      id urna interdum.
+    status: true
+- model: core.city
+  pk: 6
+  fields:
+    name: Gagnoa
+    reference: CITY-0000006
+    description: Proin torquent inceptos parturient vestibulum auctor erat blandit.
+      Maecenas hac platea tempus metus imperdiet inceptos sagittis porttitor. Nam
+      bibendum orci consectetuer pharetra suspendisse tincidunt hac. Penatibus fusce
+      mi potenti convallis nec facilisis class vel. Justo sem suscipit facilisis non
+      id urna interdum.
+    status: true
+- model: core.city
+  pk: 7
+  fields:
+    name: "Odienn\xE9"
+    reference: CITY-0000007
+    description: Proin torquent inceptos parturient vestibulum auctor erat blandit.
+      Maecenas hac platea tempus metus imperdiet inceptos sagittis porttitor. Nam
+      bibendum orci consectetuer pharetra suspendisse tincidunt hac. Penatibus fusce
+      mi potenti convallis nec facilisis class vel. Justo sem suscipit facilisis non
+      id urna interdum.
+    status: true
+- model: core.city
+  pk: 8
+  fields:
+    name: Divo
+    reference: CITY-0000007
+    description: Proin torquent inceptos parturient vestibulum auctor erat blandit.
+      Maecenas hac platea tempus metus imperdiet inceptos sagittis porttitor. Nam
+      bibendum orci consectetuer pharetra suspendisse tincidunt hac. Penatibus fusce
+      mi potenti convallis nec facilisis class vel. Justo sem suscipit facilisis non
+      id urna interdum.
+    status: true
+- model: core.city
+  pk: 9
+  fields:
+    name: Abengourou
+    reference: CITY-0000009
+    description: Id eros diam orci nulla hendrerit sit eu aliquam hendrerit consectetur
+      scelerisque nulla phasellus eu proin massa lacus nec vivamus nisi eget diam
+      quisque id.
+    status: true
+- model: core.city
+  pk: 10
+  fields:
+    name: Aboisso
+    reference: CITY-0000010
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 11
+  fields:
+    name: Abongoua
+    reference: CITY-0000011
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 12
+  fields:
+    name: Adoua
+    reference: CITY-0000012
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 13
+  fields:
+    name: Adiake
+    reference: CITY-0000013
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 14
+  fields:
+    name: Adjouan
+    reference: CITY-0000014
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 15
+  fields:
+    name: Adzope
+    reference: CITY-0000015
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 16
+  fields:
+    name: Agbaou
+    reference: CITY-0000016
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 17
+  fields:
+    name: Agboville
+    reference: CITY-0000017
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 18
+  fields:
+    name: Agnibilekrou
+    reference: CITY-0000018
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 19
+  fields:
+    name: Ahouanou
+    reference: CITY-0000019
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 20
+  fields:
+    name: ''
+    reference: ''
+    description: ''
+    status: true
+- model: core.city
+  pk: 21
+  fields:
+    name: Ahoutoue
+    reference: CITY-0000020
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 22
+  fields:
+    name: Akouedo
+    reference: CITY-0000021
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 23
+  fields:
+    name: Akoupe
+    reference: CITY-0000022
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 24
+  fields:
+    name: Akoupe
+    reference: CITY-0000023
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 25
+  fields:
+    name: Alepe
+    reference: CITY-0000024
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 26
+  fields:
+    name: Alounamouenou
+    reference: CITY-0000025
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 27
+  fields:
+    name: Ananda
+    reference: CITY-0000026
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 28
+  fields:
+    name: "Anangui\xE9"
+    reference: CITY-0000027
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 29
+  fields:
+    name: "Ann\xE9p\xE9"
+    reference: CITY-0000028
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 30
+  fields:
+    name: Anyama
+    reference: CITY-0000029
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 31
+  fields:
+    name: Arrah
+    reference: CITY-0000030
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 32
+  fields:
+    name: "Assaoufou\xE9"
+    reference: CITY-0000031
+    description: ''
+    status: true
+- model: core.city
+  pk: 33
+  fields:
+    name: "Atti\xE9gouakro"
+    reference: CITY-0000032
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 34
+  fields:
+    name: Attoutou
+    reference: CITY-0000033
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 35
+  fields:
+    name: "Azagui\xE9"
+    reference: CITY-0000034
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 36
+  fields:
+    name: Bacanda
+    reference: CITY-0000035
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 37
+  fields:
+    name: Badikaha
+    reference: CITY-0000036
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 38
+  fields:
+    name: Bako
+    reference: CITY-0000037
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 39
+  fields:
+    name: "Bal\xE9ko"
+    reference: CITY-0000038
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 40
+  fields:
+    name: bambalouma
+    reference: CITY-0000039
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 41
+  fields:
+    name: Bandakagni-Sokoura
+    reference: CITY-0000040
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 42
+  fields:
+    name: Bangolo
+    reference: CITY-0000041
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 43
+  fields:
+    name: Bangoua
+    reference: CITY-0000042
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 44
+  fields:
+    name: Banneu
+    reference: CITY-0000043
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 45
+  fields:
+    name: "Bat\xE9gu\xE9dia"
+    reference: CITY-0000044
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 46
+  fields:
+    name: Bazra-Nattis
+    reference: CITY-0000045
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 47
+  fields:
+    name: "B\xE9cou\xE9fin"
+    reference: CITY-0000046
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 48
+  fields:
+    name: "B\xE9oumi"
+    reference: CITY-0000047
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 49
+  fields:
+    name: "B\xE9tti\xE9"
+    reference: CITY-0000048
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 50
+  fields:
+    name: Biankouma
+    reference: CITY-0000049
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 51
+  fields:
+    name: "Bi\xE9by"
+    reference: CITY-0000050
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 52
+  fields:
+    name: "Bin-houy\xE9"
+    reference: CITY-0000051
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 53
+  fields:
+    name: Bingerville
+    reference: CITY-0000052
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 54
+  fields:
+    name: Blapleu
+    reference: CITY-0000053
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 55
+  fields:
+    name: "Bl\xE9nim\xE9ouin"
+    reference: CITY-0000054
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 56
+  fields:
+    name: "Bl\xE9ss\xE9gu\xE9"
+    reference: CITY-0000055
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 57
+  fields:
+    name: "Blol\xE9quin"
+    reference: CITY-0000056
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 58
+  fields:
+    name: Boahia
+    reference: CITY-0000057
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 59
+  fields:
+    name: Bocanda
+    reference: CITY-0000058
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 60
+  fields:
+    name: "Bogouin\xE9"
+    reference: CITY-0000059
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 61
+  fields:
+    name: Bondo
+    reference: CITY-0000060
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 62
+  fields:
+    name: Bongo
+    reference: CITY-0000061
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 63
+  fields:
+    name: Bongouanou
+    reference: CITY-0000062
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 64
+  fields:
+    name: Bonoua
+    reference: CITY-0000063
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 65
+  fields:
+    name: Boromba
+    reference: CITY-0000064
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 66
+  fields:
+    name: Botro
+    reference: CITY-0000065
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 67
+  fields:
+    name: "Bouafl\xE9"
+    reference: CITY-0000066
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 68
+  fields:
+    name: Bouandougou
+    reference: CITY-0000067
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 69
+  fields:
+    name: Bougousso
+    reference: CITY-0000068
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 70
+  fields:
+    name: Bouna
+    reference: CITY-0000069
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 71
+  fields:
+    name: Boundiali
+    reference: CITY-0000070
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 72
+  fields:
+    name: "Brofodoum\xE9"
+    reference: CITY-0000071
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 73
+  fields:
+    name: "C\xE9chi"
+    reference: CITY-0000072
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 74
+  fields:
+    name: ''
+    reference: ''
+    description: ''
+    status: true
+- model: core.city
+  pk: 75
+  fields:
+    name: "Dab\xE9ko"
+    reference: CITY-0000073
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 76
+  fields:
+    name: Dabou
+    reference: CITY-0000074
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 77
+  fields:
+    name: Dabouyo
+    reference: CITY-0000075
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 78
+  fields:
+    name: Dah-zagna
+    reference: CITY-0000076
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 79
+  fields:
+    name: Dakpadou
+    reference: CITY-0000077
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 80
+  fields:
+    name: Daleu
+    reference: CITY-0000078
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 81
+  fields:
+    name: Daloa
+    reference: CITY-0000079
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 82
+  fields:
+    name: "Danan\xE9"
+    reference: CITY-0000080
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 83
+  fields:
+    name: Danguira
+    reference: CITY-0000081
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 84
+  fields:
+    name: Daoukro
+    reference: CITY-0000082
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 85
+  fields:
+    name: Diabo
+    reference: CITY-0000083
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 86
+  fields:
+    name: Diamarakro
+    reference: CITY-0000084
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 87
+  fields:
+    name: Diangobo
+    reference: CITY-0000085
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 88
+  fields:
+    name: Diawala
+    reference: CITY-0000086
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 89
+  fields:
+    name: "Dibok\xE9"
+    reference: CITY-0000087
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 90
+  fields:
+    name: "Didi\xE9vi"
+    reference: CITY-0000088
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 91
+  fields:
+    name: "Di\xE9ouzon"
+    reference: CITY-0000089
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 92
+  fields:
+    name: Digbeugnoa
+    reference: CITY-0000090
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 93
+  fields:
+    name: Dignago
+    reference: CITY-0000091
+    description: Tempus quis ut elit metus fusce proin quis eu morbi fusce et consectetur
+      eros felis cursus massa portaest sed eu quisque felis metus nisi maximus.
+    status: true
+- model: core.city
+  pk: 94
+  fields:
+    name: Dikouehipalegnoa
+    reference: CITY-0000092
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 95
+  fields:
+    name: Dimbokro
+    reference: CITY-0000093
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 96
+  fields:
+    name: Diogo
+    reference: CITY-0000094
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 97
+  fields:
+    name: "Dioulati\xE9dougou"
+    reference: CITY-0000095
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 98
+  fields:
+    name: Djouroutou
+    reference: CITY-0000096
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 99
+  fields:
+    name: Doba
+    reference: CITY-0000097
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 100
+  fields:
+    name: Dogbo
+    reference: CITY-0000098
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 101
+  fields:
+    name: "Dok\xE9"
+    reference: CITY-0000099
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 102
+  fields:
+    name: "Doumabou\xE9"
+    reference: CITY-0000100
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 103
+  fields:
+    name: Domangbeu
+    reference: CITY-0000101
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 104
+  fields:
+    name: Douasso
+    reference: CITY-0000102
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 105
+  fields:
+    name: "Doub\xE9"
+    reference: CITY-0000103
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 106
+  fields:
+    name: Doudoukou
+    reference: CITY-0000104
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 107
+  fields:
+    name: "Du\xE9kou\xE9"
+    reference: CITY-0000105
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 108
+  fields:
+    name: Ebounou
+    reference: CITY-0000106
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 109
+  fields:
+    name: Elima
+    reference: CITY-0000107
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 110
+  fields:
+    name: "Ery-Macougui\xE9"
+    reference: CITY-0000108
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 111
+  fields:
+    name: Fadiadougou
+    reference: CITY-0000109
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 112
+  fields:
+    name: Fahandougou
+    reference: CITY-0000110
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 113
+  fields:
+    name: Fahani
+    reference: CITY-0000111
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 114
+  fields:
+    name: Fakaha
+    reference: CITY-0000112
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 115
+  fields:
+    name: Fala
+    reference: CITY-0000113
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 116
+  fields:
+    name: Famienkro
+    reference: CITY-0000114
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 117
+  fields:
+    name: Faradiani
+    reference: CITY-0000115
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 118
+  fields:
+    name: Farandougou
+    reference: CITY-0000116
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 119
+  fields:
+    name: "Ferkess\xE9dougou"
+    reference: CITY-0000117
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 120
+  fields:
+    name: Fodio
+    reference: CITY-0000118
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 121
+  fields:
+    name: Fonondara
+    reference: CITY-0000119
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 122
+  fields:
+    name: Fresco
+    reference: CITY-0000120
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 123
+  fields:
+    name: Gabiadji
+    reference: CITY-0000121
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 124
+  fields:
+    name: Gagnoa
+    reference: CITY-0000122
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 125
+  fields:
+    name: Ganaoni
+    reference: CITY-0000123
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 126
+  fields:
+    name: Gbambiasso
+    reference: CITY-0000124
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 127
+  fields:
+    name: "gbangbegouin\xE9"
+    reference: CITY-0000125
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 128
+  fields:
+    name: ''
+    reference: ''
+    description: ''
+    status: true
+- model: core.city
+  pk: 129
+  fields:
+    name: Gbambiasso-yati
+    reference: CITY-0000126
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 130
+  fields:
+    name: "gb\xE9k\xE9kro"
+    reference: CITY-0000127
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 131
+  fields:
+    name: "gb\xE9l\xE9ban"
+    reference: CITY-0000128
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 132
+  fields:
+    name: "gb\xE9lo"
+    reference: CITY-0000129
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 133
+  fields:
+    name: "gb\xE9mou"
+    reference: CITY-0000130
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 134
+  fields:
+    name: gbogui
+    reference: CITY-0000131
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 136
+  fields:
+    name: Gbon
+    reference: CITY-0000131
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 137
+  fields:
+    name: Gbongaha
+    reference: CITY-0000132
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 138
+  fields:
+    name: Gnaliepa
+    reference: CITY-0000133
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 139
+  fields:
+    name: Gnangnon
+    reference: CITY-0000134
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 140
+  fields:
+    name: Gohouo-zagna
+    reference: CITY-0000135
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 141
+  fields:
+    name: Gomon
+    reference: CITY-0000136
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 142
+  fields:
+    name: "Gonat\xE9"
+    reference: CITY-0000137
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 143
+  fields:
+    name: Gouessesso
+    reference: CITY-0000138
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 144
+  fields:
+    name: "Gouin\xE9"
+    reference: CITY-0000139
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 145
+  fields:
+    name: Goulia
+    reference: CITY-0000140
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 146
+  fields:
+    name: Grabo
+    reference: CITY-0000141
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 147
+  fields:
+    name: Grand-Bassam
+    reference: CITY-0000142
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 148
+  fields:
+    name: "Grand-B\xE9r\xE9by"
+    reference: CITY-0000143
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 149
+  fields:
+    name: Grand-lahou
+    reference: CITY-0000144
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 150
+  fields:
+    name: "Grand-Mori\xE9"
+    reference: CITY-0000145
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 151
+  fields:
+    name: Grand-Zattry
+    reference: CITY-0000146
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 152
+  fields:
+    name: Guessabo
+    reference: CITY-0000147
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 153
+  fields:
+    name: "Gu\xE9yo"
+    reference: CITY-0000148
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 154
+  fields:
+    name: "Guiend\xE9"
+    reference: CITY-0000149
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 155
+  fields:
+    name: Guiglo
+    reference: CITY-0000150
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 156
+  fields:
+    name: "Guinglo-Tahouk\xE9"
+    reference: CITY-0000151
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 157
+  fields:
+    name: Issia
+    reference: CITY-0000152
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 158
+  fields:
+    name: Jacqueville
+    reference: CITY-0000153
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 159
+  fields:
+    name: Kahin-Zarabaon
+    reference: CITY-0000154
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 160
+  fields:
+    name: Kanakono
+    reference: CITY-0000155
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 161
+  fields:
+    name: "Kani\xE9n\xE9"
+    reference: CITY-0000156
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 162
+  fields:
+    name: Kanoroba
+    reference: CITY-0000157
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 163
+  fields:
+    name: "Kant\xE9l\xE9gu\xE9"
+    reference: CITY-0000158
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 164
+  fields:
+    name: Kanzra
+    reference: CITY-0000158
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 165
+  fields:
+    name: Kaouara
+    reference: CITY-0000159
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 166
+  fields:
+    name: Karakoro
+    reference: CITY-0000160
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 167
+  fields:
+    name: Karakpo
+    reference: CITY-0000161
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 168
+  fields:
+    name: Kasombarga
+    reference: CITY-0000162
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 169
+  fields:
+    name: "Kass\xE9r\xE9"
+    reference: CITY-0000163
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 170
+  fields:
+    name: "Kati\xE9r\xE9"
+    reference: CITY-0000164
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 171
+  fields:
+    name: Katiola
+    reference: CITY-0000165
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 172
+  fields:
+    name: Kimbirila-Sud
+    reference: CITY-0000166
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 173
+  fields:
+    name: Koboko
+    reference: CITY-0000167
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 174
+  fields:
+    name: Kodiokofi
+    reference: CITY-0000168
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 175
+  fields:
+    name: "Koflip\xE9"
+    reference: CITY-0000169
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 176
+  fields:
+    name: Kolia
+    reference: CITY-0000170
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 177
+  fields:
+    name: Kong
+    reference: CITY-0000171
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 178
+  fields:
+    name: Kongasso
+    reference: CITY-0000172
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 179
+  fields:
+    name: Koni
+    reference: CITY-0000173
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 180
+  fields:
+    name: Konolo
+    reference: CITY-0000174
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 181
+  fields:
+    name: Koro
+    reference: CITY-0000175
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 182
+  fields:
+    name: Kossou
+    reference: CITY-0000176
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 183
+  fields:
+    name: Kouakro
+    reference: CITY-0000177
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 184
+  fields:
+    name: Kouan-Houle
+    reference: CITY-0000178
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 185
+  fields:
+    name: "Kouassi-Bl\xE9kro"
+    reference: CITY-0000179
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 186
+  fields:
+    name: Koukourandomi
+    reference: CITY-0000180
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 187
+  fields:
+    name: Kounoumon
+    reference: CITY-0000181
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 188
+  fields:
+    name: Kouto
+    reference: CITY-0000182
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 189
+  fields:
+    name: Kpata
+    reference: CITY-0000183
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 190
+  fields:
+    name: Lahou-Kpanda
+    reference: CITY-0000184
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 191
+  fields:
+    name: Lakota
+    reference: CITY-0000185
+    description: Diam scelerisque aliquam interdum orci nulla scelerisque sollicitudin
+      enim enim orci mi leo et commodo aliquam arcu id diam adipiscing et leo proin
+      leo placerat.
+    status: true
+- model: core.city
+  pk: 192
+  fields:
+    name: Lataha
+    reference: CITY-0000187
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 193
+  fields:
+    name: Liliyo
+    reference: CITY-0000188
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 194
+  fields:
+    name: Lodala
+    reference: CITY-0000189
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 195
+  fields:
+    name: "Logoual\xE9"
+    reference: CITY-0000190
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 196
+  fields:
+    name: Logouhi
+    reference: CITY-0000191
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 197
+  fields:
+    name: "Lohour\xE9"
+    reference: CITY-0000192
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 198
+  fields:
+    name: Lokoligou
+    reference: CITY-0000193
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 199
+  fields:
+    name: Lolobo
+    reference: CITY-0000194
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 200
+  fields:
+    name: Lomokankro
+    reference: CITY-0000195
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 201
+  fields:
+    name: "Lopl\xE9"
+    reference: CITY-0000196
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 202
+  fields:
+    name: "Lossingu\xE9"
+    reference: CITY-0000197
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 203
+  fields:
+    name: Lotono
+    reference: CITY-0000198
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 204
+  fields:
+    name: Loupala
+    reference: CITY-0000199
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 205
+  fields:
+    name: Loupougo
+    reference: CITY-0000200
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true
+- model: core.city
+  pk: 206
+  fields:
+    name: "Lovigui\xE9"
+    reference: CITY-0000201
+    description: Commodo et elit euismod metus aliquam scelerisque cursus tincidunt
+      tortor congue pellentesque pellentesque amet et congue fusce et maecenas sem
+      bibendum eu quis metus nec.
+    status: true

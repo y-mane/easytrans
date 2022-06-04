@@ -1,0 +1,20 @@
+# Frontend Messages
+0: ""
+700: "Action effectuée avec Succès"
+701: "Action ne peut être effectuée"
+702: "Une Erreur est survenue, veuillez reprendre l'opération."
+703: "Simulation of this action done successfully. Nothing Changed in System"
+704: "Affichage Resultat(s) Recherche."
+705: "Aucune(s) Donnée(s) pour ce Code Barre"
+706: "Utilisateur déjà existant!"
+707: "Aucune(s) Donnée(s) Trouvée(s) basée sur le Critère de Recherche"
+
+# Notification Messages
+800: "Cher(e) {user},\nVotre compte utilisateur a bien été crée avec ces accès\nNom d'utilisateur: {username}\nMot de Passe: {password}\nVous pouvez changer votre mot de Passe après votre première connexion.\nNous sommes heureux de vous compter parmi nous. A très bientôt\nCordialement,\n\nL'Équipe Support Technique."
+801: "Cher {user},\nVotre compte a été mis à jour avec succès. A très bientôt\nCordialement,\n\nL'Équipe Support Technique."
+
+# Database and Backend Messages
+900: "{args} is not well formatted. Dictionary is expected."
+901: "Field {field} not found in given Model {model}."
+902: "Model {model} not found."
+903: "Model {model} have to be in str format."

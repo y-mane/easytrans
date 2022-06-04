@@ -1,0 +1,396 @@
+{% extends "website/back/admin_dashboard.html" %}
+{% load static %}
+{% load i18n %}
+
+
+{# page properties #}
+{% block breadcrumb %}
+<li>
+	<a href="{% url 'userspace_index'  %}">Dashboard </a>
+</li>
+<li class="active">
+	{% trans "Gestion Utilisateurs" %}
+</li>
+{% endblock %}
+
+
+{% block content-first-row %}
+<button style="display: none; width: 0px; height: 0px;" id="showerrortoast" class="showerrortoast"></button>
+<button style="display: none; width: 0px; height: 0px;" id="showsuccesstoast" class="showsuccesstoast"></button>
+<button style="display: none; width: 0px; height: 0px;" id="showinfostoast" class="showinfostoast"></button>
+<button style="display: none; width: 0px; height: 0px;" id="showwarningtoast" class="showwarningtoast"></button>
+<label for="infos" id="infos" style="display: none; width: 0px; height: 0px;" class="infos">{{ infos }}</label>
+<label for="infos_type" id="infos_type" style="display: none; width: 0px; height: 0px;" class="infos_type">{{ infos_type }}</label>
+{% if perms.oauth.can_create_user %}<div style="float: right;"><button type="button" class="btn btn-info btn-rounded w-md waves-effect waves-light m-b-5" data-toggle="modal" data-target="#user-modal">{% trans "Ajout Utilisateurs" %}</button></div> {% endif %}<br /><br /><br />
+
+<!-- Modal -->
+<div id="modal_assign_permissions" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+		<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="dismis_seat close " data-dismiss="modal" aria-hidden="true">×</button>
+						<h4 class="modal-title perms_modal_title"></h4>
+					</div>
+					<form action="{% url 'userspace_manage_user_permissions' %}" method="POST" name="user_permissions_form" enctype="multipart/form-data">
+						{% csrf_token %}
+
+						<div class="modal-body">
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="gperms"> {% trans "Groupe" %} *</label>
+								<div class="col-lg-9">
+									<select class="required form-control gperms" id="gperms">
+										<option value="empty"> {% trans "Veuillez Selectionner un Groupe" %}</option>
+										{% for row in groups  %}
+											<option value="{{ row.name }}">{{ row.name }}</option>
+										{% endfor %}
+									</select>
+								</div>
+							</div>
+
+							<input type="hidden" name="puser_id" id="puser_id"/>
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="permissions"> {% trans "Permissions" %} *</label>
+								<input type="hidden" name="permissions" id="permissions" value="" />
+								<div class="col-lg-9" id="div-perms" class="div-perms">
+									<select class="permissions" multiple>
+									</select>
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="perms_details">{% blocktrans %}Permissions Attribuées{% endblocktrans %}</label>
+								<div class="col-lg-9">
+									<textarea class="form-control" rows="5" id="perms_details" disabled></textarea>
+								</div>
+							</div>
+
+						</div>
+						<div class="modal-footer">
+							<button type="cancel" class="dismiss_seat btn btn-default waves-effect" data-dismiss="modal">{% trans 'Annuler' %}</button>
+							<button type="submit" class="save_seat btn btn-info waves-effect waves-light">{% trans 'Assigner' %}</button>
+						</div>
+					</form>
+				</div>
+		</div>
+</div><!-- /.modal -->
+<!-- Modal -->
+<div id="user-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+            <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="dismiss_user close " data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">{% trans "Gérer Utilisateurs" %}</h4>
+                    </div>
+                    <form name="user_form" action="{% url 'userspace_manage_users'  %}" method="POST">
+						{% csrf_token %}
+
+						<input type="hidden" name="user_id" id="user_id"/>
+                        <div class="modal-body">
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="first_name"> {% trans "Prénom(s)" %} *</label>
+								<div class="col-lg-9">
+									<input type="text" name="first_name" id="first_name" class="form-control" required />
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="last_name"> {% trans "Nom(s)" %} *</label>
+								<div class="col-lg-9">
+									<input type="text" name="last_name" id="last_name" class="form-control" required />
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="id_proof"> {% trans "Matricule" %} *</label>
+								<div class="col-lg-9">
+									<input type="text" name="id_proof" id="id_proof" class="form-control" required />
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="email"> {% trans "Email" %} *</label>
+								<div class="col-lg-9">
+									<input type="email" name="email" id="email" class="form-control" required />
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="work_phone"> {% trans "Contact 1" %} *</label>
+								<div class="col-lg-9">
+									<input type="text" name="work_phone" id="work_phone" class="form-control" minlength="10" maxlength="10" required />
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="home_phone"> {% trans "Contact 2" %} </label>
+								<div class="col-lg-9">
+									<input type="text" name="home_phone" id="home_phone" class="form-control" minlength="10" maxlength="10" />
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="description">{% blocktrans %}Adresse{% endblocktrans %}</label>
+								<div class="col-lg-9">
+									<textarea class="required form-control" rows="5" name="location" id="location" ></textarea>
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+							    <label class="col-lg-3 control-label " for="branch"> {% trans "Service" %} *</label>
+							    <div class="col-lg-9">
+							        <select class="required form-control branch" name="branch" id="branch">
+							            <option value=""> {% trans " - " %}</option>
+							            {% for row in branches %}
+							                <option value="{{ row.id }}">{{ row.name }}</option>
+							            {% endfor %}
+							        </select>
+							    </div>
+							</div>
+
+							<div class="form-group clearfix">
+							    <label class="col-lg-3 control-label " for="group"> {% trans "Groupe Authentification" %} *</label>
+							    <div class="col-lg-9">
+							        <select class="required form-control group" name="group" id="group" required>
+							            {% for row in groups %}
+							                <option value="{{ row.id }}">{{ row.name }}</option>
+							            {% endfor %}
+							        </select>
+							    </div>
+							</div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="cancel" class="dismiss_user btn btn-default waves-effect" data-dismiss="modal">{% trans "Annuler" %}</button>
+							<button type="submit" class="set_user btn btn-info waves-effect waves-light">{% trans "Soumettre" %}</button>
+                        </div>
+                    </form>
+            </div>
+    </div>
+</div><!-- /.modal -->
+
+<div class="row">
+		<div class="col-sm-12">
+				<div class="card-box table-responsive">
+						<table id="datatable-responsive" class="table table-striped table-bordered-success table-hover table-colored-bordered table-primary">
+								<thead>
+										<tr>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Nom(s) & Prénom(s){% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Rôle{% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Service{% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Status{% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Actions{% endblocktrans %}</th>
+										</tr>
+								</thead>
+
+
+								<tbody>
+									{% for row in users %}
+										<tr>
+											<td style="font-size: 10px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ row.user.first_name }} {{ row.user.last_name }}">{{ row.user.first_name }} {{ row.user.last_name }}</td>
+											<td style="font-size: 10px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ row.groups.0|title }}">{{ row.groups.0|title }}</td>
+											<td style="font-size: 10px; text-align: center; font-weight: bold;">
+												{% if row.profile.0.branch %}
+													<span class="tooltip-animation" title="{{ row.profile.0.branch }}">{{ row.profile.0.branch }}</span>
+												{% else %}
+													-
+												{% endif %}
+											</td>
+                                            <td style="font-size: 10px; text-align: center; font-weight: bold;">
+												{% if row.user.is_active %}
+													<span style="color: #21c656;" class="tooltip-animation" title="{% trans "Actif" %}">{% trans "Actif" %}</span>
+												{% else %}
+													<span style="color: #f22929;" class="tooltip-animation" title="{% trans "Inactif" %}">{% trans "Inactif" %}</span>
+												{% endif %}
+											</td>
+											<td style='text-align: center;'>
+												{% if perms.oauth.can_create_user %}
+													<button class="btn btn-icon btn-rounded btn-xs waves-effect waves-light btn-warning m-b-5 edit_user tooltip-animation" title="{% trans 'Mettre à Jour Utilisateur' %}" data-id="{{ row.user.id }}" data-toggle="modal" data-target="#user-modal"> <i class="fa fa-wrench"></i> </button>&nbsp;
+												{% endif %}
+
+												{% if perms.oauth.can_disable_user %}
+													{% if row.user.is_active %}
+														<a href="{% url 'userspace_disable_user' row.user.id %}"><button class="btn btn-icon btn-rounded btn-xs waves-effect waves-light btn-danger m-b-5 disable_user tooltip-animation" title="{% trans 'Désactiver Utilisateur' %}" data-id="{{ row.user.id }}"> <i class="fa fa-trash-o" style="text-align: center;"></i> </button></a>&nbsp;
+													{% endif %}
+													{% if not row.user.is_active %}
+														<a href="{% url 'userspace_enable_user' row.user.id %}"><button class="btn btn-icon btn-rounded btn-xs waves-effect waves-light btn-success m-b-5 enable_user tooltip-animation" title="{% trans 'Activer Utilisateur' %}" data-id="{{ row.user.id }}"> <i class="fa fa-arrow-circle-o-left" style="text-align: center;"></i> </button></a>&nbsp;
+													{% endif %}
+												{% endif %}
+
+												{% if perms.oauth.can_assign_user_permissions %}
+													<button class="btn btn-icon btn-rounded btn-xs waves-effect waves-light btn-info m-b-5 assign_uperms tooltip-animation" title="{% trans 'Assigner Permissions' %}" data-id="{{ row.user.id }}" data-toggle="modal" data-target="#modal_assign_permissions" data-grp="{{ row.groups.0|title }}" data-uname="{{ row.user.first_name }} {{ row.user.last_name }}"> <i class="fa fa-edit"></i> </button>&nbsp;
+												{% endif %}
+											</td>
+										</tr>
+									{% endfor %}
+								</tbody>
+						</table>
+				</div>
+		</div>
+</div>
+{% endblock %}
+{% block content-second-row %}{% endblock %}
+{% block content-third-row %}{% endblock %}
+
+{# static blocks of page (js, css) #}
+{# css #}
+{% block page_css %}
+	<link href="{% static 'website/back/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css' %}" rel="stylesheet" />
+    <link href="{% static 'website/back/plugins/multiselect/css/multi-select.css' %}"  rel="stylesheet" type="text/css" />
+    <link href="{% static 'website/back/plugins/select2/css/select2.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'website/back/plugins/bootstrap-select/css/bootstrap-select.min.css' %}" rel="stylesheet" />
+
+	<link href="{% static 'website/back/plugins/datatables/jquery.dataTables.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/buttons.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/fixedHeader.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/responsive.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/scroller.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/dataTables.colVis.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/dataTables.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/fixedColumns.dataTables.min.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/core.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/components.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/icons.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/pages.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/menu.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/responsive.css' %}" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="{% static 'website/back/plugins/switchery/switchery.min.css' %}"/>
+	<link href="{% static 'website/back/plugins/timepicker/bootstrap-timepicker.min.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/clockpicker/css/bootstrap-clockpicker.min.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/bootstrap-daterangepicker/daterangepicker.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/bootstrap-sweetalert/sweet-alert.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'website/back/plugins/toastr/toastr.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'website/back/plugins/tooltipster/tooltipster.bundle.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'website/back/css/bootstrap-multiselect.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'website/back/less/bootstrap-multiselect.less' %}" rel="stylesheet/less" type="text/css" />
+	<style type="text/css" media="screen">
+		button.multiselect {
+  			background-color: #fff;
+  			border: 1px solid #fff;
+			width: 390px;
+			/* height: 150px; */
+		}
+	</style>
+	<script src="{% static 'website/back/js/modernizr.min.js' %}"></script>
+{% endblock %}
+
+{# js #}
+{% block page_js %}
+        <script src="{% static 'website/back/plugins/datatables/jquery.dataTables.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.bootstrap.js' %}"></script>
+
+		<script src="{% static 'website/back/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/multiselect/js/jquery.multi-select.js' %}"></script>
+        <script src="{% static 'website/back/plugins/jquery-quicksearch/jquery.quicksearch.js' %}"></script>
+        <script src="{% static 'website/back/plugins/select2/js/select2.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/bootstrap-select/js/bootstrap-select.min.js' %}"></script>
+
+        <script src="{% static 'website/back/plugins/datatables/dataTables.buttons.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/buttons.bootstrap.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/jszip.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/pdfmake.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/vfs_fonts.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/buttons.html5.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/buttons.print.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.fixedHeader.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.keyTable.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.responsive.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/responsive.bootstrap.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.scroller.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.colVis.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.fixedColumns.min.js' %}"></script>
+		<script src="{% static 'website/back/plugins/moment/moment.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/timepicker/bootstrap-timepicker.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/clockpicker/js/bootstrap-clockpicker.min.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/bootstrap-daterangepicker/daterangepicker.js' %}"></script>
+		<script src="{% static 'website/back/plugins/bootstrap-sweetalert/sweet-alert.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/toastr/toastr.min.js' %}"></script>
+
+        <!-- init -->
+        <script src="{% static 'website/back/pages/jquery.datatables.init.js' %}"></script>
+		<script src="{% static 'website/back/pages/jquery.form-pickers.init.js' %}"></script>
+        <script src="{% static 'website/back/plugins/tooltipster/tooltipster.bundle.min.js' %}"></script>
+        <script src="{% static 'website/back/pages/jquery.tooltipster.js' %}"></script>
+        <script src="{% static 'website/back/pages/actions_alerts.js' %}"></script>
+
+        <!-- App js -->
+        <script src="{% static 'website/back/js/jquery.core.js' %}"></script>
+        <script src="{% static 'website/back/js/jquery.app.js' %}"></script>
+        <script src="{% static 'website/back/js/custom/user.js' %}"></script>
+        <script src="{% static 'website/back/js/custom/all.js' %}"></script>
+        <script src="{% static 'website/back/js/bootstrap-multiselect.js' %}"></script>
+
+        <script>
+ 			$(document).ready(function () {
+                $('#datatable').dataTable();
+                $('#datatable-keytable').DataTable({keys: true});
+                $('#datatable-responsive').DataTable();
+                $('#datatable-colvid').DataTable({
+                    "dom": 'C<"clear">lfrtip',
+                    "colVis": {
+                        "buttonText": "Change columns"
+                    }
+                });
+                $('#datatable-scroller').DataTable({
+                    ajax: "../plugins/datatables/json/scroller-demo.json",
+                    deferRender: true,
+                    scrollY: 380,
+                    scrollCollapse: true,
+                    scroller: true
+                });
+                var table = $('#datatable-fixed-header').DataTable({fixedHeader: true});
+                var table = $('#datatable-fixed-col').DataTable({
+                    scrollY: "300px",
+                    scrollX: true,
+                    scrollCollapse: true,
+                    paging: false,
+                    fixedColumns: {
+                        leftColumns: 1,
+                        rightColumns: 1
+                    }
+                });
+            });
+            TableManageButtons.init();
+        </script>
+
+        <script>
+			$(document).ready(function () {
+				$('.permissions').multiselect({
+					enableHTML: true,
+					disableIfEmpty: true,
+					disabledText: "{% trans 'Aucune Permission accordée' %}",
+					//enableFiltering: true,
+            		includeSelectAllOption: true,
+					buttonText: function(options, select) {
+                		if (options.length === 0) {
+                    		return " {% trans 'Aucune selection effectuée' %}";
+                		}
+						else if (options.length > 6) {
+							return " {% trans 'Plus de 6 options selectionnées' %}";
+						}
+						else {
+							var labels = [];
+							options.each(function() {
+								if ($(this).attr('label') !== undefined) {
+									labels.push($(this).attr('label'));
+								}
+								else {
+									labels.push($(this).html());
+								}
+							});
+							return labels.join(', ') + '';
+						}
+                	},
+					buttonContainer: '<div class="btn-group" id="example-selectedClass-container"></div>',
+            		selectedClass: 'active multiselect-selected'
+				});
+  			});
+        </script>
+
+{%  endblock %}
+{% block page_js_add %}{% endblock %}

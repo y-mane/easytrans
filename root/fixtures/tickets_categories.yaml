@@ -1,0 +1,83 @@
+- model: core.ticketcategory
+  pk: 1
+  fields:
+    name: Support technique / Assistance
+    internal_reference: d36a34ca-9ea2-11e9-822e-fa163e1f1a58
+    reference: CT-001
+    code: ''
+    status: true
+    description: Finibus feugiat erat odio nisl congue leo ante elit. Vivamus viverra
+      mattis lacinia pretium eleifend. Litora tempor per nascetur lorem vestibulum
+      commodo porttitor consectetuer. Placerat senectus velit nibh ligula elit integer
+      cursus. Inceptos imperdiet curae malesuada luctus.
+    created_at: 2019-07-08
+    updated_at: 2019-07-08
+- model: core.ticketcategory
+  pk: 2
+  fields:
+    name: Installation
+    internal_reference: 01e1766e-a142-11e9-9981-fa163e1f1a58
+    reference: CT-002
+    code: ''
+    status: true
+    description: Dis viverra ullamcorper volutpat auctor taciti imperdiet tristique
+      odio. Magnis laoreet ante sem habitant maecenas sed consectetuer. Consectetuer
+      consequat consectetur efficitur fames duis tristique lobortis. Magna dictumst
+      litora vitae elementum. Luctus per diam egestas sollicitudin odio senectus sodales.
+    created_at: 2019-07-08
+    updated_at: 2019-07-08
+- model: core.ticketcategory
+  pk: 3
+  fields:
+    name: "Gestion des acc\xE8s"
+    internal_reference: 0f0ca03e-a142-11e9-9981-fa163e1f1a58
+    reference: CT-003
+    code: ''
+    status: true
+    description: ''
+    created_at: 2019-07-08
+    updated_at: 2019-07-08
+- model: core.ticketcategory
+  pk: 4
+  fields:
+    name: "Exploitation / Contr\xF4le"
+    internal_reference: 1a380462-a142-11e9-94c3-fa163e1f1a58
+    reference: CT-004
+    code: ''
+    status: true
+    description: ''
+    created_at: 2019-07-08
+    updated_at: 2019-07-08
+- model: core.ticketcategory
+  pk: 5
+  fields:
+    name: Restauration
+    internal_reference: 2458c620-a142-11e9-94c3-fa163e1f1a58
+    reference: CT-005
+    code: ''
+    status: true
+    description: ''
+    created_at: 2019-07-08
+    updated_at: 2019-07-08
+- model: core.ticketcategory
+  pk: 6
+  fields:
+    name: Sauvegarde
+    internal_reference: 36eaf362-a142-11e9-852e-fa163e1f1a58
+    reference: CT-006
+    code: ''
+    status: true
+    description: ''
+    created_at: 2019-07-08
+    updated_at: 2019-07-08
+- model: core.ticketcategory
+  pk: 7
+  fields:
+    name: "Param\xE9trage"
+    internal_reference: 3d5d39bc-a142-11e9-852e-fa163e1f1a58
+    reference: CT-007
+    code: ''
+    status: true
+    description: ''
+    created_at: 2019-07-08
+    updated_at: 2019-07-08

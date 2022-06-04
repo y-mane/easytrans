@@ -1,0 +1,17 @@
+{% extends "root/root_errors.html" %}
+{% load i18n %}
+
+{% block error_number %}500{% endblock %}
+{% block error_description %} {% trans "Ooooops! Erreur Serveur" %} {% endblock %}
+{% block error_advice %}
+    {% trans "Il semble que le Serveur ait rencontré quelques petits soucis, Veuillez nous excuser pour le désagrément causé. Nous vous invitons à retourner à" %}
+    {% if request.META.HTTP_REFERER is None %}
+        <a href="{% url 'landing_index' %}"> {% trans " l'Accueil" %}.</a>
+    {% else %}
+        <a href="{{ request.META.HTTP_REFERER }}"> {% trans " la Page précédente" %}.</a>
+    {% endif %}
+{% endblock %}
+
+
+{% block search %}{% endblock %}
+{% block copyrights %}{% endblock %}

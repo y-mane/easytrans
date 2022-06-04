@@ -1,0 +1,242 @@
+{% extends "website/back/admin_dashboard.html" %}
+{% load static %}
+{% load i18n %}
+
+
+{# page properties #}
+{% block breadcrumb %}
+<li>
+	<a href="{% url 'userspace_index'  %}">Dashboard </a>
+</li>
+<li class="active">
+	{% trans "Manage Branches" %}
+</li>
+{% endblock %}
+
+
+{% block content-first-row %}
+<button style="display: none; width: 0px; height: 0px;" id="showerrortoast" class="showerrortoast"></button>
+<button style="display: none; width: 0px; height: 0px;" id="showsuccesstoast" class="showsuccesstoast"></button>
+<button style="display: none; width: 0px; height: 0px;" id="showinfostoast" class="showinfostoast"></button>
+<button style="display: none; width: 0px; height: 0px;" id="showwarningtoast" class="showwarningtoast"></button>
+<label for="infos" id="infos" style="display: none; width: 0px; height: 0px;" class="infos">{{ infos }}</label>
+<label for="infos_type" id="infos_type" style="display: none; width: 0px; height: 0px;" class="infos_type">{{ infos_type }}</label>
+<div style="float: right;"><button type="button" class="btn btn-info btn-rounded w-md waves-effect waves-light m-b-5" data-toggle="modal" data-target="#branch-modal">{% trans "Ajout Branche" %}</button><br /><br /></div>
+
+<!-- Modal -->
+<div id="branch-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+            <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="dismiss_branch close " data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">{% trans "Gestion Branche" %}</h4>
+                    </div>
+                    <form name="branch_form" action="{% url 'userspace_manage_branches'  %}" method="POST">
+						{% csrf_token %}
+
+						<input type="hidden" name="branch_id" id="branch_id"/>
+                        <div class="modal-body">
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="name"> {% trans "Libellé" %} *</label>
+								<div class="col-lg-9">
+									<input type="text" name="name" id="name" class="form-control" required />
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="city"> {% trans "Ville" %} *</label>
+								<div class="col-lg-9">
+									<select class="required form-control city" name="city" id="city" required>
+										{% for row in cities %}
+											<option value="{{ row.id }}">{{ row.name }}</option>
+										{% endfor %}
+									</select>
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="phone"> {% trans "Contact" %} *</label>
+								<div class="col-lg-9">
+									<input type="text" name="phone" id="phone" class="form-control" required />
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="email"> {% trans "Email" %} *</label>
+								<div class="col-lg-9">
+									<input type="email" name="email" id="email" class="form-control" required />
+								</div>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="col-lg-3 control-label " for="address">{% blocktrans %}Adresse{% endblocktrans %}</label>
+								<div class="col-lg-9">
+									<textarea class="required form-control" rows="5" name="address" id="address" ></textarea>
+								</div>
+							</div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="cancel" class="dismiss_branch btn btn-default waves-effect" data-dismiss="modal">{% trans "Annuler" %}</button>
+							<button type="submit" class="set_branch btn btn-info waves-effect waves-light">{% trans "Soumettre" %}</button>
+                        </div>
+                    </form>
+            </div>
+    </div>
+</div><!-- /.modal -->
+
+<div class="row">
+		<div class="col-sm-12">
+				<div class="card-box table-responsive">
+						<table id="datatable-responsive" class="table table-striped table-bordered-success table-hover table-colored-bordered table-primary">
+								<thead>
+										<tr>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}N°{% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Libellé{% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Contact{% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Email{% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Ville{% endblocktrans %}</th>
+                                            <th style='font-size: 11px; text-align: center;'>{% blocktrans %}Adresse{% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Statut{% endblocktrans %}</th>
+											<th style='font-size: 11px; text-align: center;'>{% blocktrans %}Actions{% endblocktrans %}</th>
+										</tr>
+								</thead>
+
+
+								<tbody>
+									{% for row in branches %}
+										<tr>
+											<td style="font-size: 10px; text-align: center; font-weight: bold;" title="{{ forloop.counter }}" class="tooltip-animation">{{ forloop.counter }}</td>
+											<td style="font-size: 10px; text-align: center; font-weight: bold;" title="{{ row.name }}" class="tooltip-animation">{{ row.name }}</td>
+											<td style="font-size: 10px; text-align: center; font-weight: bold;" title="{{ row.phone }}" class="tooltip-animation">{{ row.phone }}</td>
+											<td style="font-size: 10px; text-align: center; font-weight: bold;" title="{{ row.email }}" class="tooltip-animation">{{ row.email }}</td>
+											<td style="font-size: 10px; text-align: center; font-weight: bold;" title="{{ row.city.name}}" class="tooltip-animation">{{ row.city.name}}</td>
+											<td style="font-size: 10px; text-align: center; font-weight: bold;" title="{{ row.address }}" class="tooltip-animation">{{ row.address|truncatechars:"60" }}</td>
+                                            <td style="font-size: 10px; text-align: center; font-weight: bold;">
+												{% if row.status  %}
+													<span style="color: #21c656;" title="{% trans "Active" %}" class="tooltip-animation">{% trans "Active" %}</span>
+												{% else %}
+													<span style="color: #f22929;" title="{% trans "Inactive" %}" class="tooltip-animation">{% trans "Inactive" %}</span>
+												{% endif %}
+											</td>
+											<td style='text-align: center;'>
+												<button class="btn btn-icon btn-rounded btn-xs waves-effect waves-light btn-info m-b-5 update_branch tooltip-animation" title="{% trans 'Update branch' %}" data-id="{{ row.id }}" data-toggle="modal" data-target="#branch-modal"> <i class="fa fa-edit"></i> </button>&nbsp;
+												{% if row.status %}<a href="{% url 'userspace_disable_branch' row.id %}"><button class="btn btn-icon btn-rounded btn-xs waves-effect waves-light btn-danger m-b-5 disable_branch tooltip-animation" title="{% trans 'Disable Branch' %}" data-id="{{ row.id }}"> <i class="fa fa-trash-o" style="text-align: center;"></i> </button></a>&nbsp;{% endif %}
+												{% if not row.status %}<a href="{% url 'userspace_enable_branch' row.id %}"><button class="btn btn-icon btn-rounded btn-xs waves-effect waves-light btn-success m-b-5 enable_branch tooltip-animation" title="{% trans 'Enable Branch' %}" data-id="{{ row.id }}"> <i class="fa fa-arrow-circle-o-left" style="text-align: center;"></i> </button></a>&nbsp;{% endif %}
+											</td>
+										</tr>
+									{% endfor %}
+								</tbody>
+						</table>
+				</div>
+		</div>
+</div>
+{% endblock %}
+{% block content-second-row %}{% endblock %}
+{% block content-third-row %}{% endblock %}
+
+{# static blocks of page (js, css) #}
+{# css #}
+{% block page_css %}
+	<link href="{% static 'website/back/plugins/datatables/jquery.dataTables.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/buttons.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/fixedHeader.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/responsive.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/scroller.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/dataTables.colVis.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/dataTables.bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+	<link href="{% static 'website/back/plugins/datatables/fixedColumns.dataTables.min.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/core.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/components.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/icons.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/pages.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/menu.css' %}" rel="stylesheet" type="text/css" />
+	<link href="{% static 'website/back/css/responsive.css' %}" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="{% static 'website/back/plugins/switchery/switchery.min.css' %}"/>
+	<link href="{% static 'website/back/plugins/timepicker/bootstrap-timepicker.min.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/clockpicker/css/bootstrap-clockpicker.min.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/bootstrap-daterangepicker/daterangepicker.css' %}" rel="stylesheet">
+	<link href="{% static 'website/back/plugins/bootstrap-sweetalert/sweet-alert.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'website/back/plugins/toastr/toastr.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'website/back/plugins/tooltipster/tooltipster.bundle.min.css' %}" rel="stylesheet" type="text/css" />
+	<script src="{% static 'website/back/js/modernizr.min.js' %}"></script>
+{% endblock %}
+
+{# js #}
+{% block page_js %}
+        <script src="{% static 'website/back/plugins/datatables/jquery.dataTables.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.bootstrap.js' %}"></script>
+
+        <script src="{% static 'website/back/plugins/datatables/dataTables.buttons.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/buttons.bootstrap.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/jszip.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/pdfmake.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/vfs_fonts.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/buttons.html5.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/buttons.print.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.fixedHeader.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.keyTable.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.responsive.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/responsive.bootstrap.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.scroller.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.colVis.js' %}"></script>
+        <script src="{% static 'website/back/plugins/datatables/dataTables.fixedColumns.min.js' %}"></script>
+		<script src="{% static 'website/back/plugins/moment/moment.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/timepicker/bootstrap-timepicker.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/clockpicker/js/bootstrap-clockpicker.min.js' %}"></script>
+     	<script src="{% static 'website/back/plugins/bootstrap-daterangepicker/daterangepicker.js' %}"></script>
+		<script src="{% static 'website/back/plugins/bootstrap-sweetalert/sweet-alert.min.js' %}"></script>
+        <script src="{% static 'website/back/plugins/toastr/toastr.min.js' %}"></script>
+
+        <!-- init -->
+        <script src="{% static 'website/back/pages/jquery.datatables.init.js' %}"></script>
+		<script src="{% static 'website/back/pages/jquery.form-pickers.init.js' %}"></script>
+        <script src="{% static 'website/back/plugins/tooltipster/tooltipster.bundle.min.js' %}"></script>
+        <script src="{% static 'website/back/pages/jquery.tooltipster.js' %}"></script>
+        <script src="{% static 'website/back/pages/actions_alerts.js' %}"></script>
+
+        <!-- App js -->
+        <script src="{% static 'website/back/js/jquery.core.js' %}"></script>
+        <script src="{% static 'website/back/js/jquery.app.js' %}"></script>
+        <script src="{% static 'website/back/js/custom/branch.js' %}"></script>
+        <script src="{% static 'website/back/js/custom/all.js' %}"></script>
+
+        <script>
+ 			$(document).ready(function () {
+                $('#datatable').dataTable();
+                $('#datatable-keytable').DataTable({keys: true});
+                $('#datatable-responsive').DataTable();
+                $('#datatable-colvid').DataTable({
+                    "dom": 'C<"clear">lfrtip',
+                    "colVis": {
+                        "buttonText": "Change columns"
+                    }
+                });
+                $('#datatable-scroller').DataTable({
+                    ajax: "../plugins/datatables/json/scroller-demo.json",
+                    deferRender: true,
+                    scrollY: 380,
+                    scrollCollapse: true,
+                    scroller: true
+                });
+                var table = $('#datatable-fixed-header').DataTable({fixedHeader: true});
+                var table = $('#datatable-fixed-col').DataTable({
+                    scrollY: "300px",
+                    scrollX: true,
+                    scrollCollapse: true,
+                    paging: false,
+                    fixedColumns: {
+                        leftColumns: 1,
+                        rightColumns: 1
+                    }
+                });
+            });
+            TableManageButtons.init();
+        </script>
+{%  endblock %}

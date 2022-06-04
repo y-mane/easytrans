@@ -1,0 +1,19 @@
+{% extends 'oauth/v2/root.html' %}
+{% load i18n %}
+
+
+{% block page_links %}
+<div class="page-links">
+    <a href="{% url 'auth_login' %}" >{% trans "Login" %}</a><a href="{% url 'auth_signup' %}" class="active">{% trans "Register" %}</a>
+</div>
+{% endblock %}
+{% block form %}
+<form>
+    <input class="form-control" type="text" name="name" placeholder="{% trans 'Full Name' %}" required>
+    <input class="form-control" type="email" name="email" placeholder="{% trans 'E-mail' %}" required>
+    <input class="form-control" type="password" name="password" placeholder="{% trans 'Password' %}" required>
+    <div class="form-button">
+        <button id="submit" type="submit" class="ibtn">{% trans 'Register' %}</button>
+    </div>
+</form>
+{% endblock %}

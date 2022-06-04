@@ -1,0 +1,16 @@
+{% extends "root/root_errors.html" %}
+{% load i18n %}
+
+{% block error_number %}403{% endblock %}
+{% block error_description %} {% trans "Ooooops! Accès Interdit" %} {% endblock %}
+{% block error_advice %}  {% trans "Il semble que le Serveur ait refusé d'exécuter cette action pour des raisons de securité. Nous vous invitons à retourner à" %}
+    {% if request.META.HTTP_REFERER is None %}
+        <a href="{% url 'landing_index' %}"> {% trans " l'Accueil" %}.</a>
+    {% else %}
+        <a href="{{ request.META.HTTP_REFERER }}"> {% trans " la Page Précédente" %}.</a>
+    {% endif %}
+{% endblock %}
+
+
+{% block search %}{% endblock %}
+{% block copyrights %}{% endblock %}

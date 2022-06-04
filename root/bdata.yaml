@@ -1,0 +1,4923 @@
+- model: contenttypes.contenttype
+  pk: 1
+  fields:
+    app_label: admin
+    model: logentry
+- model: contenttypes.contenttype
+  pk: 2
+  fields:
+    app_label: auth
+    model: permission
+- model: contenttypes.contenttype
+  pk: 3
+  fields:
+    app_label: auth
+    model: group
+- model: contenttypes.contenttype
+  pk: 4
+  fields:
+    app_label: auth
+    model: user
+- model: contenttypes.contenttype
+  pk: 5
+  fields:
+    app_label: contenttypes
+    model: contenttype
+- model: contenttypes.contenttype
+  pk: 6
+  fields:
+    app_label: sessions
+    model: session
+- model: contenttypes.contenttype
+  pk: 7
+  fields:
+    app_label: authtoken
+    model: token
+- model: contenttypes.contenttype
+  pk: 8
+  fields:
+    app_label: core
+    model: notification
+- model: contenttypes.contenttype
+  pk: 9
+  fields:
+    app_label: core
+    model: notificationtype
+- model: contenttypes.contenttype
+  pk: 10
+  fields:
+    app_label: core
+    model: ticket
+- model: contenttypes.contenttype
+  pk: 11
+  fields:
+    app_label: core
+    model: ticketcategory
+- model: contenttypes.contenttype
+  pk: 12
+  fields:
+    app_label: core
+    model: ticketcontent
+- model: contenttypes.contenttype
+  pk: 13
+  fields:
+    app_label: core
+    model: tickettype
+- model: contenttypes.contenttype
+  pk: 14
+  fields:
+    app_label: oauth
+    model: branch
+- model: contenttypes.contenttype
+  pk: 15
+  fields:
+    app_label: oauth
+    model: city
+- model: contenttypes.contenttype
+  pk: 16
+  fields:
+    app_label: oauth
+    model: paramcountbranches
+- model: contenttypes.contenttype
+  pk: 17
+  fields:
+    app_label: oauth
+    model: profile
+- model: contenttypes.contenttype
+  pk: 18
+  fields:
+    app_label: oauth
+    model: signature
+- model: contenttypes.contenttype
+  pk: 19
+  fields:
+    app_label: oauth
+    model: town
+- model: contenttypes.contenttype
+  pk: 20
+  fields:
+    app_label: oauth
+    model: userboardpermission
+- model: contenttypes.contenttype
+  pk: 21
+  fields:
+    app_label: oauth
+    model: userlang
+- model: contenttypes.contenttype
+  pk: 22
+  fields:
+    app_label: oauth
+    model: userrecover
+- model: contenttypes.contenttype
+  pk: 23
+  fields:
+    app_label: request
+    model: request
+- model: sessions.session
+  pk: 1fxhlridyql6i5barrwgpw3lbl0m5nfj
+  fields:
+    session_data: OTE2MjZlMTE3OGNjOWJmYTNmNjQ4Mzk5NDE5NDRhMzI2MjU4OWUzYTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmYWMxYTFlYzFkMTkwMWM2N2YwMmJkNzgwZWUwM2Q2MTA0N2ZmMWMyIiwiX3Nlc3Npb25fc2VjdXJpdHkiOiIyMDIwLTA4LTEzVDA2OjEwOjAwLjEzOTU2NyJ9
+    expire_date: 2020-08-27 06:10:00.144254+00:00
+- model: oauth.city
+  pk: 1
+  fields:
+    name: Abidjan
+    reference: CITY-0001
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      tempus, nulla non sodales pulvinar, tortor mi pellentesque sapien, ac faucibus
+      nulla lectus vitae nisi. Vestibulum et magna lorem. Maecenas tristique faucibus
+      lacus sit amet scelerisque. Aenean ullamcorper augue nisl, eget fermentum neque
+      finibus quis. Sed orci erat, porta eget mattis sit amet, interdum quis tellus.
+      Suspendisse potenti. In imperdiet suscipit dapibus. Mauris aliquam dapibus nulla,
+      id pulvinar leo pulvinar vel. Sed vestibulum justo at ultrices elementum. Duis
+      sit amet vulputate leo. Phasellus non tincidunt enim. Suspendisse sit amet purus
+      vel risus cursus placerat. Maecenas sed ipsum ut metus tempor tincidunt. Curabitur
+      vestibulum vestibulum ornare. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Fusce eu nibh ut risus bibendum facilisis.
+    status: true
+- model: oauth.branch
+  pk: 1
+  fields:
+    name: Agence Principale
+    internal_reference: 6844ecf8-dcbd-11ea-a884-406c8f432401
+    reference: BR-001
+    code: '001'
+    status: true
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      tempus, nulla non sodales pulvinar, tortor mi pellentesque sapien, ac faucibus
+      nulla lectus vitae nisi. Vestibulum et magna lorem. Maecenas tristique faucibus
+      lacus sit amet scelerisque. Aenean ullamcorper augue nisl, eget fermentum neque
+      finibus quis. Sed orci erat, porta eget mattis sit amet, interdum quis tellus.
+      Suspendisse potenti. In imperdiet suscipit dapibus. Mauris aliquam dapibus nulla,
+      id pulvinar leo pulvinar vel. Sed vestibulum justo at ultrices elementum. Duis
+      sit amet vulputate leo. Phasellus non tincidunt enim. Suspendisse sit amet purus
+      vel risus cursus placerat. Maecenas sed ipsum ut metus tempor tincidunt. Curabitur
+      vestibulum vestibulum ornare. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Fusce eu nibh ut risus bibendum facilisis.
+    created_at: 2020-08-12
+    updated_at: 2020-08-12
+    phone: 09430661
+    email: contact@mks-soft-technologies.com
+    address: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus,
+      nulla non sodales pulvinar, tortor mi pellentesque sapien, ac faucibus nulla
+      lectus vitae nisi. Vestibulum et magna lorem. Maecenas tristique faucibus lacus
+      sit amet scelerisque. Aenean ullamcorper augue nisl, eget fermentum neque finibus
+      quis. Sed orci erat, porta eget mattis sit amet, interdum quis tellus. Suspendisse
+      potenti. In imperdiet suscipit dapibus. Mauris aliquam dapibus nulla, id pulvinar
+      leo pulvinar vel. Sed vestibulum justo at ultrices elementum. Duis sit amet
+      vulputate leo. Phasellus non tincidunt enim. Suspendisse sit amet purus vel
+      risus cursus placerat. Maecenas sed ipsum ut metus tempor tincidunt. Curabitur
+      vestibulum vestibulum ornare. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit. Fusce eu nibh ut risus bibendum facilisis.
+    city: 1
+- model: oauth.paramcountbranches
+  pk: 1
+  fields:
+    count: 1
+- model: auth.permission
+  pk: 1
+  fields:
+    name: Can add log entry
+    content_type: 1
+    codename: add_logentry
+- model: auth.permission
+  pk: 2
+  fields:
+    name: Can change log entry
+    content_type: 1
+    codename: change_logentry
+- model: auth.permission
+  pk: 3
+  fields:
+    name: Can delete log entry
+    content_type: 1
+    codename: delete_logentry
+- model: auth.permission
+  pk: 4
+  fields:
+    name: Can view log entry
+    content_type: 1
+    codename: view_logentry
+- model: auth.permission
+  pk: 5
+  fields:
+    name: Can add permission
+    content_type: 2
+    codename: add_permission
+- model: auth.permission
+  pk: 6
+  fields:
+    name: Can change permission
+    content_type: 2
+    codename: change_permission
+- model: auth.permission
+  pk: 7
+  fields:
+    name: Can delete permission
+    content_type: 2
+    codename: delete_permission
+- model: auth.permission
+  pk: 8
+  fields:
+    name: Can view permission
+    content_type: 2
+    codename: view_permission
+- model: auth.permission
+  pk: 9
+  fields:
+    name: Can add group
+    content_type: 3
+    codename: add_group
+- model: auth.permission
+  pk: 10
+  fields:
+    name: Can change group
+    content_type: 3
+    codename: change_group
+- model: auth.permission
+  pk: 11
+  fields:
+    name: Can delete group
+    content_type: 3
+    codename: delete_group
+- model: auth.permission
+  pk: 12
+  fields:
+    name: Can view group
+    content_type: 3
+    codename: view_group
+- model: auth.permission
+  pk: 13
+  fields:
+    name: Can add user
+    content_type: 4
+    codename: add_user
+- model: auth.permission
+  pk: 14
+  fields:
+    name: Can change user
+    content_type: 4
+    codename: change_user
+- model: auth.permission
+  pk: 15
+  fields:
+    name: Can delete user
+    content_type: 4
+    codename: delete_user
+- model: auth.permission
+  pk: 16
+  fields:
+    name: Can view user
+    content_type: 4
+    codename: view_user
+- model: auth.permission
+  pk: 17
+  fields:
+    name: Can add content type
+    content_type: 5
+    codename: add_contenttype
+- model: auth.permission
+  pk: 18
+  fields:
+    name: Can change content type
+    content_type: 5
+    codename: change_contenttype
+- model: auth.permission
+  pk: 19
+  fields:
+    name: Can delete content type
+    content_type: 5
+    codename: delete_contenttype
+- model: auth.permission
+  pk: 20
+  fields:
+    name: Can view content type
+    content_type: 5
+    codename: view_contenttype
+- model: auth.permission
+  pk: 21
+  fields:
+    name: Can add session
+    content_type: 6
+    codename: add_session
+- model: auth.permission
+  pk: 22
+  fields:
+    name: Can change session
+    content_type: 6
+    codename: change_session
+- model: auth.permission
+  pk: 23
+  fields:
+    name: Can delete session
+    content_type: 6
+    codename: delete_session
+- model: auth.permission
+  pk: 24
+  fields:
+    name: Can view session
+    content_type: 6
+    codename: view_session
+- model: auth.permission
+  pk: 25
+  fields:
+    name: Can add Token
+    content_type: 7
+    codename: add_token
+- model: auth.permission
+  pk: 26
+  fields:
+    name: Can change Token
+    content_type: 7
+    codename: change_token
+- model: auth.permission
+  pk: 27
+  fields:
+    name: Can delete Token
+    content_type: 7
+    codename: delete_token
+- model: auth.permission
+  pk: 28
+  fields:
+    name: Can view Token
+    content_type: 7
+    codename: view_token
+- model: auth.permission
+  pk: 29
+  fields:
+    name: Can add notification
+    content_type: 8
+    codename: add_notification
+- model: auth.permission
+  pk: 30
+  fields:
+    name: Can change notification
+    content_type: 8
+    codename: change_notification
+- model: auth.permission
+  pk: 31
+  fields:
+    name: Can delete notification
+    content_type: 8
+    codename: delete_notification
+- model: auth.permission
+  pk: 32
+  fields:
+    name: Can view notification
+    content_type: 8
+    codename: view_notification
+- model: auth.permission
+  pk: 33
+  fields:
+    name: Can add Notification Type
+    content_type: 9
+    codename: add_notificationtype
+- model: auth.permission
+  pk: 34
+  fields:
+    name: Can change Notification Type
+    content_type: 9
+    codename: change_notificationtype
+- model: auth.permission
+  pk: 35
+  fields:
+    name: Can delete Notification Type
+    content_type: 9
+    codename: delete_notificationtype
+- model: auth.permission
+  pk: 36
+  fields:
+    name: Can view Notification Type
+    content_type: 9
+    codename: view_notificationtype
+- model: auth.permission
+  pk: 37
+  fields:
+    name: Can add ticket
+    content_type: 10
+    codename: add_ticket
+- model: auth.permission
+  pk: 38
+  fields:
+    name: Can change ticket
+    content_type: 10
+    codename: change_ticket
+- model: auth.permission
+  pk: 39
+  fields:
+    name: Can delete ticket
+    content_type: 10
+    codename: delete_ticket
+- model: auth.permission
+  pk: 40
+  fields:
+    name: Can view ticket
+    content_type: 10
+    codename: view_ticket
+- model: auth.permission
+  pk: 41
+  fields:
+    name: Can add Ticket Category
+    content_type: 11
+    codename: add_ticketcategory
+- model: auth.permission
+  pk: 42
+  fields:
+    name: Can change Ticket Category
+    content_type: 11
+    codename: change_ticketcategory
+- model: auth.permission
+  pk: 43
+  fields:
+    name: Can delete Ticket Category
+    content_type: 11
+    codename: delete_ticketcategory
+- model: auth.permission
+  pk: 44
+  fields:
+    name: Can view Ticket Category
+    content_type: 11
+    codename: view_ticketcategory
+- model: auth.permission
+  pk: 45
+  fields:
+    name: Can add ticket content
+    content_type: 12
+    codename: add_ticketcontent
+- model: auth.permission
+  pk: 46
+  fields:
+    name: Can change ticket content
+    content_type: 12
+    codename: change_ticketcontent
+- model: auth.permission
+  pk: 47
+  fields:
+    name: Can delete ticket content
+    content_type: 12
+    codename: delete_ticketcontent
+- model: auth.permission
+  pk: 48
+  fields:
+    name: Can view ticket content
+    content_type: 12
+    codename: view_ticketcontent
+- model: auth.permission
+  pk: 49
+  fields:
+    name: Can add Ticket Type
+    content_type: 13
+    codename: add_tickettype
+- model: auth.permission
+  pk: 50
+  fields:
+    name: Can change Ticket Type
+    content_type: 13
+    codename: change_tickettype
+- model: auth.permission
+  pk: 51
+  fields:
+    name: Can delete Ticket Type
+    content_type: 13
+    codename: delete_tickettype
+- model: auth.permission
+  pk: 52
+  fields:
+    name: Can view Ticket Type
+    content_type: 13
+    codename: view_tickettype
+- model: auth.permission
+  pk: 53
+  fields:
+    name: Can add branch
+    content_type: 14
+    codename: add_branch
+- model: auth.permission
+  pk: 54
+  fields:
+    name: Can change branch
+    content_type: 14
+    codename: change_branch
+- model: auth.permission
+  pk: 55
+  fields:
+    name: Can delete branch
+    content_type: 14
+    codename: delete_branch
+- model: auth.permission
+  pk: 56
+  fields:
+    name: Can view branch
+    content_type: 14
+    codename: view_branch
+- model: auth.permission
+  pk: 57
+  fields:
+    name: Can add Ville
+    content_type: 15
+    codename: add_city
+- model: auth.permission
+  pk: 58
+  fields:
+    name: Can change Ville
+    content_type: 15
+    codename: change_city
+- model: auth.permission
+  pk: 59
+  fields:
+    name: Can delete Ville
+    content_type: 15
+    codename: delete_city
+- model: auth.permission
+  pk: 60
+  fields:
+    name: Can view Ville
+    content_type: 15
+    codename: view_city
+- model: auth.permission
+  pk: 61
+  fields:
+    name: Can add param count branches
+    content_type: 16
+    codename: add_paramcountbranches
+- model: auth.permission
+  pk: 62
+  fields:
+    name: Can change param count branches
+    content_type: 16
+    codename: change_paramcountbranches
+- model: auth.permission
+  pk: 63
+  fields:
+    name: Can delete param count branches
+    content_type: 16
+    codename: delete_paramcountbranches
+- model: auth.permission
+  pk: 64
+  fields:
+    name: Can view param count branches
+    content_type: 16
+    codename: view_paramcountbranches
+- model: auth.permission
+  pk: 65
+  fields:
+    name: Can add User
+    content_type: 17
+    codename: add_profile
+- model: auth.permission
+  pk: 66
+  fields:
+    name: Can change User
+    content_type: 17
+    codename: change_profile
+- model: auth.permission
+  pk: 67
+  fields:
+    name: Can delete User
+    content_type: 17
+    codename: delete_profile
+- model: auth.permission
+  pk: 68
+  fields:
+    name: Can view User
+    content_type: 17
+    codename: view_profile
+- model: auth.permission
+  pk: 69
+  fields:
+    name: Can add signature
+    content_type: 18
+    codename: add_signature
+- model: auth.permission
+  pk: 70
+  fields:
+    name: Can change signature
+    content_type: 18
+    codename: change_signature
+- model: auth.permission
+  pk: 71
+  fields:
+    name: Can delete signature
+    content_type: 18
+    codename: delete_signature
+- model: auth.permission
+  pk: 72
+  fields:
+    name: Can view signature
+    content_type: 18
+    codename: view_signature
+- model: auth.permission
+  pk: 73
+  fields:
+    name: Can add Quartier / Commune
+    content_type: 19
+    codename: add_town
+- model: auth.permission
+  pk: 74
+  fields:
+    name: Can change Quartier / Commune
+    content_type: 19
+    codename: change_town
+- model: auth.permission
+  pk: 75
+  fields:
+    name: Can delete Quartier / Commune
+    content_type: 19
+    codename: delete_town
+- model: auth.permission
+  pk: 76
+  fields:
+    name: Can view Quartier / Commune
+    content_type: 19
+    codename: view_town
+- model: auth.permission
+  pk: 77
+  fields:
+    name: Can add userboard permission
+    content_type: 20
+    codename: add_userboardpermission
+- model: auth.permission
+  pk: 78
+  fields:
+    name: Can change userboard permission
+    content_type: 20
+    codename: change_userboardpermission
+- model: auth.permission
+  pk: 79
+  fields:
+    name: Can delete userboard permission
+    content_type: 20
+    codename: delete_userboardpermission
+- model: auth.permission
+  pk: 80
+  fields:
+    name: Can view userboard permission
+    content_type: 20
+    codename: view_userboardpermission
+- model: auth.permission
+  pk: 81
+  fields:
+    name: Peut visualiser le Tableau de Bord
+    content_type: 20
+    codename: view_dashboard
+- model: auth.permission
+  pk: 82
+  fields:
+    name: Peut Envoyer des SMS
+    content_type: 20
+    codename: send_short_messages
+- model: auth.permission
+  pk: 83
+  fields:
+    name: Peut envoyer des eMails
+    content_type: 20
+    codename: send_mail
+- model: auth.permission
+  pk: 84
+  fields:
+    name: Can add Langue Utilisateur
+    content_type: 21
+    codename: add_userlang
+- model: auth.permission
+  pk: 85
+  fields:
+    name: Can change Langue Utilisateur
+    content_type: 21
+    codename: change_userlang
+- model: auth.permission
+  pk: 86
+  fields:
+    name: Can delete Langue Utilisateur
+    content_type: 21
+    codename: delete_userlang
+- model: auth.permission
+  pk: 87
+  fields:
+    name: Can view Langue Utilisateur
+    content_type: 21
+    codename: view_userlang
+- model: auth.permission
+  pk: 88
+  fields:
+    name: "Can add Code R\xE9cup\xE9ration"
+    content_type: 22
+    codename: add_userrecover
+- model: auth.permission
+  pk: 89
+  fields:
+    name: "Can change Code R\xE9cup\xE9ration"
+    content_type: 22
+    codename: change_userrecover
+- model: auth.permission
+  pk: 90
+  fields:
+    name: "Can delete Code R\xE9cup\xE9ration"
+    content_type: 22
+    codename: delete_userrecover
+- model: auth.permission
+  pk: 91
+  fields:
+    name: "Can view Code R\xE9cup\xE9ration"
+    content_type: 22
+    codename: view_userrecover
+- model: auth.permission
+  pk: 92
+  fields:
+    name: Can add request
+    content_type: 23
+    codename: add_request
+- model: auth.permission
+  pk: 93
+  fields:
+    name: Can change request
+    content_type: 23
+    codename: change_request
+- model: auth.permission
+  pk: 94
+  fields:
+    name: Can delete request
+    content_type: 23
+    codename: delete_request
+- model: auth.permission
+  pk: 95
+  fields:
+    name: Can view request
+    content_type: 23
+    codename: view_request
+- model: auth.permission
+  pk: 96
+  fields:
+    name: "Peut cr\xE9er des Utilisateurs"
+    content_type: 20
+    codename: can_create_user
+- model: auth.group
+  pk: 1
+  fields:
+    name: admin
+    permissions:
+    - 83
+    - 82
+    - 81
+- model: auth.group
+  pk: 2
+  fields:
+    name: manager
+    permissions:
+    - 83
+    - 82
+    - 81
+- model: auth.group
+  pk: 3
+  fields:
+    name: user
+    permissions: []
+- model: auth.user
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$180000$HsQfA4tGXeU2$sisv+zKxyB4hAIeAtZxe73aPQGDDlPFZBOyzzvtKMq4=
+    last_login: 2020-08-13 06:07:38+00:00
+    is_superuser: true
+    username: ksalomon
+    first_name: MKS SOFT
+    last_name: TECHNOLOGIES
+    email: ksalomon@mks-soft-technologies.com
+    is_staff: true
+    is_active: true
+    date_joined: 2020-08-12 16:42:23+00:00
+    groups: []
+    user_permissions: []
+- model: auth.user
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$180000$MCvkQ4eJg1Oe$xRxtFLoTlvnMhXGHnCn3NhpVZ3bwG4fSwYi21xIUpjI=
+    last_login: 2020-08-12 18:05:13.399204+00:00
+    is_superuser: false
+    username: kayla
+    first_name: Dilshad Kayla
+    last_name: MAGASSOUBA
+    email: contact@mks-soft-technologies.com
+    is_staff: true
+    is_active: true
+    date_joined: 2020-08-12 16:58:37+00:00
+    groups:
+    - 1
+    user_permissions:
+    - 96
+- model: oauth.profile
+  pk: 1
+  fields:
+    user: 1
+    uid: 15815091-5581-433e-a5ab-d36fc56bfdb6
+    work_phone: 09430661
+    home_phone: '75666207'
+    location: Mauris aliquam dapibus nulla, id pulvinar leo pulvinar vel. Sed vestibulum
+      justo at ultrices elementum. Duis sit amet vulputate leo. Phasellus non tincidunt
+      enim. Suspendisse sit amet purus vel risus cursus placerat. Maecenas sed ipsum
+      ut metus tempor tincidunt. Curabitur vestibulum vestibulum ornare. Lorem ipsum
+      dolor sit amet, consectetur adipiscing elit. Fusce eu nibh ut risus bibendum
+      facilisis.
+    id_proof: C01051362
+    branch: null
+    status: true
+- model: oauth.profile
+  pk: 2
+  fields:
+    user: 2
+    uid: 61d23aa3-381a-4c35-85c9-45a67318d0be
+    work_phone: 09430661
+    home_phone: '75666207'
+    location: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+      tempus, nulla non sodales pulvinar, tortor mi pellentesque sapien, ac faucibus
+      nulla lectus vitae nisi. Vestibulum et magna lorem. Maecenas tristique faucibus
+      lacus sit amet scelerisque. Aenean ullamcorper augue nisl, eget fermentum neque
+      finibus quis. Sed orci erat, porta eget mattis sit amet, interdum quis tellus.
+      Suspendisse potenti. In imperdiet suscipit dapibus.
+    id_proof: C0105136215
+    branch: 1
+    status: true
+- model: request.request
+  pk: 1
+  fields:
+    response: 500
+    method: GET
+    path: /
+    time: 2020-08-12 16:40:04.454961+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 2
+  fields:
+    response: 404
+    method: GET
+    path: /favicon.ico
+    time: 2020-08-12 16:40:06.368880+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 3
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 16:40:48.595047+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 4
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 16:41:12.561406+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 5
+  fields:
+    response: 302
+    method: GET
+    path: /st-backoffice/
+    time: 2020-08-12 16:42:52.137358+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 6
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/login/
+    time: 2020-08-12 16:42:52.177861+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 7
+  fields:
+    response: 302
+    method: POST
+    path: /st-backoffice/login/
+    time: 2020-08-12 16:42:56.101215+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/login/?next=/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 8
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/
+    time: 2020-08-12 16:42:56.157691+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/login/?next=/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 9
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/auth/group/
+    time: 2020-08-12 16:43:05.257524+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 10
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:43:05.359316+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 11
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/auth/group/add/
+    time: 2020-08-12 16:43:07.468426+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 12
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:43:07.554918+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 13
+  fields:
+    response: 302
+    method: POST
+    path: /st-backoffice/auth/group/add/
+    time: 2020-08-12 16:51:37.567389+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 14
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/auth/group/add/
+    time: 2020-08-12 16:51:37.646310+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 15
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:51:37.717300+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 16
+  fields:
+    response: 302
+    method: POST
+    path: /st-backoffice/auth/group/add/
+    time: 2020-08-12 16:51:50.963471+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 17
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/auth/group/add/
+    time: 2020-08-12 16:51:51.041105+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 18
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:51:51.113977+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 19
+  fields:
+    response: 302
+    method: POST
+    path: /st-backoffice/auth/group/add/
+    time: 2020-08-12 16:57:54.684698+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 20
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/auth/group/
+    time: 2020-08-12 16:57:54.805738+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 21
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:57:54.880599+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 22
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/
+    time: 2020-08-12 16:58:00.411456+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/group/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 23
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/auth/user/
+    time: 2020-08-12 16:58:02.060105+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 24
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:58:02.129894+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 25
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/auth/user/add/
+    time: 2020-08-12 16:58:04.210491+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 26
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:58:04.292492+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/user/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 27
+  fields:
+    response: 302
+    method: POST
+    path: /st-backoffice/auth/user/add/
+    time: 2020-08-12 16:58:37.620731+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/user/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 28
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/auth/user/2/change/
+    time: 2020-08-12 16:58:37.771563+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/user/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 29
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:58:37.899072+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 30
+  fields:
+    response: 302
+    method: POST
+    path: /st-backoffice/auth/user/2/change/
+    time: 2020-08-12 16:59:02.414731+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 31
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/auth/user/
+    time: 2020-08-12 16:59:02.488597+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 32
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:59:02.564183+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 33
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/logout/
+    time: 2020-08-12 16:59:07.205122+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-backoffice/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 34
+  fields:
+    response: 302
+    method: GET
+    path: /st-backoffice/
+    time: 2020-08-12 16:59:08.858950+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-backoffice/logout/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 35
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/login/
+    time: 2020-08-12 16:59:08.895326+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-backoffice/logout/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 36
+  fields:
+    response: 302
+    method: POST
+    path: /st-backoffice/login/
+    time: 2020-08-12 16:59:18.338239+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/st-backoffice/login/?next=/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 37
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/
+    time: 2020-08-12 16:59:18.404769+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/st-backoffice/login/?next=/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 38
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/logout/
+    time: 2020-08-12 16:59:24.584758+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 39
+  fields:
+    response: 302
+    method: GET
+    path: /st-backoffice/
+    time: 2020-08-12 16:59:26.651145+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-backoffice/logout/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 40
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/login/
+    time: 2020-08-12 16:59:26.687511+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-backoffice/logout/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 41
+  fields:
+    response: 302
+    method: POST
+    path: /st-backoffice/login/
+    time: 2020-08-12 16:59:30.123257+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/login/?next=/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 42
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/
+    time: 2020-08-12 16:59:30.171135+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/login/?next=/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 43
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/oauth/branch/add/
+    time: 2020-08-12 16:59:40.570987+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 44
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 16:59:40.665309+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/branch/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 45
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/oauth/city/add/
+    time: 2020-08-12 17:00:46.721388+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/branch/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 46
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 17:00:46.818498+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/city/add/?_to_field=id&_popup=1
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 47
+  fields:
+    response: 200
+    method: POST
+    path: /st-backoffice/oauth/city/add/
+    time: 2020-08-12 17:01:02.024196+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/city/add/?_to_field=id&_popup=1
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 48
+  fields:
+    response: 302
+    method: POST
+    path: /st-backoffice/oauth/branch/add/
+    time: 2020-08-12 17:01:04.470085+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/branch/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 49
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/oauth/branch/
+    time: 2020-08-12 17:01:04.548043+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/branch/add/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 50
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 17:01:04.618584+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/branch/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 51
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/oauth/
+    time: 2020-08-12 17:01:09.670152+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/branch/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 52
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/oauth/branch/
+    time: 2020-08-12 17:01:56.473343+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 53
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 17:01:56.526904+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/branch/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 54
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/oauth/branch/
+    time: 2020-08-12 17:06:56.759868+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 55
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 17:06:56.839440+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/branch/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 56
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/oauth/branch/
+    time: 2020-08-12 17:07:00.272690+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 57
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/jsi18n/
+    time: 2020-08-12 17:07:00.323354+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-backoffice/oauth/branch/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 58
+  fields:
+    response: 200
+    method: GET
+    path: /st-backoffice/logout/
+    time: 2020-08-12 17:07:10.836370+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-backoffice/oauth/branch/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 59
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 17:07:19.839050+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 60
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 17:07:47.331240+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 61
+  fields:
+    response: 500
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 17:07:47.488539+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 62
+  fields:
+    response: 500
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 17:09:55.434041+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 63
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 17:10:31.917968+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 64
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:10:51.164747+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 65
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:10:51.614503+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 66
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:22:05.109350+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 67
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:22:05.400035+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 68
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:22:32.482330+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 69
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:22:32.706608+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 70
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:22:51.002987+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 71
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:22:51.238447+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 72
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users/2/manage/
+    time: 2020-08-12 17:23:04.121529+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 73
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users/2/manage/
+    time: 2020-08-12 17:23:13.983074+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 74
+  fields:
+    response: 302
+    method: GET
+    path: /logout/
+    time: 2020-08-12 17:23:45.797456+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 75
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 17:23:45.815667+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 76
+  fields:
+    response: 302
+    method: GET
+    path: /st-back-office/
+    time: 2020-08-12 17:24:30.712686+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 77
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/login/
+    time: 2020-08-12 17:24:30.757343+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 78
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/login/
+    time: 2020-08-12 17:24:34.769335+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/login/?next=/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 79
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/
+    time: 2020-08-12 17:24:34.825998+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/login/?next=/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 80
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-12 17:24:36.539451+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 81
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-12 17:24:36.653128+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 82
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/2/change/
+    time: 2020-08-12 17:24:39.345657+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 83
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-12 17:24:39.428510+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 84
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/auth/user/2/change/
+    time: 2020-08-12 17:26:09.197841+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 85
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-12 17:26:09.269818+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 86
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-12 17:26:09.346842+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 87
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/logout/
+    time: 2020-08-12 17:26:10.862627+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 88
+  fields:
+    response: 302
+    method: GET
+    path: /st-back-office/
+    time: 2020-08-12 17:26:12.507817+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-back-office/logout/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 89
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/login/
+    time: 2020-08-12 17:26:12.543336+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-back-office/logout/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 90
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/login/
+    time: 2020-08-12 17:26:21.431253+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-back-office/logout/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 91
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/login/
+    time: 2020-08-12 17:26:32.998831+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 92
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 17:26:42.739481+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 93
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 17:26:58.155251+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 94
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 17:26:58.218270+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 95
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:27:02.123124+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 96
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:27:02.437957+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 97
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users/2/manage/
+    time: 2020-08-12 17:27:09.197412+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 98
+  fields:
+    response: 302
+    method: POST
+    path: /manage-users
+    time: 2020-08-12 17:29:39.455205+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 99
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:29:39.558868+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 100
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:29:39.851457+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 101
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/login/
+    time: 2020-08-12 17:30:32.641396+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/login/?next=/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 102
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/
+    time: 2020-08-12 17:30:32.700167+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/login/?next=/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 103
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users/2/manage/
+    time: 2020-08-12 17:31:40.897757+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 104
+  fields:
+    response: 302
+    method: POST
+    path: /manage-users
+    time: 2020-08-12 17:32:10.776258+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 105
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:32:10.945166+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 106
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:32:11.245055+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 107
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users/2/manage/
+    time: 2020-08-12 17:32:14.546357+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 108
+  fields:
+    response: 302
+    method: POST
+    path: /manage-users
+    time: 2020-08-12 17:33:44.019211+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 109
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:33:44.116966+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 110
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:33:44.365126+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 111
+  fields:
+    response: 302
+    method: GET
+    path: /logout/
+    time: 2020-08-12 17:34:33.663460+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 112
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 17:34:33.678747+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 113
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 17:35:07.338415+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 114
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 17:35:07.399938+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 115
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:35:10.655256+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 116
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:35:11.052434+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 117
+  fields:
+    response: 500
+    method: GET
+    path: /profile/
+    time: 2020-08-12 17:35:15.599171+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 118
+  fields:
+    response: 200
+    method: GET
+    path: /profile/
+    time: 2020-08-12 17:36:33.775149+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 119
+  fields:
+    response: 404
+    method: GET
+    path: /profile/assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:36:33.963458+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 120
+  fields:
+    response: 302
+    method: POST
+    path: /password/update/process/
+    time: 2020-08-12 17:36:50.342569+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 121
+  fields:
+    response: 302
+    method: GET
+    path: /profile/
+    time: 2020-08-12 17:36:50.373413+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 122
+  fields:
+    response: 200
+    method: GET
+    path: /login/
+    time: 2020-08-12 17:36:50.386878+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 123
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 17:36:59.572332+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/login/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 124
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 17:36:59.632159+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/login/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 125
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:37:06.133201+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 126
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:37:06.480800+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 127
+  fields:
+    response: 200
+    method: GET
+    path: /session_security/ping/
+    time: 2020-08-12 17:51:06.279213+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 128
+  fields:
+    response: 200
+    method: GET
+    path: /session_security/ping/
+    time: 2020-08-12 17:51:37.311493+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 129
+  fields:
+    response: 200
+    method: GET
+    path: /session_security/ping/
+    time: 2020-08-12 17:52:37.343654+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 130
+  fields:
+    response: 302
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:52:37.362665+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 131
+  fields:
+    response: 200
+    method: GET
+    path: /login/
+    time: 2020-08-12 17:52:37.400561+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 132
+  fields:
+    response: 200
+    method: POST
+    path: /login/
+    time: 2020-08-12 17:55:29.428504+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/login/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 133
+  fields:
+    response: 302
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-12 17:56:05.439429+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 134
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/login/
+    time: 2020-08-12 17:56:05.479659+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 135
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/login/
+    time: 2020-08-12 17:56:07.578942+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/login/?next=/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 136
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-12 17:56:07.658404+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/login/?next=/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 137
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-12 17:56:07.769815+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 138
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/2/change/
+    time: 2020-08-12 17:56:09.665709+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 139
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-12 17:56:09.773792+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 140
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/2/password/
+    time: 2020-08-12 17:56:14.378425+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 141
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-12 17:56:14.467405+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/2/password/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 142
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/auth/user/2/password/
+    time: 2020-08-12 17:56:29.123979+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/2/password/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 143
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/2/change/
+    time: 2020-08-12 17:56:29.245929+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/2/password/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 144
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-12 17:56:29.350590+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 145
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 17:56:39.126802+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/login/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 146
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 17:56:39.190831+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/login/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 147
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 17:56:43.652089+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 148
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 17:56:43.970355+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 149
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:00:08.107046+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 150
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:00:08.399915+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 151
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:00:09.841570+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 152
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:00:10.061158+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 153
+  fields:
+    response: 302
+    method: GET
+    path: /logout/
+    time: 2020-08-12 18:00:13.890330+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 154
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 18:00:13.901468+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 155
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 18:01:59.521721+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 156
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 18:01:59.592311+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 157
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:02:02.625059+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 158
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:02:02.971143+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 159
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:02:36.208197+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 160
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:02:36.479265+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 161
+  fields:
+    response: 302
+    method: GET
+    path: /logout/
+    time: 2020-08-12 18:03:05.234544+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 162
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 18:03:05.244781+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 163
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 18:03:09.501977+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 164
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 18:03:09.559472+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 165
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:03:12.707383+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 166
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:03:13.022949+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 167
+  fields:
+    response: 500
+    method: GET
+    path: /manage-users-perms/2/manage/
+    time: 2020-08-12 18:03:16.954179+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 168
+  fields:
+    response: 500
+    method: GET
+    path: /manage-users-perms/3/manage/
+    time: 2020-08-12 18:03:21.158877+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 169
+  fields:
+    response: 302
+    method: POST
+    path: /manage-users-permissions/
+    time: 2020-08-12 18:03:24.439062+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 170
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:03:24.531859+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 171
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:03:24.807547+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 172
+  fields:
+    response: 500
+    method: GET
+    path: /manage-users-perms/3/manage/
+    time: 2020-08-12 18:03:30.133694+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 173
+  fields:
+    response: 302
+    method: GET
+    path: /logout/
+    time: 2020-08-12 18:03:34.705429+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 174
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 18:03:34.735411+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 175
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 18:03:38.585559+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 176
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 18:03:38.643837+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 177
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:03:41.762212+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 178
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:03:42.093814+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 179
+  fields:
+    response: 302
+    method: GET
+    path: /logout/
+    time: 2020-08-12 18:05:08.959925+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 180
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 18:05:08.970981+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 181
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 18:05:13.407897+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 182
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 18:05:13.465938+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 183
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:05:16.613713+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 184
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:05:16.943161+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 185
+  fields:
+    response: 500
+    method: GET
+    path: /manage-users-perms/3/manage/
+    time: 2020-08-12 18:05:40.724980+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 186
+  fields:
+    response: 500
+    method: GET
+    path: /manage-users-perms/3/manage/
+    time: 2020-08-12 18:06:13.769385+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 187
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users-perms/3/manage/
+    time: 2020-08-12 18:09:21.268317+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: ''
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 188
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:09:29.655873+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 189
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:09:30.168719+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 190
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users-perms/3/manage/
+    time: 2020-08-12 18:09:33.903163+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 191
+  fields:
+    response: 302
+    method: POST
+    path: /manage-users-permissions/
+    time: 2020-08-12 18:09:42.161232+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 192
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:09:42.253442+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 193
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:09:42.841974+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 194
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users-perms/3/manage/
+    time: 2020-08-12 18:09:49.760130+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: 2
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 195
+  fields:
+    response: 302
+    method: GET
+    path: /logout/
+    time: 2020-08-12 18:09:56.232048+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 196
+  fields:
+    response: 200
+    method: GET
+    path: /
+    time: 2020-08-12 18:09:56.246535+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 197
+  fields:
+    response: 302
+    method: POST
+    path: /login/
+    time: 2020-08-12 18:10:02.152474+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 198
+  fields:
+    response: 200
+    method: GET
+    path: /dashboard
+    time: 2020-08-12 18:10:02.217765+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 199
+  fields:
+    response: 200
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:10:06.802314+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/dashboard
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 200
+  fields:
+    response: 404
+    method: GET
+    path: /assets/images/users/avatar-2.jpg
+    time: 2020-08-12 18:10:07.469314+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 201
+  fields:
+    response: 200
+    method: GET
+    path: /session_security/ping/
+    time: 2020-08-12 18:24:13.593903+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 202
+  fields:
+    response: 200
+    method: GET
+    path: /session_security/ping/
+    time: 2020-08-12 18:31:01.619495+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 203
+  fields:
+    response: 200
+    method: GET
+    path: /session_security/ping/
+    time: 2020-08-12 18:31:02.649269+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 204
+  fields:
+    response: 200
+    method: GET
+    path: /session_security/ping/
+    time: 2020-08-12 18:32:02.685658+00:00
+    is_secure: false
+    is_ajax: true
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 205
+  fields:
+    response: 302
+    method: GET
+    path: /manage-users
+    time: 2020-08-12 18:32:02.698740+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 206
+  fields:
+    response: 200
+    method: GET
+    path: /login/
+    time: 2020-08-12 18:32:02.721097+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/manage-users
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 207
+  fields:
+    response: 302
+    method: GET
+    path: /st-back-office/auth/
+    time: 2020-08-13 06:07:28.914426+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-back-office/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 208
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/login/
+    time: 2020-08-13 06:07:28.971366+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: null
+    referer: http://localhost:8000/st-back-office/auth/user/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 209
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/login/
+    time: 2020-08-13 06:07:38.893514+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/login/?next=/st-back-office/auth/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 210
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/
+    time: 2020-08-13 06:07:38.937752+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/login/?next=/st-back-office/auth/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 211
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:07:41.400741+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 212
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:07:41.523582+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 213
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/1/change/
+    time: 2020-08-13 06:07:44.216057+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 214
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:07:44.316076+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/1/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 215
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/auth/user/1/change/
+    time: 2020-08-13 06:08:03.612979+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/1/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 216
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:08:03.687194+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/1/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 217
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:08:03.762869+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 218
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/
+    time: 2020-08-13 06:08:09.038908+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 219
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/profile/
+    time: 2020-08-13 06:08:14.375329+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 220
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:08:14.472711+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 221
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/profile/1/change/
+    time: 2020-08-13 06:08:16.409756+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 222
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:08:16.492874+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/1/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 223
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/oauth/profile/1/change/
+    time: 2020-08-13 06:08:39.003280+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/1/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 224
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/profile/
+    time: 2020-08-13 06:08:39.081002+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/1/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 225
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:08:39.169027+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 226
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/profile/2/change/
+    time: 2020-08-13 06:08:44.293259+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 227
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:08:44.362562+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 228
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/oauth/profile/2/change/
+    time: 2020-08-13 06:08:58.414166+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 229
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/profile/
+    time: 2020-08-13 06:08:58.482093+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/2/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 230
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:08:58.551481+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 231
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/profile/1/change/
+    time: 2020-08-13 06:09:00.409611+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 232
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:09:00.484293+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/1/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 233
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/oauth/profile/1/change/
+    time: 2020-08-13 06:09:04.309529+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/1/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 234
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/profile/
+    time: 2020-08-13 06:09:04.384397+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/1/change/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 235
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:09:04.465615+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 236
+  fields:
+    response: 200
+    method: POST
+    path: /st-back-office/oauth/profile/
+    time: 2020-08-13 06:09:11.457171+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 237
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/oauth/profile/
+    time: 2020-08-13 06:09:12.806889+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 238
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/profile/
+    time: 2020-08-13 06:09:12.872934+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 239
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:09:12.926249+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 240
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/
+    time: 2020-08-13 06:09:15.070967+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/profile/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 241
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/
+    time: 2020-08-13 06:09:17.627988+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 242
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:09:19.042150+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 243
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:09:19.120189+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 244
+  fields:
+    response: 200
+    method: POST
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:09:24.162731+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 245
+  fields:
+    response: 500
+    method: POST
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:09:27.526558+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 246
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:09:33.016647+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 247
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/
+    time: 2020-08-13 06:09:35.259455+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 248
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/
+    time: 2020-08-13 06:09:36.383917+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 249
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/userlang/
+    time: 2020-08-13 06:09:38.826200+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 250
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:09:38.894721+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/userlang/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 251
+  fields:
+    response: 200
+    method: POST
+    path: /st-back-office/oauth/userlang/
+    time: 2020-08-13 06:09:43.967932+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/userlang/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 252
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/oauth/userlang/
+    time: 2020-08-13 06:09:45.113666+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/userlang/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 253
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/oauth/userlang/
+    time: 2020-08-13 06:09:45.165870+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/userlang/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 254
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:09:45.272144+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/userlang/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 255
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/
+    time: 2020-08-13 06:09:47.149041+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/oauth/userlang/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 256
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:09:48.672984+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 257
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:09:48.738622+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 258
+  fields:
+    response: 200
+    method: POST
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:09:53.768508+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 259
+  fields:
+    response: 302
+    method: POST
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:09:59.983907+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 260
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/auth/user/
+    time: 2020-08-13 06:10:00.061180+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: request.request
+  pk: 261
+  fields:
+    response: 200
+    method: GET
+    path: /st-back-office/jsi18n/
+    time: 2020-08-13 06:10:00.141405+00:00
+    is_secure: false
+    is_ajax: false
+    ip: 127.0.0.1
+    user: 1
+    referer: http://localhost:8000/st-back-office/auth/user/
+    user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.77
+    language: fr-FR,fr;q=0.9,en;q=0.8,en-US;q=0.7
+- model: admin.logentry
+  pk: 1
+  fields:
+    action_time: 2020-08-12 16:51:37.562560+00:00
+    user: 1
+    content_type: 3
+    object_id: '1'
+    object_repr: admin
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 2
+  fields:
+    action_time: 2020-08-12 16:51:50.958414+00:00
+    user: 1
+    content_type: 3
+    object_id: '2'
+    object_repr: manager
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 3
+  fields:
+    action_time: 2020-08-12 16:57:54.661671+00:00
+    user: 1
+    content_type: 3
+    object_id: '3'
+    object_repr: user
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 4
+  fields:
+    action_time: 2020-08-12 16:58:37.615516+00:00
+    user: 1
+    content_type: 4
+    object_id: '2'
+    object_repr: kayla
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 5
+  fields:
+    action_time: 2020-08-12 16:59:02.409637+00:00
+    user: 1
+    content_type: 4
+    object_id: '2'
+    object_repr: kayla
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["First name", "Last name", "Email address",
+      "Staff status", "Groups"]}}]'
+- model: admin.logentry
+  pk: 6
+  fields:
+    action_time: 2020-08-12 17:01:02.017939+00:00
+    user: 1
+    content_type: 15
+    object_id: '1'
+    object_repr: Abidjan
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 7
+  fields:
+    action_time: 2020-08-12 17:01:04.465159+00:00
+    user: 1
+    content_type: 14
+    object_id: '1'
+    object_repr: Agence Principale
+    action_flag: 1
+    change_message: '[{"added": {}}]'
+- model: admin.logentry
+  pk: 8
+  fields:
+    action_time: 2020-08-12 17:26:09.193790+00:00
+    user: 1
+    content_type: 4
+    object_id: '2'
+    object_repr: kayla
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["User permissions"]}}]'
+- model: admin.logentry
+  pk: 9
+  fields:
+    action_time: 2020-08-12 17:56:29.114670+00:00
+    user: 1
+    content_type: 4
+    object_id: '2'
+    object_repr: kayla
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["password"]}}]'
+- model: admin.logentry
+  pk: 10
+  fields:
+    action_time: 2020-08-13 06:08:03.608512+00:00
+    user: 1
+    content_type: 4
+    object_id: '1'
+    object_repr: ksalomon
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["First name", "Last name"]}}]'
+- model: admin.logentry
+  pk: 11
+  fields:
+    action_time: 2020-08-13 06:08:38.998713+00:00
+    user: 1
+    content_type: 17
+    object_id: '1'
+    object_repr: ksalomon
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Contact 1", "Contact 2", "Matricule"]}}]'
+- model: admin.logentry
+  pk: 12
+  fields:
+    action_time: 2020-08-13 06:08:58.410272+00:00
+    user: 1
+    content_type: 17
+    object_id: '2'
+    object_repr: kayla
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Addresse"]}}]'
+- model: admin.logentry
+  pk: 13
+  fields:
+    action_time: 2020-08-13 06:09:04.305136+00:00
+    user: 1
+    content_type: 17
+    object_id: '1'
+    object_repr: ksalomon
+    action_flag: 2
+    change_message: '[{"changed": {"fields": ["Addresse"]}}]'
+- model: admin.logentry
+  pk: 14
+  fields:
+    action_time: 2020-08-13 06:09:12.801769+00:00
+    user: 1
+    content_type: 17
+    object_id: '3'
+    object_repr: jaures.okou
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 15
+  fields:
+    action_time: 2020-08-13 06:09:27.376554+00:00
+    user: 1
+    content_type: 4
+    object_id: '3'
+    object_repr: jaures.okou
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 16
+  fields:
+    action_time: 2020-08-13 06:09:45.108127+00:00
+    user: 1
+    content_type: 21
+    object_id: '1'
+    object_repr: jaures.okou - fr
+    action_flag: 3
+    change_message: ''
+- model: admin.logentry
+  pk: 17
+  fields:
+    action_time: 2020-08-13 06:09:59.960441+00:00
+    user: 1
+    content_type: 4
+    object_id: '3'
+    object_repr: jaures.okou
+    action_flag: 3
+    change_message: ''
