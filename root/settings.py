@@ -31,9 +31,9 @@ BASE_APPS = [
     'django.contrib.staticfiles',
     'livereload',
 ]
-DJANGO_LIVESYNC = {
+"""DJANGO_LIVESYNC = {
     'PORT': 9001 # this is optional and is default set to 9001.
-}
+}"""
 
 P_APPS = env.list('P_APPS', default=list())
 INSTALLED_APPS = BASE_APPS + P_APPS
@@ -74,26 +74,26 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'root.wsgi.application'
-"""DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'easytrans',
+        'NAME': 'easytrans_1',
         'HOST':'localhost',
         'USERNAME':'ymane',
         'PASSWORD':'thelifeislesgigas2020',
         'PORT': '5432',
 
     }
-}"""
+}
 
-DATABASES = {
+"""DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME':os.path.join( BASE_DIR ,'db.sqlite3'),
         'HOST':'localhost',
     },
     
-}
+}"""
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -138,7 +138,7 @@ CORS_ORIGIN_WHITELIST = [
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/1",
+        "LOCATION": "redis://127.0.0.1:6379/1", #6379
         "OPTIONS": {
             "PASSWORD": env('REDIS_PASS'),
             "CLIENT_CLASS": "django_redis.client.DefaultClient"
