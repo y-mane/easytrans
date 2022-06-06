@@ -1,7 +1,9 @@
 import environ
 import os
 import sys
-#from django.utils.translation import gettext_lazy as _ 
+from django.utils.translation import gettext_lazy as _
+#from django.utils.translation import ugettexget_lazy as _
+
 
 BASE_DIR = os.path.dirname(__file__)
 PLATFORM_DIR = os.path.join(BASE_DIR, 'platforms')
@@ -112,7 +114,7 @@ LANGUAGE_CODE = 'fr'
 TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_L10N = True
-USE_TZ = True
+USE_TZ = False
 
 STATIC_URL = '/static/'
 REST_FRAMEWORK = {
