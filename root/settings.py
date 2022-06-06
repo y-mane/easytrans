@@ -27,9 +27,7 @@ BASE_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'livesync',
     'django.contrib.staticfiles',
-    'livereload',
 ]
 """DJANGO_LIVESYNC = {
     'PORT': 9001 # this is optional and is default set to 9001.
@@ -50,10 +48,10 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-MIDDLEWARE_CLASSES = (
+"""MIDDLEWARE_CLASSES = (
     'livereload.middleware.LiveReloadScript',
     'livesync.core.middleware.DjangoLiveSyncMiddleware',
-)
+)"""
 ROOT_URLCONF = 'root.urls'
 TEMPLATES = [
     {
@@ -77,7 +75,7 @@ WSGI_APPLICATION = 'root.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'easytrans_1',
+        'NAME': 'easytrans_2',
         'HOST':'localhost',
         'USERNAME':'ymane',
         'PASSWORD':'thelifeislesgigas2020',
