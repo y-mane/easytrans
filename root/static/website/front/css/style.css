@@ -386,7 +386,7 @@ input.name {
 		font-size: 2.4em;
 	}
 	.agile_form input[type=text] {
-		width: 84%;
+		width: 100%;
 	}
 	.sec-left,.sec-right{
     width: 100%;
@@ -397,7 +397,7 @@ input.name {
 		width: 77%;
 	}	
 	.agile_form input[type=text] {
-		width: 82%;
+		width: 100%;
 	}
 	.section_class_agileits select {
 		font-size: 0.8em;
@@ -411,7 +411,7 @@ input.name {
 }
 @media screen and (max-width: 320px){
 	.agile_form input[type=text] {
-		width: 79%;
+		width: 100%;
 	}
 	ul li .check {
      left: 0px; 
