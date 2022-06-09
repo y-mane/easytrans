@@ -2357,3 +2357,5 @@ AttributeError: 'tuple' object has no attribute 'get'
 [ INFO ][ 2022-06-09 15:20:25,327 ][ autoreload ][ 43983 ][ 140394205251392 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-06-09 15:20:31,605 ][ autoreload ][ 43983 ][ 140394205251392 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-06-09 15:20:32,346 ][ autoreload ][ 44036 ][ 140377509160768 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:24:02,849 ][ autoreload ][ 44036 ][ 140377509160768 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-06-09 15:24:03,532 ][ autoreload ][ 44298 ][ 140520735852352 ] ==> Watching for file changes with StatReloader
