@@ -12,15 +12,16 @@ def success(request):
     }
     return render(request,'website/front/success.html',context)
 
-def failled(request):
+def failled(request,form):
+    
     context={
-        
+        'form':form
     }
     return render(request,'website/front/failled.html',context)
 
-def notification(request,form):
-    print(form.fullname)
+def notification(request):
+    """print(form.fullname)
     context={
         'voyage':form
-    }
-    return render(request,'website/front/notification.html',context)
+    }"""
+    return render(request,'website/front/notification.html')
