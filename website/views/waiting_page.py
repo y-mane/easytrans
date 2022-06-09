@@ -39,6 +39,8 @@ def waiting_page(request):
         'periode':periode
         
     }
+    """if request.method=='POST':
+        return redirect ('notification',voyage)"""
     """if request.method=='POST':      
         #API pour envoyer les sms
             conn = http.client.HTTPConnection("vavasms.com")

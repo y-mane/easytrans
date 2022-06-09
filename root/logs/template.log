@@ -7744,3 +7744,1272 @@ Traceback (most recent call last):
   File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
     raise VariableDoesNotExist("Failed lookup for key "
 django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>
+[ DEBUG ][ 2022-06-09 14:02:14,040 ][ base ] ==> Exception while resolving variable 'txn_status' in template 'website/front/notification.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'txn_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'txn_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'txn_status'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [txn_status] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f76037df160>>, 'request': <WSGIRequest: GET "/payement_state/notification/%7B'fullname':%20'keita2',%20'contact':%20'0708176277',%20'lieu_livraison':%20'koump',%20'compagnie':%20%3CCompagnie:%20SBTA%3E,%20'lieu_depart':%20%3CAgence:%20SBTA-san%20pedro%3E,%20'destination':%20%3CAgence:%20SBTA-yopougon%3E,%20'periode':%20'soir%C3%A9e'%7D">, 'MEDIA_URL': '/media/', 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f76037ced60>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f76037ce250>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f76037cee80>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'APP_TITLE': 'EASYTRANS', 'BASE_SERVER': 'http://localhost:8000', 'USERS_FRONT_PERMS': [{'perm': 'can_create_user', 'name': 'Peut créer et gérer des Utilisateurs'}, {'perm': 'can_create_branch', 'name': 'Peut créer et gérer des Branches'}]}, {}]
+[ DEBUG ][ 2022-06-09 14:02:49,357 ][ base ] ==> Exception while resolving variable 'voyage' in template 'website/front/notification.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [voyage] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f7603773f70>>, 'request': <WSGIRequest: GET "/payement_state/notification/%7B'fullname':%20'keita2',%20'contact':%20'0708176277',%20'lieu_livraison':%20'koump',%20'compagnie':%20%3CCompagnie:%20SBTA%3E,%20'lieu_depart':%20%3CAgence:%20SBTA-san%20pedro%3E,%20'destination':%20%3CAgence:%20SBTA-yopougon%3E,%20'periode':%20'soir%C3%A9e'%7D">, 'MEDIA_URL': '/media/', 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f760894c5b0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f76089044c0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f760894c580>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'APP_TITLE': 'EASYTRANS', 'BASE_SERVER': 'http://localhost:8000', 'USERS_FRONT_PERMS': [{'perm': 'can_create_user', 'name': 'Peut créer et gérer des Utilisateurs'}, {'perm': 'can_create_branch', 'name': 'Peut créer et gérer des Branches'}]}, {}]
+[ DEBUG ][ 2022-06-09 14:02:50,342 ][ base ] ==> Exception while resolving variable 'voyage' in template 'website/front/notification.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [voyage] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f7603773ee0>>, 'request': <WSGIRequest: GET "/payement_state/notification/%7B'fullname':%20'keita2',%20'contact':%20'0708176277',%20'lieu_livraison':%20'koump',%20'compagnie':%20%3CCompagnie:%20SBTA%3E,%20'lieu_depart':%20%3CAgence:%20SBTA-san%20pedro%3E,%20'destination':%20%3CAgence:%20SBTA-yopougon%3E,%20'periode':%20'soir%C3%A9e'%7D">, 'MEDIA_URL': '/media/', 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f76036bf850>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f7608893850>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f76036bfe20>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'APP_TITLE': 'EASYTRANS', 'BASE_SERVER': 'http://localhost:8000', 'USERS_FRONT_PERMS': [{'perm': 'can_create_user', 'name': 'Peut créer et gérer des Utilisateurs'}, {'perm': 'can_create_branch', 'name': 'Peut créer et gérer des Branches'}]}, {}]
+[ DEBUG ][ 2022-06-09 14:02:51,166 ][ base ] ==> Exception while resolving variable 'voyage' in template 'website/front/notification.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [voyage] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f76088a9ca0>>, 'request': <WSGIRequest: GET "/payement_state/notification/%7B'fullname':%20'keita2',%20'contact':%20'0708176277',%20'lieu_livraison':%20'koump',%20'compagnie':%20%3CCompagnie:%20SBTA%3E,%20'lieu_depart':%20%3CAgence:%20SBTA-san%20pedro%3E,%20'destination':%20%3CAgence:%20SBTA-yopougon%3E,%20'periode':%20'soir%C3%A9e'%7D">, 'MEDIA_URL': '/media/', 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f760894c9d0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f76088e4c40>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f760894ce20>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'APP_TITLE': 'EASYTRANS', 'BASE_SERVER': 'http://localhost:8000', 'USERS_FRONT_PERMS': [{'perm': 'can_create_user', 'name': 'Peut créer et gérer des Utilisateurs'}, {'perm': 'can_create_branch', 'name': 'Peut créer et gérer des Branches'}]}, {}]
+[ DEBUG ][ 2022-06-09 14:03:00,242 ][ base ] ==> Exception while resolving variable 'voyage' in template 'website/front/notification.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'voyage'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [voyage] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f76037e88b0>>, 'request': <WSGIRequest: GET "/payement_state/notification/%7B'fullname':%20'keita2',%20'contact':%20'0708176277',%20'lieu_livraison':%20'koump',%20'compagnie':%20%3CCompagnie:%20SBTA%3E,%20'lieu_depart':%20%3CAgence:%20SBTA-san%20pedro%3E,%20'destination':%20%3CAgence:%20SBTA-yopougon%3E,%20'periode':%20'soir%C3%A9e'%7D">, 'MEDIA_URL': '/media/', 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7f76088f2070>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f76037c8490>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f76088f2e20>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'APP_TITLE': 'EASYTRANS', 'BASE_SERVER': 'http://localhost:8000', 'USERS_FRONT_PERMS': [{'perm': 'can_create_user', 'name': 'Peut créer et gérer des Utilisateurs'}, {'perm': 'can_create_branch', 'name': 'Peut créer et gérer des Branches'}]}, {}]
+[ DEBUG ][ 2022-06-09 14:58:14,075 ][ base ] ==> Exception while resolving variable 'id' in template 'website/front/frontspace.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'BoundWidget' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'BoundWidget' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [id] in <django.forms.boundfield.BoundWidget object at 0x7ff4c8e04e50>
+[ DEBUG ][ 2022-06-09 14:58:16,747 ][ base ] ==> Exception while resolving variable 'id' in template 'website/front/frontspace.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'BoundWidget' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'BoundWidget' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [id] in <django.forms.boundfield.BoundWidget object at 0x7ff4c8360d90>
+[ DEBUG ][ 2022-06-09 14:59:04,727 ][ base ] ==> Exception while resolving variable 'id' in template 'website/front/frontspace.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'BoundWidget' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'BoundWidget' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [id] in <django.forms.boundfield.BoundWidget object at 0x7f6efa5c0c10>
+[ DEBUG ][ 2022-06-09 14:59:04,907 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>
+[ DEBUG ][ 2022-06-09 14:59:04,908 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>
+[ DEBUG ][ 2022-06-09 14:59:04,910 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>
+[ DEBUG ][ 2022-06-09 14:59:04,911 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>
+[ DEBUG ][ 2022-06-09 14:59:04,912 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>
+[ DEBUG ][ 2022-06-09 14:59:04,913 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>
+[ DEBUG ][ 2022-06-09 14:59:04,915 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>
+[ DEBUG ][ 2022-06-09 14:59:04,916 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>
+[ DEBUG ][ 2022-06-09 14:59:04,918 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>
+[ DEBUG ][ 2022-06-09 15:06:03,111 ][ base ] ==> Exception while resolving variable 'id' in template 'website/front/frontspace.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'BoundWidget' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'BoundWidget' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [id] in <django.forms.boundfield.BoundWidget object at 0x7f76ece09160>
+[ DEBUG ][ 2022-06-09 15:06:03,338 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>
+[ DEBUG ][ 2022-06-09 15:06:03,340 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>
+[ DEBUG ][ 2022-06-09 15:06:03,342 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>
+[ DEBUG ][ 2022-06-09 15:06:03,343 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>
+[ DEBUG ][ 2022-06-09 15:06:03,345 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>
+[ DEBUG ][ 2022-06-09 15:06:03,346 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>
+[ DEBUG ][ 2022-06-09 15:06:03,348 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>
+[ DEBUG ][ 2022-06-09 15:06:03,349 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>
+[ DEBUG ][ 2022-06-09 15:06:03,352 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>
+[ DEBUG ][ 2022-06-09 15:06:39,376 ][ base ] ==> Exception while resolving variable 'id' in template 'website/front/frontspace.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'BoundWidget' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'BoundWidget' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [id] in <django.forms.boundfield.BoundWidget object at 0x7f5fc446aa30>
+[ DEBUG ][ 2022-06-09 15:06:39,497 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>
+[ DEBUG ][ 2022-06-09 15:06:39,502 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>
+[ DEBUG ][ 2022-06-09 15:06:39,503 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>
+[ DEBUG ][ 2022-06-09 15:06:39,506 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>
+[ DEBUG ][ 2022-06-09 15:06:39,508 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>
+[ DEBUG ][ 2022-06-09 15:06:39,510 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>
+[ DEBUG ][ 2022-06-09 15:06:39,512 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>
+[ DEBUG ][ 2022-06-09 15:06:39,513 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>
+[ DEBUG ][ 2022-06-09 15:06:39,515 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.payement_state' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py'> (None:None) 'payement_state/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/userspace.py'> (None:None) 'back-office/'>

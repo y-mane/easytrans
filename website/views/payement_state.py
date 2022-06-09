@@ -18,9 +18,9 @@ def failled(request):
     }
     return render(request,'website/front/failled.html',context)
 
-def notification(request,txn_status):
-    print(txn_status)
+def notification(request,form):
+    print(form.fullname)
     context={
-        
+        'voyage':form
     }
     return render(request,'website/front/notification.html',context)
