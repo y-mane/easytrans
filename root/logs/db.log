@@ -2675,3 +2675,113 @@
                 AND pg_catalog.pg_table_is_visible(c.oid)
         ; args=None
 [ DEBUG ][ 2022-06-09 15:13:02,282 ][ utils ] ==> (0.003) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:18:14,194 ][ utils ] ==> (0.005) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:18:14,200 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:18:27,710 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:18:27,715 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:18:30,580 ][ utils ] ==> (0.004) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:18:30,589 ][ utils ] ==> (0.003) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:18:47,487 ][ utils ] ==> (0.005) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:18:47,492 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:18:59,070 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:18:59,074 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:19:49,849 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:19:49,854 ][ utils ] ==> (0.002) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:20:14,419 ][ utils ] ==> (0.004) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:20:14,423 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:20:18,357 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:20:18,361 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:20:23,355 ][ utils ] ==> (0.005) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:20:23,358 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:20:26,013 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:20:26,016 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-09 15:20:33,119 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-09 15:20:33,123 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()

@@ -5,17 +5,17 @@ from start_form.forms import VoyageForm
 
 
 
-def success(request):
-    
-    context={
-        
-    }
-    return render(request,'website/front/success.html',context)
-
-def failled(request,form):
+def success(request,form):
     
     context={
         'form':form
+    }
+    return render(request,'website/front/success.html',context)
+
+def failled(request):
+
+    context={
+        
     }
     return render(request,'website/front/failled.html',context)
 

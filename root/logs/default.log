@@ -2335,3 +2335,25 @@ AttributeError: 'tuple' object has no attribute 'get'
 [ INFO ][ 2022-06-09 15:12:58,637 ][ autoreload ][ 43048 ][ 140144634914624 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-06-09 15:13:00,870 ][ autoreload ][ 43048 ][ 140144634914624 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-06-09 15:13:01,568 ][ autoreload ][ 43075 ][ 140080012420928 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:18:12,390 ][ autoreload ][ 43075 ][ 140080012420928 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:18:13,308 ][ autoreload ][ 43456 ][ 139762418620224 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:18:26,294 ][ autoreload ][ 43456 ][ 139762418620224 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:18:26,957 ][ autoreload ][ 43522 ][ 140626196596544 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:18:28,969 ][ autoreload ][ 43522 ][ 140626196596544 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:18:29,640 ][ autoreload ][ 43552 ][ 140161601808192 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:18:45,992 ][ autoreload ][ 43552 ][ 140161601808192 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:18:46,726 ][ autoreload ][ 43606 ][ 140637165418304 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:18:57,528 ][ autoreload ][ 43606 ][ 140637165418304 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-06-09 15:18:58,293 ][ autoreload ][ 43675 ][ 139840439473984 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:19:48,146 ][ autoreload ][ 43675 ][ 139840439473984 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:19:48,914 ][ autoreload ][ 43805 ][ 140616591828800 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:20:13,012 ][ autoreload ][ 43805 ][ 140616591828800 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:20:13,667 ][ autoreload ][ 43886 ][ 140268920768320 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:20:16,821 ][ autoreload ][ 43886 ][ 140268920768320 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:20:17,579 ][ autoreload ][ 43923 ][ 139959283091264 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:20:21,777 ][ autoreload ][ 43923 ][ 139959283091264 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:20:22,503 ][ autoreload ][ 43963 ][ 140553264510784 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:20:24,652 ][ autoreload ][ 43963 ][ 140553264510784 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:20:25,327 ][ autoreload ][ 43983 ][ 140394205251392 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 15:20:31,605 ][ autoreload ][ 43983 ][ 140394205251392 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 15:20:32,346 ][ autoreload ][ 44036 ][ 140377509160768 ] ==> Watching for file changes with StatReloader

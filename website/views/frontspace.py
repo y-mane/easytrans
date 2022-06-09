@@ -16,7 +16,7 @@ def frontspace(request):
         if form.is_valid():
             form.save()
             #last_id=Voyage.objects.latest('id').id
-            return redirect('success',form)
+            return redirect('failled',form)
       
     context={
         'form':form,
