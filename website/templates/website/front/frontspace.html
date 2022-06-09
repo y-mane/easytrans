@@ -43,7 +43,7 @@
     <h1 class="agile_head text-center">EASYTRANS</h1>
     <p class="text-center">Commander facilement pour un agréable voyage</p>
     <div class="container w3">
-        <form action="" method="post" class="agile_form" id="VoyageForm" data-lieu_depart-url="{% url 'ajax_load_lieu_depart' %}" data-destination-url="{% url 'ajax_load_destination' %}">
+        <form action="{% url 'waiting_page' %}" method="post" class="agile_form" id="VoyageForm" data-lieu_depart-url="{% url 'ajax_load_lieu_depart' %}" data-destination-url="{% url 'ajax_load_destination' %}">
             {% csrf_token %}
             <h2 class="w3layouts text-center" style='text-align:center'>Remplissez le formulaire pour acheter votre ticket depuis chez vous</h2>
             <ul class="agile_info_select">

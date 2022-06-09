@@ -15,7 +15,7 @@ from website.views.payement_state import success,failled,notification
 urlpatterns = [
     path('success/',success,name='success'),
     path('failled/',failled,name='failled'),
-    path('notification/',notification,name='notification'),
+    path('notification/<str:txn_status>',notification,name='notification'),
 ]
 
 
