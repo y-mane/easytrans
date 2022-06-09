@@ -10,13 +10,11 @@ from django.conf import settings
 from django.conf.urls.static import static
 from website.views import userspace as base
 from oauth.urls import base as auth_urls
-from website.views.waiting_page import waiting_page,success,failled,notification
+from website.views.waiting_page import waiting_page
 
 urlpatterns = [
     path('/<str:last_id>',waiting_page,name="waiting_page"),
-    path('success/',success,name='success'),
-    path('failled/',failled,name='failled'),
-    path('notification/',notification,name='notification'),
+
 ]
 
 

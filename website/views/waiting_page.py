@@ -41,20 +41,3 @@ def waiting_page(request,last_id):
         }
     return render(request,'website/front/waiting_page.html',context) 
 
-def success(request):
-    context={
-        
-    }
-    return render(request,'website/front/success.html',context)
-
-def failled(request):
-    context={
-        
-    }
-    return render(request,'website/front/failled.html',context)
-
-def notification(request):
-    context={
-        
-    }
-    return render(request,'website/front/notification.html',context)

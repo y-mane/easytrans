@@ -1,3 +1,1427 @@
-[ INFO ][ 2022-06-07 16:51:27,632 ][ autoreload ][ 39298 ][ 140697336194880 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-07 16:55:34,113 ][ autoreload ][ 39298 ][ 140697336194880 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
-[ INFO ][ 2022-06-07 16:55:35,098 ][ autoreload ][ 39552 ][ 139660131645248 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 07:53:53,068 ][ autoreload ][ 2888 ][ 140593409468224 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 07:54:24,003 ][ basehttp ][ 2888 ][ 140593204295424 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-09 07:54:24,808 ][ basehttp ][ 2888 ][ 140593204295424 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ INFO ][ 2022-06-09 07:54:24,824 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /static/website/front/css/style.css HTTP/1.1" 304 0
+[ WARNING ][ 2022-06-09 07:54:25,054 ][ basehttp ][ 2888 ][ 140593195902720 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4451
+[ WARNING ][ 2022-06-09 07:54:25,519 ][ basehttp ][ 2888 ][ 140593195902720 ] ==> "GET /favicon.ico HTTP/1.1" 404 4412
+[ INFO ][ 2022-06-09 07:54:54,027 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-09 07:54:54,075 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-09 07:54:54,121 ][ basehttp ][ 2888 ][ 140593195902720 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4451
+[ INFO ][ 2022-06-09 07:55:24,735 ][ basehttp ][ 2888 ][ 140593195902720 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-09 07:55:24,778 ][ basehttp ][ 2888 ][ 140593195902720 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-09 07:55:24,830 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4451
+[ INFO ][ 2022-06-09 07:55:25,607 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-09 07:55:25,642 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-09 07:55:25,689 ][ basehttp ][ 2888 ][ 140593195902720 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4451
+[ INFO ][ 2022-06-09 08:00:19,047 ][ basehttp ][ 2888 ][ 140593195902720 ] ==> "GET /ajax/load-lieu_depart/?compagnie_id=2 HTTP/1.1" 200 150
+[ INFO ][ 2022-06-09 08:00:19,174 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /ajax/load-destination/?compagnie_id=2 HTTP/1.1" 200 147
+[ INFO ][ 2022-06-09 08:00:30,703 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "POST / HTTP/1.1" 302 0
+[ INFO ][ 2022-06-09 08:00:31,985 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /wait//4 HTTP/1.1" 200 2705
+[ INFO ][ 2022-06-09 08:00:35,859 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /static/website/front/images/bleus.jpg HTTP/1.1" 200 954287
+[ WARNING ][ 2022-06-09 08:00:49,951 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /wait//4/success/ HTTP/1.1" 404 5645
+[ WARNING ][ 2022-06-09 08:01:25,866 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /wait//4/success/ HTTP/1.1" 404 5645
+[ WARNING ][ 2022-06-09 08:01:31,090 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /wait//4/ HTTP/1.1" 404 5621
+[ INFO ][ 2022-06-09 08:01:34,730 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /wait//4 HTTP/1.1" 200 2705
+[ INFO ][ 2022-06-09 08:02:28,732 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /wait/success HTTP/1.1" 301 0
+[ ERROR ][ 2022-06-09 08:02:30,066 ][ log ][ 2888 ][ 140593187247872 ] ==> Internal Server Error: /wait/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py", line 48, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:02:32,738 ][ basehttp ][ 2888 ][ 140593187247872 ] ==> "GET /wait/success/ HTTP/1.1" 500 152128
+[ INFO ][ 2022-06-09 08:04:34,104 ][ autoreload ][ 2888 ][ 140593409468224 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:04:57,058 ][ autoreload ][ 8555 ][ 140095212431168 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:05:24,541 ][ basehttp ][ 8555 ][ 140095008884480 ] ==> "GET /wait//4 HTTP/1.1" 200 2705
+[ INFO ][ 2022-06-09 08:05:53,374 ][ autoreload ][ 8555 ][ 140095212431168 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:05:56,431 ][ autoreload ][ 15089 ][ 140711957456704 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:05:59,023 ][ autoreload ][ 15089 ][ 140711957456704 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:05:59,693 ][ autoreload ][ 16666 ][ 140573439866688 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:03,460 ][ autoreload ][ 16666 ][ 140573439866688 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:04,073 ][ autoreload ][ 17053 ][ 139825661884224 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:06,678 ][ autoreload ][ 17053 ][ 139825661884224 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:07,596 ][ autoreload ][ 17104 ][ 139781576406848 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:13,614 ][ autoreload ][ 17104 ][ 139781576406848 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:14,233 ][ autoreload ][ 17153 ][ 140691020699456 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:21,137 ][ autoreload ][ 17153 ][ 140691020699456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:22,210 ][ autoreload ][ 17197 ][ 140139023238976 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:25,863 ][ autoreload ][ 17197 ][ 140139023238976 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:26,519 ][ autoreload ][ 17218 ][ 140331641243456 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:29,192 ][ autoreload ][ 17218 ][ 140331641243456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:29,805 ][ autoreload ][ 17250 ][ 140122272368448 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:42,074 ][ autoreload ][ 17250 ][ 140122272368448 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:42,671 ][ autoreload ][ 17281 ][ 140457709774656 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:48,610 ][ autoreload ][ 17281 ][ 140457709774656 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:49,214 ][ autoreload ][ 17324 ][ 140007902775104 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:53,019 ][ autoreload ][ 17324 ][ 140007902775104 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:54,544 ][ autoreload ][ 17349 ][ 139734178285376 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:06:57,176 ][ autoreload ][ 17349 ][ 139734178285376 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:06:57,877 ][ autoreload ][ 17418 ][ 140156810868544 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:07:00,569 ][ autoreload ][ 17418 ][ 140156810868544 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:07:01,451 ][ autoreload ][ 17479 ][ 139715040368448 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:07:07,311 ][ autoreload ][ 17479 ][ 139715040368448 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:07:07,959 ][ autoreload ][ 17530 ][ 140556783277888 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:07:10,319 ][ autoreload ][ 17530 ][ 140556783277888 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/base.py changed, reloading.
+[ INFO ][ 2022-06-09 08:07:11,050 ][ autoreload ][ 17552 ][ 139799524554560 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:08:10,708 ][ autoreload ][ 17552 ][ 139799524554560 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:08:11,376 ][ autoreload ][ 18038 ][ 140450166060864 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:08:14,138 ][ autoreload ][ 18038 ][ 140450166060864 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:08:14,820 ][ autoreload ][ 18070 ][ 139788025161536 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:09:52,803 ][ autoreload ][ 18070 ][ 139788025161536 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:09:53,477 ][ autoreload ][ 18225 ][ 139699460478784 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:09:55,219 ][ autoreload ][ 18225 ][ 139699460478784 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:09:55,933 ][ autoreload ][ 18240 ][ 140459439376192 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:10:46,670 ][ autoreload ][ 18240 ][ 140459439376192 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:10:47,415 ][ autoreload ][ 18333 ][ 140652776318784 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:10:49,999 ][ autoreload ][ 18333 ][ 140652776318784 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:10:50,649 ][ autoreload ][ 18366 ][ 140624515872576 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:12:22,429 ][ autoreload ][ 18366 ][ 140624515872576 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:12:23,089 ][ autoreload ][ 18513 ][ 139871035250496 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:12:31,210 ][ autoreload ][ 18513 ][ 139871035250496 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:12:31,851 ][ autoreload ][ 18563 ][ 139912718296896 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:12:35,630 ][ autoreload ][ 18563 ][ 139912718296896 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:12:36,295 ][ autoreload ][ 18594 ][ 140002923587392 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:12:42,266 ][ autoreload ][ 18594 ][ 140002923587392 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-06-09 08:12:42,862 ][ autoreload ][ 18641 ][ 139998329874240 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:12:49,897 ][ autoreload ][ 18675 ][ 140291634370368 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:13:00,141 ][ autoreload ][ 18744 ][ 140627854239552 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:13:54,691 ][ autoreload ][ 18744 ][ 140627854239552 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 08:13:55,407 ][ autoreload ][ 18892 ][ 139866410698560 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:13:58,048 ][ autoreload ][ 18892 ][ 139866410698560 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 08:13:58,773 ][ autoreload ][ 18930 ][ 140394259982144 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:14:03,503 ][ autoreload ][ 18930 ][ 140394259982144 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-09 08:14:04,220 ][ autoreload ][ 18968 ][ 140651531921216 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-09 08:14:09,100 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/failled HTTP/1.1" 301 0
+[ ERROR ][ 2022-06-09 08:14:10,615 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/failled/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 16, in failled
+    return render(request,'website/front/failled.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:14:10,696 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/failled/ HTTP/1.1" 500 152554
+[ ERROR ][ 2022-06-09 08:14:53,971 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:14:55,252 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152217
+[ WARNING ][ 2022-06-09 08:19:01,078 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state HTTP/1.1" 404 4583
+[ ERROR ][ 2022-06-09 08:19:52,743 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 22, in notification
+    return render(request,'website/front/notification.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:19:52,967 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 151463
+[ WARNING ][ 2022-06-09 08:20:00,502 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state//notification/ HTTP/1.1" 404 5646
+[ ERROR ][ 2022-06-09 08:20:07,724 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 22, in notification
+    return render(request,'website/front/notification.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:20:08,165 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 151463
+[ INFO ][ 2022-06-09 08:20:55,458 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 741
+[ ERROR ][ 2022-06-09 08:21:49,994 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:21:50,039 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152354
+[ ERROR ][ 2022-06-09 08:22:00,515 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:22:00,566 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152354
+[ ERROR ][ 2022-06-09 08:22:01,146 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:22:01,199 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152354
+[ ERROR ][ 2022-06-09 08:22:02,165 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:22:03,217 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152354
+[ ERROR ][ 2022-06-09 08:22:04,037 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:22:04,093 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152354
+[ ERROR ][ 2022-06-09 08:22:05,679 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:22:05,733 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152354
+[ ERROR ][ 2022-06-09 08:28:06,716 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:28:06,817 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152354
+[ ERROR ][ 2022-06-09 08:28:06,940 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: basepageKA.html
+[ ERROR ][ 2022-06-09 08:28:07,353 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152354
+[ ERROR ][ 2022-06-09 08:29:29,791 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+[ ERROR ][ 2022-06-09 08:29:29,935 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152871
+[ ERROR ][ 2022-06-09 08:29:30,795 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+[ ERROR ][ 2022-06-09 08:29:31,081 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152871
+[ ERROR ][ 2022-06-09 08:30:36,007 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+[ ERROR ][ 2022-06-09 08:30:36,406 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152871
+[ ERROR ][ 2022-06-09 08:30:37,344 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+[ ERROR ][ 2022-06-09 08:30:37,389 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152871
+[ ERROR ][ 2022-06-09 08:30:48,643 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+[ ERROR ][ 2022-06-09 08:30:49,767 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152871
+[ ERROR ][ 2022-06-09 08:31:11,707 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+[ ERROR ][ 2022-06-09 08:31:11,752 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152871
+[ ERROR ][ 2022-06-09 08:31:38,083 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'extend'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 530, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 1: 'extend'. Did you forget to register or load this tag?
+[ ERROR ][ 2022-06-09 08:31:38,126 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 146645
+[ ERROR ][ 2022-06-09 08:31:42,619 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+[ ERROR ][ 2022-06-09 08:31:42,885 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152871
+[ INFO ][ 2022-06-09 08:33:18,983 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 900
+[ INFO ][ 2022-06-09 08:33:19,540 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 738
+[ ERROR ][ 2022-06-09 08:33:58,957 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+[ ERROR ][ 2022-06-09 08:33:59,367 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152871
+[ ERROR ][ 2022-06-09 08:48:06,293 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base_payement_page.html
+[ ERROR ][ 2022-06-09 08:48:06,481 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 152871
+[ INFO ][ 2022-06-09 08:52:26,853 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1100
+[ INFO ][ 2022-06-09 08:53:06,120 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1148
+[ ERROR ][ 2022-06-09 09:50:34,624 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'website/front/images/logo.png' not found. 'website/front/images/logo.png' is not a valid view function or pattern name.
+[ ERROR ][ 2022-06-09 09:50:35,286 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 143860
+[ ERROR ][ 2022-06-09 09:50:53,202 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[ ERROR ][ 2022-06-09 09:50:53,389 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 143417
+[ ERROR ][ 2022-06-09 09:51:30,476 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[ ERROR ][ 2022-06-09 09:51:30,667 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 143539
+[ ERROR ][ 2022-06-09 09:51:31,447 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[ ERROR ][ 2022-06-09 09:51:31,498 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 143539
+[ ERROR ][ 2022-06-09 09:51:32,459 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[ ERROR ][ 2022-06-09 09:51:32,502 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 143539
+[ ERROR ][ 2022-06-09 09:52:08,479 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/success/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 10, in success
+    return render(request,'website/front/success.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[ ERROR ][ 2022-06-09 09:52:08,798 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 500 143539
+[ INFO ][ 2022-06-09 09:53:39,829 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1186
+[ INFO ][ 2022-06-09 09:53:39,894 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /static/website/front/images/logo.png HTTP/1.1" 200 33684
+[ INFO ][ 2022-06-09 09:53:56,171 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1224
+[ INFO ][ 2022-06-09 09:54:29,550 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1227
+[ INFO ][ 2022-06-09 09:54:29,602 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /static/website/front/images/logo.png HTTP/1.1" 304 0
+[ INFO ][ 2022-06-09 09:54:30,474 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1247
+[ INFO ][ 2022-06-09 09:54:39,457 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1247
+[ INFO ][ 2022-06-09 09:54:47,143 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1248
+[ INFO ][ 2022-06-09 09:54:47,885 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1249
+[ INFO ][ 2022-06-09 09:54:48,736 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1249
+[ INFO ][ 2022-06-09 09:54:57,488 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1249
+[ INFO ][ 2022-06-09 09:54:57,517 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /static/website/front/images/logo.png HTTP/1.1" 304 0
+[ INFO ][ 2022-06-09 09:55:06,690 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1225
+[ INFO ][ 2022-06-09 09:57:16,937 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1208
+[ INFO ][ 2022-06-09 09:57:17,853 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /static/website/front/images/logo.png HTTP/1.1" 304 0
+[ INFO ][ 2022-06-09 09:57:56,137 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1239
+[ WARNING ][ 2022-06-09 09:59:18,874 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/failed/ HTTP/1.1" 404 5625
+[ INFO ][ 2022-06-09 10:01:37,184 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/failled/ HTTP/1.1" 200 659
+[ ERROR ][ 2022-06-09 10:03:25,455 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/failled/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 16, in failled
+    return render(request,'website/front/failled.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 530, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 17: 'static'. Did you forget to register or load this tag?
+[ ERROR ][ 2022-06-09 10:03:25,508 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/failled/ HTTP/1.1" 500 152690
+[ ERROR ][ 2022-06-09 10:03:27,696 ][ log ][ 18968 ][ 140651312178944 ] ==> Internal Server Error: /payement_state/failled/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 16, in failled
+    return render(request,'website/front/failled.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 530, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 17: 'static'. Did you forget to register or load this tag?
+[ ERROR ][ 2022-06-09 10:03:27,747 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/failled/ HTTP/1.1" 500 152690
+[ INFO ][ 2022-06-09 10:03:57,314 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/failled/ HTTP/1.1" 200 969
+[ INFO ][ 2022-06-09 10:03:57,401 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /static/website/front/images/logo.png HTTP/1.1" 304 0
+[ INFO ][ 2022-06-09 10:04:53,139 ][ basehttp ][ 18968 ][ 140651312178944 ] ==> "GET /payement_state/failled/ HTTP/1.1" 200 906
+[ INFO ][ 2022-06-09 10:06:09,770 ][ basehttp ][ 18968 ][ 140651303786240 ] ==> "GET /payement_state/failled/ HTTP/1.1" 200 906
+[ INFO ][ 2022-06-09 10:06:09,805 ][ basehttp ][ 18968 ][ 140651303786240 ] ==> "GET /static/website/front/images/logo.png HTTP/1.1" 304 0
+[ INFO ][ 2022-06-09 10:06:09,930 ][ basehttp ][ 18968 ][ 140651303786240 ] ==> "GET /payement_state/failled/ HTTP/1.1" 200 906
+[ INFO ][ 2022-06-09 10:06:25,280 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/failled/ HTTP/1.1" 200 906
+[ WARNING ][ 2022-06-09 10:06:41,044 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/notifiacation/ HTTP/1.1" 404 5646
+[ ERROR ][ 2022-06-09 10:06:46,843 ][ log ][ 18968 ][ 140651320571648 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 22, in notification
+    return render(request,'website/front/notification.html',context)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 530, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 'static'. Did you forget to register or load this tag?
+[ ERROR ][ 2022-06-09 10:06:46,922 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 152372
+[ INFO ][ 2022-06-09 10:07:10,597 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/notification/ HTTP/1.1" 200 1160
+[ INFO ][ 2022-06-09 10:07:21,304 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/notification/ HTTP/1.1" 200 1160
+[ WARNING ][ 2022-06-09 10:09:48,151 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/sucess/ HTTP/1.1" 404 5625
+[ INFO ][ 2022-06-09 10:09:53,496 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1239
+[ INFO ][ 2022-06-09 10:09:53,544 ][ basehttp ][ 18968 ][ 140651320571648 ] ==> "GET /static/website/front/images/logo.png HTTP/1.1" 304 0
