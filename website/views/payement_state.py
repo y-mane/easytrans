@@ -21,7 +21,7 @@ def failled(request):
 def notification(request):
     if request.method=='POST':
         custom_data=request.POST.get('custom_data')
-        
+        print(custom_data)
     context={
        #'custom_data':custom_data
     }
