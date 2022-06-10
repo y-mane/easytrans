@@ -15,32 +15,13 @@ def get_item(dict,key):
     return dict.get(key)
 
 
-def waiting_page(request):
-    #voyage=Voyage.objects.get(id=last_id)
-    fullname=request.POST.get('fullname')
-    contact=request.POST.get('contact')
-    lieu_livraison=request.POST.get('lieu_livraison')
-    compagnie=request.POST.get('compagnie')
-    compagnie_name=Compagnie.objects.get(id=compagnie)
-    depart=request.POST.get('lieu_depart')
-    lieu_depart=Agence.objects.get(id=depart)
-    desti=request.POST.get('destination')
-    destination=Agence.objects.get(id=desti)
-    periode=request.POST.get('periode')
+def waiting_page(request,last_id):
+    voyage=Voyage.objects.get(id=last_id)
+    depart=voyage.lieu_depart
+    destination=voyage.destination
     montant=Montant.objects.get(depart=depart,destination=destination)
     prix=montant.prix
-    voyage={
-        'fullname':fullname,
-        'contact':contact,
-        'lieu_livraison':lieu_livraison,
-        'compagnie':compagnie_name,
-        'lieu_depart':lieu_depart,
-        'destination':destination,
-        'periode':periode
-        
-    }
-    """if request.method=='POST':
-        return redirect ('notification',voyage)"""
+    
     """if request.method=='POST':      
         #API pour envoyer les sms
             conn = http.client.HTTPConnection("vavasms.com")
@@ -58,6 +39,7 @@ def waiting_page(request):
     context={
         'voyage':voyage,
         'prix':prix,
+        'last_id':last_id
         }
     return render(request,'website/front/waiting_page.html',context) 
 

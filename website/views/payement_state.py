@@ -5,10 +5,9 @@ from start_form.forms import VoyageForm
 
 
 
-def success(request,form):
+def success(request):
     
     context={
-        'form':form
     }
     return render(request,'website/front/success.html',context)
 
@@ -20,8 +19,10 @@ def failled(request):
     return render(request,'website/front/failled.html',context)
 
 def notification(request):
-    """print(form.fullname)
+    if request.method=='POST':
+        custom_data=request.POST.get('custom_data')
+        
     context={
-        'voyage':form
-    }"""
-    return render(request,'website/front/notification.html')
+       #'custom_data':custom_data
+    }
+    #return render(request,'website/front/notification.html')

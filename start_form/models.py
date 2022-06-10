@@ -44,8 +44,7 @@ class Agence(models.Model):
     adresse_geo=models.CharField(max_length=300)
     
     def __str__(self):
-        return (str(self.compagnie)+'-'+str(self.commune))
-    
+        return (str(self.compagnie)+'-'+str(self.commune))    
     
     
     
@@ -63,6 +62,9 @@ class Voyage(models.Model):
         ('en cours','en cours'),
         ('achevé','achevé')
     )
+    ETAT_PAIEMENT=(('succes','succes'),
+                   ('echec','echec')
+    )
     fullname=models.CharField(max_length=250)
     contact=models.CharField(max_length=250)
     email=models.EmailField(blank=True)
@@ -77,6 +79,7 @@ class Voyage(models.Model):
     date_heure_succces=models.DateTimeField(auto_now=True,blank=True,null=True)
     etat_voyage=models.CharField(max_length=250,choices=ETAT,blank=True,default='en cours')
     reference=models.CharField(max_length=250,blank=True)
+    etat_paiement=models.CharField(max_length=250,choices=ETAT_PAIEMENT,default='echec', blank=True,null=True)
     
     def __str__(self):
         return self.fullname  

@@ -13,7 +13,7 @@ from oauth.urls import base as auth_urls
 from website.views.waiting_page import waiting_page
 
 urlpatterns = [
-    path('',waiting_page,name="waiting_page"),
+    path('<str:last_id>',waiting_page,name="waiting_page"),
 
 ]
 

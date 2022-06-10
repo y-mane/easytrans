@@ -60,7 +60,7 @@ debug = logging.getLogger('debug')
 @accesslog
 @permission_required('oauth.view_dashboard', raise_exception=True)
 def index(request):   
-    voyage=Voyage.objects.all().order_by('-id')[:]
+    voyage=Voyage.objects.filter(etat_paiement='succes').order_by('-id')[:]
     voyage_total=voyage.count()
     voyage_en_cours=Voyage.objects.filter(statut_commande='en attente').count()
     voyage_valide=Voyage.objects.filter(statut_commande='validée').count()
