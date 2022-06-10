@@ -777,3 +777,4 @@
 [ INFO ][ 2022-06-10 11:45:36,691 ][ basehttp ][ 22170 ][ 139814217312000 ] ==> "GET /ajax/load-destination/?compagnie_id=1 HTTP/1.1" 200 267
 [ INFO ][ 2022-06-10 11:45:43,793 ][ basehttp ][ 22170 ][ 139814217312000 ] ==> "POST / HTTP/1.1" 302 0
 [ INFO ][ 2022-06-10 11:45:44,014 ][ basehttp ][ 22170 ][ 139814217312000 ] ==> "GET /wait/19 HTTP/1.1" 200 2754
+[ INFO ][ 2022-06-10 12:02:22,099 ][ basehttp ][ 22403 ][ 140553499670272 ] ==> "GET /payement_state/failled/ HTTP/1.1" 200 912
