@@ -1373,3 +1373,5 @@ ValueError: The view website.views.payement_state.notification didn't return an 
 [ INFO ][ 2022-06-10 12:02:22,099 ][ basehttp ][ 22403 ][ 140553499670272 ] ==> "GET /payement_state/failled/ HTTP/1.1" 200 912
 [ INFO ][ 2022-06-10 12:21:59,515 ][ autoreload ][ 22403 ][ 140553703167808 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-06-10 12:22:11,514 ][ autoreload ][ 24794 ][ 140249003059008 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-10 13:40:04,313 ][ autoreload ][ 24794 ][ 140249003059008 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-06-10 13:40:05,053 ][ autoreload ][ 28225 ][ 140547740272448 ] ==> Watching for file changes with StatReloader
