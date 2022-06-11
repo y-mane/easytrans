@@ -778,3 +778,11 @@
 [ INFO ][ 2022-06-10 11:45:43,793 ][ basehttp ][ 22170 ][ 139814217312000 ] ==> "POST / HTTP/1.1" 302 0
 [ INFO ][ 2022-06-10 11:45:44,014 ][ basehttp ][ 22170 ][ 139814217312000 ] ==> "GET /wait/19 HTTP/1.1" 200 2754
 [ INFO ][ 2022-06-10 12:02:22,099 ][ basehttp ][ 22403 ][ 140553499670272 ] ==> "GET /payement_state/failled/ HTTP/1.1" 200 912
+[ INFO ][ 2022-06-10 21:00:34,516 ][ basehttp ][ 28225 ][ 140547536774912 ] ==> "GET / HTTP/1.1" 200 8390
+[ INFO ][ 2022-06-10 21:00:35,182 ][ basehttp ][ 28225 ][ 140547518154496 ] ==> "GET /static/website/front/css/style.css HTTP/1.1" 304 0
+[ WARNING ][ 2022-06-10 21:00:35,394 ][ basehttp ][ 28225 ][ 140547536774912 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-10 21:00:35,967 ][ basehttp ][ 28225 ][ 140547528382208 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
+[ INFO ][ 2022-06-10 21:00:58,295 ][ basehttp ][ 28225 ][ 140547528382208 ] ==> "GET /ajax/load-lieu_depart/?compagnie_id=1 HTTP/1.1" 200 270
+[ INFO ][ 2022-06-10 21:00:58,327 ][ basehttp ][ 28225 ][ 140547518154496 ] ==> "GET /ajax/load-destination/?compagnie_id=1 HTTP/1.1" 200 267
+[ INFO ][ 2022-06-10 21:01:08,792 ][ basehttp ][ 28225 ][ 140547518154496 ] ==> "POST / HTTP/1.1" 302 0
+[ INFO ][ 2022-06-10 21:01:09,005 ][ basehttp ][ 28225 ][ 140547518154496 ] ==> "GET /wait/20 HTTP/1.1" 200 2754
