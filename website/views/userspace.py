@@ -62,9 +62,9 @@ debug = logging.getLogger('debug')
 def index(request):   
     voyage=Voyage.objects.filter(etat_paiement='succes').order_by('-id')[:]
     voyage_total=voyage.count()
-    voyage_en_cours=Voyage.objects.filter(statut_commande='en attente').count()
-    voyage_valide=Voyage.objects.filter(statut_commande='validée').count()
-    voyage_echouee=Voyage.objects.filter(statut_commande='échouée').count()
+    voyage_en_cours=Voyage.objects.filter(statut_commande='en attente',etat_paiement='succes').count()
+    voyage_valide=Voyage.objects.filter(statut_commande='validée',etat_paiement='succes').count()
+    voyage_echouee=Voyage.objects.filter(statut_commande='échouée',etat_paiement='succes').count()
     mission=Mission.objects.filter(livreur=request.user).order_by('-voyage')
     myusers=User.objects.all()
     livreurs=check_user_group(myusers)
