@@ -96,3 +96,33 @@
 [ INFO ][ 2022-06-12 03:52:57,818 ][ autoreload ][ 24236 ][ 139681995163456 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-06-12 03:53:02,648 ][ autoreload ][ 24236 ][ 139681995163456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-06-12 03:53:03,413 ][ autoreload ][ 24269 ][ 139830788175680 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-12 06:03:49,378 ][ autoreload ][ 36219 ][ 140609560569664 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-12 06:04:11,580 ][ basehttp ][ 36219 ][ 140609356932864 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-12 06:04:12,174 ][ basehttp ][ 36219 ][ 140609356932864 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
+[ INFO ][ 2022-06-12 19:01:43,639 ][ autoreload ][ 2935 ][ 140287800293184 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-12 19:06:35,155 ][ basehttp ][ 2935 ][ 140287590528768 ] ==> "GET / HTTP/1.1" 200 8390
+[ INFO ][ 2022-06-12 19:06:35,524 ][ basehttp ][ 2935 ][ 140287573743360 ] ==> "GET /static/website/front/css/style.css HTTP/1.1" 304 0
+[ WARNING ][ 2022-06-12 19:06:35,548 ][ basehttp ][ 2935 ][ 140287590528768 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-12 19:06:35,836 ][ basehttp ][ 2935 ][ 140287582136064 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
+[ WARNING ][ 2022-06-12 19:06:36,235 ][ basehttp ][ 2935 ][ 140287582136064 ] ==> "GET /favicon.ico HTTP/1.1" 404 4574
+[ INFO ][ 2022-06-12 19:08:13,936 ][ autoreload ][ 2935 ][ 140287800293184 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-06-12 19:08:15,160 ][ autoreload ][ 3431 ][ 140577897928512 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-12 19:08:23,876 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-12 19:08:23,934 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-12 19:08:24,131 ][ basehttp ][ 3431 ][ 140577685890816 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
+[ INFO ][ 2022-06-12 19:08:24,773 ][ basehttp ][ 3431 ][ 140577685890816 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-12 19:08:24,821 ][ basehttp ][ 3431 ][ 140577685890816 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-12 19:08:24,885 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
+[ INFO ][ 2022-06-12 19:08:50,349 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-12 19:08:50,390 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-12 19:08:50,613 ][ basehttp ][ 3431 ][ 140577685890816 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
+[ INFO ][ 2022-06-12 19:08:55,343 ][ autoreload ][ 3431 ][ 140577897928512 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-06-12 19:08:56,081 ][ autoreload ][ 3537 ][ 140104237045568 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-12 19:12:40,685 ][ autoreload ][ 3537 ][ 140104237045568 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-06-12 19:13:01,432 ][ autoreload ][ 3815 ][ 139711510644544 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-12 19:13:07,084 ][ basehttp ][ 3815 ][ 139711306991360 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-12 19:13:07,130 ][ basehttp ][ 3815 ][ 139711306991360 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-12 19:13:07,177 ][ basehttp ][ 3815 ][ 139711298598656 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
+[ INFO ][ 2022-06-12 19:13:07,854 ][ basehttp ][ 3815 ][ 139711298598656 ] ==> "GET / HTTP/1.1" 200 8390
+[ WARNING ][ 2022-06-12 19:13:07,924 ][ basehttp ][ 3815 ][ 139711298598656 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-12 19:13:07,969 ][ basehttp ][ 3815 ][ 139711306991360 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
