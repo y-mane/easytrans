@@ -1,128 +1,60 @@
-[ INFO ][ 2022-06-12 03:26:49,503 ][ basehttp ][ 17066 ][ 140482857133824 ] ==> "GET /back-office/dashboard HTTP/1.1" 302 0
-[ INFO ][ 2022-06-12 03:26:50,024 ][ basehttp ][ 17066 ][ 140482857133824 ] ==> "GET /back-office/login/ HTTP/1.1" 200 2418
-[ INFO ][ 2022-06-12 03:41:47,736 ][ autoreload ][ 17066 ][ 140483069171520 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
-[ INFO ][ 2022-06-12 03:41:51,665 ][ autoreload ][ 22979 ][ 140563128424256 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-12 03:47:52,223 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "POST /back-office/login/ HTTP/1.1" 302 0
-[ INFO ][ 2022-06-12 03:47:54,204 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:47:54,890 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:47:54,892 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:47:54,933 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:47:54,939 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:47:54,964 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ WARNING ][ 2022-06-12 03:47:54,967 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ INFO ][ 2022-06-12 03:48:25,636 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:48:26,091 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:48:26,113 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:48:26,137 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:48:26,143 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:48:26,160 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ WARNING ][ 2022-06-12 03:48:26,164 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ INFO ][ 2022-06-12 03:48:56,455 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:48:56,736 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:48:56,749 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:48:56,775 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:48:56,775 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:48:56,797 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ WARNING ][ 2022-06-12 03:48:56,797 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ INFO ][ 2022-06-12 03:49:27,365 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:49:28,056 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:49:28,057 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:49:28,077 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:49:28,079 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:49:28,095 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ WARNING ][ 2022-06-12 03:49:28,095 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ INFO ][ 2022-06-12 03:49:55,671 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /ajax/load-destination/?compagnie_id=1 HTTP/1.1" 200 267
-[ INFO ][ 2022-06-12 03:49:55,687 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /ajax/load-lieu_depart/?compagnie_id=1 HTTP/1.1" 200 270
-[ INFO ][ 2022-06-12 03:49:58,412 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:49:59,082 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:49:59,089 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:49:59,120 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:49:59,122 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:49:59,132 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ WARNING ][ 2022-06-12 03:49:59,140 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ WARNING ][ 2022-06-12 03:50:05,268 ][ log ][ 22979 ][ 140562916415232 ] ==> Forbidden (CSRF token missing or incorrect.): /
-[ WARNING ][ 2022-06-12 03:50:05,456 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "POST / HTTP/1.1" 403 1879
-[ WARNING ][ 2022-06-12 03:50:06,306 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/root/css/font-awesome/fonts/fontawesome-webfont.woff2%3Fv=4.7.0.html HTTP/1.1" 404 1929
-[ WARNING ][ 2022-06-12 03:50:06,347 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/root/css/font-awesome/fonts/fontawesome-webfont.woff%3Fv=4.7.0 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:50:06,362 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/root/css/font-awesome/fonts/fontawesome-webfont.ttf%3Fv=4.7.0 HTTP/1.1" 404 1908
-[ INFO ][ 2022-06-12 03:50:11,417 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET / HTTP/1.1" 200 8390
-[ WARNING ][ 2022-06-12 03:50:11,768 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
-[ INFO ][ 2022-06-12 03:50:15,844 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /ajax/load-lieu_depart/?compagnie_id=2 HTTP/1.1" 200 150
-[ INFO ][ 2022-06-12 03:50:15,880 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /ajax/load-destination/?compagnie_id=2 HTTP/1.1" 200 147
-[ INFO ][ 2022-06-12 03:50:21,373 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "POST / HTTP/1.1" 302 0
-[ INFO ][ 2022-06-12 03:50:21,714 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /wait/21 HTTP/1.1" 200 2740
-[ INFO ][ 2022-06-12 03:50:21,986 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/front/images/bleus.jpg HTTP/1.1" 304 0
-[ INFO ][ 2022-06-12 03:50:29,479 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:50:29,934 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:50:29,949 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:50:29,966 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:50:29,966 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:50:29,979 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ WARNING ][ 2022-06-12 03:50:30,075 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ INFO ][ 2022-06-12 03:51:01,019 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:51:01,623 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:51:01,625 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:51:01,653 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:51:01,668 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:51:01,683 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ WARNING ][ 2022-06-12 03:51:01,690 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ INFO ][ 2022-06-12 03:51:31,931 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:51:32,561 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:51:32,590 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:51:32,597 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:51:32,612 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:51:32,637 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ WARNING ][ 2022-06-12 03:51:32,652 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ INFO ][ 2022-06-12 03:51:32,954 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET / HTTP/1.1" 200 8390
-[ WARNING ][ 2022-06-12 03:51:33,043 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
-[ WARNING ][ 2022-06-12 03:51:33,118 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
-[ INFO ][ 2022-06-12 03:52:03,194 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:52:03,753 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:52:03,762 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:52:03,812 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:52:03,819 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:52:03,828 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ WARNING ][ 2022-06-12 03:52:03,832 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ INFO ][ 2022-06-12 03:52:34,333 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 40369
-[ WARNING ][ 2022-06-12 03:52:34,917 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
-[ WARNING ][ 2022-06-12 03:52:34,940 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
-[ WARNING ][ 2022-06-12 03:52:34,959 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
-[ WARNING ][ 2022-06-12 03:52:34,961 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
-[ WARNING ][ 2022-06-12 03:52:34,990 ][ basehttp ][ 22979 ][ 140562924807936 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
-[ WARNING ][ 2022-06-12 03:52:34,993 ][ basehttp ][ 22979 ][ 140562916415232 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
-[ INFO ][ 2022-06-12 03:52:50,136 ][ autoreload ][ 22979 ][ 140563128424256 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
-[ INFO ][ 2022-06-12 03:52:51,152 ][ autoreload ][ 24191 ][ 139966977812288 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-12 03:52:57,168 ][ autoreload ][ 24191 ][ 139966977812288 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
-[ INFO ][ 2022-06-12 03:52:57,818 ][ autoreload ][ 24236 ][ 139681995163456 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-12 03:53:02,648 ][ autoreload ][ 24236 ][ 139681995163456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
-[ INFO ][ 2022-06-12 03:53:03,413 ][ autoreload ][ 24269 ][ 139830788175680 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-12 06:03:49,378 ][ autoreload ][ 36219 ][ 140609560569664 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-12 06:04:11,580 ][ basehttp ][ 36219 ][ 140609356932864 ] ==> "GET / HTTP/1.1" 200 8390
-[ WARNING ][ 2022-06-12 06:04:12,174 ][ basehttp ][ 36219 ][ 140609356932864 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
-[ INFO ][ 2022-06-12 19:01:43,639 ][ autoreload ][ 2935 ][ 140287800293184 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-12 19:06:35,155 ][ basehttp ][ 2935 ][ 140287590528768 ] ==> "GET / HTTP/1.1" 200 8390
-[ INFO ][ 2022-06-12 19:06:35,524 ][ basehttp ][ 2935 ][ 140287573743360 ] ==> "GET /static/website/front/css/style.css HTTP/1.1" 304 0
-[ WARNING ][ 2022-06-12 19:06:35,548 ][ basehttp ][ 2935 ][ 140287590528768 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
-[ WARNING ][ 2022-06-12 19:06:35,836 ][ basehttp ][ 2935 ][ 140287582136064 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
-[ WARNING ][ 2022-06-12 19:06:36,235 ][ basehttp ][ 2935 ][ 140287582136064 ] ==> "GET /favicon.ico HTTP/1.1" 404 4574
-[ INFO ][ 2022-06-12 19:08:13,936 ][ autoreload ][ 2935 ][ 140287800293184 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
-[ INFO ][ 2022-06-12 19:08:15,160 ][ autoreload ][ 3431 ][ 140577897928512 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-12 19:08:23,876 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET / HTTP/1.1" 200 8390
-[ WARNING ][ 2022-06-12 19:08:23,934 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
-[ WARNING ][ 2022-06-12 19:08:24,131 ][ basehttp ][ 3431 ][ 140577685890816 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
-[ INFO ][ 2022-06-12 19:08:24,773 ][ basehttp ][ 3431 ][ 140577685890816 ] ==> "GET / HTTP/1.1" 200 8390
-[ WARNING ][ 2022-06-12 19:08:24,821 ][ basehttp ][ 3431 ][ 140577685890816 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
-[ WARNING ][ 2022-06-12 19:08:24,885 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
-[ INFO ][ 2022-06-12 19:08:50,349 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET / HTTP/1.1" 200 8390
-[ WARNING ][ 2022-06-12 19:08:50,390 ][ basehttp ][ 3431 ][ 140577694283520 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
-[ WARNING ][ 2022-06-12 19:08:50,613 ][ basehttp ][ 3431 ][ 140577685890816 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
-[ INFO ][ 2022-06-12 19:08:55,343 ][ autoreload ][ 3431 ][ 140577897928512 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
-[ INFO ][ 2022-06-12 19:08:56,081 ][ autoreload ][ 3537 ][ 140104237045568 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-12 19:12:40,685 ][ autoreload ][ 3537 ][ 140104237045568 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
-[ INFO ][ 2022-06-12 19:13:01,432 ][ autoreload ][ 3815 ][ 139711510644544 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-12 19:13:07,084 ][ basehttp ][ 3815 ][ 139711306991360 ] ==> "GET / HTTP/1.1" 200 8390
-[ WARNING ][ 2022-06-12 19:13:07,130 ][ basehttp ][ 3815 ][ 139711306991360 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
-[ WARNING ][ 2022-06-12 19:13:07,177 ][ basehttp ][ 3815 ][ 139711298598656 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
-[ INFO ][ 2022-06-12 19:13:07,854 ][ basehttp ][ 3815 ][ 139711298598656 ] ==> "GET / HTTP/1.1" 200 8390
-[ WARNING ][ 2022-06-12 19:13:07,924 ][ basehttp ][ 3815 ][ 139711298598656 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
-[ WARNING ][ 2022-06-12 19:13:07,969 ][ basehttp ][ 3815 ][ 139711306991360 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
+[ INFO ][ 2022-06-13 10:50:50,065 ][ autoreload ][ 8273 ][ 139921609197376 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-13 10:51:07,368 ][ basehttp ][ 8273 ][ 139921405675264 ] ==> "GET /admin-back-office/start_form/voyage/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 10:51:08,261 ][ basehttp ][ 8273 ][ 139921405675264 ] ==> "GET /admin-back-office/login/?next=/admin-back-office/start_form/voyage/ HTTP/1.1" 200 1991
+[ WARNING ][ 2022-06-13 10:51:08,904 ][ basehttp ][ 8273 ][ 139921405675264 ] ==> "GET /favicon.ico HTTP/1.1" 404 4574
+[ INFO ][ 2022-06-13 10:51:12,540 ][ basehttp ][ 8273 ][ 139921405675264 ] ==> "POST /admin-back-office/login/?next=/admin-back-office/start_form/voyage/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 10:51:13,001 ][ basehttp ][ 8273 ][ 139921405675264 ] ==> "GET /admin-back-office/start_form/voyage/ HTTP/1.1" 200 9477
+[ INFO ][ 2022-06-13 10:51:13,133 ][ basehttp ][ 8273 ][ 139921405675264 ] ==> "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[ INFO ][ 2022-06-13 10:51:13,173 ][ basehttp ][ 8273 ][ 139921397282560 ] ==> "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[ INFO ][ 2022-06-13 10:51:13,301 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:51:20,528 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/ HTTP/1.1" 200 5994
+[ INFO ][ 2022-06-13 10:51:31,821 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 5893
+[ INFO ][ 2022-06-13 10:51:31,919 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:51:37,540 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/3/change/ HTTP/1.1" 200 9888
+[ INFO ][ 2022-06-13 10:51:37,659 ][ basehttp ][ 8273 ][ 139921397282560 ] ==> "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[ INFO ][ 2022-06-13 10:51:37,695 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:51:42,786 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "POST /admin-back-office/start_form/montant/3/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 10:51:43,100 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 6145
+[ INFO ][ 2022-06-13 10:51:43,237 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:51:45,702 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/6/change/ HTTP/1.1" 200 9896
+[ INFO ][ 2022-06-13 10:51:45,789 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:51:51,191 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "POST /admin-back-office/start_form/montant/6/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 10:51:51,587 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 6154
+[ INFO ][ 2022-06-13 10:51:51,686 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:51:56,928 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/5/change/ HTTP/1.1" 200 9896
+[ INFO ][ 2022-06-13 10:51:57,302 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:52:03,162 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "POST /admin-back-office/start_form/montant/5/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 10:52:03,887 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/add/ HTTP/1.1" 200 9912
+[ INFO ][ 2022-06-13 10:52:04,431 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:52:06,951 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 5896
+[ INFO ][ 2022-06-13 10:52:07,761 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:52:11,171 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/4/change/ HTTP/1.1" 200 9888
+[ INFO ][ 2022-06-13 10:52:11,612 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:52:17,444 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "POST /admin-back-office/start_form/montant/4/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 10:52:17,638 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 6148
+[ INFO ][ 2022-06-13 10:52:17,736 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:52:23,558 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/2/change/ HTTP/1.1" 200 9890
+[ INFO ][ 2022-06-13 10:52:23,636 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:52:28,353 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "POST /admin-back-office/start_form/montant/2/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 10:52:28,550 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 6151
+[ INFO ][ 2022-06-13 10:52:28,962 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:52:43,282 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/1/change/ HTTP/1.1" 200 9890
+[ INFO ][ 2022-06-13 10:52:43,382 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 10:52:48,224 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "POST /admin-back-office/start_form/montant/1/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 10:52:48,411 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 6152
+[ INFO ][ 2022-06-13 10:52:48,488 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 11:22:48,033 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/6/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 11:22:48,413 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/login/?next=/admin-back-office/start_form/montant/6/change/ HTTP/1.1" 200 2011
+[ INFO ][ 2022-06-13 11:22:51,587 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "POST /admin-back-office/login/?next=/admin-back-office/start_form/montant/6/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 11:22:51,851 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/6/change/ HTTP/1.1" 200 9898
+[ INFO ][ 2022-06-13 11:22:51,938 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 11:23:00,308 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "POST /admin-back-office/start_form/montant/6/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 11:23:00,496 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 6156
+[ INFO ][ 2022-06-13 11:23:00,573 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 11:23:04,392 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/4/change/ HTTP/1.1" 200 9890
+[ INFO ][ 2022-06-13 11:23:05,175 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 11:23:09,274 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "POST /admin-back-office/start_form/montant/4/change/ HTTP/1.1" 302 0
+[ INFO ][ 2022-06-13 11:23:09,758 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 6147
+[ INFO ][ 2022-06-13 11:23:10,358 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-06-13 11:23:14,175 ][ basehttp ][ 8273 ][ 139921310349056 ] ==> "GET /admin-back-office/start_form/ HTTP/1.1" 200 5994
+[ INFO ][ 2022-06-13 11:31:20,195 ][ autoreload ][ 8273 ][ 139921609197376 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.

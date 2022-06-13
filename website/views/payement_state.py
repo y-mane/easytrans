@@ -26,5 +26,6 @@ def notification(request):
     voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     context={
         
+        
     }
     #return render(request,'website/front/notification.html')
