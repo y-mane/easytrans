@@ -28,4 +28,4 @@ def notification(request):
         
         
     }
-    #return render(request,'website/front/notification.html')
+    return render(request,'website/front/notification.html')
