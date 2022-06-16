@@ -20,7 +20,7 @@ def failled(request):
 
 def notification(request):
     #if request.method=='POST':
-    custom_data=int(request.POST.get('custom_data'))
+    custom_data=request.POST.get('custom_data')
     print(custom_data)
     voyage=Voyage.objects.get(id=custom_data)
     voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
