@@ -20,8 +20,8 @@ def failled(request):
     return render(request,'website/front/failled.html',context)
 
 def notification(request):
-    if request.method=='GET':   
-        custom_data=request.get('custom_data')
+    if request.method=='POST':   
+        custom_data=request.POST['custom_data']
         voyage=Voyage.objects.get(id=custom_data)
         voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     else:
