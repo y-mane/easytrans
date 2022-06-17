@@ -25,7 +25,7 @@ def notification(request):
     voyage=Voyage.objects.get(id=custom_data)
     voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     context={
-        
+        'custom_data':custom_data
         
     }
-    return render(request,'website/front/notification.html')
+    return render(request,'website/front/notification.html',context)

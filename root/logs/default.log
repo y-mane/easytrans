@@ -1,2 +1,2 @@
-[ INFO ][ 2022-06-14 08:50:49,373 ][ autoreload ][ 3369 ][ 140208419362624 ] ==> Watching for file changes with StatReloader
-[ INFO ][ 2022-06-14 09:52:25,566 ][ autoreload ][ 3632 ][ 140603048023872 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-17 07:23:47,922 ][ autoreload ][ 41508 ][ 139739206821696 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-06-17 07:23:55,384 ][ autoreload ][ 43968 ][ 140436247029568 ] ==> Watching for file changes with StatReloader
