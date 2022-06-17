@@ -1,3 +1,4 @@
+import pprint
 from multiprocessing import context
 from django.shortcuts import render,redirect
 from start_form.models import Voyage,Compagnie,Agence
@@ -20,8 +21,9 @@ def failled(request):
 
 def notification(request):
     #if request.method=='POST':
-    custom_data=request.POST.get('custom_data')
-    print(custom_data)
+    #custom_data=request.POST.get('custom_data')
+    custom_data=5
+    pprint(custom_data)
     voyage=Voyage.objects.get(id=custom_data)
     voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     context={
