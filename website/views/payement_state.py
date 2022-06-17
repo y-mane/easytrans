@@ -20,7 +20,7 @@ def failled(request):
     return render(request,'website/front/failled.html',context)
 
 def notification(request):
-    #if request.method=='POST':
+    
     custom_data=request.POST.get('custom_data')
     custum=''.join(custom_data)
     cus=int(custum)
