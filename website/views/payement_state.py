@@ -1,4 +1,5 @@
 import pprint
+import requests
 from multiprocessing import context
 from django.shortcuts import render,redirect
 from start_form.models import Voyage,Compagnie,Agence
@@ -20,12 +21,10 @@ def failled(request):
     return render(request,'website/front/failled.html',context)
 
 def notification(request):
-    if request.method=='POST':   
-        custom_data=request.POST['custom_data']
-        voyage=Voyage.objects.get(id=custom_data)
-        voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
-    else:
-        print('ERROR')
+    custom_data=requests.get('custom_data').json
+    voyage=Voyage.objects.get(id=custom_data)
+    voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
+    
     context={
         'custom_data':custom_data
         
