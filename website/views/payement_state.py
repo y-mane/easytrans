@@ -12,25 +12,22 @@ from start_form.forms import VoyageForm
 
 
 def success(request):
-    
     context={
     }
     return render(request,'website/front/success.html',context)
 
 def failled(request):
-
-    context={
-        
+    context={        
     }
     return render(request,'website/front/failled.html',context)
+
 @api_view(['POST']) 
 @parser_classes((JSONParser,)) 
 def example_view(request, format=None):
     return Response({'custom_data': request.data})
 
-
 def notification(request):
-    custom_data=example_view(request)
+    custom_data=example_view(request).json
     voyage=Voyage.objects.get(id=custom_data)
     voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     
