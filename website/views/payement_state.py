@@ -2,6 +2,7 @@ from rest_framework.decorators import api_view
 from rest_framework.decorators import parser_classes
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
+import json
 import pprint
 import requests
 from multiprocessing import context
@@ -27,10 +28,10 @@ def example_view(request, format=None):
     return Response({'custom_data': request.data})
 
 def notification(request):
-    if request.method=='POST':
-        custom_data=map(int,example_view(request))
-        voyage=Voyage.objects.get(id=custom_data)
-        voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
+    
+    custom_data=json.loads(request.body)   
+    voyage=Voyage.objects.get(id=custom_data)
+    voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     
     context={
         'custom_data':custom_data
