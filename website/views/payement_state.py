@@ -1,6 +1,7 @@
 from rest_framework.decorators import api_view
 from rest_framework.decorators import parser_classes
 from rest_framework.parsers import JSONParser
+from rest_framework.response import Response
 import pprint
 import requests
 from multiprocessing import context
@@ -22,11 +23,14 @@ def failled(request):
         
     }
     return render(request,'website/front/failled.html',context)
+@api_view(['POST']) 
+@parser_classes((JSONParser,)) 
+def example_view(request, format=None):
+    return Response({'custom_data': request.data})
 
-@api_view(['POST'])
-@parser_classes((JSONParser,))
-def notification(request,format=None):
-    custom_data=request.data('custom_data')
+
+def notification(request):
+    custom_data=example_view(request)
     voyage=Voyage.objects.get(id=custom_data)
     voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     
