@@ -27,7 +27,7 @@ def example_view(request, format=None):
     return Response({'custom_data': request.data})
 
 def notification(request):
-    custom_data=int(example_view(request).json)
+    custom_data=map(int,example_view(request))
     voyage=Voyage.objects.get(id=custom_data)
     voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     
