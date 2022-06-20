@@ -12,7 +12,7 @@ class VoyageForm(forms.ModelForm):
         #compagnie=forms.ChoiceField(help_text='compagnie')
         widgets={
            'fullname':forms.TextInput(attrs={'placeholder':'votre nom complet','name':'fullname','class':'name agileits','required':''}),
-            'contact':forms.TextInput(attrs={'placeholder':'votre contact','class':'contact','required':'','name':'contact'}),
+            'contact':forms.TextInput(attrs={'placeholder':'votre contact','class':'contact','required':'','name':'contact','type':'text','minlength':'10','maxlength':'10'}),
             'lieu_livraison':forms.TextInput(attrs={'placeholder':'lieu de livraison','class':'name agileits','required':'','name':'lieu_livraison'}),
             'compagnie':forms.Select(attrs={'class':'section_class_agileits sec-left','name':'compagnie','default':''}),
             'lieu_depart':forms.Select(attrs={'class':'section_class_agileits sec-right','name':'lieu_depart'}),
