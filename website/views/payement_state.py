@@ -30,8 +30,8 @@ def example_view(request, format=None):
 def notification(request):
     
     custom_data=json.loads(request.body)   
-    #voyage=Voyage.objects.get(id=custom_data)
-    #voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
+    voyage=Voyage.objects.get(id=custom_data)
+    voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     
     context={
         'custom_data':custom_data

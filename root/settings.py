@@ -5,7 +5,9 @@ import os
 import sys
 from django.utils.translation import gettext_lazy as _
 #from django.utils.translation import ugettexget_lazy as _
-
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", __file__)
+import django
+django.setup()
 
 BASE_DIR = os.path.dirname(__file__)
 PLATFORM_DIR = os.path.join(BASE_DIR, 'platforms')
