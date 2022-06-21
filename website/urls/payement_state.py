@@ -17,7 +17,7 @@ urlpatterns = [
     path('success/',success,name='success'),
     path('failled/',failled,name='failled'),
     path('notification/',notification,name='notification'),
-    path('api/',api.urls)
+    
 ]
 
 
