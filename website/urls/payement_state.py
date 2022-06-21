@@ -11,12 +11,13 @@ from django.conf.urls.static import static
 from website.views import userspace as base
 from oauth.urls import base as auth_urls
 from website.views.payement_state import success,failled,notification
+from .api import api
 
 urlpatterns = [
     path('success/',success,name='success'),
     path('failled/',failled,name='failled'),
     path('notification/',notification,name='notification'),
-    
+    path('api/',api.urls)
 ]
 
 
