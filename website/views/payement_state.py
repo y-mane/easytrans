@@ -22,10 +22,10 @@ def failled(request):
     }
     return render(request,'website/front/failled.html',context)
 
-@api_view(['POST']) 
+"""@api_view(['GET']) 
 @parser_classes((JSONParser,)) 
 def example_view(request, format=None):
-    return Response({'custom_data': request.data})
+    return Response({'custom_data': request.data})"""
 
 def notification(request):
     
