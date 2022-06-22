@@ -12,7 +12,7 @@ from sentry.urls import base as sentry_urls
 
 urlpatterns = [
     path('admin-back-office/', admin.site.urls),
-    path('api/v1/', include(api_urls)),
+    #path('api/v1/', include(api_urls)),
     path('i18n/', include('django.conf.urls.i18n')),
     path('session_security/', include('session_security.urls')),
     path('oauth/', include(oauth_urls)),
