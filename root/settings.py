@@ -5,7 +5,7 @@ import os
 import sys
 from django.utils.translation import gettext_lazy as _
 #from django.utils.translation import ugettexget_lazy as _
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", __file__)
+#os.environ.setdefault("DJANGO_SETTINGS_MODULE", __file__)
 import django
 django.setup()
 
@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'root.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'easytrans_3',
+        'NAME': 'easytrans_1',
         'HOST':'localhost',
-        'USERNAME':'keita',
-        'PASSWORD':'keita08176279',
+        'USERNAME':'ymane',
+        'PASSWORD':'thelifeislesgigas2020',
         'PORT': '5432',
 
     }
