@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from website.views import api
 
 urlpatterns = [
-    path('/',api.urls),
+    path('',api),
 
 ]
 
