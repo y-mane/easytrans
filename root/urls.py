@@ -8,7 +8,7 @@ from oauth.urls import base as oauth_urls
 from website.urls import base as website_urls
 #from api.urls import base as api_urls
 from sentry.urls import base as sentry_urls
-
+from .api_ninja import api
 
 urlpatterns = [
     path('admin-back-office/', admin.site.urls),
@@ -18,6 +18,7 @@ urlpatterns = [
     path('oauth/', include(oauth_urls)),
     path('sentry/', include(sentry_urls)),
     path('', include(website_urls)),
+    path('api-ninja/',api.urls)
     
 ]
 

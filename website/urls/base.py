@@ -11,14 +11,12 @@ from . import frontspace as frontspace_urls
 from . import userspace as userspace_urls
 from . import waiting_page as waiting_page_urls 
 from . import payement_state
-from website.urls import api as api_urls
 
 urlpatterns = [
     url(r'^', include(frontspace_urls)),
     path('wait/',include(waiting_page_urls)),
     path('payement_state/',include(payement_state)),
     path('back-office/',include(userspace_urls)),
-    path('api/',include(api_urls))
 ]
 
 
