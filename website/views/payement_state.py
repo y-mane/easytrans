@@ -1,6 +1,5 @@
+from urllib import response
 from rest_framework.decorators import api_view
-from rest_framework.decorators import parser_classes
-from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 import json
 import pprint
@@ -27,14 +26,15 @@ def failled(request):
 def example_view(request, format=None):
     return Response({'custom_data': request.data})"""
 
+@api_view(['POST'])
 def notification(request):
     
-    custom_data=json.loads(request.body)   
-    voyage=Voyage.objects.get(id=custom_data)
-    voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
+    custom_data=request.data 
+    if custom_data: 
+        voyage=Voyage.objects.get(id=custom_data)
+        return response(voyage)
+    else:
+        return response({'details':'custom_data not exist'})
+    #voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     
-    context={
-        'custom_data':custom_data
-        
-    }
-    return render(request,'website/front/notification.html',context)
+    #return render(request,'website/front/notification.html',context)

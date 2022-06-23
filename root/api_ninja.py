@@ -7,7 +7,7 @@ class Notification(Schema):
     txn_status: str
     txn_id: str
 
-@api.post("payement_state/notification/")
+@api.post("/payement_state/notification/")
 def notification_url(request, item:Notification):
     if item.txn_status=='success':
         return {'code':200,'message':'success'}

@@ -1,11 +1,11 @@
-"""from django.core.wsgi import get_wsgi_application
-application = get_wsgi_application()"""
+import standalone
+standalone.run('root.settings')
 import environ
 import os
 import sys
 from django.utils.translation import gettext_lazy as _
 #from django.utils.translation import ugettexget_lazy as _
-#os.environ.setdefault("DJANGO_SETTINGS_MODULE", __file__)
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "root.settings")
 import django
 django.setup()
 
@@ -34,10 +34,8 @@ BASE_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 ]
-"""DJANGO_LIVESYNC = {
-    'PORT': 9001 # this is optional and is default set to 9001.
-}"""
 
 P_APPS = env.list('P_APPS', default=list())
 INSTALLED_APPS = BASE_APPS + P_APPS
@@ -54,10 +52,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-"""MIDDLEWARE_CLASSES = (
-    'livereload.middleware.LiveReloadScript',
-    'livesync.core.middleware.DjangoLiveSyncMiddleware',
-)"""
+
 ROOT_URLCONF = 'root.urls'
 TEMPLATES = [
     {
