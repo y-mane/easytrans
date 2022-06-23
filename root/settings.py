@@ -35,6 +35,7 @@ BASE_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'ninja',
 ]
 
 P_APPS = env.list('P_APPS', default=list())
