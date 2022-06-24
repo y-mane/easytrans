@@ -28,13 +28,12 @@ def example_view(request, format=None):
 
 @api_view(['POST'])
 def notification(request):
-    
     custom_data=request.data 
     if custom_data: 
         voyage=Voyage.objects.get(id=custom_data)
-        return response(voyage)
+        return Response(voyage)
     else:
-        return response({'details':'custom_data not exist'})
+        return Response({'details':'custom_data not exist'})
     #voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
     
     #return render(request,'website/front/notification.html',context)
