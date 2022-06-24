@@ -1,13 +1,13 @@
-import standalone
-standalone.run('root.settings')
+"""import standalone
+standalone.run('root.settings')"""
 import environ
 import os
 import sys
 from django.utils.translation import gettext_lazy as _
 #from django.utils.translation import ugettexget_lazy as _
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "root.settings")
-import django
-django.setup()
+#os.environ.setdefault("DJANGO_SETTINGS_MODULE", "root.settings")
+#import django
+#django.setup()
 
 BASE_DIR = os.path.dirname(__file__)
 PLATFORM_DIR = os.path.join(BASE_DIR, 'platforms')
@@ -34,7 +34,6 @@ BASE_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
     'ninja',
 ]
 
@@ -132,7 +131,6 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
-        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
         
     ]
 }
