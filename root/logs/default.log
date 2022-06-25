@@ -91,3 +91,4 @@ socket.gaierror: [Errno -3] Temporary failure in name resolution
 [ INFO ][ 2022-06-25 21:09:26,403 ][ autoreload ][ 200263 ][ 139707664492352 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-06-25 21:09:31,928 ][ autoreload ][ 200263 ][ 139707664492352 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-06-25 21:09:32,718 ][ autoreload ][ 200298 ][ 140564886488896 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-25 21:26:48,931 ][ basehttp ][ 200298 ][ 140564674901760 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 250

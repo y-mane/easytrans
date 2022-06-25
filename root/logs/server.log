@@ -2,3 +2,4 @@
 [ ERROR ][ 2022-06-25 21:03:04,242 ][ basehttp ][ 176914 ][ 139975049344768 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 26418
 [ ERROR ][ 2022-06-25 21:04:05,765 ][ basehttp ][ 199560 ][ 140068376708864 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 26418
 [ INFO ][ 2022-06-25 21:06:20,224 ][ basehttp ][ 199704 ][ 140372208776960 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 250
+[ INFO ][ 2022-06-25 21:26:48,931 ][ basehttp ][ 200298 ][ 140564674901760 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 250
