@@ -23,10 +23,6 @@ def failled(request):
     }
     return render(request,'website/front/failled.html',context)
 
-"""@api_view(['GET']) 
-@parser_classes((JSONParser,)) 
-def example_view(request, format=None):
-    return Response({'custom_data': request.data})"""
 
 @api_view(['POST'])
 def notification(request):
@@ -40,7 +36,7 @@ def notification(request):
         voyage.save()
         voy=model_to_dict(voyage)
         #API pour envoyer les sms
-        conn = http.client.HTTPConnection("vavasms.com")
+        """conn = http.client.HTTPConnection("vavasms.com")
         payload = "username=keita.souleyman225@gmail.com&password=thelifeislesgigas2020&sender_id=keita.souleyman225@gmail.com&phone={voyage.contact}&message=paiment effectué avec succès"
         headers = {
         'Content-Type': "application/x-www-form-urlencoded",
@@ -50,8 +46,8 @@ def notification(request):
         conn.request("POST", "api,v1,text,single", payload, headers)
         res = conn.getresponse()
         data = res.read()
-        print(data.decode("utf-8"))
-        #fin API d'envoie de sms """
+        print(data.decode("utf-8"))"""
+        #fin API d'envoie de sms
         return Response(voy) 
     else:
             return Response({'details':'custom_data not exist'})
