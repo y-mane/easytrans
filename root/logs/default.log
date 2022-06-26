@@ -13,3 +13,4 @@
 [ WARNING ][ 2022-06-26 12:17:08,441 ][ basehttp ][ 3143 ][ 140262166636288 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
 [ WARNING ][ 2022-06-26 12:17:08,499 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4616
 [ WARNING ][ 2022-06-26 13:46:35,151 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-06-26 15:35:48,842 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 255
