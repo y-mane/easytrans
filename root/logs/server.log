@@ -13,3 +13,8 @@
 [ WARNING ][ 2022-06-26 12:17:08,499 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4616
 [ WARNING ][ 2022-06-26 13:46:35,151 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
 [ INFO ][ 2022-06-26 15:35:48,842 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 255
+[ INFO ][ 2022-06-26 16:26:43,589 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ INFO ][ 2022-06-26 16:26:56,980 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ INFO ][ 2022-06-26 16:27:13,913 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ INFO ][ 2022-06-26 16:27:24,941 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ INFO ][ 2022-06-26 16:27:37,349 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
