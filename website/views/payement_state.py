@@ -45,7 +45,7 @@ def notification(request):
         voy=model_to_dict(voyage)
         #API pour envoyer les sms
         conn = http.client.HTTPConnection("vavasms.com")
-        payload = "username=keita.souleyman225@gmail.com&password=thelifeislesgigas2020&sender_id=keita.souleyman225@gmail.com&phone={voyage.contact}&message=paiment effectué avec succès"
+        payload = "username=keita.souleyman225@gmail.com&password=thelifeislesgigas2020&sender_id=keita&phone={voyage.contact}&message=paiment effectué avec succès"
         headers = {
         'Content-Type': "application/x-www-form-urlencoded",
         'Accept': "*/*",

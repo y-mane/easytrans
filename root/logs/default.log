@@ -755,3 +755,86 @@ AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse`
 [ ERROR ][ 2022-06-27 10:44:05,573 ][ basehttp ][ 46654 ][ 140502061020928 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 107928
 [ INFO ][ 2022-06-27 10:44:12,850 ][ autoreload ][ 46654 ][ 140502272735040 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-06-27 10:44:13,659 ][ autoreload ][ 46762 ][ 140417659942720 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-06-27 10:49:24,006 ][ log ][ 46762 ][ 140417446180608 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[ ERROR ][ 2022-06-27 10:49:25,260 ][ basehttp ][ 46762 ][ 140417446180608 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 107928
+[ INFO ][ 2022-06-27 10:53:25,386 ][ autoreload ][ 46762 ][ 140417659942720 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-27 10:53:29,720 ][ autoreload ][ 47469 ][ 139641724626752 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-06-27 10:53:44,892 ][ log ][ 47469 ][ 139641513047808 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[ ERROR ][ 2022-06-27 10:53:45,123 ][ basehttp ][ 47469 ][ 139641513047808 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 107928
+[ ERROR ][ 2022-06-27 10:54:04,553 ][ log ][ 47469 ][ 139641513047808 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[ ERROR ][ 2022-06-27 10:54:04,604 ][ basehttp ][ 47469 ][ 139641513047808 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 107928
+[ INFO ][ 2022-06-27 10:54:23,913 ][ autoreload ][ 47652 ][ 140482108270400 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-06-27 10:54:32,668 ][ log ][ 47652 ][ 140481896539904 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+[ ERROR ][ 2022-06-27 10:54:32,830 ][ basehttp ][ 47652 ][ 140481896539904 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 107928
