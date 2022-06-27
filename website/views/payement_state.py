@@ -1,6 +1,7 @@
 from urllib import response
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from django.views.decorators.csrf import csrf_exempt
 import json
 import pprint
 import requests
@@ -23,7 +24,7 @@ def failled(request):
     }
     return render(request,'website/front/failled.html',context)
 
-
+@csrf_exempt
 @api_view(['POST'])
 def notification(request):
     custom_data=request.data["custom_data"]

@@ -19,3 +19,7 @@
 [ INFO ][ 2022-06-26 16:27:13,913 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
 [ INFO ][ 2022-06-26 16:27:24,941 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
 [ INFO ][ 2022-06-26 16:27:37,349 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ INFO ][ 2022-06-26 16:52:49,728 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ INFO ][ 2022-06-26 16:53:23,454 ][ basehttp ][ 3143 ][ 140262177388288 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ INFO ][ 2022-06-26 23:23:52,172 ][ autoreload ][ 3143 ][ 140262397400896 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-26 23:24:05,468 ][ autoreload ][ 29612 ][ 140441649334080 ] ==> Watching for file changes with StatReloader
