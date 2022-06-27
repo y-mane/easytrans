@@ -24,13 +24,19 @@ def failled(request):
     }
     return render(request,'website/front/failled.html',context)
 
+"""@api_view(['GET'])
+def notification(request):
+    voyage=Voyage.objects.get(id=3)
+    voy = model_to_dict(voyage)
+    return response(voy)"""
+
 @csrf_exempt
 @api_view(['POST'])
 def notification(request):
     custom_data=request.data["custom_data"]
-    custom=custom_data.split("#")
-    voyage_id=int(custom[0])
-    payement_state=custom[1]
+    custom_list=custom_data.split("#")
+    voyage_id=int(custom_list[0])
+    payement_state=custom_list[1]
     if payement_state=='success': 
         voyage=Voyage.objects.get(id=voyage_id)
         voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
