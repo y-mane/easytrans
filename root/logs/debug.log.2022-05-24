@@ -1,6 +1,0 @@
-[ DEBUG ][ 2022-05-25 05:55:50,703 ][ base ][ 6973 ][ 140614486181632 ] ==> [+] while login got request user lang: fr
-[ DEBUG ][ 2022-05-25 05:55:50,705 ][ base ][ 6973 ][ 140614486181632 ] ==> [+] while login got default user lang: fr
-[ DEBUG ][ 2022-05-25 05:55:50,706 ][ base ][ 6973 ][ 140614486181632 ] ==> [+] activating user lang: fr
-[ DEBUG ][ 2022-05-25 06:32:05,258 ][ base ][ 6973 ][ 140614477788928 ] ==> [+] while login got request user lang: fr
-[ DEBUG ][ 2022-05-25 06:32:05,325 ][ base ][ 6973 ][ 140614477788928 ] ==> [+] while login got default user lang: fr
-[ DEBUG ][ 2022-05-25 06:32:05,326 ][ base ][ 6973 ][ 140614477788928 ] ==> [+] activating user lang: fr
