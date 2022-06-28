@@ -1,0 +1,1138 @@
+[ DEBUG ][ 2022-05-17 13:27:05,364 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>
+[ DEBUG ][ 2022-05-17 13:27:05,744 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>
+[ DEBUG ][ 2022-05-17 13:27:05,747 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>
+[ DEBUG ][ 2022-05-17 13:27:05,750 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>
+[ DEBUG ][ 2022-05-17 13:27:05,752 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>
+[ DEBUG ][ 2022-05-17 13:27:05,754 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>
+[ DEBUG ][ 2022-05-17 13:27:05,758 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>
+[ DEBUG ][ 2022-05-17 13:27:05,760 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>
+[ DEBUG ][ 2022-05-17 13:33:07,484 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>
+[ DEBUG ][ 2022-05-17 13:33:07,489 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>
+[ DEBUG ][ 2022-05-17 13:33:07,495 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>
+[ DEBUG ][ 2022-05-17 13:33:07,499 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>
+[ DEBUG ][ 2022-05-17 13:33:07,503 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>
+[ DEBUG ][ 2022-05-17 13:33:07,508 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>
+[ DEBUG ][ 2022-05-17 13:33:07,515 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>
+[ DEBUG ][ 2022-05-17 13:33:07,519 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'website/front/js/main.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>
+[ DEBUG ][ 2022-05-17 17:38:41,973 ][ base ] ==> Exception while resolving variable 'form' in template 'website/front/waiting_page.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'form'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [form] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fc8d51899d0>>, 'request': <WSGIRequest: GET '/wait/'>, 'MEDIA_URL': '/media/', 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7fc8d51e8940>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc8d51f78e0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc8d51e8700>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'APP_TITLE': 'EASYTRANS', 'BASE_SERVER': 'http://localhost:8000', 'USERS_FRONT_PERMS': [{'perm': 'can_create_user', 'name': 'Peut créer et gérer des Utilisateurs'}, {'perm': 'can_create_branch', 'name': 'Peut créer et gérer des Branches'}]}, {}, {'voyage': <Voyage: souley>}]
+[ DEBUG ][ 2022-05-17 17:38:42,647 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/move-top.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>
+[ DEBUG ][ 2022-05-17 17:38:42,649 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/move-top.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>
+[ DEBUG ][ 2022-05-17 17:38:42,652 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/move-top.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>
+[ DEBUG ][ 2022-05-17 17:38:42,655 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/move-top.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>
+[ DEBUG ][ 2022-05-17 17:38:42,672 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/move-top.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>
+[ DEBUG ][ 2022-05-17 17:38:42,677 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/easing.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>
+[ DEBUG ][ 2022-05-17 17:38:42,679 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/move-top.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>
+[ DEBUG ][ 2022-05-17 17:38:42,685 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/easing.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>
+[ DEBUG ][ 2022-05-17 17:38:42,694 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/move-top.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>
+[ DEBUG ][ 2022-05-17 17:38:42,708 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/easing.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>
+[ DEBUG ][ 2022-05-17 17:38:42,738 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/easing.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>
+[ DEBUG ][ 2022-05-17 17:38:42,748 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/easing.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>
+[ DEBUG ][ 2022-05-17 17:38:42,749 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/easing.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>
+[ DEBUG ][ 2022-05-17 17:38:42,752 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '' [name='waiting_page']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'wait/js/easing.js'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>

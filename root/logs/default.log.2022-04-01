@@ -1,0 +1,8 @@
+[ INFO ][ 2022-04-01 14:35:20,954 ][ autoreload ][ 42516 ][ 140029565015872 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-04-01 14:43:54,772 ][ autoreload ][ 42516 ][ 140029565015872 ] ==> /home/ymane/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py changed, reloading.
+[ INFO ][ 2022-04-01 14:43:55,499 ][ autoreload ][ 42786 ][ 140419599595328 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-04-01 14:43:56,693 ][ autoreload ][ 42786 ][ 140419599595328 ] ==> /home/ymane/.local/lib/python3.8/site-packages/django/db/models/fields/__init__.py changed, reloading.
+[ INFO ][ 2022-04-01 14:43:59,502 ][ autoreload ][ 42803 ][ 139659744503616 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-04-01 14:44:07,043 ][ autoreload ][ 42847 ][ 140258637125440 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-04-01 16:10:42,976 ][ autoreload ][ 48940 ][ 140709848082240 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-04-01 16:13:17,107 ][ autoreload ][ 48940 ][ 140709848082240 ] ==> /home/ymane/.local/lib/python3.8/site-packages/django/utils/translation/__init__.py changed, reloading.

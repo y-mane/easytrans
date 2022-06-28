@@ -38,7 +38,7 @@ def notification(request):
     custom_data=var['extra_data']
     voyage_id=int(custom_data)
     payement_state=var['txn_status']
-    if payement_state=='success': 
+    if custom_data: 
         voyage=Voyage.objects.get(id=voyage_id)
         voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
         voyage.save()

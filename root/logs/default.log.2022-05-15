@@ -1,0 +1,16 @@
+[ INFO ][ 2022-05-15 15:02:04,100 ][ autoreload ][ 6170 ][ 140467071289152 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-05-15 15:08:27,095 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /favicon.ico HTTP/1.1" 404 4412
+[ INFO ][ 2022-05-15 15:08:33,515 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "POST /back-office/login/ HTTP/1.1" 302 0
+[ INFO ][ 2022-05-15 15:08:35,667 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 111044
+[ INFO ][ 2022-05-15 15:08:36,049 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /static/website/back/css/moniteur.css HTTP/1.1" 304 0
+[ INFO ][ 2022-05-15 15:08:36,291 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /static/website/back/js/valider.js HTTP/1.1" 304 0
+[ WARNING ][ 2022-05-15 15:08:37,912 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
+[ WARNING ][ 2022-05-15 15:08:37,913 ][ basehttp ][ 6170 ][ 140466858026752 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
+[ WARNING ][ 2022-05-15 15:08:38,122 ][ basehttp ][ 6170 ][ 140466636977920 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
+[ WARNING ][ 2022-05-15 15:08:38,123 ][ basehttp ][ 6170 ][ 140466846750464 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
+[ WARNING ][ 2022-05-15 15:08:38,333 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
+[ WARNING ][ 2022-05-15 15:08:38,437 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
+[ WARNING ][ 2022-05-15 15:09:21,553 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /static/website/back/fonts/themify.woff%3F-fvbane HTTP/1.1" 404 1846
+[ WARNING ][ 2022-05-15 15:09:21,577 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /static/website/back/fonts/themify.ttf%3F-fvbane HTTP/1.1" 404 1843
+[ INFO ][ 2022-05-15 15:09:23,403 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /back-office/logout/ HTTP/1.1" 302 0
+[ INFO ][ 2022-05-15 15:09:23,574 ][ basehttp ][ 6170 ][ 140466866419456 ] ==> "GET /back-office/ HTTP/1.1" 200 2418

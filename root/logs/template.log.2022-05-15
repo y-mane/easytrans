@@ -1,0 +1,380 @@
+[ DEBUG ][ 2022-05-15 15:08:25,567 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>
+[ DEBUG ][ 2022-05-15 15:08:25,608 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>
+[ DEBUG ][ 2022-05-15 15:08:25,610 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>
+[ DEBUG ][ 2022-05-15 15:08:25,612 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>
+[ DEBUG ][ 2022-05-15 15:08:25,614 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>
+[ DEBUG ][ 2022-05-15 15:08:25,616 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>
+[ DEBUG ][ 2022-05-15 15:08:25,619 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>
+[ DEBUG ][ 2022-05-15 15:08:25,623 ][ base ] ==> Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 100, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 575, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin-back-office/'>], [<URLResolver <module 'api.urls.base' from '/home/ymane/Téléchargements/essaie/api/urls/base.py'> (None:None) 'api/v1/'>], [<URLResolver <module 'django.conf.urls.i18n' from '/home/ymane/.local/lib/python3.8/site-packages/django/conf/urls/i18n.py'> (None:None) 'i18n/'>], [<URLResolver <module 'session_security.urls' from '/home/ymane/Téléchargements/essaie/session_security/urls.py'> (None:None) 'session_security/'>], [<URLResolver <module 'oauth.urls.base' from '/home/ymane/Téléchargements/essaie/oauth/urls/base.py'> (None:None) 'oauth/'>], [<URLResolver <module 'sentry.urls.base' from '/home/ymane/Téléchargements/essaie/sentry/urls/base.py'> (None:None) 'sentry/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '' [name='frontspace']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-lieu_depart/' [name='ajax_load_lieu_depart']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern 'ajax/load-destination/' [name='ajax_load_destination']>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^media/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.frontspace' from '/home/ymane/Téléchargements/essaie/website/urls/frontspace.py'> (None:None) '^'>, <URLPattern '^static/(?P<path>.*)$'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.waiting_page' from '/home/ymane/Téléchargements/essaie/website/urls/waiting_page.py'> (None:None) 'wait/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>], [<URLResolver <module 'website.urls.base' from '/home/ymane/Téléchargements/essaie/website/urls/base.py'> (None:None) ''>, <URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^media/(?P<path>.*)$'>], [<URLPattern '^static/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 836, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'website.urls.userspace' from '/home/ymane/Téléchargements/essaie/website/urls/userspace.py'> (None:None) 'back-office/'>
+[ DEBUG ][ 2022-05-15 15:08:34,847 ][ base ] ==> Exception while resolving variable 'en_cours' in template 'website/back/moniteur_dashboard.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'en_cours'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'en_cours'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'en_cours'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [en_cours] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fc0fc928670>>, 'request': <WSGIRequest: GET '/back-office/dashboard'>, 'MEDIA_URL': '/media/', 'user': <SimpleLazyObject: <User: darkman>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc0fdb548b0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc0fca1cee0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'APP_TITLE': 'EASYTRANS', 'BASE_SERVER': 'http://localhost:8000', 'USERS_FRONT_PERMS': [{'perm': 'can_create_user', 'name': 'Peut créer et gérer des Utilisateurs'}, {'perm': 'can_create_branch', 'name': 'Peut créer et gérer des Branches'}]}, {}, {'user': <SimpleLazyObject: <User: darkman>>, 'profile': <Profile: darkman>, 'user_front_perm': {}, 'voyage': <QuerySet [<Voyage: misterY>, <Voyage: keita>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: isso>, <Voyage: isso>, <Voyage: issi>, <Voyage: ss>, <Voyage: ss>, <Voyage: ss>, <Voyage: ss>, <Voyage: inoussa>, <Voyage: ymane>, <Voyage: kankan>]>, 'form': <MissionForm bound=False, valid=Unknown, fields=(voyage;livreur;commentaire)>, 'mission': <QuerySet []>, 'voyage_total': 19, 'mission_total': 0, 'livreur': [<User: jean>, <User: jack>]}, {'block': <Block Node: content. Contents: [<TextNode: '\n            <div class="'>, <Block Node: page-title. Contents: [<TextNode: 'Dashboard 2 '>]>, <TextNode: '</h4>\n                   '>, <Block Node: breadcrumb. Contents: [<TextNode: '\n                        '>]>, <TextNode: '\n                        '>, <Block Node: content-first-row. Contents: [<TextNode: '\n                        '>]>, <TextNode: '\n\n                       '>, <Block Node: content-second-row. Contents: [<TextNode: '\n                        '>]>, <TextNode: '\n                        '>, <Block Node: content-third-row. Contents: [<TextNode: '\n                        '>, <django.templatetags.static.StaticNode object at 0x7fc0fc917850>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc9179a0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917ac0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917be0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917d00>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917e20>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917f40>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc9180a0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc9181c0>, <TextNode: '" alt="user" class="thumb'>, <django.templatetags.static.StaticNode object at 0x7fc0fc9182e0>, <TextNode: '" alt="user" class="thumb'>, <django.templatetags.static.StaticNode object at 0x7fc0fc918400>, <TextNode: '" alt="user" class="thumb'>]>, <TextNode: '\n                        '>, <django.template.defaulttags.CommentNode object at 0x7fc0fc98d340>, <TextNode: '\n                </footer'>]>}, {'block': <Block Node: content-first-row. Contents: [<TextNode: '\n<div class="col-lg-3 col'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb721f0>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb72bb0>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: voyage_total>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb50a00>, <TextNode: '\n\n        </div>\n    </di'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb50bb0>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb72070>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: en_cours>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb5c190>, <TextNode: '\n        </div>\n    </div'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb5c760>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb8f6a0>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: customer_count>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb5c070>, <TextNode: '\n        </div>\n    </div'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb5c550>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb8fd60>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: canceled_deliveries>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb5a700>, <TextNode: '\n        </div>\n    </div'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb5aca0>, <TextNode: '</h4>\n                <di'>, <ForNode: for element in voyage, tail_len: 27>, <TextNode: '\n\n                       '>, <django.templatetags.static.StaticNode object at 0x7fc0fdb53eb0>, <TextNode: '"></script>\n<!-- <script>'>, <django.template.defaulttags.URLNode object at 0x7fc0fdb53340>, <TextNode: '",\n                      '>]>}]
+[ DEBUG ][ 2022-05-15 15:08:34,875 ][ base ] ==> Exception while resolving variable 'customer_count' in template 'website/back/moniteur_dashboard.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'customer_count'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'customer_count'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'customer_count'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [customer_count] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fc0fc928670>>, 'request': <WSGIRequest: GET '/back-office/dashboard'>, 'MEDIA_URL': '/media/', 'user': <SimpleLazyObject: <User: darkman>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc0fdb548b0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc0fca1cee0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'APP_TITLE': 'EASYTRANS', 'BASE_SERVER': 'http://localhost:8000', 'USERS_FRONT_PERMS': [{'perm': 'can_create_user', 'name': 'Peut créer et gérer des Utilisateurs'}, {'perm': 'can_create_branch', 'name': 'Peut créer et gérer des Branches'}]}, {}, {'user': <SimpleLazyObject: <User: darkman>>, 'profile': <Profile: darkman>, 'user_front_perm': {}, 'voyage': <QuerySet [<Voyage: misterY>, <Voyage: keita>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: isso>, <Voyage: isso>, <Voyage: issi>, <Voyage: ss>, <Voyage: ss>, <Voyage: ss>, <Voyage: ss>, <Voyage: inoussa>, <Voyage: ymane>, <Voyage: kankan>]>, 'form': <MissionForm bound=False, valid=Unknown, fields=(voyage;livreur;commentaire)>, 'mission': <QuerySet []>, 'voyage_total': 19, 'mission_total': 0, 'livreur': [<User: jean>, <User: jack>]}, {'block': <Block Node: content. Contents: [<TextNode: '\n            <div class="'>, <Block Node: page-title. Contents: [<TextNode: 'Dashboard 2 '>]>, <TextNode: '</h4>\n                   '>, <Block Node: breadcrumb. Contents: [<TextNode: '\n                        '>]>, <TextNode: '\n                        '>, <Block Node: content-first-row. Contents: [<TextNode: '\n                        '>]>, <TextNode: '\n\n                       '>, <Block Node: content-second-row. Contents: [<TextNode: '\n                        '>]>, <TextNode: '\n                        '>, <Block Node: content-third-row. Contents: [<TextNode: '\n                        '>, <django.templatetags.static.StaticNode object at 0x7fc0fc917850>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc9179a0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917ac0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917be0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917d00>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917e20>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917f40>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc9180a0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc9181c0>, <TextNode: '" alt="user" class="thumb'>, <django.templatetags.static.StaticNode object at 0x7fc0fc9182e0>, <TextNode: '" alt="user" class="thumb'>, <django.templatetags.static.StaticNode object at 0x7fc0fc918400>, <TextNode: '" alt="user" class="thumb'>]>, <TextNode: '\n                        '>, <django.template.defaulttags.CommentNode object at 0x7fc0fc98d340>, <TextNode: '\n                </footer'>]>}, {'block': <Block Node: content-first-row. Contents: [<TextNode: '\n<div class="col-lg-3 col'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb721f0>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb72bb0>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: voyage_total>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb50a00>, <TextNode: '\n\n        </div>\n    </di'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb50bb0>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb72070>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: en_cours>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb5c190>, <TextNode: '\n        </div>\n    </div'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb5c760>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb8f6a0>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: customer_count>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb5c070>, <TextNode: '\n        </div>\n    </div'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb5c550>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb8fd60>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: canceled_deliveries>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb5a700>, <TextNode: '\n        </div>\n    </div'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb5aca0>, <TextNode: '</h4>\n                <di'>, <ForNode: for element in voyage, tail_len: 27>, <TextNode: '\n\n                       '>, <django.templatetags.static.StaticNode object at 0x7fc0fdb53eb0>, <TextNode: '"></script>\n<!-- <script>'>, <django.template.defaulttags.URLNode object at 0x7fc0fdb53340>, <TextNode: '",\n                      '>]>}]
+[ DEBUG ][ 2022-05-15 15:08:34,894 ][ base ] ==> Exception while resolving variable 'canceled_deliveries' in template 'website/back/moniteur_dashboard.html'.
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 828, in _resolve_lookup
+    current = current[bit]
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'canceled_deliveries'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 834, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'canceled_deliveries'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 842, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'canceled_deliveries'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/template/base.py", line 847, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [canceled_deliveries] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7fc0fc928670>>, 'request': <WSGIRequest: GET '/back-office/dashboard'>, 'MEDIA_URL': '/media/', 'user': <SimpleLazyObject: <User: darkman>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fc0fdb548b0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fc0fca1cee0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'APP_TITLE': 'EASYTRANS', 'BASE_SERVER': 'http://localhost:8000', 'USERS_FRONT_PERMS': [{'perm': 'can_create_user', 'name': 'Peut créer et gérer des Utilisateurs'}, {'perm': 'can_create_branch', 'name': 'Peut créer et gérer des Branches'}]}, {}, {'user': <SimpleLazyObject: <User: darkman>>, 'profile': <Profile: darkman>, 'user_front_perm': {}, 'voyage': <QuerySet [<Voyage: misterY>, <Voyage: keita>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: darkman>, <Voyage: isso>, <Voyage: isso>, <Voyage: issi>, <Voyage: ss>, <Voyage: ss>, <Voyage: ss>, <Voyage: ss>, <Voyage: inoussa>, <Voyage: ymane>, <Voyage: kankan>]>, 'form': <MissionForm bound=False, valid=Unknown, fields=(voyage;livreur;commentaire)>, 'mission': <QuerySet []>, 'voyage_total': 19, 'mission_total': 0, 'livreur': [<User: jean>, <User: jack>]}, {'block': <Block Node: content. Contents: [<TextNode: '\n            <div class="'>, <Block Node: page-title. Contents: [<TextNode: 'Dashboard 2 '>]>, <TextNode: '</h4>\n                   '>, <Block Node: breadcrumb. Contents: [<TextNode: '\n                        '>]>, <TextNode: '\n                        '>, <Block Node: content-first-row. Contents: [<TextNode: '\n                        '>]>, <TextNode: '\n\n                       '>, <Block Node: content-second-row. Contents: [<TextNode: '\n                        '>]>, <TextNode: '\n                        '>, <Block Node: content-third-row. Contents: [<TextNode: '\n                        '>, <django.templatetags.static.StaticNode object at 0x7fc0fc917850>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc9179a0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917ac0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917be0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917d00>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917e20>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc917f40>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc9180a0>, <TextNode: '" class="img-circle" alt='>, <django.templatetags.static.StaticNode object at 0x7fc0fc9181c0>, <TextNode: '" alt="user" class="thumb'>, <django.templatetags.static.StaticNode object at 0x7fc0fc9182e0>, <TextNode: '" alt="user" class="thumb'>, <django.templatetags.static.StaticNode object at 0x7fc0fc918400>, <TextNode: '" alt="user" class="thumb'>]>, <TextNode: '\n                        '>, <django.template.defaulttags.CommentNode object at 0x7fc0fc98d340>, <TextNode: '\n                </footer'>]>}, {'block': <Block Node: content-first-row. Contents: [<TextNode: '\n<div class="col-lg-3 col'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb721f0>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb72bb0>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: voyage_total>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb50a00>, <TextNode: '\n\n        </div>\n    </di'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb50bb0>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb72070>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: en_cours>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb5c190>, <TextNode: '\n        </div>\n    </div'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb5c760>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb8f6a0>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: customer_count>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb5c070>, <TextNode: '\n        </div>\n    </div'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb5c550>, <TextNode: '">'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb8fd60>, <TextNode: '</p>\n            <h2><spa'>, <Variable Node: canceled_deliveries>, <TextNode: '</span> <small><i class="'>, <django.template.defaulttags.CommentNode object at 0x7fc0fdb5a700>, <TextNode: '\n        </div>\n    </div'>, <django.templatetags.i18n.TranslateNode object at 0x7fc0fdb5aca0>, <TextNode: '</h4>\n                <di'>, <ForNode: for element in voyage, tail_len: 27>, <TextNode: '\n\n                       '>, <django.templatetags.static.StaticNode object at 0x7fc0fdb53eb0>, <TextNode: '"></script>\n<!-- <script>'>, <django.template.defaulttags.URLNode object at 0x7fc0fdb53340>, <TextNode: '",\n                      '>]>}]

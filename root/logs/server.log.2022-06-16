@@ -1,0 +1,9 @@
+[ INFO ][ 2022-06-16 23:08:43,178 ][ basehttp ][ 41508 ][ 139739002976000 ] ==> "GET / HTTP/1.1" 200 8390
+[ INFO ][ 2022-06-16 23:08:43,321 ][ basehttp ][ 41508 ][ 139739002976000 ] ==> "GET /static/website/front/css/style.css HTTP/1.1" 304 0
+[ INFO ][ 2022-06-16 23:08:43,349 ][ basehttp ][ 41508 ][ 139738994583296 ] ==> "GET /static/website/front/css/input.css HTTP/1.1" 304 0
+[ INFO ][ 2022-06-16 23:08:43,368 ][ basehttp ][ 41508 ][ 139738984617728 ] ==> "GET /static/website/front/js/jquery-1.11.1.min.js HTTP/1.1" 304 0
+[ WARNING ][ 2022-06-16 23:08:43,414 ][ basehttp ][ 41508 ][ 139739002976000 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-16 23:08:43,519 ][ basehttp ][ 41508 ][ 139738994583296 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4613
+[ INFO ][ 2022-06-16 23:08:43,653 ][ basehttp ][ 41508 ][ 139738994583296 ] ==> "GET /static/website/front/images/1.jpeg HTTP/1.1" 200 243396
+[ WARNING ][ 2022-06-16 23:08:43,824 ][ basehttp ][ 41508 ][ 139738994583296 ] ==> "GET /favicon.ico HTTP/1.1" 404 4574
+[ ERROR ][ 2022-06-16 23:09:01,837 ][ basehttp ][ 41508 ][ 139738994583296 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 101218

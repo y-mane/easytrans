@@ -1,0 +1,3 @@
+[ DEBUG ][ 2022-04-04 11:36:25,477 ][ base ][ 12024 ][ 139833558144768 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-04-04 11:36:25,477 ][ base ][ 12024 ][ 139833558144768 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-04-04 11:36:25,477 ][ base ][ 12024 ][ 139833558144768 ] ==> [+] activating user lang: fr

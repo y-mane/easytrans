@@ -1,0 +1,87 @@
+[ DEBUG ][ 2022-06-08 22:03:57,799 ][ utils ] ==> (1.014) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-08 22:03:58,624 ][ utils ] ==> (0.807) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-08 22:05:07,468 ][ utils ] ==> (0.005) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-08 22:05:07,474 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-08 22:05:09,948 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-08 22:05:09,952 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-08 22:05:13,693 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-08 22:05:13,696 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-08 22:05:23,255 ][ utils ] ==> (0.005) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-08 22:05:23,259 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-08 22:05:27,107 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-08 22:05:27,113 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-08 22:08:57,974 ][ utils ] ==> (0.004) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-08 22:08:57,978 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-08 22:09:00,218 ][ utils ] ==> (0.143) DECLARE "_django_curs_140536875104000_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "start_form_compagnie"."id", "start_form_compagnie"."name", "start_form_compagnie"."description", "start_form_compagnie"."reference", "start_form_compagnie"."contact1", "start_form_compagnie"."contact2" FROM "start_form_compagnie"; args=()
+[ DEBUG ][ 2022-06-08 22:09:00,288 ][ utils ] ==> (0.000) DECLARE "_django_curs_140536875104000_sync_2" NO SCROLL CURSOR WITH HOLD FOR SELECT "start_form_compagnie"."id", "start_form_compagnie"."name", "start_form_compagnie"."description", "start_form_compagnie"."reference", "start_form_compagnie"."contact1", "start_form_compagnie"."contact2" FROM "start_form_compagnie"; args=()
+[ DEBUG ][ 2022-06-08 22:09:00,917 ][ utils ] ==> (0.604) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (200, 'GET', '/', '2022-06-08T22:09:00.313133'::timestamp, false, false, '127.0.0.1'::inet, NULL, '', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7') RETURNING "request_request"."id"; args=(200, 'GET', '/', datetime.datetime(2022, 6, 8, 22, 9, 0, 313133), False, False, Inet('127.0.0.1'), None, '', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7')
+[ DEBUG ][ 2022-06-08 22:09:01,146 ][ utils ] ==> (0.058) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (404, 'GET', '/website/front/js/main.js', '2022-06-08T22:09:01.079075'::timestamp, false, false, '127.0.0.1'::inet, NULL, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7') RETURNING "request_request"."id"; args=(404, 'GET', '/website/front/js/main.js', datetime.datetime(2022, 6, 8, 22, 9, 1, 79075), False, False, Inet('127.0.0.1'), None, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7')
+[ DEBUG ][ 2022-06-08 22:09:01,486 ][ utils ] ==> (0.040) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (404, 'GET', '/favicon.ico', '2022-06-08T22:09:01.426167'::timestamp, false, false, '127.0.0.1'::inet, NULL, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7') RETURNING "request_request"."id"; args=(404, 'GET', '/favicon.ico', datetime.datetime(2022, 6, 8, 22, 9, 1, 426167), False, False, Inet('127.0.0.1'), None, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7')
+[ DEBUG ][ 2022-06-08 22:09:14,371 ][ utils ] ==> (0.100) SELECT "start_form_agence"."id", "start_form_agence"."compagnie_id", "start_form_agence"."commune_id", "start_form_agence"."coordonnee_geo", "start_form_agence"."adresse_geo" FROM "start_form_agence" WHERE "start_form_agence"."compagnie_id" = 2; args=(2,)
+[ DEBUG ][ 2022-06-08 22:09:14,371 ][ utils ] ==> (0.041) SELECT "start_form_agence"."id", "start_form_agence"."compagnie_id", "start_form_agence"."commune_id", "start_form_agence"."coordonnee_geo", "start_form_agence"."adresse_geo" FROM "start_form_agence" WHERE "start_form_agence"."compagnie_id" = 2; args=(2,)
+[ DEBUG ][ 2022-06-08 22:09:14,382 ][ utils ] ==> (0.004) SELECT "start_form_compagnie"."id", "start_form_compagnie"."name", "start_form_compagnie"."description", "start_form_compagnie"."reference", "start_form_compagnie"."contact1", "start_form_compagnie"."contact2" FROM "start_form_compagnie" WHERE "start_form_compagnie"."id" = 2 LIMIT 21; args=(2,)
+[ DEBUG ][ 2022-06-08 22:09:14,387 ][ utils ] ==> (0.005) SELECT "start_form_compagnie"."id", "start_form_compagnie"."name", "start_form_compagnie"."description", "start_form_compagnie"."reference", "start_form_compagnie"."contact1", "start_form_compagnie"."contact2" FROM "start_form_compagnie" WHERE "start_form_compagnie"."id" = 2 LIMIT 21; args=(2,)
+[ DEBUG ][ 2022-06-08 22:09:14,487 ][ utils ] ==> (0.098) SELECT "start_form_commune"."id", "start_form_commune"."ville_id", "start_form_commune"."name", "start_form_commune"."description", "start_form_commune"."reference" FROM "start_form_commune" WHERE "start_form_commune"."id" = 1 LIMIT 21; args=(1,)
+[ DEBUG ][ 2022-06-08 22:09:14,487 ][ utils ] ==> (0.101) SELECT "start_form_commune"."id", "start_form_commune"."ville_id", "start_form_commune"."name", "start_form_commune"."description", "start_form_commune"."reference" FROM "start_form_commune" WHERE "start_form_commune"."id" = 1 LIMIT 21; args=(1,)
+[ DEBUG ][ 2022-06-08 22:09:14,490 ][ utils ] ==> (0.002) SELECT "start_form_compagnie"."id", "start_form_compagnie"."name", "start_form_compagnie"."description", "start_form_compagnie"."reference", "start_form_compagnie"."contact1", "start_form_compagnie"."contact2" FROM "start_form_compagnie" WHERE "start_form_compagnie"."id" = 2 LIMIT 21; args=(2,)
+[ DEBUG ][ 2022-06-08 22:09:14,491 ][ utils ] ==> (0.001) SELECT "start_form_compagnie"."id", "start_form_compagnie"."name", "start_form_compagnie"."description", "start_form_compagnie"."reference", "start_form_compagnie"."contact1", "start_form_compagnie"."contact2" FROM "start_form_compagnie" WHERE "start_form_compagnie"."id" = 2 LIMIT 21; args=(2,)
+[ DEBUG ][ 2022-06-08 22:09:14,493 ][ utils ] ==> (0.001) SELECT "start_form_commune"."id", "start_form_commune"."ville_id", "start_form_commune"."name", "start_form_commune"."description", "start_form_commune"."reference" FROM "start_form_commune" WHERE "start_form_commune"."id" = 3 LIMIT 21; args=(3,)
+[ DEBUG ][ 2022-06-08 22:09:14,494 ][ utils ] ==> (0.001) SELECT "start_form_commune"."id", "start_form_commune"."ville_id", "start_form_commune"."name", "start_form_commune"."description", "start_form_commune"."reference" FROM "start_form_commune" WHERE "start_form_commune"."id" = 3 LIMIT 21; args=(3,)
+[ DEBUG ][ 2022-06-08 22:09:14,551 ][ utils ] ==> (0.058) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (200, 'GET', '/ajax/load-destination/', '2022-06-08T22:09:14.493791'::timestamp, false, true, '127.0.0.1'::inet, NULL, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7') RETURNING "request_request"."id"; args=(200, 'GET', '/ajax/load-destination/', datetime.datetime(2022, 6, 8, 22, 9, 14, 493791), False, True, Inet('127.0.0.1'), None, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7')
+[ DEBUG ][ 2022-06-08 22:09:14,569 ][ utils ] ==> (0.073) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (200, 'GET', '/ajax/load-lieu_depart/', '2022-06-08T22:09:14.495295'::timestamp, false, true, '127.0.0.1'::inet, NULL, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7') RETURNING "request_request"."id"; args=(200, 'GET', '/ajax/load-lieu_depart/', datetime.datetime(2022, 6, 8, 22, 9, 14, 495295), False, True, Inet('127.0.0.1'), None, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7')

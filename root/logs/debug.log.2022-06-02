@@ -1,0 +1,12 @@
+[ DEBUG ][ 2022-06-03 07:52:07,677 ][ base ][ 2866 ][ 140110712518400 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-06-03 07:52:07,679 ][ base ][ 2866 ][ 140110712518400 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-06-03 07:52:07,680 ][ base ][ 2866 ][ 140110712518400 ] ==> [+] activating user lang: fr
+[ DEBUG ][ 2022-06-03 07:52:38,473 ][ base ][ 2866 ][ 140110720911104 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-06-03 07:52:38,473 ][ base ][ 2866 ][ 140110720911104 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-06-03 07:52:38,474 ][ base ][ 2866 ][ 140110720911104 ] ==> [+] activating user lang: fr
+[ DEBUG ][ 2022-06-03 07:55:54,475 ][ base ][ 2866 ][ 140110720911104 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-06-03 07:55:54,475 ][ base ][ 2866 ][ 140110720911104 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-06-03 07:55:54,476 ][ base ][ 2866 ][ 140110720911104 ] ==> [+] activating user lang: fr
+[ DEBUG ][ 2022-06-03 07:58:19,029 ][ base ][ 2866 ][ 140110720911104 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-06-03 07:58:19,029 ][ base ][ 2866 ][ 140110720911104 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-06-03 07:58:19,030 ][ base ][ 2866 ][ 140110720911104 ] ==> [+] activating user lang: fr
