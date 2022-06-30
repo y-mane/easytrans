@@ -59,7 +59,8 @@ debug = logging.getLogger('debug')
 @login_required(login_url=reverse_lazy('auth_login'), redirect_field_name=None)
 @accesslog
 @permission_required('oauth.view_dashboard', raise_exception=True)
-def index(request):   
+def index(request): 
+    counter=0  
     voyage=Voyage.objects.filter(etat_paiement='succes').order_by('-id')[:]
     voyage_total=voyage.count()
     voyage_en_cours=Voyage.objects.filter(statut_commande='en attente',etat_paiement='succes').count()
@@ -102,6 +103,7 @@ def index(request):
         context['voyage_echouee']=voyage_echouee  
         context['mission_acheve']=mission_acheve 
         context['mission_en_cours']=mission_en_cours 
+        context['counter']=counter
     return render(request, page_to_render, context)
 
 def change_voyage_state(request,pk):

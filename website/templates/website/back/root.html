@@ -38,6 +38,16 @@
 		{%  endblock %}
 		{% block base_js %}<script src="{% static 'website/back/js/modernizr.min.js' %}"></script>{%  endblock %}
             
+        <style>
+            table{
+                counter-reset:case;
+            }
+    
+            #counter:before{
+                counter-increment:case;
+                content:counter(case);
+            }
+    </style>
     </head>
 
 

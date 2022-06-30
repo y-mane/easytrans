@@ -136,9 +136,9 @@
                         <tbody>
                             
                             {% for element in voyage %}
-
+                                
                                 <tr id="a" data-id="{{element.id}}">
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation-top" title="{{ element.id }}" > {{ element.id }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation-top" title="{{ element.id }}" id="counter"></td>
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;"class="tooltip-animation " title="{{ element.fullname }}"> {{ element.fullname }}</td>
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.contact }}"> {{ element.contact }}</td>
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.compagnie}}"> {{ element.compagnie }}</td>
