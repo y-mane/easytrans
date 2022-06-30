@@ -1,0 +1,8 @@
+[ INFO ][ 2022-06-28 15:30:56,581 ][ autoreload ][ 20115 ][ 140144895686464 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-28 16:18:12,457 ][ autoreload ][ 20115 ][ 140144895686464 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-06-28 16:18:19,645 ][ autoreload ][ 21832 ][ 139804842956608 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-28 16:21:18,558 ][ autoreload ][ 21832 ][ 139804842956608 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-06-28 16:21:19,493 ][ autoreload ][ 22001 ][ 139691433297728 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-06-28 16:21:24,693 ][ basehttp ][ 22001 ][ 139691221726976 ] ==> "GET / HTTP/1.1" 200 6820
+[ WARNING ][ 2022-06-28 16:21:25,179 ][ basehttp ][ 22001 ][ 139691221726976 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-06-28 16:21:25,525 ][ basehttp ][ 22001 ][ 139691213334272 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4616

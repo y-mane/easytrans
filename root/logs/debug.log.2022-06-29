@@ -1,0 +1,12 @@
+[ DEBUG ][ 2022-06-30 07:40:27,014 ][ base ][ 3439 ][ 139891301152512 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-06-30 07:40:27,236 ][ base ][ 3439 ][ 139891301152512 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-06-30 07:40:27,236 ][ base ][ 3439 ][ 139891301152512 ] ==> [+] activating user lang: fr
+[ DEBUG ][ 2022-06-30 08:48:39,684 ][ base ][ 3439 ][ 139891280697088 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-06-30 08:48:39,729 ][ base ][ 3439 ][ 139891280697088 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-06-30 08:48:39,730 ][ base ][ 3439 ][ 139891280697088 ] ==> [+] activating user lang: fr
+[ DEBUG ][ 2022-06-30 09:16:58,072 ][ functions ][ 3439 ][ 139891254208256 ] ==> [!] function: check_instance. Got {}. Attempting to get metadata of given model: Group
+[ DEBUG ][ 2022-06-30 09:16:58,108 ][ functions ][ 3439 ][ 139891254208256 ] ==> [!] function: check_instance. Got {}. Attempting to get metadata of given model: Branch
+[ DEBUG ][ 2022-06-30 09:16:58,128 ][ functions ][ 3439 ][ 139891254208256 ] ==> [x] User hasn't default_lang set. Will use default
+[ DEBUG ][ 2022-06-30 09:17:05,386 ][ functions ][ 3439 ][ 139891280697088 ] ==> [!] function: check_instance. Got {}. Attempting to get metadata of given model: Branch
+[ DEBUG ][ 2022-06-30 09:17:05,387 ][ functions ][ 3439 ][ 139891280697088 ] ==> [!] function: check_instance. Got {}. Attempting to get metadata of given model: City
+[ DEBUG ][ 2022-06-30 09:17:05,394 ][ functions ][ 3439 ][ 139891280697088 ] ==> [x] User hasn't default_lang set. Will use default

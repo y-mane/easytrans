@@ -152,15 +152,27 @@
                         {% for element in mission %}
 
                             <tr>
-                                <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation">{{element.voyage.id}}</td>
-                                <td style="font-size: 13px; text-align: center; font-weight: bold;"class="tooltip-animation"> {{element.voyage.fullname}}</td>
-                                <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{element.voyage.contact}}</td>
-                                <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{element.voyage.lieu_depart}}</td>
-                                <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{ element.voyage.lieu_livraison}}</td>
-                                <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation">{{element.commentaire}}</td>
+                                <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.voyage.id}}>{{element.voyage.id}}</td>
+                                <td style="font-size: 13px; text-align: center; font-weight: bold;"class="tooltip-animation" title="{{ element.voyage.fullname}}> {{element.voyage.fullname}}</td>
+                                <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.voyage.contact}}> {{element.voyage.contact}}</td>
+                                <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.voyage.lieu_depart}}> {{element.voyage.lieu_depart}}</td>
+                                <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.voyage.lieu_livraison}}> {{ element.voyage.lieu_livraison}}</td>
+                                <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.commentaire}}>{{element.commentaire}}</td>
                                 <td>
-                                    <td style="font-size: 10px; text-align: center; font-weight: bold;"><div class="btn btn-success"><a href="{% url 'livraison' element.id %}">livré</a></div></td>
-                                    <td style="font-size: 10px; text-align: center; font-weight: bold;"><div class="btn btn-danger"><a href="{% url 'annulation_mission' element.id %}">annulé</a></div></td>
+                                    <td style="font-size: 10px; text-align: center; font-weight: bold;">
+                                        {% if element.voyage.etat_voyage == 'en cours' %}
+                                        <div class="btn btn-success"><a href="{% url 'livraison' element.id %}" disabled>livré</a></div>
+                                        {% else %}
+                                        <div class="btn btn-success"><a href="{% url 'livraison' element.id %}">livrer</a></div>
+                                        {% endif %}
+                                    </td>
+                                    <td style="font-size: 10px; text-align: center; font-weight: bold;">
+                                        {% if element.voyage.etat_voyage == 'achevé' %}
+                                            <div class="btn btn-danger"><a href="{% url 'annulation_mission' element.id %}" disabled>annulé</a></div>
+                                        {% else %}
+                                            <div class="btn btn-danger"><a href="{% url 'annulation_mission' element.id %}">annuler</a></div>
+                                        {% endif %}
+                                    </td>
                             </td>  
                             </tr>
                         {% endfor %}

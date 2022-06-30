@@ -1,0 +1,13 @@
+[ DEBUG ][ 2022-06-28 16:21:20,494 ][ utils ] ==> (0.113) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-06-28 16:21:20,527 ][ utils ] ==> (0.018) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-06-28 16:21:24,489 ][ utils ] ==> (0.002) DECLARE "_django_curs_139691221726976_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "start_form_compagnie"."id", "start_form_compagnie"."name", "start_form_compagnie"."description", "start_form_compagnie"."reference", "start_form_compagnie"."contact1", "start_form_compagnie"."contact2" FROM "start_form_compagnie"; args=()
+[ DEBUG ][ 2022-06-28 16:21:24,690 ][ utils ] ==> (0.108) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (200, 'GET', '/', '2022-06-28T16:21:24.581286'::timestamp, false, false, '127.0.0.1'::inet, NULL, '', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7') RETURNING "request_request"."id"; args=(200, 'GET', '/', datetime.datetime(2022, 6, 28, 16, 21, 24, 581286), False, False, Inet('127.0.0.1'), None, '', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7')
+[ DEBUG ][ 2022-06-28 16:21:25,523 ][ utils ] ==> (0.218) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (404, 'GET', '/website/front/js/main.js', '2022-06-28T16:21:25.294795'::timestamp, false, false, '127.0.0.1'::inet, NULL, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7') RETURNING "request_request"."id"; args=(404, 'GET', '/website/front/js/main.js', datetime.datetime(2022, 6, 28, 16, 21, 25, 294795), False, False, Inet('127.0.0.1'), None, 'http://127.0.0.1:8000/', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7')

@@ -9,9 +9,11 @@ console.log(Allbtnsucess)
 Allbtnsucess.forEach((btnsuccess) => {
     btnsuccess.addEventListener("click",function(){
         swal("Bon travail!", "commande validée !", "success");
-        remove()
+        
+      
     })
 })
+
 
 
 
@@ -40,3 +42,14 @@ Allbtnsdanger.forEach((btndanger) => {
     })
 })
 
+/*let button_valide = document.querySelector(".btn-valid ");
+let button_decline = document.querySelector(".btn-decline");
+button.disabled = true;
+button_valide.addEventListener("change", stateHandle);
+function stateHandle() {
+  if (document.querySelector(".btn-valid").value === "") {
+    button_decline.disabled = true; 
+  } else {
+    button_decline.disabled = false;
+  }
+}*/

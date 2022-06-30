@@ -126,31 +126,45 @@
                                     <th style='font-size: 13px; text-align: center;'>Periode</th>
                                     <th style='font-size: 13px; text-align: center;'>lieu de livraison</th>
                                     <th style='font-size: 13px; text-align: center;'>Actions</th>
-                                    <th style='font-size: 13px; text-align: center;'>Validé</th>
-                                    <th style='font-size: 13px; text-align: center;'>Decliné</th>
+                                    <th style='font-size: 13px; text-align: center;'>Valider</th>
+                                    <th style='font-size: 13px; text-align: center;'>Decliner</th>
 
                                 </tr>
                         </thead>
 
 
                         <tbody>
+                            
                             {% for element in voyage %}
 
                                 <tr id="a" data-id="{{element.id}}">
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation tooltipstered"> {{ element.id }}</td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"class="tooltip-animation tooltipstered"> {{ element.fullname }}</td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{ element.contact }}</td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{ element.compagnie }}</td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation"> {{ element.lieu_depart}}</td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation">{{ element.destination }}</td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;">{{ element.periode }} </td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;">{{ element.lieu_livraison }} </td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold; display:none;" id="statut_commande">{{ element.statut_commande}} </td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation-top" title="{{ element.id }}" > {{ element.id }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"class="tooltip-animation " title="{{ element.fullname }}"> {{ element.fullname }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.contact }}"> {{ element.contact }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.compagnie}}"> {{ element.compagnie }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.lieu_depart }}"> {{ element.lieu_depart}}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.destination}}">{{ element.destination }}</td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.periode }}">{{ element.periode }} </td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.lieu_livraison}}">{{ element.lieu_livraison }} </td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold; display:none;" id="statut_commande" class="tooltip-animation" title="{{ element.statut_commande}}">{{ element.statut_commande}} </td>
 
         
                                     <td style='text-align: center;'><a href="" data-toggle="modal" data-target="#assignerpopup" ><div class="btn btn-primary btn-assign" onclick="myfunction('{{element.id}}')" >Assigner</div></a></td>  
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"  ><a href="{% url 'change_voyage_state' element.id %}"><div class="btn btn-success btn-valid" id="" data-catid="{{ element.id }}" onclick="clickedfunction()">Valider</div></a></td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold;"><a href="{% url 'traitement' element.id %}"><div data-voyage_id class="btn btn-danger">Decliner</div> </td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;" >
+                                        {% if element.statut_commande == 'validée' %}
+                                            <a href="{% url 'change_voyage_state' element.id %}"><div class="btn btn-success btn-valid" id="valide" data-catid="{{ element.id }}" disabled>Validé</div></a>
+                                        {% else %}
+                                            <a href="{% url 'change_voyage_state' element.id %}"><div class="btn btn-success btn-valid" id="valide" data-catid="{{ element.id }}">Valider</div></a>
+                                        {% endif %}
+                                    </td>
+                                    
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;">
+                                        {% if element.statut_commande == 'échouée' %}
+                                            <a href="{% url 'traitement' element.id %}"><div data-voyage_id class="btn btn-danger btn-decline" id="decline" disabled>Decliné</div>
+                                        {% else %}
+                                            <a href="{% url 'traitement' element.id %}"><div data-voyage_id class="btn btn-danger btn-decline" id="decline">Decliner</div>
+                                        {% endif %} 
+                                    </td>
                                 </tr>
                                 <tr>
                                     <!-- debut popup d'assignation-->
@@ -214,12 +228,11 @@
     function myfunction(elm){
         $('#voyage').val(elm);
     };
-    function clickedfunction(){
-        
-    };
+   
 </script>
+ 
 
-<script type="text/javascript">
+{% comment %} <script type="text/javascript">
     $('.btn-success').click(function(){
     var catid;
     catid = $(this).attr("data-catid"); //recuperation de l'id depuis la views
@@ -237,7 +250,7 @@
         }
      })
    });
-</script>
+</script> {% endcomment %}
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
