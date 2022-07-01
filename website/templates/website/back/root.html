@@ -10,11 +10,12 @@
         <meta name="description" content="">
         <meta name="author" content="mks soft technologies">
         <meta name="referrer" content="no-referrer-when-downgrade">
-        <meta http-equiv="refresh" content="40">
+        <meta http-equiv="refresh" content="100">
 		{%  endblock %}
-
+        
 		<!-- load jquery first to assume session's managed -->
         <script src="{% static 'website/back/js/jquery.min.js' %}"></script>
+        
 		{% include 'session_security/all.html' %}
         <!-- App favicon -->
         <link rel="shortcut icon" href="{% static 'website/back/images/favicon.ico' %}">
@@ -23,6 +24,10 @@
 
         <!-- date range picker -->
 		{% block page_css %}
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js" defer ></script>
+        <!--   -->
         <link href="{% static 'website/back/plugins/bootstrap-daterangepicker/daterangepicker.css' %}" rel="stylesheet">
         <link href="{% static 'website/back/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
         <link href="{% static 'website/back/css/core.css' %}" rel="stylesheet" type="text/css" />
@@ -48,6 +53,7 @@
                 content:counter(case);
             }
     </style>
+   
     </head>
 
 
