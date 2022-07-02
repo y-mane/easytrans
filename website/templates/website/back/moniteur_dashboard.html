@@ -146,7 +146,6 @@
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.destination}}">{{ element.destination }}</td>
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.periode }}">{{ element.periode }} </td>
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.lieu_livraison}}">{{ element.lieu_livraison }} </td>
-                                    <td style="font-size: 13px; text-align: center; font-weight: bold; display:none;" id="statut_commande" class="tooltip-animation" title="{{ element.statut_commande}}">{{ element.statut_commande}} </td>
 
         
                                     <td style='text-align: center;'><a href="" data-toggle="modal" data-target="#assignerpopup" ><div class="btn btn-primary btn-assign" onclick="myfunction('{{element.id}}')" >Assigner</div></a></td>  
@@ -166,11 +165,21 @@
                                         {% endif %} 
                                     </td>
                                 </tr>
+                                
                                 <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
                                     <!-- debut popup d'assignation-->
                                     <form action="" method="post">
                                         {% csrf_token %}
-                                <div class="modal" tabindex="-1" role="dialog" id="assignerpopup">
+                                    <div class="modal" tabindex="-1" role="dialog" id="assignerpopup">
                                     <div class="modal-dialog" role="document">
                                       <div class="modal-content">
                                         <div class="modal-header">
@@ -189,6 +198,7 @@
                                               {% for item in livreurs %}
                                               <option value="{{item.id}}">{{item}}</option>
                                               {% endfor %}
+                                              
                                           </select>
                                           <div class="form-outline">
                                                 <textarea name="commentaire" id="commentaire" class="form-control" rows="5" placeholder="message"></textarea>
@@ -206,7 +216,10 @@
                                       </div>
                                     </div>
                                   </div>
-                                </form>
+                                    </form>
+                                </td>
+                                <td></td>
+                                <td></td>
                                 </tr>
                             {% endfor %}
 
@@ -225,6 +238,7 @@
 {% comment %} static files {% endcomment %}
 
 {% block page_js_add %}
+
 <script type="text/javascript">
     $(document).ready(function () {
         $('#datatable-responsive').DataTable();
@@ -234,6 +248,7 @@
     function myfunction(elm){
         $('#voyage').val(elm);
     };
+    $(document).ready(() =>{$('#livreur option[value=""]').text('choisir ici');})
 </script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -251,8 +266,5 @@
 </script>
 <!--End of Tawk.to Script-->
 <script src="{% static 'website/back/js/valider.js' %}"></script>
-<script>
-    {% comment %} $(document).ready(() =>{$('#voyage option[value=""]').text('----voyage----');}) {% endcomment %}
-    $(document).ready(() =>{$('#livreur option[value=""]').text('choisir ici');}) 
-</script>
+
  {% endblock %}

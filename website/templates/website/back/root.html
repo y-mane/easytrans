@@ -2,7 +2,7 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
 		{% block meta %}
         <meta charset="utf-8">
@@ -14,7 +14,7 @@
 		{%  endblock %}
         
 		<!-- load jquery first to assume session's managed -->
-        <script src="{% static 'website/back/js/jquery.min.js' %}"></script>
+        {% comment %} <script src="{% static 'website/back/js/jquery.min.js' %}"></script> {% endcomment %}
         
 		{% include 'session_security/all.html' %}
         <!-- App favicon -->
@@ -24,7 +24,7 @@
 
         <!-- date range picker -->
 		{% block page_css %}
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
         <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js" defer ></script>
         <!--   -->
