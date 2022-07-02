@@ -1,6 +1,6 @@
 # General settings
 DJANGO_SETTINGS_MODULE="root.settings"
-APP_TITLE=ROOTAPPS
+APP_TITLE=EASYTRANS
 SECRET_KEY="-sga2s#y@&w3uvh4-8#+@^48uq7^-!jsrn2=li5kik!*^_*d!-"
 REDIS_PASS="@Mks123$"
 ALLOWED_HOSTS='localhost'

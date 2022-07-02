@@ -16,10 +16,30 @@
       body{
         background-image:  url('{% static "website/front/images/bleus.jpg" %}');
       }
-      li{
-
-      }
-
+      @media only screen and (max-width: 450px){
+        ul div {
+            font-size:0.9em;
+          }
+          @media only screen and (max-width: 408px){
+            ul div {
+                font-size:0.8em;
+              }
+              @media only screen and (max-width: 367px){
+                ul div {
+                    font-size:0.7em;
+                  }
+              @media only screen and (max-width: 329px){
+                ul div {
+                    font-size:0.6em;
+                  }
+                  @media only screen and (max-width: 288px){
+                    ul div {
+                        font-size:0.5em;
+                      }
+                      @media only screen and (max-width: 250px){
+                        ul div {
+                            font-size:0.4em;
+                          }
     </style>
 </head>
 
@@ -28,29 +48,29 @@
               <h2 style="" class="">Merci  !! {{voyage.fullname}}</h2>
               <h3 class="text-center"> Verifiez que vos informations sont bien correctes et passez au paiement  <span style="font-size: 40px;">&#128522;</span></h3><br>
               <h3 style="" class="font-family: 'Gill Sans', sans-serif;">
-                   <div style="">
-                    <ul style="display: flex;margin-left:30%">
-                      <div> 
-                            <li>Nom complet : </li>
-                            <li>contact :  </li>
-                            <li>lieu de livraison :</li>
-                            <li>compagnie :  </li>
-                            <li>ville de depart :</li>
-                            <li>detination : </li>
-                            <li>periode : 
-                    </div>
-                    <div style="list-style-type:none; margin-left:15px;">
-                      <li>{{voyage.fullname}}</li>
-                      <li>{{voyage.contact}}</li>
-                      <li>{{voyage.lieu_livraison}} </li>
-                      <li>{{voyage.compagnie}}</li>
-                      <li>{{voyage.lieu_depart}}</li>
-                      <li>{{voyage.destination}}</li>
-                      <li>{{voyage.periode}}
-                    </div>
-                  </ul>
-                   </div>
-              </h3>
+                    
+                      <ul style="display: flex;margin-left:2%">
+                        <div style="width: 50%;"> 
+                              <li>Nom complet : </li>
+                              <li>contact :  </li>
+                              <li>lieu de livraison :</li>
+                              <li>compagnie :  </li>
+                              <li>ville de depart :</li>
+                              <li>detination : </li>
+                              <li>periode : 
+                      </div>
+                      <div style="list-style-type:none; margin-left:15px; width: 50%;">
+                        <li>{{voyage.fullname}}</li>
+                        <li>{{voyage.contact}}</li>
+                        <li>{{voyage.lieu_livraison}} </li>
+                        <li>{{voyage.compagnie}}</li>
+                        <li>{{voyage.lieu_depart}}</li>
+                        <li>{{voyage.destination}}</li>
+                        <li>{{voyage.periode}}
+                      </div>
+                    
+                    </ul>
+                </h3>
 
               <h2 style="margin-left: 5%;">Montant: {{prix}} FCFA</h2>
               

@@ -155,6 +155,8 @@ CACHE_TTL = 60 * 15
 
 # Added Custom Settings
 APP_TITLE = env('APP_TITLE')
+MY_SERVICE = env('MY_SERVICE')
+MY_APIKEY = env('MY_APIKEY')
 LOGS_DIR = os.path.join(BASE_DIR, 'logs/')
 DATE_INPUT_FORMATS = ['%d/%m/%Y']
 LANGUAGE = (
