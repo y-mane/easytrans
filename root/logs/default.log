@@ -1536,3 +1536,63 @@ start_form.models.Montant.DoesNotExist: Montant matching query does not exist.
 [ WARNING ][ 2022-07-02 14:40:30,879 ][ basehttp ][ 119198 ][ 140407178524416 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
 [ WARNING ][ 2022-07-02 14:40:30,894 ][ basehttp ][ 119198 ][ 140407178524416 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
 [ WARNING ][ 2022-07-02 14:40:30,898 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
+[ INFO ][ 2022-07-02 14:41:11,595 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 83089
+[ WARNING ][ 2022-07-02 14:41:11,823 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
+[ WARNING ][ 2022-07-02 14:41:11,839 ][ basehttp ][ 119198 ][ 140407178524416 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
+[ WARNING ][ 2022-07-02 14:41:11,913 ][ basehttp ][ 119198 ][ 140407178524416 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
+[ WARNING ][ 2022-07-02 14:41:11,971 ][ basehttp ][ 119198 ][ 140407178524416 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
+[ WARNING ][ 2022-07-02 14:41:11,984 ][ basehttp ][ 119198 ][ 140407178524416 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
+[ WARNING ][ 2022-07-02 14:41:11,985 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
+[ INFO ][ 2022-07-02 14:41:52,317 ][ basehttp ][ 119198 ][ 140407178524416 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 83089
+[ WARNING ][ 2022-07-02 14:41:52,531 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
+[ WARNING ][ 2022-07-02 14:41:52,538 ][ basehttp ][ 119198 ][ 140407178524416 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
+[ WARNING ][ 2022-07-02 14:41:52,545 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
+[ WARNING ][ 2022-07-02 14:41:52,553 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
+[ WARNING ][ 2022-07-02 14:41:52,577 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
+[ WARNING ][ 2022-07-02 14:41:52,584 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
+[ INFO ][ 2022-07-02 14:42:33,018 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 83089
+[ WARNING ][ 2022-07-02 14:42:33,222 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
+[ WARNING ][ 2022-07-02 14:42:33,225 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
+[ WARNING ][ 2022-07-02 14:42:33,241 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
+[ WARNING ][ 2022-07-02 14:42:33,242 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
+[ WARNING ][ 2022-07-02 14:42:33,257 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
+[ WARNING ][ 2022-07-02 14:42:33,258 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
+[ INFO ][ 2022-07-02 14:43:13,929 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 83089
+[ WARNING ][ 2022-07-02 14:43:14,115 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
+[ WARNING ][ 2022-07-02 14:43:14,120 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
+[ WARNING ][ 2022-07-02 14:43:14,239 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
+[ WARNING ][ 2022-07-02 14:43:14,241 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
+[ WARNING ][ 2022-07-02 14:43:14,343 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
+[ WARNING ][ 2022-07-02 14:43:14,346 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
+[ INFO ][ 2022-07-02 14:43:54,870 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 83089
+[ WARNING ][ 2022-07-02 14:43:55,032 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
+[ WARNING ][ 2022-07-02 14:43:55,047 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
+[ WARNING ][ 2022-07-02 14:43:55,155 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
+[ WARNING ][ 2022-07-02 14:43:55,181 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
+[ WARNING ][ 2022-07-02 14:43:55,211 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
+[ WARNING ][ 2022-07-02 14:43:55,235 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
+[ INFO ][ 2022-07-02 14:44:35,718 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /back-office/dashboard HTTP/1.1" 200 83089
+[ WARNING ][ 2022-07-02 14:44:35,873 ][ basehttp ][ 119198 ][ 140407153346304 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff2%3Fv=4.6.3 HTTP/1.1" 404 1887
+[ WARNING ][ 2022-07-02 14:44:35,876 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff2%3Fv=1.6.50 HTTP/1.1" 404 1914
+[ WARNING ][ 2022-07-02 14:44:35,987 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.woff%3Fv=1.6.50 HTTP/1.1" 404 1911
+[ WARNING ][ 2022-07-02 14:44:36,000 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.woff%3Fv=4.6.3 HTTP/1.1" 404 1884
+[ WARNING ][ 2022-07-02 14:44:36,048 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/materialdesignicons-webfont.ttf%3Fv=1.6.50 HTTP/1.1" 404 1908
+[ WARNING ][ 2022-07-02 14:44:36,086 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
+[ INFO ][ 2022-07-02 15:00:29,421 ][ autoreload ][ 119198 ][ 140407395858240 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:00:39,647 ][ autoreload ][ 123054 ][ 139979233290048 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:00:48,750 ][ autoreload ][ 123054 ][ 139979233290048 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:00:49,520 ][ autoreload ][ 123140 ][ 140067912017728 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:01:05,694 ][ autoreload ][ 123140 ][ 140067912017728 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:01:06,484 ][ autoreload ][ 123187 ][ 140612900550464 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:01:10,588 ][ autoreload ][ 123187 ][ 140612900550464 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:01:11,352 ][ autoreload ][ 123221 ][ 140708242700096 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:01:13,433 ][ autoreload ][ 123221 ][ 140708242700096 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:01:14,215 ][ autoreload ][ 123245 ][ 139763983587136 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:01:31,302 ][ autoreload ][ 123245 ][ 139763983587136 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:01:32,174 ][ autoreload ][ 123282 ][ 140430361827136 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:01:40,659 ][ autoreload ][ 123282 ][ 140430361827136 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:01:41,400 ][ autoreload ][ 123338 ][ 139645771163456 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-02 15:02:38,684 ][ basehttp ][ 123338 ][ 139645559502592 ] ==> "GET /payement_state/quccess/ HTTP/1.1" 404 5631
+[ WARNING ][ 2022-07-02 15:02:46,424 ][ basehttp ][ 123338 ][ 139645559502592 ] ==> "GET /payement_state/success/ HTTP/1.1" 405 0
+[ INFO ][ 2022-07-02 15:03:00,927 ][ autoreload ][ 123338 ][ 139645771163456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:03:01,666 ][ autoreload ][ 123431 ][ 140036082095936 ] ==> Watching for file changes with StatReloader

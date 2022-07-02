@@ -12,13 +12,16 @@ from start_form.forms import VoyageForm
 from django.forms.models import model_to_dict
 import http.client
 import mimetypes
+from django.views.decorators.http import require_http_methods
 
 
+@require_http_methods(["GET","POST"])
 def success(request):
     context={
     }
     return render(request,'website/front/success.html',context)
 
+@require_http_methods(["GET","POST"])
 def failled(request):
     context={        
     }
@@ -30,7 +33,7 @@ def notification(request):
     voy = model_to_dict(voyage)
     return response(voy)"""
 
-@csrf_exempt
+@require_http_methods(["GET","POST"])
 @api_view(['POST'])
 def notification(request):
     var = dict()
