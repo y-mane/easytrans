@@ -241,7 +241,11 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-        $('#datatable-responsive').DataTable();
+        $('#datatable-responsive').DataTable({
+            language: {
+                url: "http://cdn.datatables.net/plug-ins/1.10.9/i18n/French.json"
+            }
+        });
     });
 </script>
 <script>
