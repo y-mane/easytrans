@@ -1596,3 +1596,13 @@ start_form.models.Montant.DoesNotExist: Montant matching query does not exist.
 [ WARNING ][ 2022-07-02 15:02:46,424 ][ basehttp ][ 123338 ][ 139645559502592 ] ==> "GET /payement_state/success/ HTTP/1.1" 405 0
 [ INFO ][ 2022-07-02 15:03:00,927 ][ autoreload ][ 123338 ][ 139645771163456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-07-02 15:03:01,666 ][ autoreload ][ 123431 ][ 140036082095936 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:07:20,625 ][ basehttp ][ 123431 ][ 140035865179904 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1652
+[ INFO ][ 2022-07-02 15:07:21,124 ][ basehttp ][ 123431 ][ 140035865179904 ] ==> "GET /static/website/front/images/logo.png HTTP/1.1" 304 0
+[ INFO ][ 2022-07-02 15:07:35,411 ][ autoreload ][ 123431 ][ 140036082095936 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:07:36,296 ][ autoreload ][ 123728 ][ 139877688784704 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:07:55,695 ][ autoreload ][ 123728 ][ 139877688784704 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:07:56,550 ][ autoreload ][ 123842 ][ 139875504785216 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:08:00,757 ][ autoreload ][ 123842 ][ 139875504785216 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:08:01,615 ][ autoreload ][ 123896 ][ 140043900696384 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-02 15:08:06,903 ][ autoreload ][ 123896 ][ 140043900696384 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-02 15:08:07,636 ][ autoreload ][ 123930 ][ 140140153190208 ] ==> Watching for file changes with StatReloader

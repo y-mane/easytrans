@@ -1533,3 +1533,5 @@
 [ WARNING ][ 2022-07-02 14:44:36,086 ][ basehttp ][ 119198 ][ 140407170131712 ] ==> "GET /static/website/back/fonts/fontawesome-webfont.ttf%3Fv=4.6.3 HTTP/1.1" 404 1881
 [ WARNING ][ 2022-07-02 15:02:38,684 ][ basehttp ][ 123338 ][ 139645559502592 ] ==> "GET /payement_state/quccess/ HTTP/1.1" 404 5631
 [ WARNING ][ 2022-07-02 15:02:46,424 ][ basehttp ][ 123338 ][ 139645559502592 ] ==> "GET /payement_state/success/ HTTP/1.1" 405 0
+[ INFO ][ 2022-07-02 15:07:20,625 ][ basehttp ][ 123431 ][ 140035865179904 ] ==> "GET /payement_state/success/ HTTP/1.1" 200 1652
+[ INFO ][ 2022-07-02 15:07:21,124 ][ basehttp ][ 123431 ][ 140035865179904 ] ==> "GET /static/website/front/images/logo.png HTTP/1.1" 304 0

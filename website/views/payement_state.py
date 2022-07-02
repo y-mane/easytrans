@@ -15,25 +15,20 @@ import mimetypes
 from django.views.decorators.http import require_http_methods
 
 
-@require_http_methods(["GET","POST"])
+@require_http_methods(["POST"])
 def success(request):
     context={
     }
     return render(request,'website/front/success.html',context)
 
-@require_http_methods(["GET","POST"])
+@require_http_methods(["POST"])
 def failled(request):
     context={        
     }
     return render(request,'website/front/failled.html',context)
 
-"""@api_view(['GET'])
-def notification(request):
-    voyage=Voyage.objects.get(id=3)
-    voy = model_to_dict(voyage)
-    return response(voy)"""
 
-@require_http_methods(["GET","POST"])
+
 @api_view(['POST'])
 def notification(request):
     var = dict()
