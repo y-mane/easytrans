@@ -869,3 +869,13 @@ KeyError: 'customer'
 [ INFO ][ 2022-07-03 22:52:34,896 ][ basehttp ][ 24183 ][ 140510042760960 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
 [ INFO ][ 2022-07-03 23:00:02,930 ][ autoreload ][ 24183 ][ 140510254372672 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-07-03 23:00:05,126 ][ autoreload ][ 24602 ][ 140692216182592 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:02:40,285 ][ autoreload ][ 24602 ][ 140692216182592 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-03 23:02:41,105 ][ autoreload ][ 24869 ][ 139937545996096 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:02:45,216 ][ autoreload ][ 24869 ][ 139937545996096 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-03 23:02:45,982 ][ autoreload ][ 24905 ][ 140167756126016 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:05:22,032 ][ autoreload ][ 24905 ][ 140167756126016 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-03 23:05:22,806 ][ autoreload ][ 25036 ][ 140276722767680 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:05:35,503 ][ autoreload ][ 25036 ][ 140276722767680 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-03 23:05:36,514 ][ autoreload ][ 25097 ][ 140008849868608 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:05:40,609 ][ autoreload ][ 25097 ][ 140008849868608 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-03 23:05:41,398 ][ autoreload ][ 25132 ][ 140042861012800 ] ==> Watching for file changes with StatReloader

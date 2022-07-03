@@ -33,9 +33,6 @@ def failled(request):
 def notification(request):
     var = dict()
     var={k:v for k,v in request.POST.items()}
-    #print(request.POST['customer'])
-    customer=var['txnreference']
-    print(customer)
     custom_data=var['extra_data']
     print(custom_data)
     voyage_id=int(custom_data)
