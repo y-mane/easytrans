@@ -34,7 +34,7 @@ def notification(request):
     var = dict()
     var={k:v for k,v in request.POST.items()}
     #print(request.POST['customer'])
-    customer=var['customer']
+    customer=var['txnreference']
     print(customer)
     custom_data=var['extra_data']
     print(custom_data)
@@ -60,7 +60,7 @@ def notification(request):
         data = res.read()
         print(data.decode("utf-8"))"""
         #fin API d'envoie de sms
-        return 1
-    else:
-            return Response({'details':'payement non éffectué '})
+        return Response(voy or 0) 
+    """else:
+            return Response({'details':'payement non éffectué '})"""
     

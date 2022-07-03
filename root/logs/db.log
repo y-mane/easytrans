@@ -5779,3 +5779,90 @@
                 AND pg_catalog.pg_table_is_visible(c.oid)
         ; args=None
 [ DEBUG ][ 2022-07-03 22:46:39,453 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:47:15,659 ][ utils ] ==> (0.004) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:47:15,662 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:47:20,951 ][ utils ] ==> (0.006) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:47:20,955 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:48:52,381 ][ utils ] ==> (0.003) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:48:52,384 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:49:45,934 ][ utils ] ==> (0.008) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:49:45,940 ][ utils ] ==> (0.002) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:50:21,280 ][ utils ] ==> (0.084) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (500, 'POST', '/payement_state/notification/', '2022-07-03T22:50:21.182016'::timestamp, false, true, '127.0.0.1'::inet, NULL, '', 'PostmanRuntime/7.29.0', '') RETURNING "request_request"."id"; args=(500, 'POST', '/payement_state/notification/', datetime.datetime(2022, 7, 3, 22, 50, 21, 182016), False, True, Inet('127.0.0.1'), None, '', 'PostmanRuntime/7.29.0', '')
+[ DEBUG ][ 2022-07-03 22:50:52,729 ][ utils ] ==> (0.006) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:50:52,733 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:51:20,505 ][ utils ] ==> (0.005) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:51:20,512 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:52:10,127 ][ utils ] ==> (0.010) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:52:10,131 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:52:13,101 ][ utils ] ==> (0.002) SELECT "start_form_voyage"."id", "start_form_voyage"."fullname", "start_form_voyage"."contact", "start_form_voyage"."email", "start_form_voyage"."compagnie_id", "start_form_voyage"."lieu_depart_id", "start_form_voyage"."destination_id", "start_form_voyage"."periode", "start_form_voyage"."lieu_livraison", "start_form_voyage"."statut_commande", "start_form_voyage"."date_heure_commande", "start_form_voyage"."date_heure_traitement", "start_form_voyage"."date_heure_succces", "start_form_voyage"."etat_voyage", "start_form_voyage"."reference", "start_form_voyage"."etat_paiement" FROM "start_form_voyage" WHERE "start_form_voyage"."id" = 15 LIMIT 21; args=(15,)
+[ DEBUG ][ 2022-07-03 22:52:13,202 ][ utils ] ==> (0.099) UPDATE "start_form_voyage" SET "fullname" = 'souley', "contact" = '0708176279', "email" = '', "compagnie_id" = 1, "lieu_depart_id" = 1, "destination_id" = 2, "periode" = 'matinée', "lieu_livraison" = 'koump', "statut_commande" = 'en attente', "date_heure_commande" = '2022-06-10T11:15:26.959919'::timestamp, "date_heure_traitement" = '2022-07-03T22:52:13.102504'::timestamp, "date_heure_succces" = '2022-07-03T22:52:13.102511'::timestamp, "etat_voyage" = 'en cours', "reference" = '', "etat_paiement" = 'succes' WHERE "start_form_voyage"."id" = 15; args=('souley', '0708176279', '', 1, 1, 2, 'matinée', 'koump', 'en attente', datetime.datetime(2022, 6, 10, 11, 15, 26, 959919), datetime.datetime(2022, 7, 3, 22, 52, 13, 102504), datetime.datetime(2022, 7, 3, 22, 52, 13, 102511), 'en cours', '', 'succes', 15)
+[ DEBUG ][ 2022-07-03 22:52:14,098 ][ utils ] ==> (0.890) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (200, 'POST', '/payement_state/notification/', '2022-07-03T22:52:13.205690'::timestamp, false, false, '127.0.0.1'::inet, NULL, '', 'PostmanRuntime/7.29.0', '') RETURNING "request_request"."id"; args=(200, 'POST', '/payement_state/notification/', datetime.datetime(2022, 7, 3, 22, 52, 13, 205690), False, False, Inet('127.0.0.1'), None, '', 'PostmanRuntime/7.29.0', '')
+[ DEBUG ][ 2022-07-03 22:52:27,275 ][ utils ] ==> (0.004) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:52:27,278 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:52:34,762 ][ utils ] ==> (0.001) SELECT "start_form_voyage"."id", "start_form_voyage"."fullname", "start_form_voyage"."contact", "start_form_voyage"."email", "start_form_voyage"."compagnie_id", "start_form_voyage"."lieu_depart_id", "start_form_voyage"."destination_id", "start_form_voyage"."periode", "start_form_voyage"."lieu_livraison", "start_form_voyage"."statut_commande", "start_form_voyage"."date_heure_commande", "start_form_voyage"."date_heure_traitement", "start_form_voyage"."date_heure_succces", "start_form_voyage"."etat_voyage", "start_form_voyage"."reference", "start_form_voyage"."etat_paiement" FROM "start_form_voyage" WHERE "start_form_voyage"."id" = 15 LIMIT 21; args=(15,)
+[ DEBUG ][ 2022-07-03 22:52:34,867 ][ utils ] ==> (0.103) UPDATE "start_form_voyage" SET "fullname" = 'souley', "contact" = '0708176279', "email" = '', "compagnie_id" = 1, "lieu_depart_id" = 1, "destination_id" = 2, "periode" = 'matinée', "lieu_livraison" = 'koump', "statut_commande" = 'en attente', "date_heure_commande" = '2022-06-10T11:15:26.959919'::timestamp, "date_heure_traitement" = '2022-07-03T22:52:34.763591'::timestamp, "date_heure_succces" = '2022-07-03T22:52:34.763596'::timestamp, "etat_voyage" = 'en cours', "reference" = '', "etat_paiement" = 'succes' WHERE "start_form_voyage"."id" = 15; args=('souley', '0708176279', '', 1, 1, 2, 'matinée', 'koump', 'en attente', datetime.datetime(2022, 6, 10, 11, 15, 26, 959919), datetime.datetime(2022, 7, 3, 22, 52, 34, 763591), datetime.datetime(2022, 7, 3, 22, 52, 34, 763596), 'en cours', '', 'succes', 15)
+[ DEBUG ][ 2022-07-03 22:52:34,894 ][ utils ] ==> (0.022) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (200, 'POST', '/payement_state/notification/', '2022-07-03T22:52:34.869354'::timestamp, false, false, '127.0.0.1'::inet, NULL, '', 'PostmanRuntime/7.29.0', '') RETURNING "request_request"."id"; args=(200, 'POST', '/payement_state/notification/', datetime.datetime(2022, 7, 3, 22, 52, 34, 869354), False, False, Inet('127.0.0.1'), None, '', 'PostmanRuntime/7.29.0', '')

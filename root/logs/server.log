@@ -403,3 +403,6 @@
 [ INFO ][ 2022-07-03 22:30:38,772 ][ basehttp ][ 21279 ][ 139746192639744 ] ==> "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
 [ INFO ][ 2022-07-03 22:30:38,828 ][ basehttp ][ 21279 ][ 139746201032448 ] ==> "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
 [ INFO ][ 2022-07-03 22:30:38,902 ][ basehttp ][ 21279 ][ 139746211260160 ] ==> "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+[ ERROR ][ 2022-07-03 22:50:21,281 ][ basehttp ][ 23845 ][ 139636366112512 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 25682
+[ INFO ][ 2022-07-03 22:52:14,100 ][ basehttp ][ 24105 ][ 139759807510272 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-03 22:52:34,896 ][ basehttp ][ 24183 ][ 140510042760960 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
