@@ -879,3 +879,13 @@ KeyError: 'customer'
 [ INFO ][ 2022-07-03 23:05:36,514 ][ autoreload ][ 25097 ][ 140008849868608 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-07-03 23:05:40,609 ][ autoreload ][ 25097 ][ 140008849868608 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
 [ INFO ][ 2022-07-03 23:05:41,398 ][ autoreload ][ 25132 ][ 140042861012800 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:06:20,223 ][ autoreload ][ 25132 ][ 140042861012800 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-03 23:06:21,168 ][ autoreload ][ 25292 ][ 139736705668928 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:11:20,519 ][ autoreload ][ 25292 ][ 139736705668928 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-03 23:11:21,295 ][ autoreload ][ 25575 ][ 139703336863552 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:11:27,652 ][ autoreload ][ 25575 ][ 139703336863552 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-03 23:11:28,411 ][ autoreload ][ 25624 ][ 139997698656064 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:11:31,432 ][ autoreload ][ 25624 ][ 139997698656064 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-03 23:11:32,288 ][ autoreload ][ 25645 ][ 140515040556864 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 23:11:40,787 ][ autoreload ][ 25645 ][ 140515040556864 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-03 23:11:41,690 ][ autoreload ][ 25711 ][ 140009840924480 ] ==> Watching for file changes with StatReloader

@@ -8,8 +8,8 @@ from django.utils.translation import gettext_lazy as _
 BASE_DIR = os.path.dirname(__file__)
 PLATFORM_DIR = os.path.join(BASE_DIR, 'platforms')
 # platform specific data to load: dev (developement) | prod (production)
-#PLATFORM = 'dev'
-PLATFORM = 'prod'
+PLATFORM = 'dev'
+#PLATFORM = 'prod'
 PLATFORM_TO_LOAD = os.path.join(PLATFORM_DIR, f"{PLATFORM}")
 env = environ.Env()
 env.read_env(os.path.join(PLATFORM_TO_LOAD, ".env"))
@@ -72,10 +72,10 @@ WSGI_APPLICATION = 'root.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'easytrans_1',
+        'NAME': 'easytrans_3',
         'HOST':'localhost',
-        'USERNAME':'ymane',
-        'PASSWORD':'thelifeislesgigas2020',
+        'USERNAME':'keita',
+        'PASSWORD':'keita08176279',
         'PORT': '5432',
 
     }

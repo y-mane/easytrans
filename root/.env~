@@ -25,7 +25,7 @@ TICKETS_CONTACT="22558627997"
 EMAIL_HOST_PASSWORD="Alima9891$"
 
 # Database settings
-DATABASE="psql://django:dj@ngo123$@localhost:23332/scantickets"
+#DATABASE="psql://django:dj@ngo123$@localhost:23332/scantickets"
 
 # Specific configs
 GOOGLE_RECAPTCHA_SECRET_KEY="6LfMSdQZAAAAAJFfakQf7_PDMYrym8q3Alkeu81i"
