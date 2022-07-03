@@ -867,3 +867,5 @@ KeyError: 'customer'
 [ INFO ][ 2022-07-03 22:52:25,796 ][ autoreload ][ 24105 ][ 139760019126080 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-07-03 22:52:26,532 ][ autoreload ][ 24183 ][ 140510254372672 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-07-03 22:52:34,896 ][ basehttp ][ 24183 ][ 140510042760960 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-03 23:00:02,930 ][ autoreload ][ 24183 ][ 140510254372672 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-03 23:00:05,126 ][ autoreload ][ 24602 ][ 140692216182592 ] ==> Watching for file changes with StatReloader

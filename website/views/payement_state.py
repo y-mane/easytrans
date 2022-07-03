@@ -28,7 +28,7 @@ def failled(request):
     return render(request,'website/front/failled.html',context)
 
 
-
+@csrf_exempt
 @api_view(['POST'])
 def notification(request):
     var = dict()
