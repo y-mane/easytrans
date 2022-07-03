@@ -16,30 +16,34 @@
       body{
         background-image:  url('{% static "website/front/images/bleus.jpg" %}');
       }
-      @media only screen and (max-width: 450px){
-        ul div {
-            font-size:0.9em;
+      div div{
+        font-size: 1.27em;
+        margin-left: 0px;
+      }
+      div span{
+        margin-left:;
+      }
+      @media only screen and (max-width: 520px){
+        div div{
+            font-size: 1.2em;
           }
-          @media only screen and (max-width: 408px){
-            ul div {
-                font-size:0.8em;
+          @media only screen and (max-width: 468px){
+            div div{
+                font-size: 1.1em;
               }
-              @media only screen and (max-width: 367px){
-                ul div {
-                    font-size:0.7em;
+              @media only screen and (max-width: 384px){
+                div div{
+                    font-size: 1.05em;
                   }
-              @media only screen and (max-width: 329px){
-                ul div {
-                    font-size:0.6em;
-                  }
-                  @media only screen and (max-width: 288px){
-                    ul div {
-                        font-size:0.5em;
+                  @media only screen and (max-width: 352px){
+                    div div{
+                        font-size: 1em;
                       }
-                      @media only screen and (max-width: 250px){
-                        ul div {
-                            font-size:0.4em;
+                      @media only screen and (max-width: 322px){
+                        div div{
+                            font-size: 0.9em;
                           }
+          
     </style>
 </head>
 
@@ -47,31 +51,15 @@
           <div class="container text-center" style="margin-top: 50px;color:#ffffff;">
               <h2 style="" class="">Merci  !! {{voyage.fullname}}</h2>
               <h3 class="text-center"> Verifiez que vos informations sont bien correctes et passez au paiement  <span style="font-size: 40px;">&#128522;</span></h3><br>
-              <h3 style="" class="font-family: 'Gill Sans', sans-serif;">
-                    
-                      <ul style="display: flex;margin-left:2%">
-                        <div style="width: 50%;"> 
-                              <li>Nom complet : </li>
-                              <li>contact :  </li>
-                              <li>lieu de livraison :</li>
-                              <li>compagnie :  </li>
-                              <li>ville de depart :</li>
-                              <li>detination : </li>
-                              <li>periode : 
-                      </div>
-                      <div style="list-style-type:none; margin-left:15px; width: 50%;">
-                        <li>{{voyage.fullname}}</li>
-                        <li>{{voyage.contact}}</li>
-                        <li>{{voyage.lieu_livraison}} </li>
-                        <li>{{voyage.compagnie}}</li>
-                        <li>{{voyage.lieu_depart}}</li>
-                        <li>{{voyage.destination}}</li>
-                        <li>{{voyage.periode}}
-                      </div>
-                    
-                    </ul>
-                </h3>
-
+              <div>
+                  <div>Nom complet ==> <span>{{voyage.fullname}}</span></div>
+                  <div>contact ==>   <span>{{voyage.contact}}</span></div>
+                  <div>lieu de livraison ==>  <span>{{voyage.lieu_livraison}}</span></div>
+                  <div>compagnie ==>   <span>{{voyage.compagnie}}</span></div>
+                  <div>ville de depart ==>  <span>{{voyage.lieu_depart}}</span></div>
+                  <div>detination ==>  <span>{{voyage.destination}}</span></div>
+                  <div>periode ==>  <span>{{voyage.periode}}</span>
+              </div>
               <h2 style="margin-left: 5%;">Montant: {{prix}} FCFA</h2>
               
               <form action="https://kaliapay.com/request-payment-channels/" method="post">
