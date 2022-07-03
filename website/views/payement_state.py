@@ -60,7 +60,7 @@ def notification(request):
         data = res.read()
         print(data.decode("utf-8"))"""
         #fin API d'envoie de sms
-        return Response(1) 
+        return 1
     else:
             return Response({'details':'payement non éffectué '})
     
