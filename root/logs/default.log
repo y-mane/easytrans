@@ -813,3 +813,6 @@ RuntimeError: You called this URL via POST, but the URL doesn't end in a slash a
 [ INFO ][ 2022-07-03 22:30:38,828 ][ basehttp ][ 21279 ][ 139746201032448 ] ==> "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
 [ INFO ][ 2022-07-03 22:30:38,902 ][ basehttp ][ 21279 ][ 139746211260160 ] ==> "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
 [ INFO ][ 2022-07-03 22:41:52,507 ][ autoreload ][ 21279 ][ 139746432517952 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-03 22:42:09,340 ][ autoreload ][ 22635 ][ 140544229283648 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-03 22:44:33,258 ][ autoreload ][ 22635 ][ 140544229283648 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-03 22:44:34,050 ][ autoreload ][ 23035 ][ 139868257322816 ] ==> Watching for file changes with StatReloader

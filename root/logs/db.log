@@ -5729,3 +5729,23 @@
 [ DEBUG ][ 2022-07-03 22:30:37,000 ][ utils ] ==> (0.007) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 'oygpvire3jrldbzvnoumrx562zbrmjfa' LIMIT 21; args=('oygpvire3jrldbzvnoumrx562zbrmjfa',)
 [ DEBUG ][ 2022-07-03 22:30:37,077 ][ utils ] ==> (0.067) DELETE FROM "django_session" WHERE "django_session"."session_key" IN ('oygpvire3jrldbzvnoumrx562zbrmjfa'); args=('oygpvire3jrldbzvnoumrx562zbrmjfa',)
 [ DEBUG ][ 2022-07-03 22:30:38,678 ][ utils ] ==> (0.037) INSERT INTO "request_request" ("response", "method", "path", "time", "is_secure", "is_ajax", "ip", "user_id", "referer", "user_agent", "language") VALUES (405, 'GET', '/payement_state/notification/', '2022-07-03T22:30:38.639090'::timestamp, false, false, '127.0.0.1'::inet, NULL, '', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7') RETURNING "request_request"."id"; args=(405, 'GET', '/payement_state/notification/', datetime.datetime(2022, 7, 3, 22, 30, 38, 639090), False, False, Inet('127.0.0.1'), None, '', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7')
+[ DEBUG ][ 2022-07-03 22:42:24,389 ][ utils ] ==> (0.030) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:42:24,406 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()
+[ DEBUG ][ 2022-07-03 22:44:34,967 ][ utils ] ==> (0.005) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None
+[ DEBUG ][ 2022-07-03 22:44:34,973 ][ utils ] ==> (0.001) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=()

@@ -46,7 +46,7 @@ def notification(request):
         voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
         voyage.save()
         voy=model_to_dict(voyage)
-        print(voy)
+        print(1)
         #API pour envoyer les sms
         """conn = http.client.HTTPConnection("vavasms.com")
         payload = "username=keita.souleyman225@gmail.com&password=thelifeislesgigas2020&sender_id=keita&phone={voyage.contact}&message=paiment effectué avec succès"
