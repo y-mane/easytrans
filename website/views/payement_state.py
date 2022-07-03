@@ -33,16 +33,22 @@ def failled(request):
 def notification(request):
     var = dict()
     var={k:v for k,v in request.POST.items()}
+    #print(request.POST['customer'])
+    customer=var['customer']
+    print(customer)
     custom_data=var['extra_data']
+    print(custom_data)
     voyage_id=int(custom_data)
     payement_state=var['txn_status']
-    if payement_state=='success': 
+    print(payement_state)
+    if payement_state=='success':
         voyage=Voyage.objects.get(id=voyage_id)
         voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
         voyage.save()
         voy=model_to_dict(voyage)
+        print(voy)
         #API pour envoyer les sms
-        conn = http.client.HTTPConnection("vavasms.com")
+        """conn = http.client.HTTPConnection("vavasms.com")
         payload = "username=keita.souleyman225@gmail.com&password=thelifeislesgigas2020&sender_id=keita&phone={voyage.contact}&message=paiment effectué avec succès"
         headers = {
         'Content-Type': "application/x-www-form-urlencoded",
@@ -52,9 +58,9 @@ def notification(request):
         conn.request("POST", "api,v1,text,single", payload, headers)
         res = conn.getresponse()
         data = res.read()
-        print(data.decode("utf-8"))
+        print(data.decode("utf-8"))"""
         #fin API d'envoie de sms
-        #return Response(voy) 
+        return Response(voy) 
     else:
             return Response({'details':'payement non éffectué '})
     

@@ -1,0 +1,14 @@
+[ DEBUG ][ 2022-07-03 13:41:06,054 ][ base ][ 3468 ][ 140304627787520 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-07-03 13:41:06,055 ][ base ][ 3468 ][ 140304627787520 ] ==> [+] while login got default user lang: en
+[ DEBUG ][ 2022-07-03 13:41:06,741 ][ base ][ 3468 ][ 140304627787520 ] ==> [+] activating user lang: en
+[ DEBUG ][ 2022-07-03 13:44:41,702 ][ functions ][ 3468 ][ 140304627787520 ] ==> [!] function: check_instance. Got {}. Attempting to get metadata of given model: Group
+[ DEBUG ][ 2022-07-03 13:44:41,703 ][ functions ][ 3468 ][ 140304627787520 ] ==> [!] function: check_instance. Got {}. Attempting to get metadata of given model: Branch
+[ DEBUG ][ 2022-07-03 13:44:46,520 ][ functions ][ 3468 ][ 140304636180224 ] ==> [!] function: check_instance. Got {}. Attempting to get metadata of given model: Branch
+[ DEBUG ][ 2022-07-03 13:44:46,520 ][ functions ][ 3468 ][ 140304636180224 ] ==> [!] function: check_instance. Got {}. Attempting to get metadata of given model: City
+[ DEBUG ][ 2022-07-03 13:45:41,819 ][ functions ][ 3468 ][ 140304636180224 ] ==> [!] [handle_view_get] handling {} and {} for an owner [darkman:1]. Redirecting page to: 403.html
+[ DEBUG ][ 2022-07-03 13:45:41,822 ][ functions ][ 3468 ][ 140304636180224 ] ==> [?] Is django language same as user language: False
+[ INFO ][ 2022-07-03 13:45:41,839 ][ functions ][ 3468 ][ 140304636180224 ] ==> [+] got infos: None
+[ INFO ][ 2022-07-03 13:45:41,842 ][ functions ][ 3468 ][ 140304636180224 ] ==> [+] got context before passing to view: {'branch': None, 'user_profile': <Profile: darkman>, 'user': <SimpleLazyObject: <User: darkman>>, 'infos': '', 'infos_type': 0}
+[ DEBUG ][ 2022-07-03 13:47:05,275 ][ base ][ 3468 ][ 140304636180224 ] ==> [+] while login got request user lang: fr
+[ DEBUG ][ 2022-07-03 13:47:05,275 ][ base ][ 3468 ][ 140304636180224 ] ==> [+] while login got default user lang: fr
+[ DEBUG ][ 2022-07-03 13:47:05,275 ][ base ][ 3468 ][ 140304636180224 ] ==> [+] activating user lang: fr
