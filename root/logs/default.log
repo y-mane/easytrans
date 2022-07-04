@@ -2,3 +2,9 @@
 [ INFO ][ 2022-07-04 00:06:18,021 ][ autoreload ][ 29744 ][ 139638662448960 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-07-04 00:06:26,711 ][ autoreload ][ 29744 ][ 139638662448960 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-07-04 00:06:27,725 ][ autoreload ][ 29813 ][ 140186688612160 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:08:10,280 ][ autoreload ][ 29813 ][ 140186688612160 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:08:12,578 ][ autoreload ][ 30127 ][ 140480550332224 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:08:21,017 ][ autoreload ][ 30127 ][ 140480550332224 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:08:22,450 ][ autoreload ][ 30202 ][ 140313477838656 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:08:25,692 ][ autoreload ][ 30202 ][ 140313477838656 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:08:27,209 ][ autoreload ][ 30253 ][ 140657679771456 ] ==> Watching for file changes with StatReloader

@@ -33,10 +33,9 @@ def failled(request):
 def notification(request):
     var = dict()
     var={k:v for k,v in request.POST.items()}
-    custom_data=var['extra_data'] or 1
-    
+    custom_data=var['extra_data']
     print(custom_data)
-    voyage_id=int(custom_data)
+    voyage_id=int(custom_data or 0)
     payement_state=var['txn_status']
     print(payement_state)
     if payement_state=='success':
