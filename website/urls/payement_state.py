@@ -13,10 +13,10 @@ from oauth.urls import base as auth_urls
 from website.views.payement_state import success,failled,notification
 
 urlpatterns = [
+    path('notification/',notification,name='notification'),
     path('success/',success,name='success'),
     path('failled/',failled,name='failled'),
-    path('notification/',notification,name='notification'),
-    
+     
 ]
 
 
