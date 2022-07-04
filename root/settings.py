@@ -19,7 +19,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = env.bool('DEBUG', default=False)
 
 #ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=list())
-ALLOWED_HOSTS=['146.190.238.183','localhost','127.0.0.1']
+ALLOWED_HOSTS=['146.190.238.183']
 ALLOWED_REMOTE_ORIGINS = env.list('ALLOWED_REMOTE_ORIGINS', default=list())
 ALLOWED_REMOTE_HOSTS = []
 BASE_APPS = [

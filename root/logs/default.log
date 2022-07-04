@@ -1211,3 +1211,5 @@ KeyError: 'extra_data'
 [ INFO ][ 2022-07-04 15:22:08,967 ][ autoreload ][ 72185 ][ 140545828915008 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-07-04 15:22:11,006 ][ autoreload ][ 72185 ][ 140545828915008 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
 [ INFO ][ 2022-07-04 15:22:11,867 ][ autoreload ][ 72224 ][ 139863758317376 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:41:15,776 ][ autoreload ][ 72224 ][ 139863758317376 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:41:16,939 ][ autoreload ][ 73402 ][ 139662217070400 ] ==> Watching for file changes with StatReloader
