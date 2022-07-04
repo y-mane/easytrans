@@ -42,7 +42,7 @@ def notification(request):
     payement_state=var['txn_status']
     print(payement_state)
     if payement_state=='success':
-        log.info(f"[notification de paiement]:information recuperee:{request.data.items()}")
+        log.info(f"[notification de paiement]:information recuperee:{request.POST.items()}")
         """voyage=Voyage.objects.get(id=voyage_id)
         voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
         voyage.save()
