@@ -8,3 +8,13 @@
 [ INFO ][ 2022-07-04 00:08:22,450 ][ autoreload ][ 30202 ][ 140313477838656 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-07-04 00:08:25,692 ][ autoreload ][ 30202 ][ 140313477838656 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-07-04 00:08:27,209 ][ autoreload ][ 30253 ][ 140657679771456 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:09:54,319 ][ autoreload ][ 30253 ][ 140657679771456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:09:55,542 ][ autoreload ][ 30518 ][ 140181291972416 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:29:32,483 ][ autoreload ][ 30518 ][ 140181291972416 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:29:33,428 ][ autoreload ][ 31556 ][ 140689771317056 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:29:37,895 ][ autoreload ][ 31556 ][ 140689771317056 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:29:38,665 ][ autoreload ][ 31592 ][ 139817917716288 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:29:40,684 ][ autoreload ][ 31592 ][ 139817917716288 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:29:41,436 ][ autoreload ][ 31625 ][ 140550613645120 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:29:54,101 ][ autoreload ][ 31625 ][ 140550613645120 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:29:55,092 ][ autoreload ][ 31660 ][ 140691819480896 ] ==> Watching for file changes with StatReloader
