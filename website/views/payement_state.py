@@ -39,13 +39,12 @@ def notification(request):
     voyage_id=int(custom_data or 0)
     payement_state=var['txn_status']
     print(payement_state)
-    if payement_state=='success':
+    if payement_state=='success' or payement_state=='successful':
         log.info(f"[notification de paiement]:information recuperee:{request.POST.items()}")
         voyage=Voyage.objects.get(id=voyage_id)
         voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
         voyage.save()
         voy=model_to_dict(voyage)
-        print(voy)
         #API pour envoyer les sms
         """conn = http.client.HTTPConnection("vavasms.com")
         payload = "username=keita.souleyman225@gmail.com&password=thelifeislesgigas2020&sender_id=keita&phone={{voyage.contact}}&message=paiment effectué avec succès"
@@ -61,6 +60,8 @@ def notification(request):
         #fin API d'envoie de sms
         return Response(voy or 0) 
     else:
-            return Response({'details':'payement non éffectué '})
-    return 0
+        return Response({'details':'le paiement a echoué'})
+        
+           
+    
     

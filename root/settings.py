@@ -8,8 +8,8 @@ from django.utils.translation import gettext_lazy as _
 BASE_DIR = os.path.dirname(__file__)
 PLATFORM_DIR = os.path.join(BASE_DIR, 'platforms')
 # platform specific data to load: dev (developement) | prod (production)
-#PLATFORM = 'dev'
-PLATFORM = 'prod'
+PLATFORM = 'dev'
+#PLATFORM = 'prod'
 PLATFORM_TO_LOAD = os.path.join(PLATFORM_DIR, f"{PLATFORM}")
 env = environ.Env()
 env.read_env(os.path.join(PLATFORM_TO_LOAD, ".env"))
@@ -19,7 +19,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = env.bool('DEBUG', default=False)
 
 #ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=list())
-ALLOWED_HOSTS=['146.190.238.183']
+ALLOWED_HOSTS=['146.190.238.183','localhost','127.0.0.1']
 ALLOWED_REMOTE_ORIGINS = env.list('ALLOWED_REMOTE_ORIGINS', default=list())
 ALLOWED_REMOTE_HOSTS = []
 BASE_APPS = [
@@ -72,10 +72,10 @@ WSGI_APPLICATION = 'root.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'easytrans_3',
+        'NAME': 'easytrans_1',
         'HOST':'localhost',
-        'USERNAME':'keita',
-        'PASSWORD':'keita08176279',
+        'USERNAME':'ymane',
+        'PASSWORD':'thelifeislesgigas2020',
         'PORT': '5432',
 
     }
