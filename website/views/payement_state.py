@@ -13,6 +13,7 @@ from django.forms.models import model_to_dict
 import http.client
 import mimetypes
 from django.views.decorators.http import require_http_methods
+from django.views.decorators.http import  require_POST
 
 
 @require_http_methods(["POST"])
@@ -27,7 +28,7 @@ def failled(request):
     }
     return render(request,'website/front/failled.html',context)
 
-
+@require_POST
 @csrf_exempt
 @api_view(['POST'])
 def notification(request):
