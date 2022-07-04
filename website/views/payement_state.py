@@ -20,13 +20,11 @@ import logging
 
 log = logging.getLogger('debug')
 
-@require_http_methods(["POST"])
 def success(request):
     context={
     }
     return render(request,'website/front/success.html',context)
 
-@require_http_methods(["POST"])
 def failled(request):
     context={        
     }
