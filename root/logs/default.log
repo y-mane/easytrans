@@ -1195,3 +1195,11 @@ KeyError: 'extra_data'
 [ INFO ][ 2022-07-04 14:41:29,537 ][ autoreload ][ 69093 ][ 140535292925760 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-07-04 14:45:49,024 ][ autoreload ][ 69093 ][ 140535292925760 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-07-04 14:45:51,890 ][ autoreload ][ 69462 ][ 140242486454080 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:02:13,344 ][ autoreload ][ 69462 ][ 140242486454080 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/start_form/forms.py changed, reloading.
+[ INFO ][ 2022-07-04 15:02:14,265 ][ autoreload ][ 70455 ][ 140589671233344 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:02:16,962 ][ autoreload ][ 70455 ][ 140589671233344 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/start_form/forms.py changed, reloading.
+[ INFO ][ 2022-07-04 15:02:17,765 ][ autoreload ][ 70480 ][ 139742238848832 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:03:09,733 ][ autoreload ][ 70480 ][ 139742238848832 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/start_form/forms.py changed, reloading.
+[ INFO ][ 2022-07-04 15:03:10,531 ][ autoreload ][ 70609 ][ 140692960544576 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:03:14,205 ][ autoreload ][ 70609 ][ 140692960544576 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/start_form/forms.py changed, reloading.
+[ INFO ][ 2022-07-04 15:03:14,949 ][ autoreload ][ 70639 ][ 139784217311040 ] ==> Watching for file changes with StatReloader
