@@ -116,3 +116,25 @@
 [ ERROR ][ 2022-07-04 09:13:54,721 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> You're accessing the development server over HTTPS, but it only supports HTTP.
 
 [ ERROR ][ 2022-07-04 09:14:42,527 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ WARNING ][ 2022-07-04 09:34:55,358 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ ERROR ][ 2022-07-04 09:35:03,568 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 126534
+[ WARNING ][ 2022-07-04 09:36:20,849 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10569
+[ WARNING ][ 2022-07-04 09:36:28,927 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10539
+[ WARNING ][ 2022-07-04 09:39:33,800 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 09:41:50,787 ][ basehttp ][ 47028 ][ 139974217348864 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 09:44:53,665 ][ basehttp ][ 47159 ][ 139623833052928 ] ==> "POST /payement_state/notification HTTP/1.1" 200 251
+[ WARNING ][ 2022-07-04 09:44:57,456 ][ basehttp ][ 47159 ][ 139623833052928 ] ==> "POST /payement_state/notification/ HTTP/1.1" 404 5646
+[ INFO ][ 2022-07-04 09:45:05,085 ][ basehttp ][ 47159 ][ 139623833052928 ] ==> "POST /payement_state/notification HTTP/1.1" 200 251
+[ ERROR ][ 2022-07-04 09:45:21,898 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ INFO ][ 2022-07-04 09:45:24,935 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:45:34,296 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:45:38,410 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:47:14,231 ][ basehttp ][ 47338 ][ 140054454335232 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ ERROR ][ 2022-07-04 09:50:32,486 ][ basehttp ][ 47732 ][ 140189611325184 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 95624
+[ ERROR ][ 2022-07-04 09:51:49,919 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:51:52,344 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:51:52,965 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:51:53,929 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:52:01,983 ][ basehttp ][ 47920 ][ 139718795462400 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ WARNING ][ 2022-07-04 09:52:22,650 ][ basehttp ][ 47920 ][ 139718795462400 ] ==> "POST /payement_state/notification/ HTTP/1.1" 403 1879
+[ WARNING ][ 2022-07-04 09:52:31,116 ][ basehttp ][ 47920 ][ 139718795462400 ] ==> "POST /payement_state/notification/ HTTP/1.1" 403 1879

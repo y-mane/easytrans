@@ -696,3 +696,156 @@ RuntimeError: You called this URL via POST, but the URL doesn't end in a slash a
 [ INFO ][ 2022-07-04 09:30:25,874 ][ autoreload ][ 46347 ][ 140575580436288 ] ==> Watching for file changes with StatReloader
 [ INFO ][ 2022-07-04 09:30:28,553 ][ autoreload ][ 46347 ][ 140575580436288 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
 [ INFO ][ 2022-07-04 09:30:29,934 ][ autoreload ][ 46370 ][ 140166945605440 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:32:15,765 ][ autoreload ][ 46530 ][ 139725364844352 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 09:34:55,358 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ ERROR ][ 2022-07-04 09:35:03,370 ][ log ][ 46530 ][ 139725151139584 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:35:03,568 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 126534
+[ WARNING ][ 2022-07-04 09:36:20,849 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10569
+[ WARNING ][ 2022-07-04 09:36:28,927 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10539
+[ WARNING ][ 2022-07-04 09:39:33,800 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 09:41:44,856 ][ autoreload ][ 46530 ][ 139725364844352 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:41:46,516 ][ autoreload ][ 47028 ][ 139974429005632 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 09:41:50,787 ][ basehttp ][ 47028 ][ 139974217348864 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 09:44:29,950 ][ autoreload ][ 47028 ][ 139974429005632 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:44:30,904 ][ autoreload ][ 47159 ][ 139623977510720 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:44:53,665 ][ basehttp ][ 47159 ][ 139623833052928 ] ==> "POST /payement_state/notification HTTP/1.1" 200 251
+[ WARNING ][ 2022-07-04 09:44:57,456 ][ basehttp ][ 47159 ][ 139623833052928 ] ==> "POST /payement_state/notification/ HTTP/1.1" 404 5646
+[ INFO ][ 2022-07-04 09:45:05,085 ][ basehttp ][ 47159 ][ 139623833052928 ] ==> "POST /payement_state/notification HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:45:12,781 ][ autoreload ][ 47159 ][ 139623977510720 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:45:13,594 ][ autoreload ][ 47338 ][ 140054680135488 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 09:45:21,882 ][ log ][ 47338 ][ 140054535677696 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:45:21,898 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ INFO ][ 2022-07-04 09:45:24,935 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:45:34,296 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:45:38,410 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:47:14,231 ][ basehttp ][ 47338 ][ 140054454335232 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ INFO ][ 2022-07-04 09:49:44,361 ][ autoreload ][ 47338 ][ 140054680135488 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:49:45,118 ][ autoreload ][ 47573 ][ 140087962134336 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:49:51,426 ][ autoreload ][ 47573 ][ 140087962134336 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:49:52,354 ][ autoreload ][ 47619 ][ 140360520677184 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:50:07,263 ][ autoreload ][ 47619 ][ 140360520677184 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:50:08,011 ][ autoreload ][ 47660 ][ 139756972656448 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:50:09,917 ][ autoreload ][ 47660 ][ 139756972656448 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:50:10,975 ][ autoreload ][ 47692 ][ 140008176060224 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:50:19,373 ][ autoreload ][ 47692 ][ 140008176060224 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:50:20,261 ][ autoreload ][ 47732 ][ 140189823072064 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 09:50:32,445 ][ log ][ 47732 ][ 140189611325184 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 45, in notification
+    p#rint(voy)
+NameError: name 'p' is not defined
+[ ERROR ][ 2022-07-04 09:50:32,486 ][ basehttp ][ 47732 ][ 140189611325184 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 95624
+[ INFO ][ 2022-07-04 09:51:14,311 ][ autoreload ][ 47732 ][ 140189823072064 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:51:15,026 ][ autoreload ][ 47849 ][ 139680259675968 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:51:18,036 ][ autoreload ][ 47849 ][ 139680259675968 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:51:18,828 ][ autoreload ][ 47882 ][ 139884846450496 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:51:36,249 ][ autoreload ][ 47882 ][ 139884846450496 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:51:37,050 ][ autoreload ][ 47920 ][ 139719025276736 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 09:51:49,849 ][ log ][ 47920 ][ 139718813558528 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:51:49,919 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:51:52,204 ][ log ][ 47920 ][ 139718813558528 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:51:52,344 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:51:52,917 ][ log ][ 47920 ][ 139718813558528 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:51:52,965 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:51:53,888 ][ log ][ 47920 ][ 139718813558528 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:51:53,929 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:52:01,967 ][ log ][ 47920 ][ 139718795462400 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:52:01,983 ][ basehttp ][ 47920 ][ 139718795462400 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ WARNING ][ 2022-07-04 09:52:22,618 ][ log ][ 47920 ][ 139718795462400 ] ==> Forbidden (CSRF cookie not set.): /payement_state/notification/
+[ WARNING ][ 2022-07-04 09:52:22,650 ][ basehttp ][ 47920 ][ 139718795462400 ] ==> "POST /payement_state/notification/ HTTP/1.1" 403 1879
+[ WARNING ][ 2022-07-04 09:52:30,979 ][ log ][ 47920 ][ 139718795462400 ] ==> Forbidden (CSRF cookie not set.): /payement_state/notification/
+[ WARNING ][ 2022-07-04 09:52:31,116 ][ basehttp ][ 47920 ][ 139718795462400 ] ==> "POST /payement_state/notification/ HTTP/1.1" 403 1879
