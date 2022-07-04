@@ -1,3 +1,4 @@
+from distutils.log import debug
 from urllib import response
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -14,7 +15,10 @@ import http.client
 import mimetypes
 from django.views.decorators.http import require_http_methods
 from django.views.decorators.http import  require_POST
+import logging 
 
+
+log = logging.getLogger('debug')
 
 @require_http_methods(["POST"])
 def success(request):
@@ -28,24 +32,25 @@ def failled(request):
     }
     return render(request,'website/front/failled.html',context)
 
-#@csrf_exempt
+@api_view(['POST'])
 def notification(request):
     var = dict()
-    var={k:v for k,v in request.POST.items()}
+    var={k:v for k,v in request.data.items()}
     custom_data=var['extra_data']
     print(custom_data)
     voyage_id=int(custom_data or 0)
     payement_state=var['txn_status']
     print(payement_state)
     if payement_state=='success':
-        voyage=Voyage.objects.get(id=voyage_id)
+        log.info(f"[notification de paiement]:information recuperee:{request.data.items()}")
+        """voyage=Voyage.objects.get(id=voyage_id)
         voyage.etat_paiement=Voyage.ETAT_PAIEMENT[0][0]
         voyage.save()
-        #voy=model_to_dict(voyage)
-        #print(voy)
+        voy=model_to_dict(voyage)
+        print(voy)"""
         #API pour envoyer les sms
         """conn = http.client.HTTPConnection("vavasms.com")
-        payload = "username=keita.souleyman225@gmail.com&password=thelifeislesgigas2020&sender_id=keita&phone={voyage.contact}&message=paiment effectué avec succès"
+        payload = "username=keita.souleyman225@gmail.com&password=thelifeislesgigas2020&sender_id=keita&phone={{voyage.contact}}&message=paiment effectué avec succès"
         headers = {
         'Content-Type': "application/x-www-form-urlencoded",
         'Accept': "*/*",
@@ -56,7 +61,7 @@ def notification(request):
         data = res.read()
         print(data.decode("utf-8"))"""
         #fin API d'envoie de sms
-        #return Response(voy or 0) 
+        return Response(voy or 0) 
     else:
             return Response({'details':'payement non éffectué '})
     return 0
