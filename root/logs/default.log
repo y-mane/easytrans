@@ -1020,3 +1020,9 @@ AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse`
 [ INFO ][ 2022-07-05 14:22:26,251 ][ basehttp ][ 27063 ][ 140325221558016 ] ==> "GET /admin-back-office/start_form/signature/ HTTP/1.1" 200 4561
 [ INFO ][ 2022-07-05 14:22:26,329 ][ basehttp ][ 27063 ][ 140325221558016 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
 [ INFO ][ 2022-07-05 14:22:30,802 ][ basehttp ][ 27063 ][ 140325230475008 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 41
+[ INFO ][ 2022-07-05 14:30:38,455 ][ basehttp ][ 27063 ][ 140325221558016 ] ==> "GET /admin-back-office/start_form/signature/ HTTP/1.1" 200 4561
+[ INFO ][ 2022-07-05 14:30:39,099 ][ basehttp ][ 27063 ][ 140325221558016 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-07-05 14:33:36,056 ][ autoreload ][ 27063 ][ 140325441800000 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-05 14:33:39,189 ][ autoreload ][ 28083 ][ 139858267313984 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-05 14:33:48,670 ][ autoreload ][ 28083 ][ 139858267313984 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-05 14:33:49,522 ][ autoreload ][ 28155 ][ 140236278028096 ] ==> Watching for file changes with StatReloader
