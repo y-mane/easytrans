@@ -1,0 +1,1315 @@
+[ INFO ][ 2022-07-04 00:06:15,838 ][ autoreload ][ 27011 ][ 140545646987072 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:06:18,021 ][ autoreload ][ 29744 ][ 139638662448960 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:06:26,711 ][ autoreload ][ 29744 ][ 139638662448960 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:06:27,725 ][ autoreload ][ 29813 ][ 140186688612160 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:08:10,280 ][ autoreload ][ 29813 ][ 140186688612160 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:08:12,578 ][ autoreload ][ 30127 ][ 140480550332224 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:08:21,017 ][ autoreload ][ 30127 ][ 140480550332224 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:08:22,450 ][ autoreload ][ 30202 ][ 140313477838656 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:08:25,692 ][ autoreload ][ 30202 ][ 140313477838656 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:08:27,209 ][ autoreload ][ 30253 ][ 140657679771456 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:09:54,319 ][ autoreload ][ 30253 ][ 140657679771456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:09:55,542 ][ autoreload ][ 30518 ][ 140181291972416 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:29:32,483 ][ autoreload ][ 30518 ][ 140181291972416 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:29:33,428 ][ autoreload ][ 31556 ][ 140689771317056 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:29:37,895 ][ autoreload ][ 31556 ][ 140689771317056 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:29:38,665 ][ autoreload ][ 31592 ][ 139817917716288 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:29:40,684 ][ autoreload ][ 31592 ][ 139817917716288 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:29:41,436 ][ autoreload ][ 31625 ][ 140550613645120 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:29:54,101 ][ autoreload ][ 31625 ][ 140550613645120 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:29:55,092 ][ autoreload ][ 31660 ][ 140691819480896 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:31:50,120 ][ autoreload ][ 31660 ][ 140691819480896 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:31:50,876 ][ autoreload ][ 31911 ][ 140112867780416 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:31:53,971 ][ autoreload ][ 31911 ][ 140112867780416 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:31:54,926 ][ autoreload ][ 31945 ][ 140368597399360 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 00:32:01,288 ][ log ][ 31945 ][ 140368385668864 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 00:32:01,359 ][ basehttp ][ 31945 ][ 140368385668864 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 126704
+[ ERROR ][ 2022-07-04 00:32:03,535 ][ log ][ 31945 ][ 140368385668864 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 00:32:03,801 ][ basehttp ][ 31945 ][ 140368385668864 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 126704
+[ ERROR ][ 2022-07-04 00:32:04,766 ][ log ][ 31945 ][ 140368385668864 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 00:32:05,035 ][ basehttp ][ 31945 ][ 140368385668864 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 126704
+[ INFO ][ 2022-07-04 00:32:21,002 ][ autoreload ][ 31945 ][ 140368597399360 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:32:21,742 ][ autoreload ][ 32050 ][ 140133834086208 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 00:32:24,032 ][ basehttp ][ 32050 ][ 140133622286080 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 00:32:27,566 ][ basehttp ][ 32050 ][ 140133622286080 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 00:32:31,488 ][ autoreload ][ 32050 ][ 140133834086208 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:32:32,490 ][ autoreload ][ 32121 ][ 140537992296256 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 00:32:34,748 ][ log ][ 32121 ][ 140537848362752 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 00:32:34,817 ][ basehttp ][ 32121 ][ 140537848362752 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 126704
+[ INFO ][ 2022-07-04 00:32:44,681 ][ autoreload ][ 32121 ][ 140537992296256 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:32:45,840 ][ autoreload ][ 32181 ][ 139831868745536 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 00:32:47,025 ][ basehttp ][ 32181 ][ 139831652906752 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 00:37:36,081 ][ autoreload ][ 32181 ][ 139831868745536 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:37:37,631 ][ autoreload ][ 32485 ][ 140144439809856 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 00:37:38,674 ][ basehttp ][ 32485 ][ 140144229197568 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 00:40:11,570 ][ autoreload ][ 32485 ][ 140144439809856 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:40:12,885 ][ autoreload ][ 32677 ][ 139923381987136 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 00:40:22,104 ][ basehttp ][ 32677 ][ 139923170350848 ] ==> "GET /payement_state/notification/ HTTP/1.1" 404 5624
+[ WARNING ][ 2022-07-04 00:40:24,804 ][ basehttp ][ 32677 ][ 139923170350848 ] ==> "GET /payement_state/notification/ HTTP/1.1" 404 5624
+[ WARNING ][ 2022-07-04 00:40:28,909 ][ basehttp ][ 32677 ][ 139923170350848 ] ==> "GET /payement_state/notification HTTP/1.1" 405 10519
+[ INFO ][ 2022-07-04 00:40:39,873 ][ autoreload ][ 32677 ][ 139923381987136 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:40:40,796 ][ autoreload ][ 32753 ][ 140107985160000 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:40:41,635 ][ basehttp ][ 32753 ][ 140107774883584 ] ==> "GET /payement_state/notification HTTP/1.1" 301 0
+[ WARNING ][ 2022-07-04 00:40:41,784 ][ basehttp ][ 32753 ][ 140107774883584 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 00:40:42,250 ][ basehttp ][ 32753 ][ 140107774883584 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 00:44:57,950 ][ autoreload ][ 32753 ][ 140107985160000 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:44:59,179 ][ autoreload ][ 32935 ][ 139896788055872 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:46:05,744 ][ autoreload ][ 32935 ][ 139896788055872 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:46:06,894 ][ autoreload ][ 33013 ][ 140123830351680 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:46:10,809 ][ autoreload ][ 33013 ][ 140123830351680 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:46:12,199 ][ autoreload ][ 33051 ][ 139817276294976 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:46:19,533 ][ autoreload ][ 33051 ][ 139817276294976 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:46:20,860 ][ autoreload ][ 33116 ][ 140288621459264 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 00:46:25,654 ][ basehttp ][ 33116 ][ 140288477001472 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 00:46:28,580 ][ basehttp ][ 33116 ][ 140288477001472 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 00:46:29,267 ][ basehttp ][ 33116 ][ 140288477001472 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 00:48:03,794 ][ autoreload ][ 33116 ][ 140288621459264 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:48:04,555 ][ autoreload ][ 33254 ][ 139984597251904 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 00:48:06,696 ][ autoreload ][ 33254 ][ 139984597251904 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:48:07,472 ][ autoreload ][ 33275 ][ 140014096115520 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 00:51:24,773 ][ log ][ 33275 ][ 140013884299008 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 00:51:25,135 ][ basehttp ][ 33275 ][ 140013884299008 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 126525
+[ INFO ][ 2022-07-04 00:52:29,888 ][ autoreload ][ 33275 ][ 140014096115520 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 00:52:30,679 ][ autoreload ][ 33430 ][ 139736927463232 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 00:52:54,600 ][ basehttp ][ 33430 ][ 139736715790080 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 00:53:06,237 ][ basehttp ][ 33430 ][ 139736715790080 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10535
+[ WARNING ][ 2022-07-04 00:53:27,153 ][ basehttp ][ 33430 ][ 139736715790080 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 00:53:28,147 ][ basehttp ][ 33430 ][ 139736715790080 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ ERROR ][ 2022-07-04 00:53:36,317 ][ log ][ 33430 ][ 139736715790080 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 00:53:36,793 ][ basehttp ][ 33430 ][ 139736715790080 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 126461
+[ WARNING ][ 2022-07-04 00:53:41,640 ][ basehttp ][ 33430 ][ 139736715790080 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 00:53:47,352 ][ basehttp ][ 33430 ][ 139736715790080 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10535
+[ WARNING ][ 2022-07-04 00:54:00,208 ][ basehttp ][ 33430 ][ 139736715790080 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 01:00:16,610 ][ basehttp ][ 33430 ][ 139736715790080 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 01:21:50,844 ][ autoreload ][ 33430 ][ 139736927463232 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 01:21:51,785 ][ autoreload ][ 34615 ][ 139796660352832 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:21:54,111 ][ autoreload ][ 34615 ][ 139796660352832 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 01:21:54,932 ][ autoreload ][ 34640 ][ 139953531742016 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:22:00,232 ][ autoreload ][ 34640 ][ 139953531742016 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 01:22:01,204 ][ autoreload ][ 34675 ][ 139730192308032 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:22:46,243 ][ autoreload ][ 34675 ][ 139730192308032 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 01:22:47,201 ][ autoreload ][ 34859 ][ 140290050062144 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 01:23:02,083 ][ basehttp ][ 34859 ][ 140289838470912 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 01:30:25,170 ][ autoreload ][ 34859 ][ 140290050062144 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:30:27,710 ][ autoreload ][ 35391 ][ 139665118910272 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:31:55,524 ][ autoreload ][ 35819 ][ 139752952772416 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:35:47,528 ][ autoreload ][ 36358 ][ 140084010506048 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:36:11,890 ][ autoreload ][ 36519 ][ 139630867216192 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 01:36:16,210 ][ basehttp ][ 36519 ][ 139630655567616 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 01:42:23,843 ][ autoreload ][ 36519 ][ 139630867216192 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:42:25,228 ][ autoreload ][ 36828 ][ 140107990644544 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:42:44,112 ][ autoreload ][ 36828 ][ 140107990644544 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:42:45,633 ][ autoreload ][ 36885 ][ 140389451618112 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:42:51,020 ][ autoreload ][ 36885 ][ 140389451618112 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:42:52,552 ][ autoreload ][ 36928 ][ 140444191082304 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:42:56,895 ][ autoreload ][ 36928 ][ 140444191082304 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:42:58,200 ][ autoreload ][ 36973 ][ 139826072835904 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:43:05,632 ][ autoreload ][ 36973 ][ 139826072835904 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:43:07,051 ][ autoreload ][ 37018 ][ 140132767541056 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:43:10,224 ][ autoreload ][ 37018 ][ 140132767541056 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:43:11,471 ][ autoreload ][ 37050 ][ 140258417612608 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:43:14,644 ][ autoreload ][ 37050 ][ 140258417612608 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:43:16,031 ][ autoreload ][ 37087 ][ 140708625602368 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 01:43:40,152 ][ basehttp ][ 37087 ][ 140708413810432 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 01:43:41,785 ][ basehttp ][ 37087 ][ 140708413810432 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 01:43:42,363 ][ basehttp ][ 37087 ][ 140708413810432 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 01:43:43,192 ][ basehttp ][ 37087 ][ 140708413810432 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 01:43:56,493 ][ autoreload ][ 37087 ][ 140708625602368 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:43:57,471 ][ autoreload ][ 37173 ][ 140326677645120 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:43:59,586 ][ autoreload ][ 37173 ][ 140326677645120 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:44:00,391 ][ autoreload ][ 37194 ][ 139810539476800 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:44:03,484 ][ autoreload ][ 37194 ][ 139810539476800 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:44:04,598 ][ autoreload ][ 37212 ][ 139869766506304 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 01:44:06,725 ][ basehttp ][ 37212 ][ 139869555500800 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 01:47:18,952 ][ autoreload ][ 37212 ][ 139869766506304 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:47:19,936 ][ autoreload ][ 37738 ][ 140703670626112 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:47:50,753 ][ autoreload ][ 37911 ][ 140223323899712 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:48:37,124 ][ autoreload ][ 37911 ][ 140223323899712 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:48:37,847 ][ autoreload ][ 38026 ][ 140536508827456 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 01:48:44,025 ][ basehttp ][ 38026 ][ 140536295978752 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 01:51:58,182 ][ basehttp ][ 38026 ][ 140536295978752 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 01:58:34,791 ][ autoreload ][ 38026 ][ 140536508827456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:58:36,711 ][ autoreload ][ 38384 ][ 139630499645248 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 01:58:40,623 ][ autoreload ][ 38384 ][ 139630499645248 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:58:41,957 ][ autoreload ][ 38418 ][ 140544956643136 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 01:58:48,108 ][ basehttp ][ 38418 ][ 140544744879872 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 01:58:49,433 ][ basehttp ][ 38418 ][ 140544744879872 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 01:58:50,077 ][ basehttp ][ 38418 ][ 140544744879872 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 01:58:51,700 ][ basehttp ][ 38418 ][ 140544744879872 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 01:58:52,458 ][ basehttp ][ 38418 ][ 140544744879872 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 01:59:10,915 ][ autoreload ][ 38418 ][ 140544956643136 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:59:11,924 ][ autoreload ][ 38509 ][ 140610965841728 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 01:59:13,459 ][ log ][ 38509 ][ 140610755049216 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 34, in notification
+    var={k:v for k,v in request.data.items()}
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+[ ERROR ][ 2022-07-04 01:59:13,622 ][ basehttp ][ 38509 ][ 140610755049216 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 96106
+[ ERROR ][ 2022-07-04 01:59:16,495 ][ log ][ 38509 ][ 140610755049216 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 34, in notification
+    var={k:v for k,v in request.data.items()}
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+[ ERROR ][ 2022-07-04 01:59:16,539 ][ basehttp ][ 38509 ][ 140610755049216 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 96106
+[ ERROR ][ 2022-07-04 01:59:17,605 ][ log ][ 38509 ][ 140610755049216 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 34, in notification
+    var={k:v for k,v in request.data.items()}
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+[ ERROR ][ 2022-07-04 01:59:17,643 ][ basehttp ][ 38509 ][ 140610755049216 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 96106
+[ ERROR ][ 2022-07-04 01:59:32,486 ][ log ][ 38509 ][ 140610755049216 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 34, in notification
+    var = dict()
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+[ ERROR ][ 2022-07-04 01:59:32,532 ][ basehttp ][ 38509 ][ 140610755049216 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 96063
+[ INFO ][ 2022-07-04 01:59:32,799 ][ autoreload ][ 38509 ][ 140610965841728 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 01:59:33,644 ][ autoreload ][ 38633 ][ 139854471698240 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 01:59:34,953 ][ basehttp ][ 38633 ][ 139854260729600 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 01:59:46,791 ][ basehttp ][ 38633 ][ 139854260729600 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ INFO ][ 2022-07-04 02:00:49,053 ][ autoreload ][ 38633 ][ 139854471698240 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:00:50,300 ][ autoreload ][ 38745 ][ 140565349525312 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 02:01:41,429 ][ autoreload ][ 38745 ][ 140565349525312 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:01:42,868 ][ autoreload ][ 38820 ][ 140389702518592 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 02:01:45,202 ][ basehttp ][ 38820 ][ 140389491717888 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 8854
+[ WARNING ][ 2022-07-04 02:01:46,230 ][ basehttp ][ 38820 ][ 140389491717888 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 8854
+[ WARNING ][ 2022-07-04 02:01:49,999 ][ basehttp ][ 38820 ][ 140389491717888 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 8854
+[ WARNING ][ 2022-07-04 02:01:57,646 ][ basehttp ][ 38820 ][ 140389491717888 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 8854
+[ INFO ][ 2022-07-04 02:01:58,267 ][ autoreload ][ 38820 ][ 140389702518592 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:01:59,208 ][ autoreload ][ 38921 ][ 140424956208960 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 02:02:00,488 ][ basehttp ][ 38921 ][ 140424745690880 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 8854
+[ WARNING ][ 2022-07-04 02:02:03,538 ][ basehttp ][ 38921 ][ 140424745690880 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 8854
+[ INFO ][ 2022-07-04 02:02:10,213 ][ autoreload ][ 38921 ][ 140424956208960 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:02:10,961 ][ autoreload ][ 39044 ][ 139873994528576 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 02:02:13,065 ][ autoreload ][ 39044 ][ 139873994528576 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:02:13,786 ][ autoreload ][ 39067 ][ 139634701190976 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 02:02:15,952 ][ autoreload ][ 39067 ][ 139634701190976 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:02:16,913 ][ autoreload ][ 39082 ][ 139977193543488 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 02:02:18,029 ][ log ][ 39082 ][ 139976982603520 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 02:02:18,757 ][ basehttp ][ 39082 ][ 139976982603520 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 126686
+[ ERROR ][ 2022-07-04 02:02:25,393 ][ log ][ 39082 ][ 139976982603520 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ INFO ][ 2022-07-04 02:02:25,428 ][ autoreload ][ 39082 ][ 139977193543488 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:02:26,372 ][ autoreload ][ 39176 ][ 139886573619008 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 02:02:28,408 ][ basehttp ][ 39176 ][ 139886429947648 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 02:02:38,268 ][ basehttp ][ 39176 ][ 139886429947648 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 02:02:39,097 ][ basehttp ][ 39176 ][ 139886429947648 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 02:02:41,944 ][ basehttp ][ 39176 ][ 139886429947648 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ WARNING ][ 2022-07-04 02:02:53,273 ][ basehttp ][ 39176 ][ 139886429947648 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 02:02:56,828 ][ basehttp ][ 39176 ][ 139886429947648 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ WARNING ][ 2022-07-04 02:03:38,309 ][ basehttp ][ 39176 ][ 139886429947648 ] ==> "GET /api/software/3/ HTTP/1.1" 404 4589
+[ INFO ][ 2022-07-04 02:04:55,027 ][ autoreload ][ 39176 ][ 139886573619008 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:04:56,524 ][ autoreload ][ 39381 ][ 139857327363904 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 02:05:45,606 ][ autoreload ][ 39381 ][ 139857327363904 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:05:46,512 ][ autoreload ][ 39517 ][ 139819371304768 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 02:05:52,940 ][ basehttp ][ 39517 ][ 139819159648000 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 0
+[ WARNING ][ 2022-07-04 02:05:54,065 ][ basehttp ][ 39517 ][ 139819159648000 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 0
+[ WARNING ][ 2022-07-04 02:05:54,785 ][ basehttp ][ 39517 ][ 139819159648000 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 0
+[ INFO ][ 2022-07-04 02:06:13,752 ][ autoreload ][ 39517 ][ 139819371304768 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:06:14,889 ][ autoreload ][ 39637 ][ 140648917677888 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 02:06:18,894 ][ basehttp ][ 39637 ][ 140648703325952 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 0
+[ WARNING ][ 2022-07-04 02:06:19,503 ][ basehttp ][ 39637 ][ 140648703325952 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 0
+[ WARNING ][ 2022-07-04 02:06:25,488 ][ basehttp ][ 39637 ][ 140648703325952 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 0
+[ WARNING ][ 2022-07-04 02:06:30,327 ][ basehttp ][ 39637 ][ 140648703325952 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 0
+[ WARNING ][ 2022-07-04 02:06:30,927 ][ basehttp ][ 39637 ][ 140648703325952 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 0
+[ WARNING ][ 2022-07-04 02:06:31,482 ][ basehttp ][ 39637 ][ 140648703325952 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 0
+[ INFO ][ 2022-07-04 02:06:59,071 ][ basehttp ][ 39637 ][ 140648686540544 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 02:09:06,045 ][ autoreload ][ 39637 ][ 140648917677888 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 02:09:06,868 ][ autoreload ][ 40051 ][ 139642389780288 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 02:09:08,091 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 02:11:57,685 ][ basehttp ][ 40051 ][ 139642170525440 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ WARNING ][ 2022-07-04 02:12:01,789 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 02:12:02,877 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 02:12:03,686 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ ERROR ][ 2022-07-04 02:25:51,747 ][ log ][ 40051 ][ 139642178918144 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 02:25:52,039 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 126534
+[ WARNING ][ 2022-07-04 02:25:54,090 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 02:26:36,710 ][ autoreload ][ 40657 ][ 139693048469312 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 02:26:50,420 ][ autoreload ][ 40712 ][ 139852745893696 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 07:55:48,252 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 07:55:49,102 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 07:55:49,716 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 07:55:50,357 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 07:55:51,233 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 07:55:52,128 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 07:56:16,378 ][ basehttp ][ 40051 ][ 139642178918144 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ INFO ][ 2022-07-04 07:57:55,469 ][ autoreload ][ 40051 ][ 139642389780288 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 07:57:57,064 ][ autoreload ][ 42186 ][ 140261049182016 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 07:57:59,810 ][ autoreload ][ 42186 ][ 140261049182016 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 07:58:01,172 ][ autoreload ][ 42218 ][ 140272415270720 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 07:58:10,363 ][ autoreload ][ 42218 ][ 140272415270720 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 07:58:11,687 ][ autoreload ][ 42287 ][ 139976919660352 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 07:58:29,925 ][ autoreload ][ 42379 ][ 140685562652480 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 07:58:34,822 ][ basehttp ][ 42379 ][ 140685344765696 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10483
+[ WARNING ][ 2022-07-04 07:58:36,323 ][ basehttp ][ 42379 ][ 140685344765696 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10483
+[ WARNING ][ 2022-07-04 07:58:37,538 ][ basehttp ][ 42379 ][ 140685344765696 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10483
+[ INFO ][ 2022-07-04 07:58:49,828 ][ autoreload ][ 42511 ][ 140465547507520 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 07:59:32,308 ][ autoreload ][ 42649 ][ 140514359269184 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 08:08:41,021 ][ autoreload ][ 43514 ][ 140630180865856 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 08:11:11,160 ][ basehttp ][ 43514 ][ 140629969204992 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 08:11:11,628 ][ basehttp ][ 43514 ][ 140629969204992 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 08:35:51,822 ][ autoreload ][ 43514 ][ 140630180865856 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 08:35:52,578 ][ autoreload ][ 44330 ][ 140375773083456 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 08:36:03,369 ][ autoreload ][ 44330 ][ 140375773083456 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 08:36:04,399 ][ autoreload ][ 44378 ][ 140388188251968 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 08:36:29,785 ][ log ][ 44378 ][ 140387976476416 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 47, in notification
+    print(voy)
+NameError: name 'v' is not defined
+[ ERROR ][ 2022-07-04 08:36:29,840 ][ basehttp ][ 44378 ][ 140387976476416 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 25848
+[ ERROR ][ 2022-07-04 08:37:16,652 ][ log ][ 44378 ][ 140387976476416 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 47, in notification
+    print(voy)
+NameError: name 'v' is not defined
+[ ERROR ][ 2022-07-04 08:37:16,694 ][ basehttp ][ 44378 ][ 140387976476416 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 25848
+[ INFO ][ 2022-07-04 08:37:24,666 ][ autoreload ][ 44378 ][ 140388188251968 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 08:37:25,690 ][ autoreload ][ 44565 ][ 139629871720256 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 08:37:27,156 ][ basehttp ][ 44565 ][ 139629655226112 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 08:37:47,307 ][ autoreload ][ 44565 ][ 139629871720256 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 08:37:48,107 ][ autoreload ][ 44660 ][ 140667996821312 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 08:37:50,596 ][ basehttp ][ 44660 ][ 140667785066240 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 08:38:23,951 ][ autoreload ][ 44660 ][ 140667996821312 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 08:38:24,706 ][ autoreload ][ 44735 ][ 139803076073280 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 08:38:27,671 ][ autoreload ][ 44735 ][ 139803076073280 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 08:38:28,391 ][ autoreload ][ 44768 ][ 139868978501440 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 08:38:30,598 ][ autoreload ][ 44768 ][ 139868978501440 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 08:38:31,443 ][ autoreload ][ 44785 ][ 140440589567808 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 08:38:37,710 ][ basehttp ][ 44785 ][ 140440377952000 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ WARNING ][ 2022-07-04 08:40:27,994 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 08:40:28,803 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 08:40:29,565 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 08:40:51,955 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10539
+[ WARNING ][ 2022-07-04 08:41:40,498 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10539
+[ WARNING ][ 2022-07-04 08:42:32,388 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10530
+[ INFO ][ 2022-07-04 08:42:35,358 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ WARNING ][ 2022-07-04 08:42:52,692 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10539
+[ WARNING ][ 2022-07-04 08:44:05,912 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10569
+[ WARNING ][ 2022-07-04 08:48:30,672 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10539
+[ WARNING ][ 2022-07-04 08:48:41,774 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10569
+[ WARNING ][ 2022-07-04 08:48:54,481 ][ basehttp ][ 44785 ][ 140440369035008 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10539
+[ ERROR ][ 2022-07-04 09:05:34,372 ][ log ][ 44785 ][ 140440377952000 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:05:34,394 ][ basehttp ][ 44785 ][ 140440377952000 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ INFO ][ 2022-07-04 09:05:49,424 ][ autoreload ][ 44785 ][ 140440589567808 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:05:52,055 ][ autoreload ][ 45710 ][ 140385045538624 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:06:06,775 ][ autoreload ][ 45710 ][ 140385045538624 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:06:08,169 ][ autoreload ][ 45757 ][ 140084973180736 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:06:14,350 ][ autoreload ][ 45757 ][ 140084973180736 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:06:16,152 ][ autoreload ][ 45790 ][ 139798795282240 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 09:06:18,178 ][ log ][ 45790 ][ 139798651610880 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:06:18,205 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ ERROR ][ 2022-07-04 09:06:30,831 ][ log ][ 45790 ][ 139798651610880 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:06:30,859 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ ERROR ][ 2022-07-04 09:06:54,620 ][ log ][ 45790 ][ 139798651610880 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:06:54,641 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ ERROR ][ 2022-07-04 09:07:21,049 ][ log ][ 45790 ][ 139798651610880 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:07:21,070 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ INFO ][ 2022-07-04 09:07:41,801 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ ERROR ][ 2022-07-04 09:11:19,799 ][ log ][ 45790 ][ 139798651610880 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:11:19,818 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ INFO ][ 2022-07-04 09:13:54,720 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> code 400, message Bad request version ('5äwdú\x1aÜ\x14')
+[ ERROR ][ 2022-07-04 09:13:54,721 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[ ERROR ][ 2022-07-04 09:14:42,506 ][ log ][ 45790 ][ 139798651610880 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:14:42,527 ][ basehttp ][ 45790 ][ 139798651610880 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ INFO ][ 2022-07-04 09:30:24,415 ][ autoreload ][ 45790 ][ 139798795282240 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:30:25,874 ][ autoreload ][ 46347 ][ 140575580436288 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:30:28,553 ][ autoreload ][ 46347 ][ 140575580436288 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:30:29,934 ][ autoreload ][ 46370 ][ 140166945605440 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:32:15,765 ][ autoreload ][ 46530 ][ 139725364844352 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 09:34:55,358 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ ERROR ][ 2022-07-04 09:35:03,370 ][ log ][ 46530 ][ 139725151139584 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:35:03,568 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 126534
+[ WARNING ][ 2022-07-04 09:36:20,849 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10569
+[ WARNING ][ 2022-07-04 09:36:28,927 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10539
+[ WARNING ][ 2022-07-04 09:39:33,800 ][ basehttp ][ 46530 ][ 139725151139584 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 09:41:44,856 ][ autoreload ][ 46530 ][ 139725364844352 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:41:46,516 ][ autoreload ][ 47028 ][ 139974429005632 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 09:41:50,787 ][ basehttp ][ 47028 ][ 139974217348864 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 09:44:29,950 ][ autoreload ][ 47028 ][ 139974429005632 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:44:30,904 ][ autoreload ][ 47159 ][ 139623977510720 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:44:53,665 ][ basehttp ][ 47159 ][ 139623833052928 ] ==> "POST /payement_state/notification HTTP/1.1" 200 251
+[ WARNING ][ 2022-07-04 09:44:57,456 ][ basehttp ][ 47159 ][ 139623833052928 ] ==> "POST /payement_state/notification/ HTTP/1.1" 404 5646
+[ INFO ][ 2022-07-04 09:45:05,085 ][ basehttp ][ 47159 ][ 139623833052928 ] ==> "POST /payement_state/notification HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:45:12,781 ][ autoreload ][ 47159 ][ 139623977510720 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:45:13,594 ][ autoreload ][ 47338 ][ 140054680135488 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 09:45:21,882 ][ log ][ 47338 ][ 140054535677696 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:45:21,898 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ INFO ][ 2022-07-04 09:45:24,935 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:45:34,296 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:45:38,410 ][ basehttp ][ 47338 ][ 140054535677696 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 251
+[ INFO ][ 2022-07-04 09:47:14,231 ][ basehttp ][ 47338 ][ 140054454335232 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ INFO ][ 2022-07-04 09:49:44,361 ][ autoreload ][ 47338 ][ 140054680135488 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:49:45,118 ][ autoreload ][ 47573 ][ 140087962134336 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:49:51,426 ][ autoreload ][ 47573 ][ 140087962134336 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:49:52,354 ][ autoreload ][ 47619 ][ 140360520677184 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:50:07,263 ][ autoreload ][ 47619 ][ 140360520677184 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:50:08,011 ][ autoreload ][ 47660 ][ 139756972656448 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:50:09,917 ][ autoreload ][ 47660 ][ 139756972656448 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:50:10,975 ][ autoreload ][ 47692 ][ 140008176060224 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:50:19,373 ][ autoreload ][ 47692 ][ 140008176060224 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:50:20,261 ][ autoreload ][ 47732 ][ 140189823072064 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 09:50:32,445 ][ log ][ 47732 ][ 140189611325184 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 45, in notification
+    p#rint(voy)
+NameError: name 'p' is not defined
+[ ERROR ][ 2022-07-04 09:50:32,486 ][ basehttp ][ 47732 ][ 140189611325184 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 95624
+[ INFO ][ 2022-07-04 09:51:14,311 ][ autoreload ][ 47732 ][ 140189823072064 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:51:15,026 ][ autoreload ][ 47849 ][ 139680259675968 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:51:18,036 ][ autoreload ][ 47849 ][ 139680259675968 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:51:18,828 ][ autoreload ][ 47882 ][ 139884846450496 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:51:36,249 ][ autoreload ][ 47882 ][ 139884846450496 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:51:37,050 ][ autoreload ][ 47920 ][ 139719025276736 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 09:51:49,849 ][ log ][ 47920 ][ 139718813558528 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:51:49,919 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:51:52,204 ][ log ][ 47920 ][ 139718813558528 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:51:52,344 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:51:52,917 ][ log ][ 47920 ][ 139718813558528 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:51:52,965 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:51:53,888 ][ log ][ 47920 ][ 139718813558528 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:51:53,929 ][ basehttp ][ 47920 ][ 139718813558528 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 92404
+[ ERROR ][ 2022-07-04 09:52:01,967 ][ log ][ 47920 ][ 139718795462400 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 09:52:01,983 ][ basehttp ][ 47920 ][ 139718795462400 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ WARNING ][ 2022-07-04 09:52:22,618 ][ log ][ 47920 ][ 139718795462400 ] ==> Forbidden (CSRF cookie not set.): /payement_state/notification/
+[ WARNING ][ 2022-07-04 09:52:22,650 ][ basehttp ][ 47920 ][ 139718795462400 ] ==> "POST /payement_state/notification/ HTTP/1.1" 403 1879
+[ WARNING ][ 2022-07-04 09:52:30,979 ][ log ][ 47920 ][ 139718795462400 ] ==> Forbidden (CSRF cookie not set.): /payement_state/notification/
+[ WARNING ][ 2022-07-04 09:52:31,116 ][ basehttp ][ 47920 ][ 139718795462400 ] ==> "POST /payement_state/notification/ HTTP/1.1" 403 1879
+[ INFO ][ 2022-07-04 09:56:18,051 ][ autoreload ][ 47920 ][ 139719025276736 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:56:25,825 ][ autoreload ][ 48245 ][ 139633946031936 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 09:56:30,526 ][ log ][ 48245 ][ 139633734428416 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'int' object has no attribute 'get'
+[ ERROR ][ 2022-07-04 09:56:30,756 ][ basehttp ][ 48245 ][ 139633734428416 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 82952
+[ ERROR ][ 2022-07-04 09:57:25,229 ][ log ][ 48245 ][ 139633724724992 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 09:57:25,577 ][ basehttp ][ 48245 ][ 139633724724992 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 95935
+[ INFO ][ 2022-07-04 09:57:51,794 ][ autoreload ][ 48245 ][ 139633946031936 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:57:52,523 ][ autoreload ][ 48350 ][ 140713235363648 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:57:56,202 ][ autoreload ][ 48350 ][ 140713235363648 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:57:56,924 ][ autoreload ][ 48382 ][ 140425115539264 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:58:00,598 ][ autoreload ][ 48382 ][ 140425115539264 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:58:01,355 ][ autoreload ][ 48416 ][ 140649862387520 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:58:04,011 ][ autoreload ][ 48416 ][ 140649862387520 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:58:04,803 ][ autoreload ][ 48443 ][ 140572474152768 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:58:07,407 ][ autoreload ][ 48443 ][ 140572474152768 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:58:08,111 ][ autoreload ][ 48454 ][ 140490806003520 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:58:12,897 ][ autoreload ][ 48454 ][ 140490806003520 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:58:13,602 ][ autoreload ][ 48486 ][ 140255751677760 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 09:58:35,009 ][ autoreload ][ 48486 ][ 140255751677760 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 09:58:35,755 ][ autoreload ][ 48555 ][ 140225286022976 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 09:58:41,058 ][ log ][ 48555 ][ 140225074312960 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'int' object has no attribute 'get'
+[ ERROR ][ 2022-07-04 09:58:41,143 ][ basehttp ][ 48555 ][ 140225074312960 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 82952
+[ INFO ][ 2022-07-04 10:00:05,185 ][ autoreload ][ 48555 ][ 140225286022976 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:00:05,960 ][ autoreload ][ 48666 ][ 139897458026304 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:00:07,940 ][ autoreload ][ 48666 ][ 139897458026304 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:00:08,910 ][ autoreload ][ 48691 ][ 139968287627072 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:00:12,169 ][ autoreload ][ 48691 ][ 139968287627072 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:00:13,063 ][ autoreload ][ 48719 ][ 140468219684672 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:00:15,046 ][ autoreload ][ 48719 ][ 140468219684672 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:00:16,034 ][ autoreload ][ 48730 ][ 139726725732160 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:00:18,665 ][ autoreload ][ 48730 ][ 139726725732160 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:00:19,531 ][ autoreload ][ 48764 ][ 140211901216576 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:00:25,595 ][ autoreload ][ 48764 ][ 140211901216576 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:00:26,331 ][ autoreload ][ 48796 ][ 140223450085184 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:00:30,392 ][ autoreload ][ 48796 ][ 140223450085184 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:00:31,163 ][ autoreload ][ 48831 ][ 140131863099200 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 10:00:37,870 ][ log ][ 48831 ][ 140131651454720 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'int' object has no attribute 'get'
+[ ERROR ][ 2022-07-04 10:00:37,935 ][ basehttp ][ 48831 ][ 140131651454720 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 82952
+[ INFO ][ 2022-07-04 10:01:35,885 ][ autoreload ][ 48831 ][ 140131863099200 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:01:36,651 ][ autoreload ][ 48951 ][ 140032145073984 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 10:01:52,179 ][ log ][ 48951 ][ 140031933429504 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'int' object has no attribute 'get'
+[ ERROR ][ 2022-07-04 10:01:52,218 ][ basehttp ][ 48951 ][ 140031933429504 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 82952
+[ ERROR ][ 2022-07-04 10:02:06,301 ][ log ][ 48951 ][ 140031923726080 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 10:02:06,341 ][ basehttp ][ 48951 ][ 140031923726080 ] ==> "GET /payement_state/notification/ HTTP/1.1" 500 95935
+[ INFO ][ 2022-07-04 10:02:22,027 ][ autoreload ][ 48951 ][ 140032145073984 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:02:22,834 ][ autoreload ][ 49066 ][ 140587505895232 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:02:25,835 ][ autoreload ][ 49066 ][ 140587505895232 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:02:26,697 ][ autoreload ][ 49100 ][ 140248460285760 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:02:31,841 ][ autoreload ][ 49100 ][ 140248460285760 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:02:32,619 ][ autoreload ][ 49137 ][ 140385437628224 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:02:36,790 ][ autoreload ][ 49137 ][ 140385437628224 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:02:37,871 ][ autoreload ][ 49177 ][ 140464580511552 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:02:40,290 ][ basehttp ][ 49177 ][ 140464436840192 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ WARNING ][ 2022-07-04 10:02:54,774 ][ basehttp ][ 49177 ][ 140464355276544 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ ERROR ][ 2022-07-04 10:03:45,645 ][ log ][ 49177 ][ 140464355276544 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 36, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 10:03:45,691 ][ basehttp ][ 49177 ][ 140464355276544 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 126534
+[ WARNING ][ 2022-07-04 10:03:55,217 ][ basehttp ][ 49177 ][ 140464355276544 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10535
+[ WARNING ][ 2022-07-04 10:07:09,506 ][ basehttp ][ 49177 ][ 140464355276544 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10539
+[ WARNING ][ 2022-07-04 10:07:59,768 ][ basehttp ][ 49177 ][ 140464355276544 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10569
+[ WARNING ][ 2022-07-04 10:08:31,008 ][ basehttp ][ 49177 ][ 140464355276544 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10569
+[ WARNING ][ 2022-07-04 10:08:57,882 ][ basehttp ][ 49177 ][ 140464355276544 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10535
+[ INFO ][ 2022-07-04 10:12:52,372 ][ autoreload ][ 49177 ][ 140464580511552 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:12:53,400 ][ autoreload ][ 49650 ][ 140351902746432 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:13:31,451 ][ autoreload ][ 49650 ][ 140351902746432 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:13:32,201 ][ autoreload ][ 49728 ][ 139742496134976 ] ==> Watching for file changes with StatReloader
+[ WARNING ][ 2022-07-04 10:14:13,511 ][ basehttp ][ 49728 ][ 139742284515072 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 10:14:14,267 ][ basehttp ][ 49728 ][ 139742284515072 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 10:14:15,196 ][ basehttp ][ 49728 ][ 139742284515072 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 10:16:51,640 ][ autoreload ][ 49728 ][ 139742496134976 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:16:53,572 ][ autoreload ][ 49864 ][ 140624707966784 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 10:17:04,264 ][ log ][ 49864 ][ 140624496301824 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 46, in notification
+    voy.save()
+AttributeError: 'dict' object has no attribute 'save'
+[ ERROR ][ 2022-07-04 10:17:04,397 ][ basehttp ][ 49864 ][ 140624496301824 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 25734
+[ INFO ][ 2022-07-04 10:17:31,956 ][ autoreload ][ 49864 ][ 140624707966784 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:17:33,664 ][ autoreload ][ 49994 ][ 140447954708288 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:20:56,565 ][ autoreload ][ 49994 ][ 140447954708288 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:20:57,951 ][ autoreload ][ 50145 ][ 139902415574848 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:21:01,441 ][ basehttp ][ 50145 ][ 139902203983616 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ WARNING ][ 2022-07-04 10:21:11,164 ][ basehttp ][ 50145 ][ 139902195066624 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 10:21:15,406 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 10:21:48,468 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ INFO ][ 2022-07-04 10:21:59,670 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ WARNING ][ 2022-07-04 10:22:01,476 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 10:24:16,914 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 10:24:17,641 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 10:32:13,204 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ ERROR ][ 2022-07-04 10:32:38,640 ][ log ][ 50145 ][ 139902108821248 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 10:32:38,776 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 122992
+[ ERROR ][ 2022-07-04 10:32:49,455 ][ log ][ 50145 ][ 139902108821248 ] ==> Internal Server Error: /payement_state/notification/
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py", line 35, in notification
+    custom_data=var['extra_data']
+KeyError: 'extra_data'
+[ ERROR ][ 2022-07-04 10:32:49,673 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "POST /payement_state/notification/ HTTP/1.1" 500 122992
+[ WARNING ][ 2022-07-04 10:33:20,251 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "POST /payement_state/notification/ HTTP/1.1" 400 10535
+[ WARNING ][ 2022-07-04 10:35:37,280 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 10:37:21,872 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "OPTIONS /payement_state/notification/ HTTP/1.1" 200 10790
+[ WARNING ][ 2022-07-04 10:41:25,548 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ WARNING ][ 2022-07-04 10:42:38,191 ][ basehttp ][ 50145 ][ 139902108821248 ] ==> "GET /payement_state/notification/ HTTP/1.1" 405 10523
+[ INFO ][ 2022-07-04 10:45:19,675 ][ autoreload ][ 50145 ][ 139902415574848 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:45:20,455 ][ autoreload ][ 51136 ][ 139892596479808 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:45:22,405 ][ autoreload ][ 51136 ][ 139892596479808 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:45:23,148 ][ autoreload ][ 51168 ][ 140714291828544 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:45:27,298 ][ autoreload ][ 51168 ][ 140714291828544 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:45:28,247 ][ autoreload ][ 51199 ][ 139929918732096 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:45:30,257 ][ autoreload ][ 51199 ][ 139929918732096 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:45:30,992 ][ autoreload ][ 51207 ][ 140695719008064 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:47:19,956 ][ autoreload ][ 51207 ][ 140695719008064 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:47:20,744 ][ autoreload ][ 51328 ][ 139841105254208 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:47:32,638 ][ autoreload ][ 51328 ][ 139841105254208 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:47:33,411 ][ autoreload ][ 51380 ][ 140608295184192 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:47:39,765 ][ autoreload ][ 51380 ][ 140608295184192 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:47:40,595 ][ autoreload ][ 51422 ][ 140265394579264 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:47:44,754 ][ autoreload ][ 51422 ][ 140265394579264 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:47:45,589 ][ autoreload ][ 51458 ][ 140273604966208 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:47:48,723 ][ autoreload ][ 51458 ][ 140273604966208 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:47:49,597 ][ autoreload ][ 51484 ][ 140035514210112 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:47:51,686 ][ autoreload ][ 51484 ][ 140035514210112 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:47:52,577 ][ autoreload ][ 51517 ][ 140095247140672 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:47:55,344 ][ autoreload ][ 51517 ][ 140095247140672 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:47:56,277 ][ autoreload ][ 51550 ][ 139675969292096 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:48:02,103 ][ autoreload ][ 51550 ][ 139675969292096 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:48:02,799 ][ autoreload ][ 51584 ][ 139693043251008 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:48:08,194 ][ autoreload ][ 51584 ][ 139693043251008 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:48:09,026 ][ autoreload ][ 51619 ][ 140718308247360 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:48:11,966 ][ autoreload ][ 51619 ][ 140718308247360 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:48:12,888 ][ autoreload ][ 51649 ][ 140392090670912 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:48:15,079 ][ autoreload ][ 51649 ][ 140392090670912 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:48:15,853 ][ autoreload ][ 51667 ][ 140405335455552 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:48:26,017 ][ autoreload ][ 51667 ][ 140405335455552 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:48:26,919 ][ autoreload ][ 51725 ][ 139867124778816 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:48:36,147 ][ autoreload ][ 51725 ][ 139867124778816 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:48:36,906 ][ autoreload ][ 51780 ][ 140699147650880 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:48:38,968 ][ autoreload ][ 51780 ][ 140699147650880 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:48:39,683 ][ autoreload ][ 51804 ][ 139991015327552 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:48:42,625 ][ autoreload ][ 51804 ][ 139991015327552 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:48:43,467 ][ autoreload ][ 51821 ][ 140713397536576 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:48:49,880 ][ autoreload ][ 51821 ][ 140713397536576 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:48:50,614 ][ autoreload ][ 51876 ][ 140164381103936 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:49:25,024 ][ autoreload ][ 51876 ][ 140164381103936 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:49:25,901 ][ autoreload ][ 51925 ][ 140356233041728 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:49:36,852 ][ autoreload ][ 51925 ][ 140356233041728 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:49:37,720 ][ autoreload ][ 51983 ][ 139732471621440 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:49:40,781 ][ autoreload ][ 51983 ][ 139732471621440 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:49:41,633 ][ autoreload ][ 52018 ][ 139801573721920 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:49:44,710 ][ autoreload ][ 52018 ][ 139801573721920 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:49:45,509 ][ autoreload ][ 52049 ][ 139998069774144 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:49:52,885 ][ autoreload ][ 52049 ][ 139998069774144 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:49:53,800 ][ autoreload ][ 52093 ][ 140455931283264 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:49:56,914 ][ autoreload ][ 52093 ][ 140455931283264 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:49:57,757 ][ autoreload ][ 52128 ][ 139956164388672 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:49:59,719 ][ autoreload ][ 52128 ][ 139956164388672 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:00,444 ][ autoreload ][ 52146 ][ 140514785888064 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:50:02,579 ][ autoreload ][ 52146 ][ 140514785888064 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:03,352 ][ autoreload ][ 52158 ][ 140210100275008 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:50:06,160 ][ autoreload ][ 52158 ][ 140210100275008 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:07,196 ][ autoreload ][ 52191 ][ 140129349482304 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:50:10,453 ][ autoreload ][ 52191 ][ 140129349482304 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:11,196 ][ autoreload ][ 52221 ][ 139895044036416 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:50:29,258 ][ autoreload ][ 52221 ][ 139895044036416 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:30,204 ][ autoreload ][ 52264 ][ 140258756237120 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:50:35,816 ][ autoreload ][ 52264 ][ 140258756237120 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:36,581 ][ autoreload ][ 52297 ][ 140623759927104 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:50:38,613 ][ autoreload ][ 52297 ][ 140623759927104 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:39,539 ][ autoreload ][ 52331 ][ 140091278276416 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:50:46,089 ][ autoreload ][ 52331 ][ 140091278276416 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:46,815 ][ autoreload ][ 52376 ][ 140325570598720 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:50:53,144 ][ autoreload ][ 52376 ][ 140325570598720 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:53,944 ][ autoreload ][ 52424 ][ 139915876087616 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:50:56,008 ][ autoreload ][ 52424 ][ 139915876087616 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:50:56,803 ][ autoreload ][ 52430 ][ 140641084122944 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:51:00,655 ][ autoreload ][ 52430 ][ 140641084122944 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:51:01,461 ][ autoreload ][ 52462 ][ 140387846625088 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:51:05,837 ][ autoreload ][ 52462 ][ 140387846625088 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:51:06,671 ][ autoreload ][ 52495 ][ 140218820171584 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:51:08,716 ][ autoreload ][ 52495 ][ 140218820171584 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:51:09,448 ][ autoreload ][ 52517 ][ 140573249771328 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:51:19,000 ][ autoreload ][ 52517 ][ 140573249771328 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:51:19,737 ][ autoreload ][ 52553 ][ 140298636859200 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 10:51:23,830 ][ autoreload ][ 52553 ][ 140298636859200 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 10:51:24,699 ][ autoreload ][ 52586 ][ 140021199046464 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 14:15:40,481 ][ autoreload ][ 52586 ][ 140021199046464 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 14:15:49,973 ][ autoreload ][ 66239 ][ 139893159401280 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 14:19:42,600 ][ autoreload ][ 66239 ][ 139893159401280 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 14:19:43,462 ][ autoreload ][ 66660 ][ 139914967177024 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 14:19:50,789 ][ autoreload ][ 66660 ][ 139914967177024 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 14:19:51,542 ][ autoreload ][ 66712 ][ 140694874744640 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 14:39:21,890 ][ autoreload ][ 66712 ][ 140694874744640 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 14:39:22,854 ][ autoreload ][ 68894 ][ 140586098632512 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 14:41:14,495 ][ autoreload ][ 68894 ][ 140586098632512 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/urls.py changed, reloading.
+[ INFO ][ 2022-07-04 14:41:15,218 ][ autoreload ][ 69003 ][ 139682507958080 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 14:41:22,535 ][ autoreload ][ 69003 ][ 139682507958080 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/urls.py changed, reloading.
+[ INFO ][ 2022-07-04 14:41:23,314 ][ autoreload ][ 69054 ][ 140553318463296 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 14:41:28,739 ][ autoreload ][ 69054 ][ 140553318463296 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 14:41:29,537 ][ autoreload ][ 69093 ][ 140535292925760 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 14:45:49,024 ][ autoreload ][ 69093 ][ 140535292925760 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 14:45:51,890 ][ autoreload ][ 69462 ][ 140242486454080 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:02:13,344 ][ autoreload ][ 69462 ][ 140242486454080 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/start_form/forms.py changed, reloading.
+[ INFO ][ 2022-07-04 15:02:14,265 ][ autoreload ][ 70455 ][ 140589671233344 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:02:16,962 ][ autoreload ][ 70455 ][ 140589671233344 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/start_form/forms.py changed, reloading.
+[ INFO ][ 2022-07-04 15:02:17,765 ][ autoreload ][ 70480 ][ 139742238848832 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:03:09,733 ][ autoreload ][ 70480 ][ 139742238848832 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/start_form/forms.py changed, reloading.
+[ INFO ][ 2022-07-04 15:03:10,531 ][ autoreload ][ 70609 ][ 140692960544576 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:03:14,205 ][ autoreload ][ 70609 ][ 140692960544576 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/start_form/forms.py changed, reloading.
+[ INFO ][ 2022-07-04 15:03:14,949 ][ autoreload ][ 70639 ][ 139784217311040 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:20:21,585 ][ autoreload ][ 70639 ][ 139784217311040 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 15:20:22,447 ][ autoreload ][ 71953 ][ 139832548632384 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:20:26,482 ][ autoreload ][ 71953 ][ 139832548632384 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 15:20:27,307 ][ autoreload ][ 71983 ][ 140123776014144 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:22:08,143 ][ autoreload ][ 71983 ][ 140123776014144 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:22:08,967 ][ autoreload ][ 72185 ][ 140545828915008 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:22:11,006 ][ autoreload ][ 72185 ][ 140545828915008 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:22:11,867 ][ autoreload ][ 72224 ][ 139863758317376 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:41:15,776 ][ autoreload ][ 72224 ][ 139863758317376 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:41:16,939 ][ autoreload ][ 73402 ][ 139662217070400 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:41:47,557 ][ autoreload ][ 73402 ][ 139662217070400 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:41:48,613 ][ autoreload ][ 73536 ][ 140126637258560 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:45:02,154 ][ autoreload ][ 73536 ][ 140126637258560 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:45:02,985 ][ autoreload ][ 73834 ][ 140185170798400 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:45:06,091 ][ autoreload ][ 73834 ][ 140185170798400 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:45:06,871 ][ autoreload ][ 73870 ][ 140434166953792 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:45:11,232 ][ autoreload ][ 73870 ][ 140434166953792 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:45:12,139 ][ autoreload ][ 73908 ][ 140062422439744 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:45:16,451 ][ autoreload ][ 73908 ][ 140062422439744 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:45:17,279 ][ autoreload ][ 73944 ][ 140206173939520 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:45:27,898 ][ autoreload ][ 73944 ][ 140206173939520 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:45:28,796 ][ autoreload ][ 73983 ][ 140151065364288 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:45:30,852 ][ autoreload ][ 73983 ][ 140151065364288 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:45:31,725 ][ autoreload ][ 74020 ][ 140291805620032 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:45:34,858 ][ autoreload ][ 74020 ][ 140291805620032 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/root/settings.py changed, reloading.
+[ INFO ][ 2022-07-04 15:45:35,753 ][ autoreload ][ 74037 ][ 140500978775872 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-07-04 15:45:43,975 ][ log ][ 74037 ][ 140500767352576 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 15:45:44,154 ][ basehttp ][ 74037 ][ 140500767352576 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ ERROR ][ 2022-07-04 15:45:52,050 ][ log ][ 74037 ][ 140500767352576 ] ==> Internal Server Error: /payement_state/notification
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/payement_state/notification/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ ERROR ][ 2022-07-04 15:45:52,065 ][ basehttp ][ 74037 ][ 140500767352576 ] ==> "POST /payement_state/notification HTTP/1.1" 500 89497
+[ INFO ][ 2022-07-04 15:46:06,919 ][ basehttp ][ 74037 ][ 140500767352576 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ INFO ][ 2022-07-04 15:48:22,330 ][ basehttp ][ 74037 ][ 140500767352576 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 256
+[ INFO ][ 2022-07-04 15:48:37,172 ][ autoreload ][ 74037 ][ 140500978775872 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 15:48:38,062 ][ autoreload ][ 74357 ][ 140430219220800 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:48:40,288 ][ autoreload ][ 74357 ][ 140430219220800 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 15:48:41,131 ][ autoreload ][ 74382 ][ 140450165008192 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:48:44,274 ][ autoreload ][ 74382 ][ 140450165008192 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 15:48:45,202 ][ autoreload ][ 74410 ][ 140673070110528 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:49:04,781 ][ autoreload ][ 74410 ][ 140673070110528 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 15:49:05,547 ][ autoreload ][ 74457 ][ 140680190584640 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:49:09,820 ][ autoreload ][ 74457 ][ 140680190584640 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 15:49:10,722 ][ autoreload ][ 74490 ][ 139886000932672 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:49:28,052 ][ autoreload ][ 74490 ][ 139886000932672 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 15:49:29,104 ][ autoreload ][ 74547 ][ 139676926539584 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 15:49:36,915 ][ autoreload ][ 74547 ][ 139676926539584 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 15:49:37,934 ][ autoreload ][ 74605 ][ 139707035715392 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:06:09,396 ][ autoreload ][ 74605 ][ 139707035715392 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:06:10,651 ][ autoreload ][ 76488 ][ 139657397266240 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:06:14,550 ][ autoreload ][ 76488 ][ 139657397266240 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:06:15,373 ][ autoreload ][ 76523 ][ 140309399947072 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:06:22,366 ][ autoreload ][ 76523 ][ 140309399947072 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:06:23,356 ][ autoreload ][ 76566 ][ 140182774159168 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:06:54,383 ][ autoreload ][ 76566 ][ 140182774159168 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:06:55,165 ][ autoreload ][ 76616 ][ 139753976870720 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:07:01,141 ][ autoreload ][ 76616 ][ 139753976870720 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:07:01,995 ][ autoreload ][ 76664 ][ 139674987915072 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:07:05,816 ][ autoreload ][ 76664 ][ 139674987915072 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:07:06,713 ][ autoreload ][ 76685 ][ 140310419445568 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:07:49,330 ][ autoreload ][ 76685 ][ 140310419445568 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:07:50,427 ][ autoreload ][ 76760 ][ 140556818564928 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:07:53,215 ][ autoreload ][ 76760 ][ 140556818564928 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:07:54,032 ][ autoreload ][ 76784 ][ 139664658409280 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:07:59,948 ][ autoreload ][ 76784 ][ 139664658409280 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:08:01,090 ][ autoreload ][ 76832 ][ 139782405084992 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:08:08,280 ][ autoreload ][ 76832 ][ 139782405084992 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:08:09,334 ][ autoreload ][ 76884 ][ 140309967947584 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:08:14,196 ][ autoreload ][ 76884 ][ 140309967947584 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:08:14,924 ][ autoreload ][ 76920 ][ 139909669287744 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:08:22,648 ][ autoreload ][ 76920 ][ 139909669287744 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:08:23,635 ][ autoreload ][ 76964 ][ 140222851430208 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:09:28,526 ][ autoreload ][ 76964 ][ 140222851430208 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:09:29,365 ][ autoreload ][ 77088 ][ 140054432032576 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:09:34,581 ][ autoreload ][ 77088 ][ 140054432032576 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:09:35,354 ][ autoreload ][ 77123 ][ 140181580109632 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:09:46,047 ][ autoreload ][ 77123 ][ 140181580109632 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:09:46,872 ][ autoreload ][ 77177 ][ 140129829664576 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:09:48,988 ][ autoreload ][ 77177 ][ 140129829664576 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:09:49,905 ][ autoreload ][ 77202 ][ 139797852284736 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:09:55,854 ][ autoreload ][ 77202 ][ 139797852284736 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:09:56,579 ][ autoreload ][ 77239 ][ 140387379812160 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:10:04,050 ][ autoreload ][ 77239 ][ 140387379812160 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:10:05,111 ][ autoreload ][ 77293 ][ 140518351923008 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:10:07,344 ][ autoreload ][ 77293 ][ 140518351923008 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:10:08,432 ][ autoreload ][ 77307 ][ 140528025704256 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-04 17:10:39,924 ][ basehttp ][ 77307 ][ 140527814334208 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 254
+[ INFO ][ 2022-07-04 17:10:56,111 ][ basehttp ][ 77307 ][ 140527814334208 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 254
+[ INFO ][ 2022-07-04 17:11:08,138 ][ basehttp ][ 77307 ][ 140527814334208 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 35
+[ INFO ][ 2022-07-04 17:11:52,072 ][ basehttp ][ 77307 ][ 140527814334208 ] ==> "POST /payement_state/notification/ HTTP/1.1" 200 254
+[ INFO ][ 2022-07-04 17:22:14,862 ][ autoreload ][ 77307 ][ 140528025704256 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/payement_state.py changed, reloading.
+[ INFO ][ 2022-07-04 17:22:15,922 ][ autoreload ][ 77840 ][ 140505187301184 ] ==> Watching for file changes with StatReloader
