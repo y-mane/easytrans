@@ -1,0 +1,5 @@
+[ INFO ][ 2022-07-04 15:46:06,521 ][ payement_state ][ 74037 ][ 140500767352576 ] ==> [notification de paiement]:information recuperee:<generator object MultiValueDict.items at 0x7fc8e25c7f20>
+[ INFO ][ 2022-07-04 15:48:21,949 ][ payement_state ][ 74037 ][ 140500767352576 ] ==> [notification de paiement]:information recuperee:<generator object MultiValueDict.items at 0x7fc8e25c70b0>
+[ INFO ][ 2022-07-04 17:10:39,722 ][ payement_state ][ 77307 ][ 140527814334208 ] ==> [notification de paiement]:information recuperee:<generator object MultiValueDict.items at 0x7fcf2e7f5510>
+[ INFO ][ 2022-07-04 17:10:55,044 ][ payement_state ][ 77307 ][ 140527814334208 ] ==> [notification de paiement]:information recuperee:<generator object MultiValueDict.items at 0x7fcf2e7f5510>
+[ INFO ][ 2022-07-04 17:11:51,865 ][ payement_state ][ 77307 ][ 140527814334208 ] ==> [notification de paiement]:information recuperee:<generator object MultiValueDict.items at 0x7fcf2e7f5b30>

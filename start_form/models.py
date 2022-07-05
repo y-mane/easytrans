@@ -119,4 +119,9 @@ class Montant(models.Model):
         def __str__(self):
             return (str(self.depart)+'===>'+str(self.destination)+':'+str(self.prix)+'FCFA')
     
+
+class Signature(models.Model):
+    signature=models.CharField(max_length=250)
     
+    def __str__(self):
+        return self.signature
