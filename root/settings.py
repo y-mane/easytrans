@@ -75,7 +75,7 @@ DATABASES = {
         'NAME': 'easytrans_3',
         'HOST':'localhost',
         'USERNAME':'keita',
-        'PASSWORD':'thelifeislesgigaS202a',
+        'PASSWORD':'thelifeislesgigas2020',
         'PORT': '5432',
 
     }
