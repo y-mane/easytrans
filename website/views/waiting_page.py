@@ -15,16 +15,16 @@ def get_item(dict,key):
 
 @require_http_methods(["GET","POST"])
 def waiting_page(request,last_id):
-    voyage=Voyage.objects.get(id=last_id)
+    voyage=Voyage.objects.get(id=int(last_id))
     depart=voyage.lieu_depart
     destination=voyage.destination
     montant=Montant.objects.get(depart=depart,destination=destination)
-    prix=montant.prix
+    prix=montant.prix*voyage.nombre_place
             
     context={
         'voyage':voyage,
         'prix':prix,
         'last_id':last_id
         }
-    return render(request,'website/front/waiting_page.html',context) 
+    return render(request,'website/front/waiting_page.html',context)
 

@@ -1,0 +1,267 @@
+[ INFO ][ 2022-09-13 22:34:23,651 ][ autoreload ][ 2715 ][ 140186470106944 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 22:39:13,129 ][ autoreload ][ 3471 ][ 139740186363712 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 22:40:32,813 ][ basehttp ][ 3471 ][ 139739974858496 ] ==> "GET / HTTP/1.1" 200 6820
+[ INFO ][ 2022-09-13 22:40:33,068 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "GET /static/website/front/css/style.css HTTP/1.1" 200 8833
+[ WARNING ][ 2022-09-13 22:40:33,799 ][ basehttp ][ 3471 ][ 139739956238080 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 22:40:34,236 ][ basehttp ][ 3471 ][ 139739974858496 ] ==> "GET /static/website/front/js/jquery-1.11.1.min.js HTTP/1.1" 200 95786
+[ INFO ][ 2022-09-13 22:40:36,339 ][ basehttp ][ 3471 ][ 139739974858496 ] ==> "GET /static/website/front/css/input.css HTTP/1.1" 304 0
+[ WARNING ][ 2022-09-13 22:40:36,697 ][ basehttp ][ 3471 ][ 139739956238080 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ INFO ][ 2022-09-13 22:40:37,915 ][ basehttp ][ 3471 ][ 139739974858496 ] ==> "GET /static/website/front/images/1.jpeg HTTP/1.1" 200 243396
+[ WARNING ][ 2022-09-13 22:41:16,143 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "GET /favicon.ico HTTP/1.1" 404 4467
+[ INFO ][ 2022-09-13 22:45:25,803 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "GET /admin-back-office/ HTTP/1.1" 302 0
+[ INFO ][ 2022-09-13 22:45:26,156 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "GET /admin-back-office/login/?next=/admin-back-office/ HTTP/1.1" 200 1955
+[ INFO ][ 2022-09-13 22:45:26,493 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:45:26,788 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:45:26,946 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:45:27,446 ][ basehttp ][ 3471 ][ 139739974858496 ] ==> "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:45:27,447 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:45:29,826 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "POST /admin-back-office/login/?next=/admin-back-office/ HTTP/1.1" 200 2191
+[ INFO ][ 2022-09-13 22:45:29,959 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:45:49,252 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "POST /admin-back-office/login/?next=/admin-back-office/ HTTP/1.1" 200 2193
+[ INFO ][ 2022-09-13 22:46:02,602 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "POST /admin-back-office/login/?next=/admin-back-office/ HTTP/1.1" 200 2193
+[ INFO ][ 2022-09-13 22:46:09,188 ][ basehttp ][ 3471 ][ 139739966465792 ] ==> "POST /admin-back-office/login/?next=/admin-back-office/ HTTP/1.1" 200 2193
+[ INFO ][ 2022-09-13 22:47:19,480 ][ autoreload ][ 4238 ][ 140650710218560 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 22:47:38,791 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "POST /admin-back-office/login/?next=/admin-back-office/ HTTP/1.1" 302 0
+[ INFO ][ 2022-09-13 22:47:39,265 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/ HTTP/1.1" 200 15809
+[ INFO ][ 2022-09-13 22:47:39,439 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:47:39,445 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:47:55,354 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/start_form/voyage/ HTTP/1.1" 200 11852
+[ INFO ][ 2022-09-13 22:47:55,932 ][ basehttp ][ 4238 ][ 140650490468096 ] ==> "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:47:56,113 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-09-13 22:47:56,264 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:48:03,639 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/start_form/voyage/32/change/ HTTP/1.1" 200 13356
+[ INFO ][ 2022-09-13 22:48:03,783 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-09-13 22:48:12,342 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/start_form/voyage/ HTTP/1.1" 200 11852
+[ INFO ][ 2022-09-13 22:48:16,787 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/ HTTP/1.1" 200 15809
+[ INFO ][ 2022-09-13 22:48:34,795 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/start_form/montant/ HTTP/1.1" 200 5900
+[ INFO ][ 2022-09-13 22:48:34,916 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-09-13 22:48:40,405 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/start_form/montant/6/change/ HTTP/1.1" 200 9899
+[ INFO ][ 2022-09-13 22:48:40,491 ][ basehttp ][ 4238 ][ 140650490468096 ] ==> "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[ INFO ][ 2022-09-13 22:48:40,503 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/jsi18n/ HTTP/1.1" 200 7403
+[ INFO ][ 2022-09-13 22:48:51,637 ][ basehttp ][ 4238 ][ 140650498860800 ] ==> "GET /admin-back-office/start_form/ HTTP/1.1" 200 6498
+[ INFO ][ 2022-09-13 23:28:35,175 ][ autoreload ][ 4238 ][ 140650710218560 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:28:36,482 ][ autoreload ][ 5259 ][ 140302581638976 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:28:42,118 ][ autoreload ][ 5259 ][ 140302581638976 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:28:43,137 ][ autoreload ][ 5305 ][ 140706742388544 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:28:47,151 ][ autoreload ][ 5305 ][ 140706742388544 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:28:47,983 ][ autoreload ][ 5338 ][ 139985195288384 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:28:57,278 ][ autoreload ][ 5338 ][ 139985195288384 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:28:58,063 ][ autoreload ][ 5393 ][ 140069757802304 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:29:07,806 ][ autoreload ][ 5393 ][ 140069757802304 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:29:08,631 ][ autoreload ][ 5454 ][ 139737678546752 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:29:46,078 ][ autoreload ][ 5454 ][ 139737678546752 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:29:47,060 ][ autoreload ][ 5536 ][ 139706038843200 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:29:50,382 ][ autoreload ][ 5536 ][ 139706038843200 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:29:51,131 ][ autoreload ][ 5570 ][ 139751199188800 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:30:05,013 ][ autoreload ][ 5570 ][ 139751199188800 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:30:05,875 ][ autoreload ][ 5613 ][ 139874448668480 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:30:08,006 ][ autoreload ][ 5613 ][ 139874448668480 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:30:08,733 ][ autoreload ][ 5645 ][ 140292421138240 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:30:34,296 ][ autoreload ][ 5645 ][ 140292421138240 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:30:35,318 ][ autoreload ][ 5689 ][ 140101031995200 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:30:38,090 ][ autoreload ][ 5689 ][ 140101031995200 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:30:38,771 ][ autoreload ][ 5723 ][ 140004299409216 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:31:29,374 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET / HTTP/1.1" 200 6884
+[ WARNING ][ 2022-09-13 23:31:29,470 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:31:29,527 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:32:40,096 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET / HTTP/1.1" 200 6906
+[ WARNING ][ 2022-09-13 23:32:40,152 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:32:40,234 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:32:43,566 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET / HTTP/1.1" 200 6906
+[ WARNING ][ 2022-09-13 23:32:43,612 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:32:43,663 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:33:32,466 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET / HTTP/1.1" 200 6893
+[ WARNING ][ 2022-09-13 23:33:32,521 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:33:32,697 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:33:53,253 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET / HTTP/1.1" 200 6906
+[ WARNING ][ 2022-09-13 23:33:53,345 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:33:53,807 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:33:57,818 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET / HTTP/1.1" 200 6906
+[ WARNING ][ 2022-09-13 23:33:57,901 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:33:58,182 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:34:05,961 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET / HTTP/1.1" 200 6897
+[ WARNING ][ 2022-09-13 23:34:06,027 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:34:06,361 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:35:03,173 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET / HTTP/1.1" 200 6905
+[ WARNING ][ 2022-09-13 23:35:03,228 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:35:03,430 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:35:30,635 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET / HTTP/1.1" 200 6934
+[ WARNING ][ 2022-09-13 23:35:30,704 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:35:30,759 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:35:41,563 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET / HTTP/1.1" 200 6934
+[ WARNING ][ 2022-09-13 23:35:41,632 ][ basehttp ][ 5723 ][ 140004079613696 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:35:41,955 ][ basehttp ][ 5723 ][ 140004088006400 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:36:18,621 ][ autoreload ][ 5723 ][ 140004299409216 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:36:19,801 ][ autoreload ][ 6374 ][ 140226325968704 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:36:50,294 ][ basehttp ][ 6374 ][ 140226114615040 ] ==> "GET /ajax/load-destination/?compagnie_id=1 HTTP/1.1" 200 267
+[ INFO ][ 2022-09-13 23:36:50,312 ][ basehttp ][ 6374 ][ 140226106222336 ] ==> "GET /ajax/load-lieu_depart/?compagnie_id=1 HTTP/1.1" 200 270
+[ ERROR ][ 2022-09-13 23:36:56,899 ][ log ][ 6374 ][ 140226106222336 ] ==> Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py", line 20, in frontspace
+    return redirect('waiting_page',last_id,nbre_place)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'waiting_page' with arguments '(33, None)' not found. 1 pattern(s) tried: ['wait/<str:last_id,nbre_place>$']
+[ ERROR ][ 2022-09-13 23:36:57,236 ][ basehttp ][ 6374 ][ 140226106222336 ] ==> "POST / HTTP/1.1" 500 113654
+[ INFO ][ 2022-09-13 23:37:20,783 ][ autoreload ][ 6374 ][ 140226325968704 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:37:21,685 ][ autoreload ][ 6501 ][ 140506354960192 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:37:26,028 ][ autoreload ][ 6501 ][ 140506354960192 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:37:26,883 ][ autoreload ][ 6535 ][ 139896977344320 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-09-13 23:37:31,231 ][ log ][ 6535 ][ 139896833148672 ] ==> Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py", line 21, in frontspace
+    return redirect('waiting_page',last_id,nbre_place)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'waiting_page' with arguments '(34, None)' not found. 1 pattern(s) tried: ['wait/<str:last_id,nbre_place>$']
+[ ERROR ][ 2022-09-13 23:37:31,276 ][ basehttp ][ 6535 ][ 139896833148672 ] ==> "POST / HTTP/1.1" 500 113658
+[ INFO ][ 2022-09-13 23:37:59,097 ][ basehttp ][ 6535 ][ 139896833148672 ] ==> "GET / HTTP/1.1" 200 6952
+[ WARNING ][ 2022-09-13 23:37:59,151 ][ basehttp ][ 6535 ][ 139896833148672 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:37:59,213 ][ basehttp ][ 6535 ][ 139896824755968 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:38:10,470 ][ basehttp ][ 6535 ][ 139896833148672 ] ==> "GET /ajax/load-destination/?compagnie_id=1 HTTP/1.1" 200 267
+[ INFO ][ 2022-09-13 23:38:10,487 ][ basehttp ][ 6535 ][ 139896824755968 ] ==> "GET /ajax/load-lieu_depart/?compagnie_id=1 HTTP/1.1" 200 270
+[ ERROR ][ 2022-09-13 23:38:18,708 ][ log ][ 6535 ][ 139896824755968 ] ==> Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py", line 21, in frontspace
+    return redirect('waiting_page',last_id,nbre_place)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'waiting_page' with arguments '(35, '')' not found. 1 pattern(s) tried: ['wait/<str:last_id,nbre_place>$']
+[ ERROR ][ 2022-09-13 23:38:18,746 ][ basehttp ][ 6535 ][ 139896824755968 ] ==> "POST / HTTP/1.1" 500 113876
+[ INFO ][ 2022-09-13 23:38:36,614 ][ autoreload ][ 6535 ][ 139896977344320 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:38:37,507 ][ autoreload ][ 6702 ][ 140233774057280 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:38:47,524 ][ autoreload ][ 6702 ][ 140233774057280 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:38:48,368 ][ autoreload ][ 6759 ][ 139858715162432 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:38:52,708 ][ autoreload ][ 6759 ][ 139858715162432 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:38:53,435 ][ autoreload ][ 6796 ][ 139907883779904 ] ==> Watching for file changes with StatReloader
+[ ERROR ][ 2022-09-13 23:38:57,341 ][ log ][ 6796 ][ 139907672446720 ] ==> Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py", line 21, in frontspace
+    return redirect('waiting_page',last_id,nbre_place)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'waiting_page' with arguments '(36, '')' not found. 1 pattern(s) tried: ['wait/(?P<last_id>[^/]+)$']
+[ ERROR ][ 2022-09-13 23:38:58,475 ][ basehttp ][ 6796 ][ 139907672446720 ] ==> "POST / HTTP/1.1" 500 114012
+[ INFO ][ 2022-09-13 23:39:04,568 ][ basehttp ][ 6796 ][ 139907672446720 ] ==> "GET / HTTP/1.1" 200 6952
+[ WARNING ][ 2022-09-13 23:39:04,638 ][ basehttp ][ 6796 ][ 139907672446720 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:39:04,683 ][ basehttp ][ 6796 ][ 139907664054016 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:39:20,552 ][ basehttp ][ 6796 ][ 139907664054016 ] ==> "GET /ajax/load-lieu_depart/?compagnie_id=1 HTTP/1.1" 200 270
+[ INFO ][ 2022-09-13 23:39:20,569 ][ basehttp ][ 6796 ][ 139907672446720 ] ==> "GET /ajax/load-destination/?compagnie_id=1 HTTP/1.1" 200 267
+[ ERROR ][ 2022-09-13 23:39:29,191 ][ log ][ 6796 ][ 139907672446720 ] ==> Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py", line 21, in frontspace
+    return redirect('waiting_page',last_id,nbre_place)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'waiting_page' with arguments '(37, '1')' not found. 1 pattern(s) tried: ['wait/(?P<last_id>[^/]+)$']
+[ ERROR ][ 2022-09-13 23:39:29,232 ][ basehttp ][ 6796 ][ 139907672446720 ] ==> "POST / HTTP/1.1" 500 114025
+[ INFO ][ 2022-09-13 23:39:53,094 ][ autoreload ][ 6796 ][ 139907883779904 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:39:53,839 ][ autoreload ][ 7049 ][ 140170953471808 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:40:01,365 ][ basehttp ][ 7049 ][ 140170742089472 ] ==> "POST / HTTP/1.1" 302 0
+[ INFO ][ 2022-09-13 23:40:01,448 ][ basehttp ][ 7049 ][ 140170742089472 ] ==> "GET /wait/38 HTTP/1.1" 200 3706
+[ INFO ][ 2022-09-13 23:40:01,727 ][ basehttp ][ 7049 ][ 140170742089472 ] ==> "GET /static/website/front/images/bleus.jpg HTTP/1.1" 200 954287
+[ INFO ][ 2022-09-13 23:40:19,091 ][ basehttp ][ 7049 ][ 140170742089472 ] ==> "GET / HTTP/1.1" 200 6952
+[ WARNING ][ 2022-09-13 23:40:19,134 ][ basehttp ][ 7049 ][ 140170742089472 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:40:19,985 ][ basehttp ][ 7049 ][ 140170733696768 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:41:22,132 ][ autoreload ][ 7049 ][ 140170953471808 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:41:22,890 ][ autoreload ][ 7197 ][ 139967363745600 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:41:59,861 ][ autoreload ][ 7197 ][ 139967363745600 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:42:00,611 ][ autoreload ][ 7258 ][ 140557830956864 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:42:09,233 ][ autoreload ][ 7258 ][ 140557830956864 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:42:09,998 ][ autoreload ][ 7314 ][ 139822466905920 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:42:13,061 ][ basehttp ][ 7314 ][ 139822255568640 ] ==> "GET / HTTP/1.1" 200 6952
+[ WARNING ][ 2022-09-13 23:42:13,107 ][ basehttp ][ 7314 ][ 139822255568640 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:42:13,394 ][ basehttp ][ 7314 ][ 139822247175936 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:42:14,202 ][ basehttp ][ 7314 ][ 139822247175936 ] ==> "GET / HTTP/1.1" 200 6952
+[ WARNING ][ 2022-09-13 23:42:14,250 ][ basehttp ][ 7314 ][ 139822247175936 ] ==> "GET /static/fonts.googleapis.com/css%3Ffamily%3DAsap%3A400%2C400i%2C500%2C500i%2C700%2C700i HTTP/1.1" 404 1920
+[ WARNING ][ 2022-09-13 23:42:14,295 ][ basehttp ][ 7314 ][ 139822255568640 ] ==> "GET /website/front/js/main.js HTTP/1.1" 404 4506
+[ INFO ][ 2022-09-13 23:42:37,755 ][ basehttp ][ 7314 ][ 139822255568640 ] ==> "GET /ajax/load-lieu_depart/?compagnie_id=1 HTTP/1.1" 200 270
+[ INFO ][ 2022-09-13 23:42:37,771 ][ basehttp ][ 7314 ][ 139822247175936 ] ==> "GET /ajax/load-destination/?compagnie_id=1 HTTP/1.1" 200 267
+[ ERROR ][ 2022-09-13 23:42:49,014 ][ log ][ 7314 ][ 139822247175936 ] ==> Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py", line 21, in frontspace
+    return redirect('waiting_page',last_id,nbre_place)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ymane/.local/lib/python3.8/site-packages/django/urls/resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'waiting_page' with arguments '(39, '2')' not found. 1 pattern(s) tried: ['wait/<str:last_id,nbre_place>$']
+[ ERROR ][ 2022-09-13 23:42:49,061 ][ basehttp ][ 7314 ][ 139822247175936 ] ==> "POST / HTTP/1.1" 500 113886
+[ INFO ][ 2022-09-13 23:43:07,382 ][ autoreload ][ 7314 ][ 139822466905920 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:43:08,169 ][ autoreload ][ 7425 ][ 139847455807296 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:43:14,475 ][ autoreload ][ 7425 ][ 139847455807296 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/urls/waiting_page.py changed, reloading.
+[ INFO ][ 2022-09-13 23:43:15,202 ][ autoreload ][ 7472 ][ 140472212207424 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:57:09,480 ][ autoreload ][ 7472 ][ 140472212207424 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:57:10,256 ][ autoreload ][ 8499 ][ 139932601005888 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-09-13 23:57:12,398 ][ autoreload ][ 8499 ][ 139932601005888 ] ==> /home/ymane/Téléchargements/projet_complet_easytrans_et_git/EASYTRANS/website/views/frontspace.py changed, reloading.
+[ INFO ][ 2022-09-13 23:57:13,156 ][ autoreload ][ 8524 ][ 139881070819136 ] ==> Watching for file changes with StatReloader

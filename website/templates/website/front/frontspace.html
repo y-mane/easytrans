@@ -34,7 +34,10 @@
     
 
     <style>
-        
+        .form-control{
+            border-radius:15px;
+            margin-top:15px;
+        }
     </style>
 
 </head>
@@ -54,6 +57,10 @@
             {{form.fullname}} 
             {{form.contact}}
             {{form.lieu_livraison}}
+            {{form.nombre_place}}
+            {% comment %} <input type="number" name="nbre_place" placeholder="Nombre de place" class="form-control" style="border-radius: 17px;"> {% endcomment %}
+            {{form.date_heure_succces}}
+
             {{form.compagnie}}
             {{form.lieu_depart}}
             {{form.periode}}

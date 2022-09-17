@@ -76,10 +76,11 @@ class Voyage(models.Model):
     statut_commande=models.CharField(max_length=250,choices=STATUT,blank=True,default='en attente')
     date_heure_commande=models.DateTimeField(auto_now_add=True,blank=True,null=True)
     date_heure_traitement=models.DateTimeField(auto_now=True,blank=True,null=True)
-    date_heure_succces=models.DateTimeField(auto_now=True,blank=True,null=True)
+    date_heure_succces=models.DateField(blank=True,null=True)
     etat_voyage=models.CharField(max_length=250,choices=ETAT,blank=True,default='en cours')
     reference=models.CharField(max_length=250,blank=True)
     etat_paiement=models.CharField(max_length=250,choices=ETAT_PAIEMENT,default='echec', blank=True,null=True)
+    nombre_place=models.PositiveIntegerField(blank=True,null=True)
     
     def __str__(self):
         return self.fullname  
@@ -87,7 +88,7 @@ class Voyage(models.Model):
 class Mission(models.Model):
     livreur=models.ForeignKey(User,related_name='livreur',on_delete=models.DO_NOTHING)      
     voyage=models.ForeignKey(Voyage,on_delete=models.CASCADE)
-    #heure_recuperation=models.TimeField(blank=True)
+    #heure_recuperation=models.TimeField(blank=True,widget=CalendarWidget)
     #heure_livraison=models.TimeField(blank=True)
     commentaire=models.TextField(blank=True)
     

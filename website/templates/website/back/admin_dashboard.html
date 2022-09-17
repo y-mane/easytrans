@@ -92,7 +92,7 @@
         <i class="mdi mdi-chart-areaspline widget-two-icon"></i>
         <div class="wigdet-two-content">
             <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'Utilisateur' %}">{% trans 'Utilisateur' %}</p>
-            <h2><span data-plugin="counterup">{{ delivery_count }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            <h2><span data-plugin="counterup">{{ nombre_users }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
             {% comment %} <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
         </div>
     </div>
@@ -103,7 +103,7 @@
         <i class="mdi mdi-layers widget-two-icon"></i>
         <div class="wigdet-two-content">
             <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'Agences' %}">{% trans 'Agences' %}</p>
-            <h2><span data-plugin="counterup">{{ branch_count }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            <h2><span data-plugin="counterup">{{ 14 }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
             {% comment %} <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
         </div>
     </div>
@@ -114,7 +114,7 @@
         <i class="mdi mdi-amplifier widget-two-icon"></i>
         <div class="wigdet-two-content">
             <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'Dossiers' %}">{% trans 'Dossiers' %}</p>
-            <h2><span data-plugin="counterup">{{ customer_count }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            <h2><span data-plugin="counterup">{{ 58 }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
             {% comment %} <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
         </div>
     </div>
@@ -124,14 +124,23 @@
         <i class="mdi mdi-account-convert widget-two-icon"></i>
         <div class="wigdet-two-content">
             <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="{% trans 'Activité' %}">{% trans 'Activité' %}</p>
-            <h2><span data-plugin="counterup"> {{ canceled_deliveries }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
+            <h2><span data-plugin="counterup"> {{ 0 }}</span> <small><i class="mdi mdi-arrow-up text-success"></i></small></h2>
             {% comment %} <p class="text-muted m-0"><b>{% trans 'Last' %}:</b> </p> {% endcomment %}
         </div>
     </div>
 </div><!-- end col -->
 {%  endblock %}
-
+ 
 {% block content-second-row %}
+<div class="container" style="margin: 5%; padding-left:25%; justify-content:space-around;">
+	<div class="row">
+		<div class="col">
+			<a href="" data-toggle="modal" data-target="#creer"><div class="btn btn-primary">Créer User</div></a>
+			<a href="" data-toggle="modal" data-target="#supprimer"><div class="btn btn-danger">Supprimer User</div></a>
+			<a href="" data-toggle="modal" data-target="#modifier"><div class="btn btn-warning">Voir les users</div></a>
+		</div>
+	</div>
+ </div>
 <div class="col-lg-6">
     <div class="card-box">
         <h4 class="header-title m-t-0 m-b-30">{% trans 'Utilisateurs' %}</h4>
@@ -204,6 +213,131 @@
 </div>
 <!-- end col -->
 
+
+<table>
+	<thead>
+		<th></th>
+		<th></th>
+		<th></th>
+	</thead>
+	<tbody>
+		<td>
+			<form action="" method="post">
+				{% csrf_token %}
+				<div class="modal fade" id="creer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel" style="color: blue;">Ajouter un utilisateur</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+						</div>
+						<div class="modal-body" style="margin-left: 30%;">
+							<label for="username">Username :</label>
+						  <input type="text" value="" name="username"> <br>
+						  <label for="password1">Password :</label>
+							<input type="password" value="" name="password1" id="password1"><br>
+							<label for="email">E-mail :</label>
+							<input type="email" name="email" id="email">                               
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+						  <input type="submit" class="btn btn-primary" value="Ajouter" name="ajouteroeuf">
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</form>
+		</td>
+		<td>
+			<form action="" method="post">
+				{% csrf_token %}
+				<div class="modal fade" id="supprimer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel" style="color: blue;">Suppression utilisateur</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+						</div>
+						<div class="modal-body" style="margin-left: 30%;">
+							<select name="user" id="user">
+								<option value="">--User--</option>
+								{% for element in users %}
+								<option value="{{element.id}}">{{element}}</option>
+								{% endfor %}
+							</select>    <br> <br>
+							<p>Cet utilisateur sera supprimé pour toujours </p>             
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+						  <input type="submit" class="btn btn-primary" value="Ajouter" name="">
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</form>
+		</td>
+		<td>
+			<form action="" method="post">
+				{% csrf_token %}
+				<div class="modal fade" id="modifier" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel" style="color: blue;">Ajouter un utilisateur</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+						</div>
+						<div class="modal-body" style="margin-left: 30%;">
+							{% for item in users %}
+							  <div>
+								<span style="margin: 15%;">{{item}}</span>
+								<a href="" data-toggle="modal" data-target="#modif"><div class="btn btn-warning">Modifier</div></a>
+							  </div>
+							{% endfor %}                               
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+						  <input type="submit" class="btn btn-primary" value="Ajouter" name="">
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</form>
+		</td>
+		<td>
+			<form action="" method="post">
+				{% csrf_token %}
+				<div class="modal fade" id="modif" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <h5 class="modal-title" id="exampleModalLabel" style="color: blue;">Suppression utilisateur</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						  </button>
+						</div>
+						<div class="modal-body" style="margin-left: 30%;">
+							<label for="password">Password</label>
+							<input type="password" name="password1">
+							<label for="password2">Verification Password</label>
+							<input type="password" name="password2">        
+						</div>
+						<div class="modal-footer">
+						  <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+						  <input type="submit" class="btn btn-primary" value="Ajouter" name="">
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</form>
+		</td>
+	</tbody>
+</table>
 {%  endblock %}
 
 

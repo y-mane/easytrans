@@ -1,0 +1,4 @@
+[ INFO ][ 2022-07-06 12:01:13,044 ][ basehttp ][ 30367 ][ 140283899541248 ] ==> "GET /back-office/dashboard HTTP/1.1" 302 0
+[ INFO ][ 2022-07-06 12:01:13,137 ][ basehttp ][ 30367 ][ 140283899541248 ] ==> "GET /back-office/login/ HTTP/1.1" 200 2418
+[ INFO ][ 2022-07-06 12:01:21,436 ][ basehttp ][ 30367 ][ 140283899541248 ] ==> "GET /back-office/dashboard HTTP/1.1" 302 0
+[ INFO ][ 2022-07-06 12:01:21,465 ][ basehttp ][ 30367 ][ 140283899541248 ] ==> "GET /back-office/login/ HTTP/1.1" 200 2418

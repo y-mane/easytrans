@@ -1,0 +1,3 @@
+[ INFO ][ 2022-07-27 07:25:18,428 ][ autoreload ][ 3261 ][ 140550476449600 ] ==> Watching for file changes with StatReloader
+[ INFO ][ 2022-07-27 07:57:51,344 ][ autoreload ][ 3261 ][ 140550476449600 ] ==> /usr/lib/python3.8/_compression.py changed, reloading.
+[ INFO ][ 2022-07-27 07:59:41,006 ][ autoreload ][ 29337 ][ 140442432522048 ] ==> Watching for file changes with StatReloader

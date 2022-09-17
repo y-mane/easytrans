@@ -7,7 +7,7 @@ from .models import *
 class VoyageForm(forms.ModelForm):
     class Meta:
         model=Voyage
-        fields=['fullname','contact','compagnie','lieu_depart','destination','periode','lieu_livraison','statut_commande']
+        fields=['fullname','contact','compagnie','lieu_depart','destination','periode','lieu_livraison','statut_commande','date_heure_succces','nombre_place']
         #compagnie=forms.ChoiceField(help_text='compagnie')
         widgets={
            'fullname':forms.TextInput(attrs={'placeholder':'votre nom complet','name':'fullname','class':'name agileits','required':''}),
@@ -17,7 +17,8 @@ class VoyageForm(forms.ModelForm):
             'lieu_depart':forms.Select(attrs={'class':'section_class_agileits sec-right','name':'lieu_depart'}),
             'destination':forms.Select(attrs={'class':'section_class_agileits sec-right','name':'destination'}),
             'periode':forms.Select(attrs={'class':'section_class_agileits sec-left','name':'periode'}),
-
+            'date_heure_succces':forms.DateInput(attrs={'class':'form-control','name':'date','type':'date'}),
+            'nombre_place':forms.NumberInput(attrs={'class':'form-control','name':'nombre_place','type':'number','placeholder':'Nombre de place'}),
 
         }
         
@@ -47,5 +48,4 @@ class MissionForm(ModelForm):
             'livreur':forms.Select(attrs={'name':'livreur'}),
              'voyage':forms.Select(attrs={'name':'voyage'}),  
              'commentaire':forms.TextInput(attrs={'style':'width: 538px; height: 118px;'})
-
         }

@@ -61,6 +61,8 @@ debug = logging.getLogger('debug')
 @permission_required('oauth.view_dashboard', raise_exception=True)
 def index(request): 
     counter=0  
+    nombre_users=User.objects.all().count()
+    users=User.objects.all()
     voyage=Voyage.objects.filter(etat_paiement='succes').order_by('-id')[:]
     voyage_total=voyage.count()
     voyage_en_cours=Voyage.objects.filter(statut_commande='en attente',etat_paiement='succes').count()
@@ -79,7 +81,7 @@ def index(request):
     
     voyage_id=request.POST.get('voyage_id')
     if request.method=='POST' :
-        livreurform=request.POST.get('livreur')
+        livreurform=request.POST.get('livreur') 
         livreur_assigner=User.objects.get(id=livreurform)
         voyageform=request.POST.get('voyage')
         voyage_assigner=Voyage.objects.get(id=voyageform)
@@ -104,6 +106,8 @@ def index(request):
         context['mission_acheve']=mission_acheve 
         context['mission_en_cours']=mission_en_cours 
         context['counter']=counter
+        context['nombre_users']=nombre_users
+        context['users']=users
     return render(request, page_to_render, context)
 
 def change_voyage_state(request,pk):

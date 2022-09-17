@@ -124,6 +124,8 @@
                                     <th style='font-size: 13px; text-align: center;'>ville depart</th>
                                     <th style='font-size: 13px; text-align: center;'>destination</th>
                                     <th style='font-size: 13px; text-align: center;'>Periode</th>
+                                    <th style='font-size: 13px; text-align: center;'>Nombre Place</th>
+                                    <th style='font-size: 13px; text-align: center;'>Date</th>
                                     <th style='font-size: 13px; text-align: center;'>lieu de livraison</th>
                                     <th style='font-size: 13px; text-align: center;'>Actions</th>
                                     <th style='font-size: 13px; text-align: center;'>Valider</th>
@@ -145,10 +147,12 @@
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;"  class="tooltip-animation" title="{{ element.lieu_depart }}"> {{ element.lieu_depart}}</td>
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.destination}}">{{ element.destination }}</td>
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.periode }}">{{ element.periode }} </td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.nombre_place }}">{{ element.nombre_place }} </td>
+                                    <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.date_heure_succces }}">{{ element.date_heure_succces }} </td>
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;" class="tooltip-animation" title="{{ element.lieu_livraison}}">{{ element.lieu_livraison }} </td>
 
         
-                                    <td style='text-align: center;'><a href="" data-toggle="modal" data-target="#assignerpopup" ><div class="btn btn-primary btn-assign" onclick="myfunction('{{element.id}}')" >Assigner</div></a></td>  
+                                    <td style='text-align: center;'><a href="" data-toggle="modal" data-target="#assignerpopup" ><div class="btn btn-primary btn-assign" onclick="myfunction('{{element.id}}')">Assigner</div></a></td>  
                                     <td style="font-size: 13px; text-align: center; font-weight: bold;" >
                                         {% if element.statut_commande == 'validée' %}
                                             <a href="{% url 'change_voyage_state' element.id %}"><div class="btn btn-success btn-valid" id="valide" data-catid="{{ element.id }}" disabled>Validé</div></a>
